@@ -1,0 +1,528 @@
+%\linenumbers*
+\chapter{CONCLUSION}
+\label{sec:CONCLUSION}
+
+The main objective of this research has been to investigate possible
+implications of climate change for future erosion with reference to rainfall
+intensity changes by analysing the response of erosion models to arbitrary
+rainfall intensity changes, and implicitly the process understanding on which
+the models are based.
+Thus, this research is a step towards the ultimate goal of predicting future
+rates of soil erosion caused by future rainfall intensity changes.
+
+To achieve this aim, following four research questions have been tackled:
+\begin{enumerate}[{Question} 1.]
+  \item What role does rainfall intensity play in the process descriptions which
+comprise erosion models?
+  \item Assuming that we use a model to predict erosion rates under the future
+climate which may have different rainfall intensities from the present, what
+information do we need to make predictions in terms of both climate and process
+understanding?
+  \item What do we know about future rainfall intensity? Does any trend exist in
+the present and past rainfall intensity at the study site? If so, is the trend
+consistent with future rainfall intensity predicted by climate models? If not,
+what must be done to estimate future rainfall intensity?
+  \item Are we in a position to predict soil erosion under the future climate?
+If not, what must be done?
+\end{enumerate}
+
+% \begin{enumerate}%[Q \#1.]
+%   \item What do we know about present and past rates of rainfall intensity at
+%the study site, and elsewhere? Are there any obvious trends?
+%   \item What role does rainfall intensity play in the process descriptions
+%which comprise erosion models?
+%   \item What information would we need, with respect to both climate and
+%process understanding, in order to predict rates of erosion under a future
+%changed climate (in particular, under a future climate which has different
+%rainfall intensities from the present)?
+%   \item Are we in a position to predict erosion rates under future climates,
+%with different rainfall intensities from the present? If not, what must be
+%done?
+% \end{enumerate}
+
+Findings with respect to each of these research questions are summarised below,
+along with limitations which have resulted from the approach used. This section
+finishes with some suggestions for future research.
+
+\section{Rainfall Intensity and Process Descriptions}
+\label{sec:RainfallIntensityAndProcessDescriptions}
+\subsection{Findings}
+\label{sec:FindingsStage1}
+%***to do
+
+There is a difference between the theoretical treatment of rainfall
+intensity in erosion models, and the practical handling of it.
+%*** NEED TO DEFINE ``STORM''
+A first finding was that WSIV affects the results of simulations. Rainfall
+events with a constant intensity produced dramatically less erosion amounts
+compared with storms with the same total volume of rainfall, but increasing or
+decreasing intensity. This a constant intensity is not a good representation of
+rainfall intensity for a natural rainfall event as far as erosion modelling is
+concerned.
+
+In addition, it appears that a higher temporal resolution is needed for rainfall
+data that have high within-storm intensity variations. WSIP have a larger effect
+on estimations of soil erosion compared with runoff. Thus, the temporal
+resolution of rainfall data affects the results of erosion simulations. As the
+temporal resolution of rainfall increased, then the amounts of estimated soil
+loss also increased. Thus a study which uses rainfall data with different
+temporal resolutions will give rise to artefacts i.e.\ changes in estimated soil
+loss may be due only to the different temporal resolutions of rainfall.
+
+In addition, WSP (Within-Storm Pause) also have a marked effect on erosion
+estimations. Discontinuous storms (i.e.\ with within-storm gaps) would be
+expected to produce less runoff and soil loss than an equivalent continuous
+storm (i.e.\ a storm with the same total rainfall, but with WSPs removed), since
+the longer duration of the discontinuous storm gives rise to a lower average
+intensity for the storm, compared with the continuous storm.
+%*** COMPARE E.G. USLE R FACTOR HERE, ALSO OTHER REFS.
+However, an unexpected result from WEPP was that more soil loss was estimated
+with discontinuous rainfall than with volume-equivalent continuous rainfall.
+This suggests a design flaw in the rainfall data description used in WEPP, due
+to WEPP's handling of the  original breakpoint data (it is internally
+reconstructed to ``WEPP-interpreted'' data, and this ``reconstructed'' data is
+used in the simulations. Limitations here mean that some information is lost
+when the reconstructed data is compared to the original breakpoint data.)
+
+
+\subsection{Limitations}
+\label{sec:LimitationsStage1}
+%***to do
+
+All data used here was for only one site (i.e.\ Woodingdean, South Downs, UK).
+Thus, there is a chance that the erosion models may give different results when
+other slope data are used.
+
+%*** IMPROVE THIS
+No comparisons of estimated runoff and erosion rates against measured runoff and
+erosion rates were possible because of the absence of observed data for the
+individual events considered. However, the changes in runoff and erosion rates
+from laboratory experiments with similar storm intensity conditions show similar
+runoff and erosional responses to the intensity changes. Proper comparisons of
+soil erosion can only be made when there is observed erosion rates, which then
+can be used as a reference. The validity of the results thus need to be
+supported by a different approach.
+
+
+\section{What do we need to predict erosion under future changed rainfall
+intensities?}
+\label{sec:WeNeedToPredictErosionUnderFutureChangedRainfallIntensities}
+\subsection{Findings}
+\label{sec:FindingsStage2}
+%The improvement of CLIGEN has clear implications for erosion simulations.
+%Updated CLIGEN is more sensitive to the changes in rainfall intensity (i.e.\
+%MX~.5P) than the old one. This sensitivity change affects erosion estimations
+%more considerably for the regions where low intensity rainfall events are
+%dominant in comparison to the regions where high intensity rainfall events are
+%dominant.
+Temporal resolution of rainfall data affect results of erosion simulations. As
+temporal resolutions increase, amounts of erosion estimations increase. Using
+rainfall data with an inconsistent temporal resolution for erosion simulations
+may result in erroneous erosion estimations. Higher temporal scale is needed
+when rainfall data that have high WSIV (Within-Storm Intensity Variation) are
+used for erosion estimations.
+%higher than 15-min may lead to a greater increase in runoff and soil loss than
+%that of longer scales (***This statement need to be changed).
+
+WSIP (Within-Storm Intensity Pattern) have an effect on estimations of soil
+erosion. WSIPs have more effects on soil loss than runoff. Rainfall events with
+a constant intensity produced dramatically less erosion amounts than other WSIPs
+such as increasing or decreasing. Constant intensity is not a good
+representation of rainfall intensity for a natural rainfall event as far as
+erosion modelling is concerned.
+
+Within-Storm Pauses (WSPs) have an effect on erosion estimations. Discontinuous
+rainfall events (i.e.\ WSPs included) were expected to produce less runoff and
+soil loss than continuous rainfall events (i.e.\ WSPs removed) that has the same
+rainfall amount as discontinuous events. This is because relatively longer
+rainfall durations of discontinuous rainfall events imply that the events have
+relatively less intense intensity than continuous events. However, unexpected
+results from WEPP simulations found that WEPP estimates more soil loss with
+discontinuous rainfall than with continuous rainfall. This revealed a design
+flaw in the rainfall data description used in WEPP. WEPP modifies original
+intensity information of breakpoint data by reconstructing the data to
+``WEPP-interpreted'' data, and uses this ``reconstructed'' data for simulations
+of erosion.
+
+To predict future soil erosion that has been affected by future rainfall
+intensity changes, the following are required:
+\begin{enumerate}
+  \item Long-term rainfall data with adequately high temporal resolution, high
+enough to capture details of Within-Storm Intensity Variations (WSIVs)
+  \item Information about Within-Storm Intensity Patterns (WSIPs)
+  \item Duration and frequency of Within-Storm Pauses (WSPs) within a storm
+  \item An erosion model that can make proper use of rainfall intensity
+information stated above (e.g. using data with up to 1440 breakpoints, at
+least)
+  \item An erosion model that can simulate long-term soil erosion
+continuously---a continuous simulation model.
+\end{enumerate}
+
+%*** NEEDS TO BE IMPROVED
+To predict future soil erosion that has been affected by future rainfall
+intensity changes, the following are required:
+\begin{enumerate}
+ \item Long-term rainfall data with adequately high temporal resolution, high
+enough to capture details of within-storm intensity variations
+ \item Information about the duration and frequency of no-rain periods within a
+storm
+%*** HOW DETAILED? I.E. MINIMUM SIZE OF NO-RAIN GAP WHICH MUST BE KNOWN?
+ \item An erosion model that can make proper use of this rainfall intensity
+information i.e. which does not simply the breakpoint data as does WEPP.
+ \item An erosion model that can simulate long-term soil erosion
+continuously---a continuous simulation model %*** REF
+\end{enumerate}
+
+\subsection{Limitations}
+\label{sec:LimitationsStage2}
+Long term trends of rainfall intensity at the study site were only available at
+daily scale. These daily trends cannot be used with the erosion models directly.
+Sub-daily rainfall data are required for modelling erosion.
+%Thus, rainfall intensity used for the estimation of future soil erosion may
+%be considerably different from the actual rainfall intensity changes in the
+%future.
+Slope data used for erosion simulations are obtained from one site (i.e.\
+Woodingdean, South Downs, UK). Thus, there is a chance that the erosion models
+may give different results when other slope data are used.
+%However, when similar input conditions such as soil type and slope
+%characteristics were used, the similar results observed in the present
+%research can be expected.
+
+No comparisons of estimated runoff and erosion rates against measured runoff and
+erosion rates were possible because of the absence of observed data for the
+individual events considered. However, the changes in runoff and erosion rates
+from laboratory experiments with similar storm intensity conditions show similar
+runoff and erosional responses to the intensity changes. Proper comparisons of
+soil erosion can only be made when there are observed erosion rates, which then
+can be used as a reference. The validity of the results thus need to be examined
+using a different approach.
+
+\section{Past and Present Rates of Rainfall Intensity}
+\label{sec:PastAndPresentRatesOfRainfallIntensity}
+\subsection{Findings}
+\label{sec:FindingsStage3}
+No significant trend of rainfall intensity have been found at the research site
+with the analysis of multi-scaled rainfall datasets. However, decreasing
+tendencies of rainfall amounts in July and March were observed from some
+stations. Also, declining number of wet-days per year were noted. With little or
+no change in rainfall amounts, these imply subtle increases in daily rainfall
+intensity may be expected.
+% say more. To what extent are these findings consistent with predictions
+% of future rainfall intensity?
+Availability of long-term high-resolution rainfall records is paramount for
+investigations into trends in rainfall intensity at an appropriate scale for
+erosion modelling. Future scenarios of intensity change were constructed for use
+in the erosion simulations (Chapter \ref{sec:ESTIMATIONSOFFUTURESOILEROSION}).
+
+\subsection{Limitations}
+\label{sec:LimitationsStage3}
+Rainfall trends from the observed rainfall data are site- and time-specific. The
+other data such as soil and slope data used for estimations were obtained from
+one area (Figure \ref{fig:WoodingdeanSite}), and collected for a certain time
+period. Although long-term (i.e.\ 10--99 years) observed rainfall data were used
+for the intensity trend investigations, high-resolution data---which are
+required for intensity analysis and the erosion simulation---were available only
+for relatively short periods (i.e.\ 2--13 years) with missing data periods (See
+Table \ref{tab:PrecipitationDataUsedForCurrentRainfallTrendInvestigation} and
+\ref{tab:DetailsOfDataStations}).
+
+\section{Can we predict erosion rates under future changed rainfall
+intensities?}
+\label{sec:CanWePredictErosionRatesUnderFutureChangedRainfallIntensities}
+%***This section needs to be rewritten.
+\subsection{Findings}
+\label{sec:FindingsStage4}
+
+%*** REWRITE
+The WEPP simulation results suggest that, where mean maximum 30-min peak
+intensity of the wet months increases, runoff and erosion increase. Particularly
+the amount of erosion increases at a even greater rate than the amount of
+runoff: i.e.\ erosion is more sensitive to increased rainfall intensity, compared
+with runoff.
+%The ratio of erosion increases to the rainfall intensity increase is on the
+%order of 2.
+
+
+\subsection{Limitations}
+\label{sec:LimitationsStage4}
+This research is mainly based on computerised model simulations. Thus, the
+results from the research should not be confused with real observation. The
+models merely try to simulate the real soil erosion, based on the known
+statistical relationships between processes involved in soil erosion.
+
+\section{Suggestions for Future Research}
+\label{sec:SuggestionsForFutureResearch}
+
+The conclusion of this research does not suggest the dismissal of the use of
+erosion models for the study on future erosion, but instead it points out that
+there are some crucial aspects, which have been identified during the course of
+the research, and that they need to be satisfied in order to heighten our
+ability to estimate future erosion.
+
+The reatest realisation this research has made is that there are still lots of
+questions waiting to be answered in the area of modelling erosion by water,
+particularly in relation to future rainfall intensity.
+
+A number of future research topics can be suggested.
+\begin{enumerate}
+  \item Experiments/measurements of duration/frequency of Within-Storm Pauses
+(WSPs) and their implications for soil erosion
+  \item Experiments/measurements of Within-Storm Intensity Patterns (WSIPs) and
+their implications for soil erosion
+  \item Experiments/measurements of Within-Storm Intensity Variations (WSIVs)
+and their implications for soil erosion
+  \item Developments of erosion models that can make appropriate use of the
+information on WSIPs, WSIVs and WSPs
+  \item Investigations/predictions of the future trends of WSIPs, WSIVs and WSPs
+\end{enumerate}
+
+%\nolinenumbers
+
+%This research has taken three previously set stages: \textsl{Observed
+%Precipitation of the Research Site}, \textsl{Rainfall Intensity and
+%Erosion} and \textsl{Implications of Climate Change for Future Erosion}.
+%All the research questions stated above were dealt as a chapter or
+%chapters. The findings and pragmatic shortcomings from the investigation by
+%this research were summarised below.
+
+%\subsection{Stage 1: Observed Precipitation of the Research Site}
+%\label{sec:Stage1ObservedPrecipitationOfTheResearchSite}
+
+%\paragraph{Findings}
+%\label{sec:FindingsStage1}
+%Despite the availability of multi-scaled rainfall datasets, no significant
+%trend of rainfall intensity can be determined. Although it was not
+%conclusive, decreasing tendency of rainfall amount in July and March was
+%observed at some stations. Also, because of declining number of annual
+%wet-days, subtle increases in daily rainfall intensity may be expected.
+%Availability of long-term high-resolution rainfall record is paramount for
+%the investigation into the trend in rainfall \emph{intensity}. Controlled
+%future scenarios of rainfall intensity change had to be constructed for the
+%simulations at the later stage.
+%
+%\paragraph{Limitations}
+%\label{sec:LimitationsStage1}
+%Rainfall trends from the observed rainfall date are site- and
+%time-specific. The other data used for the model estimation are obtained
+%from one area (i.e.\ South Downs, UK) and collected for a certain time
+%period. Although long-term observed rainfall data were used for the
+%intensity trend analysis, high-resolution data, which are required for
+%intensity analysis and the erosion simulation, were only available for
+%relatively short periods---and, even with missing data.
+
+%\subsection{Stage 2: Rainfall Intensity and Erosion}
+%\label{sec:Stage2RainfallIntensityChangesAndSoilErosion}
+
+%\paragraph{Findings}
+%\label{sec:FindingsStage2}
+%The improvement of CLIGEN has clear implications for erosion simulations.
+%Updated CLIGEN is more sensitive to the changes in rainfall intensity
+%(i.e.\ MX~.5P) than the old one. This sensitivity change affects erosion
+%estimations more considerably for the regions where low intensity rainfall
+%events are dominant in comparison to the regions where high intensity
+%rainfall events are dominant.
+%
+%Rainfall data with higher temporal resolution led to increased erosion
+%estimations. Using rainfall data with an inconsistent temporal resolution
+%for erosion simulations may result in erroneous erosion estimations.
+%Rainfall data scales higher than 15-min may lead to a greater increase in
+%runoff and soil loss than that of longer scales (***This statement need to
+%be changed).
+%
+%Intra-storm intensity pattern had an effect on estimations of soil loss.
+%Runoff was less affected by intensity patterns than soil loss. A rainfall
+%event with a constant intensity produced dramatically less erosion than
+%other intensity patterns such as increasing or decreasing. Constant
+%intensity is not a good representation of rainfall intensity for an
+%rainfall event that is to be used for erosion simulations.
+%
+%Discontinuous rainfall was expected to produce less runoff and erosion than
+%continuous rainfall that has the same rainfall amount because of the
+%relatively longer rainfall duration of discontinuous rainfall. However,
+%unexpected results, that is overestimations of erosion, from WEPP
+%simulations was found. This revealed a design flaw in the rainfall data
+%description used in WEPP. WEPP modifies original intensity information of
+%breakpoint data by reconstructing the data to ``WEPP-interpreted''
+%breakpoint data, and simulates erosion.
+%
+%To predict future soil erosion that has been affected by future rainfall
+%intensity changes, the following are required:
+%\begin{enumerate*}
+% \item Long-term rainfall data with adequately high temporal resolution
+% \item Information about intra-storm intensity patterns
+% \item duration and frequency of no-rain periods with a storm
+% \item An erosion model that can make a proper use of above rainfall data
+%and information (e.g. using data with up to 1440 breakpoints, at least)
+% \item An erosion model that can simulate long-term soil erosion
+%continuously.
+%\end{enumerate*}
+%
+%\paragraph{Limitations}
+%\label{sec:LimitationsStage2}
+%Long term trends of rainfall intensity at the study site were only
+%available in daily scale. These daily trends can not be used with the
+%erosion models directly. Sub-daily rainfall data are required for modelling
+%erosion. %Thus, rainfall intensity used for the estimation of future soil
+%erosion may be considerably different from the actual rainfall intensity
+%changes in the future.
+%Slope data used for erosion simulations are obtained from one site (i.e.
+%Woodingdean, South Downs, UK). Thus, there is a chance that the erosion
+%models may give different results when other slope data are used. %However,
+%when similar input conditions such as soil type and slope characteristics
+%were used, the similar results observed in the present research can be
+%expected.
+%
+%No direct comparisons of runoff and erosion rates to measured rates were
+%possible because of the absence of observed data for the individual events.
+%However, the changes in runoff and erosion rates from laboratory
+%experiments with similar storm intensity conditions show similar runoff and
+%erosional responses to the intensity changes. Proper comparisons of soil
+%erosion can only be made when there is observed erosion rates, which then
+%can be used as a reference. The validity of the results thus need to be
+%supported by a different approach.
+
+%$\Downarrow\Downarrow\Downarrow$ \textbf{still being changed}
+%$\Downarrow\Downarrow\Downarrow$
+
+%\subsection{Stage 3: Implications of Climate Change for Future Erosion}
+%\label{sec:Stage3ImplicationsOfClimateChangeForFutureSoilErosion}
+
+%\paragraph{Findings}
+%\label{sec:FindingsStage3}
+%The WEPP simulation results suggest that, where mean maximum 30-min peak
+%intensity of the wet months increases, runoff and erosion increase.
+%Particularly the amount of erosion increases at a even greater rate than
+%the amount of runoff. The ratio of erosion increases to the rainfall
+%intensity increase is on the order of 2 (***This statement need to be
+%changed).
+%
+%\paragraph{Limitations}
+%\label{sec:LimitationsStage3}
+%This research is mainly based on computerised model simulations. Thus, the
+%results from the research should not be confused with real observation. The
+%models merely try to simulate the real soil erosion, based on the known
+%statistical relationships between processes involved in soil erosion.
+
+
+%%%%%%%%% old version %%%%%
+
+%This research has found that the trend of rainfall at the research site,
+%the rainfall data requirement for soil erosion modelling, the effect of
+%rainfall intensity patterns on soil erosion, the effect of continuous and
+%discontinuous rainfall on soil erosion and the effect of future rainfall
+%intensity changes on soil erosion.
+
+%The detailed findings of this thesis are listed by chapter.
+
+%\paragraph{Chapter \ref{sec:RainfallCharacteristicsOfTheStudyArea}}
+%\label{sec:ChapterRefSecRainfallCharacteristicsOfTheStudyArea}
+%Daily intensity has an increasing trend.
+%No significant trend of rainfall intensity can be determined from event
+%data because of the short duration of data.
+%No significant trend of rainfall intensity can be determined from observed
+%rainfall data. %because of the short duration of data.
+%Future scenarios were constructed for the later stage.
+
+%\paragraph{Chapter \ref{sec:IMPLICATIONSOFIMPROVEDCLIGEN}}
+%\label{sec:ChapterRefSecIMPLICATIONSOFIMPROVEDCLIGEN}
+%The improvement in CLIGEN has clear implications for runoff and soil loss
+%rate simulations. CLIGEN (v5.2) is sensitive to the changes in rainfall
+%intensity, which is parametrized as MX~.5P values in CLIGEN input files.
+%The effect of the improvement of CLIGEN is more considerable for the
+%regions where low intensity rainfall events are dominant in comparison to
+%the regions where high intensity rainfall events are dominant.
+
+%\paragraph{Chapter \ref{sec:EFFECTSOFTEMPORALSCALESOFSTROMDATA}}
+%\label{sec:ChapterRefSecEFFECTSOFTEMPORALSCALESOFSTROMDATA}
+%Temporally more detailed rainfall data lead to the increased estimation of
+%runoff and soil loss rates.
+%Rainfall data scales higher than 15-min may lead to a greater increase in
+%runoff and soil loss than that of longer scales.
+
+%\paragraph{Chapter
+%\ref{sec:EFFECTSOFRAINFALLINTENSITYCHANGESONSOILEROSION}}
+%\label{sec:ChapterRefSecEFFECTSOFRAINFALLINTENSITYCHANGESONSOILEROSION}
+%Intra-storm intensity pattern affects soil erosion amount. Runoff is not
+%much affected. Events with constant low intensity produced dramatically
+%less erosion. Constant rainfall intensity is not a good representation of
+%rainfall intensity when used in soil erosion simulation.
+
+%\paragraph{Chapter \ref{sec:EFFECTSOFCONTINOUSANDDISCONTINUSSTORM}}
+%\label{sec:ChapterRefSecEFFECTSOFCONTINOUSANDDISCONTINUSSTORM}
+%Discontinuous rainfall is expected to produce less runoff and erosion than
+%continuous rainfall. Model simulation revealed issues with rainfall data
+%used in erosion models. WEPP modifies original rainfall intensity data and
+%simulates results opposite to those expected.
+
+%\paragraph{Chapter \ref{sec:SUMMARYANDLIMITATIONSOFEROSIONMODELS}}
+%\label{sec:ChapterRefSecSUMMARYANDLIMITATIONSOFEROSIONMODELS}
+%To predict future soil erosion that has been affected by future rainfall
+%intensity changes, the following are required:
+%\begin{enumerate}
+% \item Long-term rainfall data with 30-min or higher resolution
+% \item Intra-storm intensity patterns
+% \item The duration and frequency of no-rain periods
+% \item An erosion model that can make a proper use of above rainfall data
+%and information (e.g. using up to 1440 breakpoints, at least)
+% \item An erosion model that can simulate long-term soil erosion
+%continuously.
+%\end{enumerate}
+
+
+%\paragraph{Chapter \ref{sec:ESTIMATIONSOFFUTURESOILEROSION}}
+%\label{sec:ChapterRefSecESTIMATIONSOFFUTURESOILEROSION}
+%The WEPP simulation results suggest that, where mean maximum 30-min peak
+%intensity of the wet months increases, runoff and erosion increase.
+%Particularly the amount of erosion increases at a even greater rate than
+%the amount of runoff. The ratio of erosion increases to the rainfall
+%intensity increase is on the order of 2.
+
+%My contributions are the findings of the effects of rainfall intensity
+%patterns and inter-storm periods within a storm, so make them noticeable.
+%Also, the method for future extreme rainfall intensity changes and trend of
+%rainfall intensity of the study site.
+
+%\section{Limitations of This Thesis}
+%\label{sec:LimitationOfThisResearch}
+%The following limitations of this research are identified.
+
+%There is no observed runoff and soil loss available to compare with the
+%simulations---no measurements of runoff or erosion for the each rainfall
+%event used.
+%
+%One site dataset from UK.
+
+%\begin{itemize}
+% \item Rainfall trends found by the research are only applicable for the
+%research site during the studied period. Data sets used in the research are
+%obtained from one area, South Downs, UK. %Yes, but that's what you were ...
+%to do
+% Although long-term observed data were used for the trend analysis, high
+%resolution data which are required for the erosion simulation were only
+%available for the short periods. Rainfall intensity trends from the high
+%resolution data is only applicable for the studied periods.
+% \item Long term rainfall intensity trends at the study site were only
+%available at a daily scale and these can not be used with the erosion
+%models in this research. Sub-daily rainfall data are required for the
+%models. Thus, rainfall intensity used for the estimation of future soil
+%erosion may be considerably different from the actual rainfall intensity
+%changes in the future.
+% \item Slope data used for the erosion simulations are obtained from one
+%site (i.e. Woodingdean, South Downs, UK). Thus, erosion models may not give
+%the similar outputs if other slope data were used. However, when similar
+%input conditions such as soil type and slope characteristics were used, the
+%similar results observed in the present research can be expected.
+% \item No direct comparisons of runoff and erosion rates to measured rates
+%were possible because of the absence of observed data for the individual
+%events. However, the changes in runoff and erosion rates from laboratory
+%experiments with similar storm intensity conditions show similar runoff and
+%erosional responses to the intensity changes. Proper comparisons of soil
+%erosion can only be made when there is observed erosion rates, which then
+%can be used as a reference. The validity of the results thus need to be
+%supported by a different approach.
+% \item This research is mainly based on computerised model simulations.
+%Thus, the results from the research should not be confused with real
+%observation. The models merely try to simulate the real soil erosion, based
+%on the known statistical relationships between processes involved in soil
+%erosion.
+%\end{itemize}

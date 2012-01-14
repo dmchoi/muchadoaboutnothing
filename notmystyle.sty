@@ -1,0 +1,149 @@
+\ProvidesPackage{notmystyle}
+
+\usepackage[swash,footnotefigures,mathtabular]{MinionPro}
+\usepackage[toc,eqno,lineno]{tabfigures}
+\renewcommand{\sfdefault}{Myriad-OsF}
+\usepackage[scaled=0.9]{inconsolata}
+%\input{glyphtounicode}
+%\pdfgentounicode=1
+
+% Bibliography
+\usepackage{natbib}
+
+%to turn on \linenumbers to turn off \nolinenumbers
+\usepackage[pagewise]{lineno}
+
+\usepackage{ifpdf}
+
+\usepackage{graphicx}
+
+\ifpdf
+  \usepackage{epstopdf}
+  \usepackage{hyperref}
+\else
+  \usepackage[breaklinks]{hyperref}
+  \usepackage{breakurl}
+\fi
+
+\hypersetup{%
+pdftitle={Rainfall Intensity and Soil Erosion by Water: Limitations of Current
+Erosion Models and Implications for Model-based Studies of Future Climate
+Change},
+pdfauthor={Daniel M. Choi},
+pdfsubject={DPhil Thesis 2011},
+pdfkeywords={erosion, climate change, rainfall, intensity, modelling,
+limitation, erosion model}
+}
+
+% Encodings
+\usepackage[T1]{fontenc}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+
+% Appendix
+\usepackage[]{appendix}
+
+% Language
+\usepackage[british]{babel}
+
+% Contents
+\usepackage{tocbibind}
+\settocbibname{\textbf{REFERENCES}}
+
+% Part style
+% for content
+\usepackage{titletoc}
+\titlecontents{part}[2em]% Part
+{\addvspace{6ex} \filcenter \bfseries \scshape \large}{}{\textsc{part}
+\thecontentslabel}
+{} % without page number
+% for title page
+\usepackage[compact]{titlesec}
+\titleformat{\part}[display]
+{\protect \thispagestyle{empty} \singlespace \bfseries \large}
+{\filcenter
+\swshape
+PART \LARGE \thepart}
+{1ex}
+{\filcenter \scshape \Large}
+
+% Figure & Table
+\usepackage{rotating}% Sideways of figures & tables
+\usepackage{booktabs}% professional looks for tables
+\usepackage{longtable}
+\usepackage{ragged2e}% optional for subfig's captions
+\usepackage[font={small,sf},labelfont=bf,labelsep=quad,singlelinecheck=yes,
+compatibility=true]{caption}
+\usepackage{floatrow}
+\floatsetup[table]{capposition=top}
+\floatsetup[figure]{capposition=bottom}
+
+\usepackage{subfig}
+\captionsetup[subfloat]{font={footnotesize,sf,md,up},labelsep=space}
+%%% HOWTO USE %%%
+%\begin{SCfigure}[][t]
+%	\includegraphics[width=8cm,clip]{figuretitle}
+%	\caption[Short caption]{\label{thelabel} Long caption.}
+%\end{SCfigure}
+
+% Pagelayout
+\usepackage[total={146mm,225mm},left=38mm,top=35mm]{geometry}
+\usepackage{lscape} % Landscape page layout
+
+\usepackage{mdwlist}
+\usepackage{microtype}
+\usepackage{paralist}
+
+%Hyphenation
+\usepackage{hyphenat}
+\tolerance=1414
+\hbadness=1414
+\emergencystretch=2.0em
+\raggedbottom
+\clubpenalty=9999
+\widowpenalty=9999
+\hyphenpenalty=7000
+%\hfuzz 0.3pt
+%\vfuzz \hfuzz
+
+% Fancy Header and Footer for oneside
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+% with this we ensure that the chapter and section
+% headings are in lower-case.
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\renewcommand{\tocetcmark}[1]{\markboth{#1}{#1}}
+\fancyhf{} % delete current setting for header and footer
+\fancyhead[R]{\footnotesize\bfseries\rightmark}
+\fancyfoot[L]{\scriptsize\bfseries\itshape\leftmark}
+\fancyfoot[R]{\footnotesize\bfseries\thepage}
+\renewcommand{\headrulewidth}{0.1pt}
+%\renewcommand{\footrulewidth}{0.1pt}
+\fancypagestyle{plain}{%
+% get rid of headers on plain pages and keep page number
+\fancyhead{}
+\fancyfoot[L]{}
+\renewcommand{\headrulewidth}{0pt} % and the line
+}
+% Increase headheight for header -- need at least 13.6pt
+\addtolength{\headheight}{2.0pt}
+
+% Information for the title & cover page
+%\title{RAINFALL INTENSITY\\ AND SOIL EROSION BY WATER:\\ IMPLICATIONS FOR
+%FUTURE CLIMATE CHANGE}
+\title{Rainfall Intensity and Soil Erosion by Water:\\Limitations of Current
+Erosion Models and Implications for Model-based Studies of Future Climate
+Change}
+\author{Daniel Mintae Choi}
+\college{Mansfield College}
+\degreetitle{\textsw{Doctor of Philosophy}}
+\degreedate{Trinity Term 2011}
+\renewcommand{\submittedtext}{A thesis submitted in accordance with the
+regulations of the degree of}
+
+% set the number of sectioning levels that get number and appear in the contents
+\setcounter{secnumdepth}{3} % upto subsubsection
+\setcounter{tocdepth}{2} % upto subsection
+
+

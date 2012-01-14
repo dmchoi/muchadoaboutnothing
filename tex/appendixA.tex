@@ -1,0 +1,1041 @@
+\chapter{WEPP Input Data}
+\label{sec:WEPPInputData}
+
+\section{Weather Input Data}
+\label{sec:WEPPWeatherInputData}
+
+\subsection{For Temporal Scale Simulation}
+\label{sec:ForTemporalScaleTests}
+
+\subsubsection{4 July 2000, Plumpton---CLIGEN}
+\label{sec:DitchlingRoadTemporalScaleSimulationCLIGEN}
+\scriptsize
+
+\begin{verbatim}
+5.22564
+   2   0   0
+  Station:  Plumpton                                       CLIGEN VER. 5.22564 -r:    0 -I: 0
+ Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated Command Line:
+    51.00     0.13          32           9        1991              -1          
+ Observed monthly ave max temperature (C)
+   6.3   6.1   8.3  11.4  14.6  17.7  19.7  19.6  17.2  13.9  10.0   8.0
+ Observed monthly ave min temperature (C)
+   1.3   1.1   2.7   4.4   7.5  10.6  12.7  12.8  10.9   8.2   4.9   3.4
+ Observed monthly ave solar radiation (Langleys/day)
+  81.0 137.0 234.0 399.0 483.0 530.0 518.0 465.0 312.0 187.0 101.0  66.0
+ Observed monthly ave precipitation (mm)
+  42.0  31.9  71.9  57.0  53.9  38.7  41.4  33.6  78.8 102.2  71.3 109.3
+ da mo year  prcp  dur   tp     ip  tmax  tmin  rad  w-vl w-dir  tdew
+             (mm)  (h)               (C)   (C) (l/d) (m/s)(Deg)   (C)
+
+1-min:
+  4  7 2000  74.8  5.2  0.63   4.20   6.7   3.3  98.  3.4  103.   0.8
+
+5-min:
+  4  7 2000  74.8  11.1  0.58   6.41   6.7   3.3  98.  3.4  103.   0.8
+  
+15-min:
+  4  7 2000  74.8  13.3  0.54   3.69   6.7   3.3  98.  3.4  103.   0.8
+  
+30-min:
+  4  7 2000  74.8  14.0  0.52   2.95   6.7   3.3  98.  3.4  103.   0.8
+
+60-min:
+  4  7 2000  74.8  14.0  0.54   2.65   6.7   3.3  98.  3.4  103.   0.8
+\end{verbatim}
+
+\subsubsection{4 July 2000, Plumpton---Breakpoint}
+\label{sec:DitchlingRoadTemporalScaleSimulationBreakpoint}
+\begin{verbatim}
+5.22564
+   2   0   0
+  Station:  Plumpton                                       CLIGEN VER. 5.22564 -r:    0 -I: 0
+ Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated Command Line:
+    51.00     0.13          32           9        1991              -1          
+ Observed monthly ave max temperature (C)
+   6.3   6.1   8.3  11.4  14.6  17.7  19.7  19.6  17.2  13.9  10.0   8.0
+ Observed monthly ave min temperature (C)
+   1.3   1.1   2.7   4.4   7.5  10.6  12.7  12.8  10.9   8.2   4.9   3.4
+ Observed monthly ave solar radiation (Langleys/day)
+  81.0 137.0 234.0 399.0 483.0 530.0 518.0 465.0 312.0 187.0 101.0  66.0
+ Observed monthly ave precipitation (mm)
+  42.0  31.9  71.9  57.0  53.9  38.7  41.4  33.6  78.8 102.2  71.3 109.3
+    day  mon  year  nbrkpt  tmax   tmin   rad    vwind   wind   tdpt
+                             (C)    (C)  (l/d)   (m/s)   (deg)   (C)
+15-min:
+     4    7   2000    55     6.7    3.3    98.    3.4   103.    0.8
+00.00    0
+00.15    0.2
+00.30    1
+00.45    1.8
+01.00    2.6
+01.15    3.6
+01.30    4.6
+01.45    4.8
+02.00    5.4
+02.15    6.4
+02.30    7.4
+02.45    8.6
+03.00    10
+03.15    11.2
+03.30    12.6
+03.45    14
+04.00    15
+04.15    16
+04.30    17
+04.45    17.4
+05.00    18
+05.15    18.4
+05.30    19
+05.45    22.2
+06.00    26.2
+06.15    30
+06.30    33.6
+06.45    34.6
+07.00    37.4
+07.15    42.6
+07.30    44.6
+07.45    48.8
+08.00    52.2
+08.15    54
+08.30    56.2
+08.45    59.8
+09.00    64.8
+09.15    66.6
+09.30    68.2
+09.45    68.8
+10.00    69.6
+10.15    70.2
+10.30    71.2
+10.45    72.2
+11.00    72.4
+11.30    72.8
+11.45    73
+12.00    73.4
+12.15    73.6
+12.30    73.8
+12.45    74.2
+13.15    74.4
+13.30    74.6
+13.45    74.8
+14.00    74.8
+
+30-min:
+     4    7   2000     30    6.7    3.3    98.    3.4   103.    0.8
+00.00    0
+00.30    0.2
+01.00    1.8
+01.30    3.6
+02.00    4.8
+02.30    6.4
+03.00    8.6
+03.30    11.2
+04.00    14
+04.30    16
+05.00    17.4
+05.30    18.4
+06.00    22.2
+06.30    30
+07.00    34.6
+07.30    42.6
+08.00    48.8
+08.30    54
+09.00    59.8
+09.30    66.6
+10.00    68.8
+10.30    70.2
+11.00    72.2
+11.30    72.4
+12.00    73
+12.30    73.6
+13.00    74.2
+13.30    74.4
+14.00    74.8
+14.30    74.8
+
+60-min:
+     4    7   2000    16     6.7    3.3    98.    3.4   103.    0.8
+00.00    0
+01.00    1.8
+02.00    4.8
+03.00    8.6
+04.00    14
+05.00    17.4
+06.00    22.2
+07.00    34.6
+08.00    48.8
+09.00    59.8
+10.00    68.8
+11.00    72.2
+12.00    73
+13.00    74.2
+14.00    74.8
+15.00    74.8
+\end{verbatim}
+
+\subsubsection{11 October 2000, Plumpton---CLIGEN}
+\label{sec:PlumptonTemporalScaleSimulationCLIGEN}
+\begin{verbatim}
+5.22564
+   2   0   0
+  Station:  Plumpton                                       CLIGEN VER. 5.22564 -r:    0 -I: 0
+ Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated Command Line:
+    51.00     0.13          32           9        1991              -1          
+ Observed monthly ave max temperature (C)
+   6.3   6.1   8.3  11.4  14.6  17.7  19.7  19.6  17.2  13.9  10.0   8.0
+ Observed monthly ave min temperature (C)
+   1.3   1.1   2.7   4.4   7.5  10.6  12.7  12.8  10.9   8.2   4.9   3.4
+ Observed monthly ave solar radiation (Langleys/day)
+  81.0 137.0 234.0 399.0 483.0 530.0 518.0 465.0 312.0 187.0 101.0  66.0
+ Observed monthly ave precipitation (mm)
+  42.0  31.9  71.9  57.0  53.9  38.7  41.4  33.6  78.8 102.2  71.3 109.3
+ da mo year  prcp  dur   tp     ip  tmax  tmin  rad  w-vl w-dir  tdew
+             (mm)  (h)               (C)   (C) (l/d) (m/s)(Deg)   (C)
+1-min:
+ 11 10 2000 133.8  7.40 0.12   4.64   6.7   3.3  98.  3.4  103.   0.8
+
+5-min:
+ 11 10 2000 133.8 12.80 0.46   5.53   6.7   3.3  98.  3.4  103.   0.8
+
+15-min:
+ 11 10 2000 133.8 15.50 0.49   2.87   6.7   3.3  98.  3.4  103.   0.8
+
+30-min:
+ 11 10 2000 133.8 17.00 0.93   2.69   6.7   3.3  98.  3.4  103.   0.8
+
+60-min:
+ 11 10 2000 133.8 18.00 0.64   2.23   6.7   3.3  98.  3.4  103.   0.8
+\end{verbatim}
+
+\subsubsection{11 October 2000, Plumpton---Breakpoint}
+\label{sec:PlumptonTemporalScaleSimulationBreakpoint}
+\begin{verbatim}
+5.22564
+   2   1   0
+  Station:  Plumpton                                       CLIGEN VER. 5.22564 -r:    0 -I: 0
+ Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated Command Line:
+    51.00     0.13          32           9        1991              -1          
+ Observed monthly ave max temperature (C)
+   6.3   6.1   8.3  11.4  14.6  17.7  19.7  19.6  17.2  13.9  10.0   8.0
+ Observed monthly ave min temperature (C)
+   1.3   1.1   2.7   4.4   7.5  10.6  12.7  12.8  10.9   8.2   4.9   3.4
+ Observed monthly ave solar radiation (Langleys/day)
+  81.0 137.0 234.0 399.0 483.0 530.0 518.0 465.0 312.0 187.0 101.0  66.0
+ Observed monthly ave precipitation (mm)
+  42.0  31.9  71.9  57.0  53.9  38.7  41.4  33.6  78.8 102.2  71.3 109.3
+    day  mon  year  nbrkpt  tmax   tmin   rad    vwind   wind   tdpt
+                             (C)    (C)  (l/d)   (m/s)   (deg)   (C)
+15-min:
+    11   10   2000    63     6.7    3.3    98.    3.4   103.    0.8
+00.00    0
+00.15    0.8
+00.30    1.2
+00.45    1.2
+01.15    1.6
+01.30    1.6
+05.15    1.8
+05.45    4
+06.00    8.2
+06.15    8.8
+06.30    11.2
+06.45    12.8
+07.00    13.8
+07.15    18
+07.30    18
+07.45    19.4
+08.00    19.8
+08.15    20.6
+08.30    21
+08.45    25.4
+09.00    25.6
+09.15    25.6
+09.30    29.8
+09.45    33.4
+10.00    36.4
+10.15    38.2
+10.30    39.8
+11.00    42.8
+11.15    43.2
+11.30    44.2
+11.45    48.8
+12.00    49
+12.15    49.6
+12.30    55.8
+12.45    58.8
+13.00    60.6
+13.30    64.4
+13.45    69
+14.00    74.4
+14.15    79
+14.30    82.6
+14.45    85.4
+15.00    88.4
+15.15    90
+15.30    91
+15.45    92.8
+16.00    95.2
+16.15    99.6
+16.30    101.8
+16.45    104.2
+17.00    107.8
+17.15    108.2
+17.30    109
+17.45    110.8
+18.00    111.2
+18.15    114.4
+18.30    115.8
+18.45    119
+19.00    123.4
+19.15    129.6
+19.30    133
+19.45    133.2
+20.15    133.8
+
+30-min:
+    11   10   2000    35     6.7    3.3    98.    3.4   103.    0.8
+00.00    0
+00.30    0.8
+01.00    1.2
+02.00    1.6
+05.30    1.8
+06.00    4
+06.30    8.8
+07.00    12.8
+07.30    18
+08.00    19.4
+08.30    20.6
+09.00    25.4
+09.30    25.6
+10.00    33.4
+10.30    38.2
+11.00    41.4
+11.30    43.2
+12.00    48.8
+12.30    49.6
+13.00    58.8
+13.30    62.4
+14.00    69
+14.30    79
+15.00    85.4
+15.30    90
+16.00    92.8
+16.30    99.6
+17.00    104.2
+17.30    108.2
+18.00    110.8
+18.30    114.4
+19.00    119
+19.30    129.6
+20.00    133.2
+20.30    133.8
+
+60-min:
+    11   10   2000    19     6.7    3.3    98.    3.4   103.    0.8
+00.00    0
+02.00    1.6
+03.00    1.6
+06.00    1.8
+07.00    8.8
+08.00    18
+09.00    20.6
+10.00    25.6
+11.00    38.2
+12.00    43.2
+13.00    49.6
+14.00    62.4
+15.00    79
+16.00    90
+17.00    99.6
+18.00    108.2
+19.00    114.4
+20.00    129.6
+21.00    133.8
+\end{verbatim}
+
+\subsection{For Storm Patterns Simulation}
+\label{sec:ForIntraStormPatternsSimulation}
+
+\subsubsection{Constant Intensity---20 mm/hr}
+\label{sec:ConstantIntensity20MmHr}
+
+\begin{verbatim}
+5.22564
+   2   0   0
+  Station:  Plumpton                                       CLIGEN VER. 5.22564 -r:    0 -I: 0
+ Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated Command Line:
+    51.00     0.13          32           9        1991              -1          
+ Observed monthly ave max temperature (C)
+   6.3   6.1   8.3  11.4  14.6  17.7  19.7  19.6  17.2  13.9  10.0   8.0
+ Observed monthly ave min temperature (C)
+   1.3   1.1   2.7   4.4   7.5  10.6  12.7  12.8  10.9   8.2   4.9   3.4
+ Observed monthly ave solar radiation (Langleys/day)
+  81.0 137.0 234.0 399.0 483.0 530.0 518.0 465.0 312.0 187.0 101.0  66.0
+ Observed monthly ave precipitation (mm)
+  42.0  31.9  71.9  57.0  53.9  38.7  41.4  33.6  78.8 102.2  71.3 109.3
+ da mo year  prcp  dur   tp     ip  tmax  tmin  rad  w-vl w-dir  tdew
+             (mm)  (h)               (C)   (C) (l/d) (m/s)(Deg)   (C)
+  1  1 2000  120.0  12.0  1.0   1.00   6.7   3.3  98.  3.4  103.   0.8
+\end{verbatim}
+
+\subsubsection{Increasing Intensity---20 mm/hr}
+\label{sec:IncreasingIntensity20MmHr}
+
+\begin{verbatim}
+5.22564
+   2   0   0
+  Station:  Plumpton                                       CLIGEN VER. 5.22564 -r:    0 -I: 0
+ Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated Command Line:
+    51.00     0.13          32           9        1991              -1          
+ Observed monthly ave max temperature (C)
+   6.3   6.1   8.3  11.4  14.6  17.7  19.7  19.6  17.2  13.9  10.0   8.0
+ Observed monthly ave min temperature (C)
+   1.3   1.1   2.7   4.4   7.5  10.6  12.7  12.8  10.9   8.2   4.9   3.4
+ Observed monthly ave solar radiation (Langleys/day)
+  81.0 137.0 234.0 399.0 483.0 530.0 518.0 465.0 312.0 187.0 101.0  66.0
+ Observed monthly ave precipitation (mm)
+  42.0  31.9  71.9  57.0  53.9  38.7  41.4  33.6  78.8 102.2  71.3 109.3
+ da mo year  prcp  dur   tp     ip  tmax  tmin  rad  w-vl w-dir  tdew
+             (mm)  (h)               (C)   (C) (l/d) (m/s)(Deg)   (C)
+  1  1 2000  120.0  12.0  0.99   2.00   6.7   3.3  98.  3.4  103.   0.8
+\end{verbatim}
+
+\subsubsection{Decreasing Intensity---20 mm/hr}
+\label{sec:DecreasingIntensity20MmHr}
+
+\begin{verbatim}
+5.22564
+   2   0   0
+  Station:  Plumpton                                       CLIGEN VER. 5.22564 -r:    0 -I: 0
+ Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated Command Line:
+    51.00     0.13          32           9        1991              -1          
+ Observed monthly ave max temperature (C)
+   6.3   6.1   8.3  11.4  14.6  17.7  19.7  19.6  17.2  13.9  10.0   8.0
+ Observed monthly ave min temperature (C)
+   1.3   1.1   2.7   4.4   7.5  10.6  12.7  12.8  10.9   8.2   4.9   3.4
+ Observed monthly ave solar radiation (Langleys/day)
+  81.0 137.0 234.0 399.0 483.0 530.0 518.0 465.0 312.0 187.0 101.0  66.0
+ Observed monthly ave precipitation (mm)
+  42.0  31.9  71.9  57.0  53.9  38.7  41.4  33.6  78.8 102.2  71.3 109.3
+ da mo year  prcp  dur   tp     ip  tmax  tmin  rad  w-vl w-dir  tdew
+             (mm)  (h)               (C)   (C) (l/d) (m/s)(Deg)   (C)
+  1  1 2000  120.0  12.0  0.01   2.00   6.7   3.3  98.  3.4  103.   0.8
+\end{verbatim}
+
+\subsubsection{Increasing-Decreasing Intensity---20 mm/hr}
+\label{sec:IncreasingDecreasingIntensity20MmHr}
+
+\begin{verbatim}
+5.22564
+   2   0   0
+  Station:  Plumpton                                       CLIGEN VER. 5.22564 -r:    0 -I: 0
+ Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated Command Line:
+    51.00     0.13          32           9        1991              -1          
+ Observed monthly ave max temperature (C)
+   6.3   6.1   8.3  11.4  14.6  17.7  19.7  19.6  17.2  13.9  10.0   8.0
+ Observed monthly ave min temperature (C)
+   1.3   1.1   2.7   4.4   7.5  10.6  12.7  12.8  10.9   8.2   4.9   3.4
+ Observed monthly ave solar radiation (Langleys/day)
+  81.0 137.0 234.0 399.0 483.0 530.0 518.0 465.0 312.0 187.0 101.0  66.0
+ Observed monthly ave precipitation (mm)
+  42.0  31.9  71.9  57.0  53.9  38.7  41.4  33.6  78.8 102.2  71.3 109.3
+ da mo year  prcp  dur   tp     ip  tmax  tmin  rad  w-vl w-dir  tdew
+             (mm)  (h)               (C)   (C) (l/d) (m/s)(Deg)   (C)
+  1  1 2000  120.0  12.0  0.5   2.00   6.7   3.3  98.  3.4  103.   0.8
+\end{verbatim}
+
+\subsubsection{Constant Intensity---60 mm/hr}
+\label{sec:ConstantIntensity60MmHr}
+
+\begin{verbatim}
+5.22564
+   2   0   0
+  Station:  Plumpton                                       CLIGEN VER. 5.22564 -r:    0 -I: 0
+ Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated Command Line:
+    51.00     0.13          32           9        1991              -1          
+ Observed monthly ave max temperature (C)
+   6.3   6.1   8.3  11.4  14.6  17.7  19.7  19.6  17.2  13.9  10.0   8.0
+ Observed monthly ave min temperature (C)
+   1.3   1.1   2.7   4.4   7.5  10.6  12.7  12.8  10.9   8.2   4.9   3.4
+ Observed monthly ave solar radiation (Langleys/day)
+  81.0 137.0 234.0 399.0 483.0 530.0 518.0 465.0 312.0 187.0 101.0  66.0
+ Observed monthly ave precipitation (mm)
+  42.0  31.9  71.9  57.0  53.9  38.7  41.4  33.6  78.8 102.2  71.3 109.3
+ da mo year  prcp  dur   tp     ip  tmax  tmin  rad  w-vl w-dir  tdew
+             (mm)  (h)               (C)   (C) (l/d) (m/s)(Deg)   (C)
+  1  1 2000  120.0  2.0  1.0   1.00   6.7   3.3  98.  3.4  103.   0.8
+\end{verbatim}
+
+\subsubsection{Increasing Intensity---60 mm/hr}
+\label{sec:IncreasingIntensity60MmHr}
+
+\begin{verbatim}
+5.22564
+   2   0   0
+  Station:  Plumpton                                       CLIGEN VER. 5.22564 -r:    0 -I: 0
+ Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated Command Line:
+    51.00     0.13          32           9        1991              -1          
+ Observed monthly ave max temperature (C)
+   6.3   6.1   8.3  11.4  14.6  17.7  19.7  19.6  17.2  13.9  10.0   8.0
+ Observed monthly ave min temperature (C)
+   1.3   1.1   2.7   4.4   7.5  10.6  12.7  12.8  10.9   8.2   4.9   3.4
+ Observed monthly ave solar radiation (Langleys/day)
+  81.0 137.0 234.0 399.0 483.0 530.0 518.0 465.0 312.0 187.0 101.0  66.0
+ Observed monthly ave precipitation (mm)
+  42.0  31.9  71.9  57.0  53.9  38.7  41.4  33.6  78.8 102.2  71.3 109.3
+ da mo year  prcp  dur   tp     ip  tmax  tmin  rad  w-vl w-dir  tdew
+             (mm)  (h)               (C)   (C) (l/d) (m/s)(Deg)   (C)
+  1  1 2000  120.0  2.0  0.99   2.00   6.7   3.3  98.  3.4  103.   0.8
+\end{verbatim}
+
+\subsubsection{Decreasing Intensity---60 mm/hr}
+\label{sec:DecreasingIntensity60MmHr}
+
+\begin{verbatim}
+5.22564
+   2   0   0
+  Station:  Plumpton                                       CLIGEN VER. 5.22564 -r:    0 -I: 0
+ Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated Command Line:
+    51.00     0.13          32           9        1991              -1          
+ Observed monthly ave max temperature (C)
+   6.3   6.1   8.3  11.4  14.6  17.7  19.7  19.6  17.2  13.9  10.0   8.0
+ Observed monthly ave min temperature (C)
+   1.3   1.1   2.7   4.4   7.5  10.6  12.7  12.8  10.9   8.2   4.9   3.4
+ Observed monthly ave solar radiation (Langleys/day)
+  81.0 137.0 234.0 399.0 483.0 530.0 518.0 465.0 312.0 187.0 101.0  66.0
+ Observed monthly ave precipitation (mm)
+  42.0  31.9  71.9  57.0  53.9  38.7  41.4  33.6  78.8 102.2  71.3 109.3
+ da mo year  prcp  dur   tp     ip  tmax  tmin  rad  w-vl w-dir  tdew
+             (mm)  (h)               (C)   (C) (l/d) (m/s)(Deg)   (C)
+  1  1 2000  120.0  2.0  0.01   2.00   6.7   3.3  98.  3.4  103.   0.8
+\end{verbatim}
+
+\subsubsection{Increasing-Decreasing Intensity---60 mm/hr}
+\label{sec:IncreasingDecreasingIntensity60MmHr}
+
+\begin{verbatim}
+5.22564
+   2   0   0
+  Station:  Plumpton                                       CLIGEN VER. 5.22564 -r:    0 -I: 0
+ Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated Command Line:
+    51.00     0.13          32           9        1991              -1          
+ Observed monthly ave max temperature (C)
+   6.3   6.1   8.3  11.4  14.6  17.7  19.7  19.6  17.2  13.9  10.0   8.0
+ Observed monthly ave min temperature (C)
+   1.3   1.1   2.7   4.4   7.5  10.6  12.7  12.8  10.9   8.2   4.9   3.4
+ Observed monthly ave solar radiation (Langleys/day)
+  81.0 137.0 234.0 399.0 483.0 530.0 518.0 465.0 312.0 187.0 101.0  66.0
+ Observed monthly ave precipitation (mm)
+  42.0  31.9  71.9  57.0  53.9  38.7  41.4  33.6  78.8 102.2  71.3 109.3
+ da mo year  prcp  dur   tp     ip  tmax  tmin  rad  w-vl w-dir  tdew
+             (mm)  (h)               (C)   (C) (l/d) (m/s)(Deg)   (C)
+  1  1 2000  120.0  2.0  0.5   2.00   6.7   3.3  98.  3.4  103.   0.8
+\end{verbatim}
+
+
+\subsection{For Continuous and Discontinuous Rainfall Simulation}
+\label{sec:ContinuousandDiscontinuousRainfallBreakpointData}
+
+\subsubsection{Continuous}
+\label{sec:ContinuousRainfallBreakpointData}
+\begin{verbatim}
+5.22564
+   2   1   0
+  Station:  Southover                                       CLIGEN VER. 5.22564 -r:    0 -I: 0
+ Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated Command Line:
+    51.00     0.13          32           9        1991              -1          
+ Observed monthly ave max temperature (C)
+   6.3   6.1   8.3  11.4  14.6  17.7  19.7  19.6  17.2  13.9  10.0   8.0
+ Observed monthly ave min temperature (C)
+   1.3   1.1   2.7   4.4   7.5  10.6  12.7  12.8  10.9   8.2   4.9   3.4
+ Observed monthly ave solar radiation (Langleys/day)
+  81.0 137.0 234.0 399.0 483.0 530.0 518.0 465.0 312.0 187.0 101.0  66.0
+ Observed monthly ave precipitation (mm)
+  42.0  31.9  71.9  57.0  53.9  38.7  41.4  33.6  78.8 102.2  71.3 109.3
+    day  mon  year  nbrkpt  tmax   tmin   rad    vwind   wind   tdpt
+                             (C)    (C)  (l/d)   (m/s)   (deg)   (C)
+    11   10   2000    59     6.7    3.3    98.    3.4   103.    0.8
+00.00    0
+00.15    0.8
+00.30    2.6
+00.45    3
+01.00    4.2
+01.15    4.4
+01.30    4.6
+01.45    5.2
+02.00    6.2
+02.15    6.4
+02.30    7.4
+02.45    9
+03.00    9.4
+03.15    12
+03.30    14.6
+03.45    17
+04.00    18.2
+04.15    18.4
+04.30    19.4
+04.45    21.4
+05.00    22.4
+05.15    23
+05.30    26.2
+05.45    29.6
+06.00    30.2
+06.15    31.4
+06.30    31.8
+06.45    33.4
+07.00    41.6
+07.15    45.4
+07.30    46
+07.45    49
+08.00    50.8
+08.15    52.6
+08.30    54.8
+08.45    56
+09.00    57.2
+09.15    57.8
+09.30    60.2
+09.45    61.6
+10.00    63.6
+10.15    64.6
+10.30    67.8
+10.45    71.2
+11.00    73.2
+11.15    75.2
+11.30    77
+11.45    79.8
+12.00    80.4
+12.15    82.8
+12.30    84
+12.45    84.2
+13.00    84.6
+13.15    85.2
+13.30    86.2
+13.45    86.6
+14.00    88.2
+14.15    89
+14.30    89.8
+\end{verbatim}
+
+\subsubsection{Discontinuous}
+\label{sec:DiscontinuousRainfallBreakpointData}
+\begin{verbatim}
+5.22564
+   2   1   0
+  Station:  Southover                                       CLIGEN VER. 5.22564 -r:    0 -I: 0
+ Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated Command Line:
+    51.00     0.13          32           9        1991              -1          
+ Observed monthly ave max temperature (C)
+   6.3   6.1   8.3  11.4  14.6  17.7  19.7  19.6  17.2  13.9  10.0   8.0
+ Observed monthly ave min temperature (C)
+   1.3   1.1   2.7   4.4   7.5  10.6  12.7  12.8  10.9   8.2   4.9   3.4
+ Observed monthly ave solar radiation (Langleys/day)
+  81.0 137.0 234.0 399.0 483.0 530.0 518.0 465.0 312.0 187.0 101.0  66.0
+ Observed monthly ave precipitation (mm)
+  42.0  31.9  71.9  57.0  53.9  38.7  41.4  33.6  78.8 102.2  71.3 109.3
+    day  mon  year  nbrkpt  tmax   tmin   rad    vwind   wind   tdpt
+                             (C)    (C)  (l/d)   (m/s)   (deg)   (C)
+    11   10   2000    59     6.7    3.3    98.    3.4   103.    0.8
+00.00    0
+00.15    0.8
+01.15    2.6
+01.30    3
+01.45    4.2
+02.00    4.4
+03.30    4.6
+04.00    5.2
+05.30    6.2
+05.45    6.4
+06.15    7.4
+07.15    9
+07.30    9.4
+07.45    12
+08.00    14.6
+08.45    17
+09.00    18.2
+09.15    18.4
+09.45    19.4
+10.00    21.4
+10.15    22.4
+10.30    23
+10.45    26.2
+11.00    29.6
+11.15    30.2
+11.30    31.4
+11.45    31.8
+12.00    33.4
+12.15    41.6
+12.30    45.4
+12.45    46
+13.00    49
+13.15    50.8
+13.30    52.6
+13.45    54.8
+14.00    56
+14.15    57.2
+14.30    57.8
+14.45    60.2
+15.00    61.6
+15.15    63.6
+15.30    64.6
+15.45    67.8
+16.00    71.2
+16.15    73.2
+16.30    75.2
+16.45    77
+17.00    79.8
+17.15    80.4
+17.30    82.8
+17.45    84
+18.00    84.2
+18.45    84.6
+19.00    85.2
+19.15    86.2
+19.30    86.6
+19.45    88.2
+20.00    89
+20.15    89.8
+\end{verbatim}
+
+\section{Soil Input---calibrated}
+\label{sec:WEPPSoilInput}
+
+\scriptsize
+
+\begin{verbatim}
+2004.7
+#
+#   Created by DFM on 9 Sep 95
+#   Adapted by Mintae Choi for DPhil thesis
+#
+Andover silt-loam soil
+1       1
+'Andover'  'silt loam'  4     30.0       1.0     2000000     0.0050  6.0     3.00
+ 150    18.9    3.5     7.0     45.     38.1
+ 200    18.9    3.5     4.8     39.     50.0
+ 300    25.0    24.0    2.2     30.     90.0
+1000    25.0    24.0    1.2     14.     90.0
+\end{verbatim}
+
+\section{Management Input}
+\label{sec:WEPPManagementInput}
+
+\scriptsize
+
+\begin{verbatim}
+2004.7
+#
+#	Created on 9Sep95 by `wman', (Ver. 15Apr95)
+#	Author: DFM
+#       Adapted by Mintae Choi for DPhil thesis
+#
+1	# number of OFEs
+100	# (total) years in simulation
+#################
+# Plant Section #
+#################
+1	# looper; number of Plant scenarios
+#
+#	Plant scenario 1 of 1
+#
+JPWHEAT 
+`Winter wheat, UK: high fertilization level'
+(from WEPP distribution database,
+modified by DFM for UK conditions)
+1	# `landuse' - <Cropland>
+mtons/hectare
+5.2	3	23	0	6.4	35	0	0.152	1	0.0064
+0.8	1	0.65	0.99	3	1970	0.48	0.9
+2	# `mfo' - <Non-fragile>
+0.0085	0.0085	15	0	0.005	1.0	0.25	0	14	0
+0	9	0
+#####################
+# Operation Section #
+#####################
+3	# looper; number of Operation scenarios
+#
+#	Operation scenario 1 of 3
+#
+CHISSTSP
+`Chisel plow, straight with spike pts'
+(from WEPP distribution database)
+1	# `landuse' - <Cropland>
+0.5	0.3	0
+4	# `pcode' - <Other>
+0.05	0.3	0.5	0.3	0.023	1	0.15
+#
+#	Operation scenario 2 of 3
+#
+HASP
+`Harrow-spike tooth'
+(from WEPP distribution database)
+1	# `landuse' - <Cropland>
+0.3	0.2	0
+4	# `pcode' - <Other>
+0.025	0.05	0.3	0.2	0.015	1	0.025
+#
+#	Operation scenario 3 of 3
+#
+UKROLL
+'Roller (modified DFM)'
+1	# `landuse' - <Cropland>
+0.1	0.1	0
+4	# `pcode' - <Other>
+0.01	0.075	0.1	0.1	0.01	1	0
+##############################
+# Initial Conditions Section #
+##############################
+1	# looper; number of Initial Conditions scenarios
+#
+#	Initial Conditions scenario 1 of 1
+#
+WHEATCNV
+Conventional winter wheat cultivation
+1	# `landuse' - <Cropland>
+1.2	0.3	91	124	0	0.1
+1	# `iresd' - <WIWHEAT1>
+1	# `mgmt' - <Annual>
+250	0.01	0.1	0.043	0
+1	# `rtyp' - <Temporary>
+0	0	0.1	0.2	0
+0	0
+###########################
+# Surface Effects Section #
+###########################
+1	# looper; number of Surface Effects scenarios
+#
+#	Surface Effects scenario 1 of 1
+#
+WHEATCNV
+Conventionally-tilled winter wheat
+1	# `landuse' - <Cropland>
+3	# `ntill' - <number of operations>
+	232	# `mdate' - <8 /20>
+	1	# `op' - <CHISSTSP>
+	0.25
+	1	# `typtil' - <Primary>
+	258	# `mdate' - <9 /15>
+	2	# `op' - <HASP>
+	0.05
+	2	# `typtil' - <Secondary>
+	274	# `mdate' - <10/1 >
+	3	# `op' - <ROLLER04>
+	0.01
+	2	# `typtil' - <Secondary>
+######################
+# Contouring Section #
+######################
+0	# looper; number of Contouring scenarios
+####################
+# Drainage Section #
+####################
+0	# looper; number of Drainage scenarios
+##################
+# Yearly Section #
+##################
+1	# looper; number of Yearly scenarios
+#
+#	Yearly scenario 1 of 1
+#
+WHEATCNV
+Conventionally-tilled winter wheat
+1	# `landuse' - <Cropland>
+1	# `itype' - <WIWHEAT1>
+1	# `tilseq' - <WHEATCNV>
+0	# `conset' - <NotUsed>
+0	# `drset' - <NotUsed>
+1	# `mgmt' - <Annual>
+	210	# `jdharv' - <7 /29>
+	271	# `jdplt' - <9 /28>
+	0.1
+	6	# `resmgmt' - <None>
+######################
+# Management Section #
+######################
+WHEATCNV
+Woodingdean continuous winter wheat
+For NATO-ARW paper
+DFM 7 Nov 1995
+1	# `nofe' - <number of Overland Flow Elements>
+	1	# `Initial Conditions indx' - <WHEATCNV>
+100	# `nrots' - <rotation repeats..>
+1	# `nyears' - <years in rotation>
+#
+#	Rotation 1 : year 1 to 1
+#
+	1	# `nycrop' - <plants/yr; Year of Rotation :  1 - OFE : 1>
+		1	# `YEAR indx' - <WHEATCNV>
+#
+#	Rotation 2 : year 2 to 2
+#
+	1	# `nycrop' - <plants/yr; Year of Rotation :  1 - OFE : 1>
+		1	# `YEAR indx' - <WHEATCNV>
+#
+#	Rotation 3 : year 3 to 3
+#
+	1	# `nycrop' - <plants/yr; Year of Rotation :  1 - OFE : 1>
+		1	# `YEAR indx' - <WHEATCNV>
+#
+#	Rotation 4 : year 4 to 4
+#
+	1	# `nycrop' - <plants/yr; Year of Rotation :  1 - OFE : 1>
+		1	# `YEAR indx' - <WHEATCNV>
+#
+#	Rotation 5 : year 5 to 5
+#
+	1	# `nycrop' - <plants/yr; Year of Rotation :  1 - OFE : 1>
+		1	# `YEAR indx' - <WHEATCNV>
+
+                   ###################################		
+                   # ... repeated upto 100 years ... #
+                   ###################################
+
+#	Rotation 100 : year 100 to 100
+#
+	1	# `nycrop' - <plants/yr; Year of Rotation :  1 - OFE : 1>
+		1	# `YEAR indx' - <WHEATCNV>
+\end{verbatim}
+
+\section{slope Input}
+\label{sec:WEPPSlopeInput}
+
+\paragraph{Slope D}
+
+\scriptsize
+
+\begin{verbatim}
+2004.7
+#
+#   Created by DFM on 9 Sep 95
+#   Adapted by Mintae Choi for DPhil thesis
+1
+305     50
+3       135
+0.0 0.14		0.9 0.14		1.0 0.01
+\end{verbatim}
+
+\paragraph{Slope E}
+
+\scriptsize
+
+\begin{verbatim}
+2004.7
+#
+#       Created by DFM on 9 Sep 95
+#   Adapted by Mintae Choi for DPhil thesis
+#
+1
+305     50
+4       150
+0.0 0.12		0.5 0.15		0.9 0.12		1.0 0.01
+\end{verbatim}
+
+\paragraph{Slope F}
+
+\scriptsize
+
+\begin{verbatim}
+2004.7
+#
+#       Created by DFM on 9 Sep 95
+#   Adapted by Mintae Choi for DPhil thesis
+#
+1
+305     50
+4       165
+0.0 0.15		0.4 0.22		0.9 0.15		1.0 0.01
+\end{verbatim}
+
+\paragraph{Slope G}
+
+\scriptsize
+
+\begin{verbatim}
+2004.7
+#
+#       Created by DFM on 9 Sep 95
+#   Adapted by Mintae Choi for DPhil thesis
+#
+1
+305     50
+4       180
+0.0 0.17		0.35 0.25	0.9 0.17		1.0 0.01
+\end{verbatim}
+
+\paragraph{Slope H}
+
+\scriptsize
+
+\begin{verbatim}
+2004.7
+#
+#       Created by DFM on 9 Sep 95
+#   Adapted by Mintae Choi for DPhil thesis
+#
+1
+305     50
+4       180
+0.0 0.20		0.35 0.25	0.9 0.20		1.0 0.01
+\end{verbatim}
+
+\paragraph{Slope I}
+
+\scriptsize
+
+\begin{verbatim}
+2004.7
+#
+#       Created by DFM on 9 Sep 95
+#   Adapted by Mintae Choi for DPhil thesis
+#
+1
+305     50
+4       165
+0.0 0.19		0.4 0.27		0.9 0.19		1.0 0.01
+\end{verbatim}
+
+\paragraph{Slope J}
+
+\scriptsize
+
+\begin{verbatim}
+2004.7
+#
+#       Created by DFM on 9 Sep 95
+#   Adapted by Mintae Choi for DPhil thesis
+#
+1
+305     50
+4       150
+0.0 0.19		0.5 0.25		0.9 0.19		1.0 0.01
+\end{verbatim}
+
+\paragraph{Slope K}
+
+\scriptsize
+
+\begin{verbatim}
+2004.7
+#
+#       Created by DFM on 9 Sep 95
+#   Adapted by Mintae Choi for DPhil thesis
+#
+1
+305     50
+4       140
+0.0 0.18		0.5 0.19		0.9 0.18		1.0 0.01
+\end{verbatim}
+
+\paragraph{Slope L}
+
+\scriptsize
+
+\begin{verbatim}
+2004.7
+#
+#       Created by DFM on 9 Sep 95
+#   Adapted by Mintae Choi for DPhil thesis
+#
+1
+305     50
+4       125
+0.0 0.18		0.5 0.19		0.9 0.18		1.0 0.01
+\end{verbatim}

@@ -1,0 +1,816 @@
+\section{Soil Erosion Prediction Models}
+\label{sec:SoilErosionPredictionModels}
+
+\subsection{Introduction}
+\label{sec:Introductionerosionmodels}
+
+To assess the risk of soil erosion, estimates of soil loss rates may be compared
+with what is considered to be acceptable for conservation purposes; the effects
+of different conservation strategies may then be determined. Consequently, a
+technique is required to compare possible soil losses under a wide range of
+conditions. One way of doing this is using computerised models for soil erosion,
+which are (like all models) simplified representations of reality. Types of
+erosion models are categorised by their structures in Table
+\ref{tab:TypesOfModels}. It needs to be noted that the categories in Table
+\ref{tab:TypesOfModels} tend to be mixed, nowadays.
+
+Another categorisation scheme is based on objectives and levels of performance.
+In this scheme, there are two basic types of models in addition to the
+categories in Table \ref{tab:TypesOfModels}. One is a screening model, which is
+relatively simple and designed to identify problem areas. This type of model
+only requires predictions of the right order of magnitude. The other type is an
+assessment model, which requires better, more robust, and accurate predictions
+because it is mainly designed for evaluating the severity of erosion, for
+example, under different soil management systems. Thus, depending on the purpose
+to which a model is put, the appropriate level of complexity/simplicity of
+the model should be established. A clear statement of the purpose of the study
+is essential; this will serve as a starting point for all modelling procedures.
+
+Our current understanding of erosion processes is greatest over short time
+periods, seconds to minutes. It is thus problematic when applying this
+understanding to longer periods, e.g.\ months to years or even longer, as is
+necessary for real-world conservation tasks. It may just be feasible for
+slightly longer periods such as hours or days, but continuous extrapolation is
+not appropriate \citep{kirkby1992-180,morgan1995-soil}. Therefore, longer-term
+prediction can only be achieved by summing the predictions for individual
+events, or developing models empirically, using data collected on a long-term
+basis, or improving our understanding of processes to be able to build
+physically-based models.
+
+\begin{sidewaystable}[htbp]
+  \centering
+  \caption[Types of models]{Types of models
+(from \citealp{morgan1995-soil})}
+  \label{tab:TypesOfModels}
+    \small
+    \begin{tabular}{lp{150.0mm}}
+    \toprule
+    \textbf{Type} & \textbf{Description}\\
+  % \midrule
+    Physical & Scaled-down hardware models usually built in the
+laboratory; need to assume dynamic similitude between model and real world.\\
+    \midrule
+    Analogue & Use of mechanical or electrical systems analogous to
+system under investigation, e.g. flow of electricity used to simulate flow of
+water.\\
+    \midrule
+    Digital & Based on use of digital computers to process vast
+quantities of data.\\
+    \midrule
+    Physically-based & Based on mathematical equations to describe
+the processes involved in the model, taking account of the laws of conservation
+of mass and energy.\\
+    \midrule
+    Stochastic & Based on generating synthetic sequences of data
+from the statistical characteristics of existing sample data; useful for
+generating input sequences to physically-based and empirical models where data
+only available for short period of observation.\\
+    \midrule
+    Empirical & Based on identifying statistically significant
+relationships between assumed important variables where a reasonable database
+exists. Three types of analysis are recognised:
+    \begin{compactitem}[-]
+      \item Black-box: where only main inputs and outputs
+are studied;
+      \item Grey-box: where some detail of how the system
+works is known;
+      \item White-box: where all details of how the system
+operates are known.
+    \end{compactitem}\\
+%   \addlinespace[-3.5mm]
+    \bottomrule
+    \end{tabular}
+\end{sidewaystable}
+
+In addition to these temporal extrapolation issues, the spatial extrapolation
+issues must also be considered. For instance, the detailed requirements for
+modelling erosion over a large drainage basin \citep{hooke2000-1778} may differ
+from those demanded by models of soil loss from a short length of hillslope
+\citep{goff1993-698}, or even at the point of impact of a single raindrop
+\citep{sharma1991-301}. Until recently, integrating researches in different
+scales (i.e.\ plot, field and catchment-scale) has been neglected because it is
+a difficult task \citep{boardman1996-489}.
+
+Therefore, prior to using a soil erosion model, where the model is to be
+used and why the specific model is appropriate should be considered carefully.
+
+For error and uncertainty involved in modelling approaches,
+\citet{oberkampf2002-333} suggest two definitions of uncertainty: aleatory and
+epistemic.
+Aleatory uncertainty refers to irreducible uncertainty, inherent uncertainty,
+variability and stochastic uncertainty. A probability or frequency distribution
+is generally used to quantify aleatory uncertainty, when sufficient information
+is available.
+Epistemic uncertainty refers to reducible uncertainty, subjective uncertainty
+and cognitive uncertainty. This is a source of non-deterministic behaviour that
+comes from lack of knowledge of the system or environment. This uncertainty can
+also be viewed as a potential inaccuracy in any phase or activity of the
+modelling process that is due to lack of knowledge.
+
+Thus, even if we eliminate epistemic uncertainty by studying and obtain absolute
+knowledge, we will still not be able to predict future weather perfectly because
+of the aleatory uncertainty.
+
+\citet{oberkampf2002-333} defines error as a recognizable inaccuracy in any
+phase or activity of modelling and simulation that is not due to lack of
+knowledge. Using this approach, there are two types of errors: errors that are
+acknowledged and errors that are unacknowledged. Acknowledged errors are
+those inaccuracies that are recognised by the analysts. Unacknowledged errors
+are those inaccuracies that are not recognized by the analysts, but they are
+recognizable. The CLIGEN errors found by \citet{yu2000-301} can be seen as an
+example of unacknowledged errors (See Section \ref{sec:ClimateGeneratorCLIGEN}).
+
+\citet{oberkampf2002-333} further suggest a comprehensive and new view of the
+general phases of modelling and simulation, consisting of six phases (Figure
+\ref{fig:modelling_phases}):
+\begin{enumerate*}
+  \item conceptual modelling of the physical system
+  \item mathematical modelling of the conceptual model
+  \item discretization and algorithm selection for the mathematical model
+  \item computer programming of the discrete model
+  \item numerical solution of the computer program model
+  \item representation of the numerical solution
+\end{enumerate*}
+
+\begin{figure}[htpb]
+  \centering
+    \includegraphics[width=0.90\textwidth]{./img/modelling_phases}
+\caption[Proposed phases for computational modelling and simulation.]{Proposed
+phases for computational modelling and simulation.
+\citep[From][]{oberkampf2002-333}}
+  \label{fig:modelling_phases}
+\end{figure}
+
+This framework is a synthesis of the reviewed literature, with three substantial
+additions compared to a more conventional viewpoint. First, it makes a more
+precise distinction between the system and the environment. Second, it places
+more emphasis on the distinction between aleatory and epistemic uncertainty in
+the analysis. Third, it includes a dominant element in the simulation of complex
+physical processes; the numerical solution of non-linear Partial Differential
+Equations (PDFs).
+
+\paragraph{Conceptual modelling of of the physical system}
+Conceptual issues are considered determining all possible factors.
+
+\paragraph{Mathematical modelling of the conceptual model}
+The primary activity of this phase is to develop detailed and precise
+mathematical models. The complexity of the models depends on the physical
+complexity of each phenomenon being considered, the number of physical phenomena
+considered, and the level of coupling of difficult types of physics. Emphasis on
+comprehensiveness in the mathematical model should not be interpreted as an
+emphasis on complexity of the model. The predictive power of a model depends on
+its ability to correctly identify the dominant controlling factors and their
+influences, not upon its completeness or complexity. A model of limited, but
+known, applicability is often more useful than a more complete model. Any
+mathematical model, regardless of its physical level of detail, is by definition
+a simplification of reality.
+
+\paragraph{Discretization and algorithm selection for the mathematical
+model}
+Converting the mathematical models into a form that can be addressed through
+computational analysis. Conversion of the continuum mathematics form of the
+mathematical model into a discrete, or numerical, model. Specifying the
+methodology that dictates which computer runs will be performed in a later phase
+of the analysis to accommodate the non-deterministic aspects of the problem.
+
+\paragraph{Computer programming of the discrete model---modular approach}
+Algorithms and solution procedures defined in the previous phase are converted
+into a computer code.
+
+\paragraph{Numerical solution of the computer program model}
+The individual numerical solutions are actually computed.
+
+\paragraph{Representation of the numerical solution}
+The representation and interpretation of both the individual and collective
+computational solutions. Basically this phase concerns how to present results
+for a group of specific audiences.
+
+The erosion models used in the present research are reviewed in the next
+section. However, an additional model, the Universal Soil Loss Equation (USLE),
+is first discussed since this model embodies the basic concepts underpinning
+many more recent models.
+
+\subsection{Universal Soil Loss Equation (USLE)}
+\label{sec:UniversalSoilLossEquationUSLE}
+
+The first attempt to develop a soil loss equation for hillslopes was that of
+\citet{zingg1940-59}, who related erosion to slope steepness and slope length.
+Further developments led to the addition of a climatic factor based on the
+maximum 30-minute rainfall total with a 2-year return period
+\citep{musgrave1947-133}, a crop factor to take account of the
+protection-effectiveness of different crops, a conservation factor and a soil
+erodibility factor, consecutively. All these factors were then incorporated
+together, modified and up-dated to the Universal Soil Loss Equation (USLE)
+\citep{wischmeier1978-537}.
+
+The USLE consists of six factors, which are simply multiplied together to
+estimate soil loss although there is substantial interdependence between the
+variables \citep{wischmeier1978-537}:
+\begin{equation}
+\label{eq:usle}
+  A = R \times K \times LS \times C \times P
+\end{equation}
+where $A$ (tonnes$\cdot$ha$^{-1}$ yr$^{-1}$) is average annual soil loss, $R$
+(MJ$\cdot$mm$\cdot$hr$^{-1}$ ha$^{-1}$ yr$^{-1}$) is rainfall erosivity, $K$
+(t$\cdot$hr$\cdot$MJ$^{-1}$ mm$^{-1}$) is soil erodibility, $L$ (dimensionless
+ratio) is the slope-length factor, $S$ (dimensionless ratio) is the
+slope-steepness factor, $C$ (dimensionless ratio) is the cropping factor, and
+$P$ (dimensionless ratio) is the conservation practice factor.
+
+%
+The rainfall erosivity factor ($R$) is related to the raindrop impact effect.
+$R$ factor provides relative information on the amount and rate of runoff
+associated with the rain. The soil erodibility factor ($K$) is used to represent
+the differences of natural resistances of soils to erosion. The slope length
+($L$) and steepness($S$) factors provide the topographic information that can
+affect the rate of energy dissipation. The cropping factor ($C$) is the ratio of
+soil loss from cropped field under specific conditions to the corresponding loss
+from tilled, continuous fallow conditions. The conservation practice factor
+($P$) is the ratio of soil loss with a specific conservation practice to the
+corresponding loss with conventional slope tillage.
+%
+
+The USLE uses the empirical results of erosion studies conducted at many
+locations over nearly a half-century of research, including rainfall erosivity,
+soil erodibility, slope length, slope steepness, cropping and management
+techniques, and supporting conservation practices of more than 10,000 plot-years
+of data from about 50 locations in 24 states in the US
+\citep{wischmeier1978-537}. The results were statistically analysed and the
+relationships between the factors incorporated into equation \ref{eq:usle}.
+
+Both the strength and weakness of the USLE lie in its estimation of erosion as
+the product of a series of terms for rainfall, slope gradient, slope length,
+soil, and cropping factors. However, it does not account for any non-linear
+interactions between the factors \citep{wischmeier1978-537,meyer1984-99}.
+
+\citet{nicks1998-377} suggests that USLE may be used to estimate soil loss on a
+storm by storm basis where incremental rainfall is available. Rainfall erosivity
+index ($EI$) for a rainfall event is calculated by
+\begin{equation}
+\label{eq:usleerosivityindex}
+  EI=R_{0.5} \sum(210+89\,log_{10} I)
+\end{equation}
+where $I$ is the incremental rainfall intensity and $R_{0.5}$ is the maximum
+storm 30 minutes rainfall.
+Individual storm erosion amounts may then be calculated with the USLE using this
+$EI$ value to replace the $R$ factor in equation \ref{eq:usle}, summed to give a
+yearly soil loss, and then averaged to produce a mean annual erosion estimate.
+
+In contrast, \citet{kinnell2005-851} points out important problems of predicting
+event erosion using the USLE. One of the main problem described is that, in the
+USLE, there is no direct consideration of runoff even though erosion depends on
+sediment being discharged with flow, which varies with runoff and sediment
+concentration. \citet{kinnell2005-851} concludes that the failure to consider
+runoff as a primary factor in the USLE is the factor that causing the USLE to
+produce the erroneous prediction of event erosion, which in turn leads to
+systematic errors in predicting average annual soil loss.
+
+Since the introduction of the USLE to estimate soil loss, it has become the
+conservationists' primary tool for planning purposes
+\citep{diaz1987-189,centeri2002-211}. The USLE provides an ease of use and
+relatively reliable results, and requires only readily obtainable information in
+order to estimate average annual soil loss. However,
+\citet{wischmeier1976-misuse} warned about the problem of the misuse of the
+USLE.
+
+The database for the original USLE is restricted to the US east of the Rocky
+Mountains \citep{wischmeier1978-537}. The base is further restricted to slope
+where cultivation is permissible, normally 0 to 7\textdegree, and to soils with
+a low content of montmorillonite; it is also deficient in information on the
+erodibility of sandy soils \citep{wischmeier1978-537}. It is important to note
+that, because the USLE was designed to estimate average annual soil loss from
+any specific field over an extended period, soil loss estimates for a specific
+year may substantially differ from the long-term average predicted by the
+equation \citep{wischmeier1976-misuse}. Extrapolating the relationship beyond
+the database for the original USLE, therefore, should be conducted with care.
+
+The basic concepts of the USLE were subsequently used and developed by some
+continuous simulation models. Some of these models are CREAMS (Chemicals,
+Runoff, Erosion, and Agricultural Management Systems) \citep{knisel1980-creams},
+EPIC (Erosion-Productivity Impact Calculator) \citep{williams1984-129}, SWRRB
+(Simulator for Water Resources in Rural Basins) \citep{williams1985-970}, WEPP
+(Water Erosion Prediction Project) \citep{nearing1989-1587, flanagan1995-usda}.
+
+\subsection{Water Erosion Prediction Project (WEPP)}
+\label{sec:WaterErosionPredictionProjectWEPP}
+
+WEPP (Water Erosion Prediction Project) is a process-based model that describes
+the processes, such as infiltration and runoff, soil detachment, transport,
+deposition, plant growth, senescence, and residue decomposition, that lead to
+erosion \citep{flanagan1995-usda}. The model takes four input files, climate,
+soil characteristic, slope, and crop management.
+
+WEPP was developed by the USDA-ARS (United States Department of
+Agriculture-Agricultural Research Service) as a new-generation water erosion
+prediction technology for the routine assessment of soil erosion for soil and
+water conservation and environmental planning and assessment
+\citep{flanagan2007-1603}. The development of WEPP was initialized with an
+intention to replace the `long-used' USLE (See Section
+\ref{sec:UniversalSoilLossEquationUSLE}) \citep{nearing1989-1587,
+flanagan1995-usda}. WEPP no longer relies on factor values from the USLE,
+instead uses separate erodibility parameters for interrill ($K_i$) and rill
+erosion ($K_r$) \citep{flanagan1995-usda}. In WEPP, rills are assumed to have a
+uniform rectangular cross-section with a uniform spacing of 1 metre. All rills
+are assumed to be equally hydrologically efficient \citep{flanagan1995-usda}.
+
+The steady state erosion component of WEPP is based on:
+\begin{equation}
+\label{eq:weppsedimentload}
+  \frac{dG}{dx} = D_f+D_i
+\end{equation}
+where $G$ represents sediment load, $x$ is the distant downslope, $D_f$ is the
+rill erosion rate, and $D_i$ is the interrill erosion rate. $D_f$ and $D_i$ are
+calculated on a per rill area basis. Rill erosion, $D_f$, is positive for
+detachment and negative for deposition, and calculated by:
+\begin{equation}
+\label{eq:wepprillerosionrate}
+  D_f=D_c(1-\frac{G}{T_c})
+\end{equation}
+where $T_c$ is the transport capacity of flow in the rill, and $D_c$ is
+detachment capacity of the rill flow and:
+\begin{equation}
+\label{eq:weppdetachmentcapacity}
+  D_c=K_r(\tau_f-\tau_c)
+\end{equation}
+where $K_r$ is rill erodibility parameter, $\tau_f$ is flow shear stress acting
+on soil particles, and $\tau_c$ is the critical shear stress or rill detachment
+threshold parameter of the soil.
+Interrill erosion is given by:
+\begin{equation}
+\label{eq:weppinterrillerosionrate}
+  D_i=K_i I_e \sigma_{ir} SDR_{RR} F_{\textrm{\scriptsize nozzle}}
+\frac{R_s}{\omega}
+\end{equation}
+where $K_i$ is the interrill erodibility, $I_e$ is the effective rainfall
+intensity, $\sigma_{ir}$ is the interrill runoff rate, $SDR_{RR}$ is the
+sediment delivery ratio, $F_{\textrm{\scriptsize nozzle}}$ is an adjustment
+factor to account for sprinkler irrigation nozzle impact energy variation, $R_s$
+is the rill spacing, and $\omega$ is the width. Interrill erosion is also
+expressed with baseline interrill erodibility as \citep{nicks1998-377}:
+\begin{equation}
+\label{eq:weppinterrillerosionratealternative}
+  D_i=K_{ib} I_e^2 C_C C_G \frac{R_s}{\omega}
+\end{equation}
+where $K_{ib}$ is baseline interrill erodibility, $C_C$ is the effect of canopy
+cover on interrill erosion, and $C_G$ is the effect of ground cover on interrill
+erosion. The hydrologic variables that drive the WEPP are the effective rainfall
+intensity and duration, the peak runoff rate, and the effective runoff duration.
+
+The USLE erosion database could not be used directly for the WEPP
+parametrisation. Three field experiments on cropland, rangeland and forestland
+were conducted to determine parameters for $K_r$ and $K_{ib}$ given in equations
+\ref{eq:weppinterrillerosionrate} and
+\ref{eq:weppinterrillerosionratealternative}. A total of 77 sets of plot data
+were collected \citep{nicks1998-377}. Fixed rainfall intensity was applied to
+the plots using a rainfall simulator. A comprehensive model description is
+available in \citet{flanagan1995-usda}.
+
+Rainfall is represented in the WEPP with the double exponential function. A
+storm is described with four parameters, storm amount, average intensity, ratio
+of peak intensity to average intensity, and time to peak intensity. A stochastic
+weather generator, CLIGEN (CLImate GENerator; \citealp{nicks1995-2}) is used to
+generate these storm precipitation inputs. More about CLIGEN is covered later in
+Section \ref{sec:ClimateGeneratorCLIGEN}. WEPP then disaggregates these storm
+inputs into a single peak storm intensity pattern (time-rainfall intensity
+format) for use by the infiltration and runoff components of the model.
+\citep{flanagan1995-usda}.
+
+The WEPP model can be used for hillslope erosion processes (sheet and rill
+erosion), as well as simulation of the hydrologic and erosion processes on small
+watersheds. The hillslope mode predicts soil erosion from a single hillslope
+profile of any length. It can be applied to areas up to about 260 hectares in
+size. The watershed mode links hillslope elements of specified widths together
+with channel and impoundment elements. WEPP is designed to run on a continuous
+simulation but can also be operated for a single storm. A modified version of
+the hillslope WEPP has been developed for research purposes
+\citep{favis1999-329,favis1996-529}. This is designed to account for the effects
+of atmospheric CO$_2$ concentration changes on plant growth.
+
+In this research, only hillslope mode of the WEPP (v2004.7) was used for
+continuous or single-event simulation, depending on the purpose.
+
+\subsubsection{CLIGEN}
+\label{sec:ClimateGeneratorCLIGEN}
+CLIGEN is a stochastic weather generator, which generates daily time series
+estimates of precipitation, temperature, dew point, wind, and solar radiation
+for a single geographical point, based on average monthly measurements for the
+period of climatic record \citep{nicks1995-2}. The estimates for each parameter
+are generated independently of the others \citep{nicks1995-2}.
+
+In comparison to other climate generators, CLIGEN is better at preserving the
+low-order statistics of rainfall, temperature, and solar radiation on a daily,
+monthly, and annual basis \citep{nicks1995-2}. Unique to CLIGEN is the capacity
+to simulate the three additional weather variables to characterize the storm
+pattern, namely storm duration, time to peak, and peak intensity, which are
+specifically developed for the WEPP simulation \citep{flanagan1995-usda}.
+
+CLIGEN stochastically generates four precipitation-related variables for each
+wet day, which are precipitation amount  (mm), $R$, storm duration (hour), $D$,
+time to peak as a fraction of the storm duration, $t_p$, and the ratio of peak
+intensity over average intensity, $i_p$. Average intensity is defined as $R/D$.
+Although it is possible to calculate individual variables manually for each
+rainfall event, it is a labour intensive task to calculate the variables for
+multiple events.
+
+CLIGEN requires observed precipitation statistics in order to generate these
+four precipitation-related variables (Table
+\ref{tab:PrecipitaionParametersRequiredByCLIGEN}).
+
+\begin{table}[htbp]
+  \centering
+  \caption[Precipitation parameters required by CLIGEN]{Precipitation
+parameters required by CLIGEN to generate WEPP precipitation inputs (from
+personal communication with Bofu Yu, 2003)}
+  \label{tab:PrecipitaionParametersRequiredByCLIGEN}
+  \footnotesize
+    \begin{tabular}{ll}
+    \toprule
+    \textbf{Parameter} & \textbf{Description} \\
+    \midrule
+    meanP & Average precipitation (inches) on wet days for each
+month\\
+    sdP & Standard deviation of daily precipitation (inches) for
+each month\\
+    skP & Coefficient of skewness of daily precipitation (inches)
+for each month\\
+    P(W/W) & Probability of a wet day following a wet day for each
+month\\
+    P(W/D) & Probability of a wet day following a dry day for each
+month\\
+    MX~.5P & Average maximum 30-min peak intensity (in/hr) for each
+month\\
+    TimePk & Cumulative distribution of time to peak as a fraction
+of the storm duration\\
+    \bottomrule
+    \end{tabular}
+\end{table}
+
+Precipitation data required to derive the CLIGEN input parameters in Table
+\ref{tab:PrecipitaionParametersRequiredByCLIGEN} are time series of daily
+precipitation data and sub-daily precipitation data with a time intervals no
+greater than 30 minutes (personal communication with Bofu Yu, 2003). In
+principle, there is no need to distinguish these two types of precipitation data
+because sub-daily data can be accumulated to produce daily values. In practice,
+however, these two types of data usually come from two different sources. The
+coverage of the daily data, both in space and time, is much more extensive in
+comparison to sub-daily data at short time intervals. In addition, the two types
+of data are normally stored in different formats. It is therefore useful to
+treat the two types of precipitation data separately.
+
+CLIGEN (version 4.2) was previously released with WEPP version 2001.3. However,
+this version of CLIGEN had a major coding error and was modified substantially
+\citep{yu2000-301}. CLIGEN (version 4.2) computed a ratio $\omega = R_{0.5}/R$,
+where both $R_{0.5}$ and $R$ were rainfall depth (originally in inches).
+$R_{0.5}$ had been converted from inches into millimetres (mm), while $R$ was
+not \citep{yu2000-301}. The CLIGEN code was thus changed to correct this error.
+This however led to extensively increased storm durations.
+
+To accommodate the correction of unit conversion error, it was necessary to
+incorporate two important modifications in the CLIGEN codes. First, a new
+algorithm to determine the monthly means of the maximum 30-min rainfall depth
+was implemented. Secondly, the parameter values for storm duration and the
+coefficient of variation for the ratio of the maximum 30-min rainfall depth to
+daily rainfall required in CLIGEN were estimated using the break-point rainfall
+data \citep{yu2000-301}.
+
+This error in the CLIGEN code has certainly affected the results from the
+earlier studies, which employed the previous versions of WEPP and CLIGEN to
+estimate soil loss
+\citep{truman1993-405,zhang1995-1069,zhang1995-1079,zhang1996-855,
+baffaut1996-447,laflen1997-96,baffaut1998-756,favis1999-329}.
+
+The current CLIGEN at the time of writing is version
+5.22564\footnote{http://horizon.nserl.purdue.edu/Cligen/, April 2006}. This is
+also the version used in this research.
+
+
+\subsection{European Soil Erosion Model (EUROSEM)}
+\label{sec:EuropeanSoilErosionModelEUROSEM}
+
+EUROSEM is a dynamic distributed event-based model for simulating erosion,
+transport and deposition of sediment over the land surface by interrill and rill
+processes \citep{morgan1998-389}. The model has explicit simulation of interrill
+and rill flow; plant cover effects on interception and rainfall energy; rock
+fragment effects on infiltration, flow velocity and splash erosion; and changes
+in the shape and size of rill channels as a result of erosion and deposition
+\citep{morgan1998-389}. It can be applied to a small field and up to a small
+catchment.
+
+EUROSEM requires a one-minute resolution breakpoint rainfall data for the storm.
+The model then computes, using the breakpoint rainfall data, the interception of
+the rain by the plant cover, the generation of runoff as infiltration excess,
+soil detachment by raindrop impact, soil detachment by runoff, transport
+capacity of the runoff and deposition of sediment. The model has a modular
+structure that aims to make further improvements of the model easier. The model
+considers the followings:
+\begin{itemize*}
+\item the interception of rainfall by the plant cover
+\item the volume and kinetic energy of the rainfall reaching the ground surface
+as direct throughfall and leaf drainage
+\item the volume of stemflow
+\item the volume of surface depression storage
+\item the detachment of soil particles by raindrop impact and by runoff
+\item sediment deposition
+\item the transport capacity of the runoff
+\item frozen soils and stoniness
+\end{itemize*}
+
+The flow chart for EUROSEM is shown in Figure \ref{fig:eurosem_flow_chart}.
+
+\begin{figure}[htbp]
+  \centering
+    \includegraphics[width=0.80\textwidth]{./img/eurosem_flow_chart}
+  \caption[Flow chart of EUROSEM]{Flow chart of EUROSEM (from
+\citealp{morgan1998-389})}
+  \label{fig:eurosem_flow_chart}
+\end{figure}
+
+Runoff generator and the water and sediment routing routines of EUROSEM are from
+another model called KINEROS \citep{woolhiser1990-kineros}. The volume of
+sediment passing a given point on the land surface at a given time is calculated
+by a mass balance equation:
+\begin{equation}
+\label{eq:eurosemmassbalance}
+  \frac{\partial(AC)}{\partial t}+\frac{\partial(QC)}{\partial x}-e(x,t)=
+q_s(x,t)
+\end{equation}
+where $C$ is sediment concentration (m$^3$/m$^3$), $A$ is the cross sectional
+area of the flow (m$^2$), $Q$ is the discharge (m$^3$/s), $q_s$ is external
+input or extraction of sediment per unit length of flow (m$^3$ s$^{-1}$
+m$^{-1}$), $e$ is net detachment rate or rate of erosion of the bed per unit
+length of flow (m$^3$ s$^{-1}$ m$^{-1}$), $x$ is horizontal distance (m), and
+$t$ is time (s).
+The net detachment rate, $e$, is given as:
+\begin{equation}
+\label{eq:eurosemnetdetachmentrate}
+  e = DR + DF
+\end{equation}
+where $DR$ is the rate of soil particle detachment by raindrop impact (m$^3$
+s$^{-1}$ m$^{-1}$), and $DF$ is the balance between the rate of soil particle
+detachment by the flow and the particle deposition rate (m$^3$ s$^{-1}$
+m$^{-1}$).
+
+The EUROSEM simulates erosion and deposition by calculating three main
+processes, soil particle detachment by raindrop impact, soil particle detachment
+by runoff, and transport capacity of the flow.
+
+\paragraph{Soil particle detachment by raindrop impact}
+\label{sec:SoilParticleDetachmentByRaindropImpact}
+Soil detachment by raindrop impact ($DR$) for time step ($t_s$) is expressed as
+a function of the kinetic energy of the rainfall at the ground surface, the
+detachability of the soil and the surface water depth:
+\begin{equation}
+\label{eq:EUROSEMsoildetachmentbyraindropimpact}
+  DR = \frac{k}{\rho_s} {KE} e^{-zh}
+\end{equation}
+where $k$ is an index of the detachability of the soil (m$^3$/J), $\rho_s$ is
+the sediment particle density (=2.65 Mg/m$^3$), $KE$ is the total kinetic energy
+of the net rainfall at the ground surface (J/m$^2$), $z$ is an exponent taken as
+equal to 2.0 which varies between 0.9 and 3.1 \citep{torri1987-149}, and $h$ is
+the mean depth of the surface water layer (m).
+The kinetic energy of the rainfall is the combined energy from direct
+throughfall and leaf drainage. The energy of the direct throughfall is computed
+using raindrop size distribution found by \citet{marshall1948-165}. The energy
+of the leaf drainage is based on a study by \citet{brandt1990-687}.
+
+\paragraph{Soil particle detachment by runoff}
+\label{sec:SoilParticleDetachmentByRunoff}
+Soil particle detachment by runoff is based on a theory proposed by
+\citet{smith1995-517}, and is given as:
+\begin{equation}
+\label{eq:eurosemsoilparticledetachmentbyrunoff}
+  DF = \beta w v_s (TC-C)
+\end{equation}
+where $DF$ is the rate of detachment of soil particles by the flow, $\beta$ is a
+flow detachment efficiency coefficient ($\beta=1$ when deposition is taking
+place and $\beta < 1$ for cohesive soils when $DF$ is positive), $w$ is the
+width of the flow (m), $v_s$ is the setting velocity of the particles in the
+flow (m/s), $TC$ is the sediment concentration in the flow at transport
+capacity, and $C$ is the actual sediment concentration in the flow.
+
+\paragraph{Transport capacity of flow}
+\label{sec:TransportCapacityOfTheFlow}
+EUROSEM uses two separate transport capacity relationships for rill and
+interrill flows. Rill and interrill transport capacities are based on
+\citet{govers1990-45} and \citet{everaert1991-513}, respectively. The equation
+for rill transport capacity ($TC_{r}$) is expressed as:
+\begin{equation}
+\label{eq:EUROSEMRillTransportCapacity}
+  TC_{r} = c(\omega - \omega_c)^{\eta}
+\end{equation}
+where $\omega$ is unit stream power (cm/s) which is defined as $\omega = 10
+\upsilon s$ ($\upsilon$ = mean flow velocity (m/s) and $s$ = slope (\%)),
+$\omega_c$ is a critical value of unit stream power (0.4 cm/s), and $c$ and
+$\eta$ are experimentally derived coefficients related to the median particle
+size of the soil.
+Interrill transport capacity ($TC_{ir}$) is modelled as:
+\begin{equation}
+\label{eq:EUROSEMInterrillTransportCapacity}
+  TC_{ir} = \frac{b}{\rho_s q}\left[(\Omega -
+\Omega_c)^{\frac{0.7}{n}}-1\right]^{\kappa}
+\end{equation}
+where $b$ is a function of particle size, $\rho_s$ is the sediment density
+(Kg/m$^3$), $\Omega$ is Bagnold's modified stream power, $\Omega_c$ is a
+critical value of Bagnold's modified stream power, $n$ is Manning's $n$, and
+$\kappa$ = 5. Sediment delivery to the rills is simulated depending on the
+transport capacity of the interrill flow.
+
+Since EUROSEM uses a dynamic rather than steady-state approach used by WEPP, it
+gives a better understanding of the spatial and temporal distribution of runoff
+and erosion. However, the result of the model simulation may become considerably
+uncertain due to its process-based nature that requires detailed model
+parametrization \citep{quinton1998-65}. Particularly, EUROSEM requires high
+resolution rainfall data (ideally, 1-min breakpoint data), soil hydrological
+information, detailed surface geometry, and soil mechanical and vegetation
+characteristics. Because of the detailed requirements of the model, application
+of the model is greatly restricted to where such data are available.
+
+\citet{parsons2000-181} found that because EUROSEM ignores small-scale
+heterogeneities in the infiltration characteristics of soil, the model generates
+delayed initiation times for runoff, so that predicted hydrographs showed the
+commencement of runoff later than observed. Such variabilities in the
+infiltration characteristics may be responsible for the comparatively rapid
+initiation of runoff on the plot. They also found that the subsequent soil
+detachment by runoff in interrill areas is overestimated by the model even
+though, according to the model document, detachment by flow should be negligible
+in interrill areas.
+
+After personal communication (16 Jun 2004) with Anthony J. Parsons , it is noted
+that EUROSEM may have a unit conversion error. The model document states that
+the flow depth ($h$) in equation \ref{eq:eurosemsoilparticledetachmentbyrunoff}
+is in metres. However, a study by \citet{torri1987-149} on which this equation
+is based indicates that the height is in millimetres (see Figure 2 in
+\citet{torri1987-149}). Anthony J. Parsons suggests that the height is in
+centimetres rather than either metres or millimetres. If confirmed, this error
+would have major effects on EUROSEM's ability to estimate runoff and erosion.
+
+%First does the storm pattern affect the  runoff coefficient (same amount of
+%rain but different amount of runoff) so  do differences in erosion result
+%simply from more or less runoff?
+%Secondly,  does the intensity pattern affect detachment so you get more or
+%less erosion  because of the detachment effect.  We have something to say
+%about that (sort of) in a paper in ESPL that should appear at some point
+%(when I submit it!).
+%So I think Mintae needs to look carefully at what is happening in the 2
+%models in terms or runoff coefficients and detachment rates.
+
+The version of EUROSEM used in this research is 3.9 (14/12/1998), which is the
+current version of the model. It seems that the model development has been
+ceased for some time.
+%It may have been the case that the model developer have abandoned the model.
+
+\subsection{RillGrow}
+\label{sec:ModelDescriptionRillGrow}
+
+While the later two erosion models (i.e. WEPP and EUROSEM) reviewed previously
+are capable of realistically simulating rates of soil erosion, they (in common
+with all other present-day erosion models) have a number of conceptual
+shortcomings. For example, rills are considered to be equally spaced, with
+regular cross-sections, and to be of similar hydrological efficiency. In
+reality, rills are not necessarily spaced regularly and often have irregular
+cross-sections. Adjacent rills may also vary greatly in their ability to
+transport runoff and sediment \citep{favis-mortlock1996-248}. Additionally,
+while such models separately describe the different processes responsible for
+erosion in rill and interrill areas, they largely fail to acknowledge the
+physical link that exists between the processes operating in the two zones
+\citep{favis2000-2173}.
+
+The development of the RillGrow model
+\citep{favis-mortlock1996-248,favis1998-353,favis2000-2173,
+favis-mortlock2003-127,favis-mortlock2004-349} started with a consideration of
+these shortcomings, and a question `\emph{Is the initiation and development of
+hillslope rill systems driven by relatively simple rules acting on a much
+smaller scale?}'. To test this hypothesis, a self-organising dynamic systems
+approach was used to simulate the initiation and development of a rill network
+on the bare soil of a small (e.g.\ plot-sized) hillslope area.
+
+RillGrow is a single-event model, which generates realistic rill networks by
+simulating, on a grid of microtopographic elevations, the combined erosive
+action of overland flow moving between the cells of the grid. Surface water
+arrives, a single raindrop at a time, on random cells of the grid. Runoff moves
+over the grid following the steepest microtopographic gradient; as it moves, it
+erodes the soil surface by lowering the elevation of the soil's surface. Each
+change in elevation affects the routing of subsequent runoff: the result is a
+feedback loop in which flow patterns over the grid at any time depend on earlier
+flow patterns (and hence erosion), these flow patterns then condition subsequent
+flow patterns, and so on (Figure \ref{fig:rillgrow_feedback_concept}).
+
+\begin{figure}[htbp]
+  \centering
+    \includegraphics[width=0.80\textwidth]
+{./img/rillgrow_feedback_concept}
+  \caption[The conceptual feedback loop of RillGrow]{The conceptual
+feedback loop of RillGrow \citep[From][]{favis1998-353}}
+  \label{fig:rillgrow_feedback_concept}
+\end{figure}
+
+The first version of the RillGrow model was able to realistically simulate rill
+initiation and development, reproducing several features of observed rill
+systems \citep{favis-mortlock1996-248,favis1998-353}:
+\begin{enumerate*}
+  \item a narrowing of rill spacing with increased slope angle
+  \item an increased contribution of rill erosion with downslope distance
+  \item a non-linear increase of total erosion with slope steepness
+  \item an increase in rill depth below confluences and micro-rill piracy
+\end{enumerate*}
+
+However, RillGrow 1 has some important limitations. It ignores important process
+descriptions (e.g.\ infiltration, deposition), and the hydraulics of rill
+initiation are oversimplified. It also does not operate in a true time domain,
+since at any moment during the simulation, only a single `packet' of overland
+flow is moving over the topographic grid. Infiltration is ignored, thus all
+water on the grid is assumed to be rainfall excess, and transport capacity is
+assumed to be infinite because no deposition can occur \citep{favis2000-2173}.
+All these limitations meant that it was not possible to validate the model in a
+deterministic way, e.g. by comparing simulated and laboratory-produced rill
+networks.
+
+A second version of the model (`RillGrow 2') was developed to overcome some of
+these limitations, and allow more rigorous validation \citep{favis2000-2173}. In
+RillGrow 2, overland flow in effect moves concurrently between cells of the
+microtopographic grid. Such concurrency is not easy to achieve on a
+serial-processing computer, since only one instruction can be carried out at a
+time. Concurrent processing is simulated in RillGrow 2 in the following way:
+during a given timestep, outflow from each `eligible' wet cell is routed in a
+random sequence which differs for each timestep. This variation in sequence is
+necessary to prevent any artefacts of flow pattern which might result from a
+fixed routing sequence. Over a sufficient number of timesteps, the model in
+effect operates in `parallel', i.e. concurrently, in a true time domain.
+
+\begin{table}[htb]
+  \centering
+  \small
+  \caption[The main routing algorithm used in RillGrow 2]{The main routing
+algorithm used in RillGrow 2 \citep[From][]{favis2000-2173}. Note that, while
+this set of rules does not change during the model simulation, the result of
+applying the rules to a given cell depends on the past history of elevation
+change both for that cell, and for adjacent ones.}
+  \label{tab:TheMainRoutingAlgorithmUsedInRillGrow2}
+    \begin{tabular}{p{0.9\textwidth}}
+    \toprule
+For each iteration:\\
+\\
+Drop raindrops on random cells on the spatial grid. Each drop makes (or adds to,
+if the cell is already `wet') a store of surface water for that cell.\\
+\\
+Go through all `wet' cells in a random sequence (which is different each
+iteration). For each `wet' cell, check whether sufficient time has elapsed for
+flow to have traversed the cell. If it has, then do the following:\\
+\begin{itemize}
+  \item Find the adjacent cell which has the steepest downhill (i.e.\
+outflow) energy gradient. Note that this adjacent cell may or may not be already
+`wet'.
+  \item Attempt to level the energy gradient between these cells by
+outflow of an appropriate volume, adding to (or creating) the store of surface
+water on the adjacent cell.
+  \item Erode this cell (i.e.\ lower its soil-surface elevation) by an
+amount which depends on the outflow volume and velocity.
+  \item If there are other adjacent cells with downhill energy gradients,
+process these as above.
+\end{itemize}\\
+%\addlinespace[-2mm]
+    \bottomrule
+    \end{tabular}
+\end{table}
+
+RillGrow 2 also uses a refined set of basic rules for the routing algorithm
+(Table \ref{tab:TheMainRoutingAlgorithmUsedInRillGrow2}). A probabilistic
+expression by \citet{nearing1991-81}, based on the random occurrence of
+turbulent bursts, is used to represent flow detachment. Sediment load is
+compared with transport capacity, which is calculated using stream power in an
+s-curve expression developed by \citet{nearing1997-865}. Deposition is estimated
+using the approach of  \citet{lei1998-3157}: this assumes deposition to be a
+linear function of the difference between sediment load and transport capacity.
+
+Infiltration is now simulated by RillGrow 2, however the approach used is still
+very simple (Favis-Mortlock, personal communication 2006). Splash redistribution
+is also represented, using the diffusion-based approach of
+\citet{planchon2000-131}, modified to include attenuation due to surface water
+depth (Favis-Mortlock, personal communication 2006). Additionally, a simple
+linkage is made between overall volumes of sediment detached or deposited by
+splash in any timestep, and volumes of sediment currently being transported by
+overland flow (Favis-Mortlock, personal communication 2006). The distribution of
+raindrop volumes is assumed to be normally distributed (Favis-Mortlock, personal
+communication 2006).
+
+In comparison to models such as WEPP and EUROSEM, RillGrow makes no explicit
+separation between rill and interrill areas. Soil erosion amount is calculated
+as the result of summation of soil losses from all areas.
+%Explicit separation of rill and interrill areas turns out to be unnecessary,
+%however.
+Flow velocities are so low on interrill areas that little detachment occurs as a
+result. On such areas, splash redistribution dominates.
+
+\citet{favis2000-2173} observes that RillGrow 2 replicates the responses of
+RillGrow 1 including realistic rill spacing with respect to slope gradient. In
+addition, the simulated spatial patterns of erosion compare well with
+laboratory-based observations, as do total erosion, variation in rill depth, and
+time-series of runoff and soil loss. Braided or dendritic flow patterns can be
+made to emerge by varying rainfall intensity. At low rainfall intensities,
+however, the definition and stability of rill patterns is less well defined.
+
+As originally constructed, RillGrow 2 assumed each storm to have a constant
+rainfall intensity. For the research described in this thesis, RillGrow 2 has
+been modified to use breakpoint rainfall data. This allows the model to simulate
+rill initiation and development and total soil loss, as affected by rainfall
+intensity changes (Favis-Mortlock, personal communication 2006).

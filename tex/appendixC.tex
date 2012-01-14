@@ -1,0 +1,205 @@
+\chapter{EUROSEM Input Data}
+\label{sec:EUROSEMInputData}
+
+\section{SYSTEMS}
+\label{sec:SYSTEMS}
+
+\paragraph{NELE [1]}
+This defines the total number of elements in the catchment. Its value should be the same as the number of elements entered under ELEMENT NUM. (J) in the Rainfall Data File (XXX.pcp). Since, in this example, only one slope plane (Woodingdean D) was being considered, we entered NELE = 1.
+ 
+Woodingdean site is divided into 9 slopes (D ~ L).
+ 
+\paragraph{NPART [0]}
+This relates to a component of the KINEROS model which describes the settling of sediment in ponds. It is not used in the present version of EUROSEM. A value of 0 should always be set here.
+ 
+\paragraph{CLEN (m) [135]}
+This is the characteristic length of overland flow and represents the longest possible length in a series of cascading planes or channels. Since the example erosion plot was being treated as one slope element, CLEN was set here as equal to the downslope length of the plot (the maximum lengths of longest channel), i.e. 135 m.
+ 
+\paragraph{TFIN (min) [870]}
+This is the total computational time (min) for which the model is to be run. Its value must be less than the end-time of the last time-depth pair in the Rainfall Data File. The value of TFIN will depend upon the duration of the storm and the response time of the catchment. It should be sufficient to contain the hydrograph of surface runoff and should therefore extend from the start of the rainfall to the time that surface runoff on the hillslopes ceases. For the storm considered here, the last time-depth pair ends at 900 minutes, so we set TFIN = 870 min. Actual rainfall duration for the storm is 870 minutes. 30 minutes were added to indicate the end of storm (no rain for 30 min).
+ 
+\paragraph{DELT (min) [1]}
+This defines the time increment used in the simulations. Ideally, this should be as short as possible. However, the total number of time steps, defined as TFIN/DELT should not exceed 1000 in which case the model will pause and a warning message will appear. For this example, I choose a value of DELT = 1.0. (870/1 = 870 $<$ 1000)
+ 
+\paragraph{THETA [0.7]}
+This is a weighting factor used in the finite difference equations in KINEROS for routing overland flow and channel flow. It should have a value between 0.5 and 1.0. A value of 0.7 is recommended and this was the value we chose.
+ 
+\paragraph{TEMP [2.55]}
+The air temperature (\textdegree\ Celsius) at the start of the storm should be set here. It is used in the model to compute the kinematic viscosity of water. Mean temperature on the day of storm was chosen. (Max = 4.8 \textdegree\ C and Min = 0.3 \textdegree\ C )
+ 
+\section{OPTIONS}
+\label{sec:OPTIONS}
+
+No changes should be made to the entries under this heading.
+EUROSEM is designed to operate with values of 2 under both entries.
+ 
+\paragraph{NTIME [2]}
+This is the code for the time units used in the model. NTIME = 1 for seconds and NTIME = 2 for minutes. The value of 2 should always be used with the present version of EUROSEM.
+ 
+\paragraph{NEROS [2]}
+This allows the user to call or reject the erosion option in the model. With values set at 0 or 1, the erosion option is not called and only the hydrological calculations are made. A value of 2 calls the erosion option which, in this case is EUROSEM.
+ 
+\section{COMPUTATION ORDER}
+\label{sec:COMPUTATIONORDER}
+
+This heading describes the order in which the plane and channel elements comprising the catchment must be organised to provide the correct cascading sequence for the movement of runoff and sediment downslope and downstream.
+ 
+\paragraph{COMP. ORDER (NLOG) [1]}
+This denotes the order of calculation. Each entry must therefore be in numerical sequence.
+ 
+\paragraph{ELEMENT NUM. (J) [1]}
+This defines the corresponding element number for each entry in the sequence. The element numbers need not be in numerical order. The total number of elements listed here should be the same as the total number entered under ELE. NUM. (J) in the Rainfall Data File and correspond to the number entered under NELE above. Since only one slope plane was being considered at Woburn, NLOG was set to 1 and ELEMENT NUM. was therefore also equal to 1.
+ 
+\section{ELEMENT WISE INFO}
+\label{sec:ELEMENTWISEINFO}
+
+This heading gives the data on the catchment characteristics of each element. The number by which each element is known must be the same as that listed above under ELEMENT NUM, where the computational order is defined, and also under ELE. NUM. (J) in the Rainfall Data File.
+ 
+\paragraph{J [1]}
+This represents the number of the element. J = 1 for the first element, J = 2 for the second element, and so on. In the example being used here, there was only one element, so J = 1.
+ 
+\paragraph{NU [0]}
+This denotes the number of the element which contributes runoff and sediment to the upslope boundary. Since there was only one element, there were no upslope contributing elements, so NU = 0.
+ 
+\paragraph{NR [0]}
+This entry applies to elements which are channels and denotes the number of the hillslope elements contributing flow to the channel from the right-hand side when viewed in the direction of flow, i.e. facing downstream. For hillslope elements, as here, NR = 0.
+ 
+\paragraph{NL [0]}
+This entry similarly applies to channels and denotes the number of the hillslope element contributing flow to the channel from the left-hand side. For hillslope elements, as here, NL = 0.
+ 
+\paragraph{NC1 [0]}
+This entry also applies to channels and denotes the number of the first channel element contributing flow to the channel from upstream. For hillslope elements, NC1 = 0.
+ 
+\paragraph{NC2 [0]}
+This entry denotes the number of the second channel element contributing flow to the channel from upstream. It is relevant for channels downstream of a confluence so that there are two contributing channel elements at the upstream end. For hillslope elements, NC2 = 0.
+ 
+\paragraph{NPRINT [1]}
+This controls the amount of information provided in the auxilary output file. In our case it is set to 1.
+ 
+\paragraph{XL (m) [135.0]}
+This is the length of the element (in meter). Since the erosion plot was 135 m long, XL = 135.0.
+ 
+\paragraph{W (m) [50]}
+This is the width of the element (m). Since the erosion plot was 50 m wide, W = 50.0. It should be noted that W = 0.0 if the element being described is a channel.
+ 
+\paragraph{S [0.14]}
+This is the average slope of any rills on the element (m/m), measured in the direction of maximum slope, i.e. at right angles to the contour. Since the average slope of the plot was measured in the field at 14 per cent, we entered S = 0.14.
+ 
+\paragraph{ZR [0]}
+This is the side slope of the right-hand side of the channel, assuming a trapezoidal shape and expressing the slope as 1:ZR. Since we were dealing with a plane element, there were no channels, so ZR = 0.
+ 
+\paragraph{ZL [0]}
+This is the side slope of the left-hand side of the channel, assuming a trapezoidal shape and expressing the slope as 1:ZL. Since we were dealing with a plane element, there were no channels, so ZL = 0.
+ 
+\paragraph{BW [0]}
+This is the bottom width (m) of the channel, assuming a trapezoidal shape. Since we were dealing with a plane element, there were no channels, so BW = 0.0.
+ 
+\paragraph{MANN (Rill) [0.125]}
+This is the value of Manning's n for the rill channels (concentrated flow paths) on the element, taking account of the combined effects of soil particle roughness, surface microtopography and plant cover on the element. For the sandy loam soil in a smooth seed-bed, a typical value would be n = 0.015. For wheat, n ranges from 0.01 to 0.30, depending on the percentage cover and planting density. For the smooth seedbed and 10 per cent cover prevailing at the time of the storm, we estimated a value at the lower end of the range, e.g. 0.04.
+The value for Manning's n should be further adjusted to take account of rock fragments or stones in the surface soil, using equation A3.2 in appendix 3.
+ 
+\paragraph{Mann (IR) [0.170]}
+This is the value of Manning's n for the interrill area of the element, again taking into account soil particle roughness, surface microtopography and plant cover. For the smooth surface and cover of the element in question, the same value was chosen as for Manning's n in the rills. We therefore entered IRMANN = 0.04.
+As with the case above, the Manning's n value should be adjusted, if necessary, for rock fragments or stones in the surface soil, using equation A3.2 in appendix 3. No such adjustment was needed for Woburn. You should note that the model will further adjust the value of IRMANN to take account of the level of roughness on the interrill area, as expressed by the downslope roughness ratio, RFR (Appendix 6).
+ 
+\paragraph{FMIN (mm/h) [3.0]}
+This is the saturated hydraulic conductivity of the soil (mm/h). This should be the value for the soil itself and should not be adjusted for plant cover or stoniness. These adjustments are made within the model itself, as functions of input data on PBASE and ROC respectively. If FMIN has been measured for soils with a vegetation or stone cover, the measured value should be used. The input values for PBASE and ROC should then be set to zero so that no further adjustment is made to the FMIN value within the model.
+Effective hydraulic conductivity of the soil should be 3 mm/h (from WEPP output).
+ 
+\paragraph{G (mm) [480.0]}
+This is the effective net capillary drive of the soil (mm), as described in Section 3.3.1. From Table A4.1, a value of 480 was chosen for a silt loam soil, so here G = 480.
+ 
+\paragraph{POR [0.5]}
+This is the porosity of the soil (\% v/v). From Table A4.1, a value of 0.50 was chosen for a silt loam soil and we entered POR = 0.50.
+ 
+\paragraph{ThI [0.4]}
+This is the volumetric moisture content of the soil at the start of the storm. This has to be estimated in relation to the time since it last rained and the speed with which the soil dries out. As explained in Appendix 4, THI will take a value between the maximum moisture content of the soil (THMX) and the moisture content at wilting point. Since the storm occurred in the
+middle of a wet spell of weather, the soil had had little opportunity to dry out between storms. A rather high value of THI = 0.4 was therefore chosen.
+
+\paragraph{ThMX [0.42]}
+This is the maximum moisture content of the soil. From Table A4.1, we chose a value of THMX = 0.42.
+ 
+\paragraph{ROC [0.0]}
+This is the proportion (\% v/v) of the soil occupied by stones and rocks. Since the silt loam soil at Woodingdean is very stony, we could have entered ROC = 0.381 (from the WEPP input, andover.sol). However, a value of ROC = 0.0 was used as the input value for FMIN is assumed as a measured one, which already takes account of the presence of rock fragments or stones.
+ 
+\paragraph{RECS (mm) [1.0]}
+This is the infiltration recession factor and is defined as the average maximum local difference in microrelief (mm). Based on field measurements of surface roughness (Appendix 6), a value of RECS = 20.0 was selected.
+It should be noted that a value of RECS $>$ 0 must always be entered.
+ 
+\paragraph{DINT (mm) [3.0]}
+This is the maximum interception storage of the plant cover (mm). From Table A7.1, for winter-sown wheat, a value of DINTR = 3.0 was chosen.
+ 
+\paragraph{DEPNO [15.0]}
+This denotes the average number of rills (concentrated flow paths) across the width of the slope plane. Since the erosion plot is ploughed up and down slope, the plough furrows act as concentrated flow paths. Based on field observations, an average of ten paths was recorded, using the procedure shown in Appendix 8. A value of DEPNO = 15.0 was therefore entered.
+ 
+\paragraph{RILLW (m) [0.02]}
+This is the average bottom width (m) of a concentrated flow path or rill. A arbitrary value of RILLW = 0.02 was entered.
+A flat surface would be assigned a value of RILLW = 0.0.
+ 
+\paragraph{RILLD (m) [0.03]}
+This is the average depth (m) of a concentrated flow path or rill. A arbitrary value of RILLD = 0.03 was entered.
+ 
+\paragraph{ZLR [10.0]}
+This denotes the average side slope of a concentrated flow path (rill), expressed as 1:ZLR.  A arbitrary value of ZLR = 10.0 was entered.
+ 
+\paragraph{RS [1.0]}
+If RS = 0, the model assumes that the values of RILLW and RILLD entered above apply for the whole length of the element. If RS = 1, the model assumes the values apply to the rill at the lower end of the element and scales the values to smaller dimensions with distance upslope. In this case, the scaling option was selected, so we entered RS = 1.
+ 
+\paragraph{RFR [1.0]}
+This is the downslope roughness ratio. Based on field measurements, using the procedure described in Appendix 6 and illustrated in Figure A6.1, a value of RFR = 1.0 was obtained and entered.
+Although this value is much lower than those listed in Table A6.1, it is a typical value for a relatively smooth surface. As stated earlier when choosing a value for Manning's n, the condition of the ground at the time of the storm was a smooth seed-bed flattened by several months of raindrop impact.
+ 
+\paragraph{SIR (m/m) [0.2]}
+This is the interrill slope. For unrilled plane elements, this is the average slope of the plane. For channel elements, this is the average slope of channel. For a plane element with rills, SIR is defined as the average ground slope followed by overland flow as it passes over the interrill area into the rills (see Appendix 2). The average slope of the rills should be entered under S. A arbitrary value of SIR = 0.5 was entered.
+ 
+ 
+\paragraph{COVER [0.3]}
+This is the effective percentage canopy cover of the vegetation. Strictly it refers to the proportion (between 0 and 1) of the ground surface obscured by the vegetation when viewed vertically from above. The value should take account of ground vegetation, mulches and any litter layer as well as trees and bushes. Since, at the time of the storm, this was estimated at 30 per cent, a value of COVER = 0.3 was entered.
+ 
+\paragraph{SHAPE [1]}
+This refers to the shape of the leaves. SHAPE = 1 for bladed leaves and needle leaves. SHAPE = 2 for broad leaves. Since the crop was wheat, we entered SHAPE = 1. Conceptually, the SHAPE factor describes, in a simplified way, the relationship between the size of the leaves and the median volume drop diameter of the rainfall. A value of 0, to be entered when there is no vegetation cover, will cause stemflow to be set zero.
+
+\paragraph{PLANGLE (degree) [85.0]}
+This is the average acute angle (degrees) between the plant stems and the ground surface. Based on the model manual (Table A7.2), a mean value of PLANGLE = 85\textdegree\ was entered (wheat = 80--90).
+ 
+\paragraph{PLANTBASE [0.0]}
+This is the percentage basal area of the vegetation cover. From Table A7.3, we can see that the value for small grains (wheat, barley, rice) ranges from 0.2 to 0.3, depending on the planting density. As this may be assumed to be high, a value of 0.3 is chosen. Since the percentage plant cover was only 30 per cent, the value was reduced accordingly and we could have entered PLANTBASE = 0.09. However, it should be noted that if the value entered for FMIN has been determined in the field for vegetated conditions, PLANTBASE should be set to 0.0. This avoids further adjustment of the FMIN value within the model to allow for the effect of the vegetation cover.
+ 
+\paragraph{PLANTH (cm) [100]}
+This is the average height of the plant canopy (cm) above the ground surface. From Table A7.2, wheat has a height of 50 -- 150 cm. Since, the purpose is to describe the fall height of intercepted raindrops, any ground vegetation, mulches and litter layer should be considered. A value of 100 (cm) was entered for this example.
+ 
+\paragraph{DERO (m) [2.0]}
+This is the maximum depth (m) to which erosion can proceed before a resistant or non-erodible layer (e.g. plough pan or concretionary horizon) below the soil surface. Once erosion reaches this depth, the model prevents further downcutting by rills; from then on the rills are only able to erode by widening their channels. Since there are layers with high clay contents from 2 m, we entered DERO = 2.0.
+ 
+\paragraph{ISTONE [+]}
+An indicator of the effect of rock fragments on the surface of the soil on the saturated hydraulic conductivity (see Appendix 5).
+A value of +1 should be used where the rock fragments sit on the surface and protect the soil from structural breakdown due to raindrop impact; or where the rocks either sit on or are fully embedded in a soil with high macroporosity, e.g. due to recent tillage. In this instance, the rock fragments will enhance infiltration.
+A value of -1 should be used where the rocks are partially embedded within or sit on top of a sealed surface which will reduce infiltration.
+When PAVE value is set to zero, this value is not considered in the model.
+ 
+\paragraph{D50 ($\mu$m) [35.0]}
+This is the median particle size of the soil as obtained from standard particle-size analysis, using the USDA system to define textural classes (i.e. clay: $<$ 0.002 mm; silt: 0.002 - 0.05 mm; sand 0.05 - 2.00 mm).
+A value of D50 = 35 was entered.
+ 
+\paragraph{EROD (g/J) [0.8]}
+This is the detachability of the soil particles by raindrop impact (g/J). From Table A9.1, for a silt loam soil, a minimum value of EROD = 0.8 was selected.
+ 
+\paragraph{SPLTEX [2.0]}
+This is the value of the exponent relating detachment of soil particles by raindrop impact to the depth of water on the soil surface. The current version of EUROSEM uses a constant value of 2.0 for this exponent.
+ 
+\paragraph{COH (kPa) [6.3]}
+This is the cohesion of the soil as measured in the field with a torvane (Soil Test CL-600) after the soil has been saturated (see Appendix 9). Guide values for soils with different textures are given in Appendix 9. The value should be adjusted to take account of the effects of the root system of the vegetation.
+From field measurements on the bare saturated silt loam soil (compacted), cohesion is low at about 6.0 kPa. From Table A9.3, assuming that wheat has a similar effect to barley, an increase in cohesion of between 0.2 and 0.6 kPa may be expected as a result of root reinforcement. For a crop at the stage of 30 \% cover, we might estimate an increase at the lower end of the range, say 0.3 kPa. If this is added to the cohesion value for the bare soil, we get a total cohesion of 6.0 + 0.3 kPa = 6.3 kPa. A value of COH = 6.3 was therefore entered.
+ 
+\paragraph{RHOS (Mg/m3) [2.65]}
+This is the specific gravity of the sediment particles. This is normally set at 2.65 Mg/m3.
+ 
+\paragraph{PAVE [0.0]}
+This is the fraction of the surface occupied by non-erodible material (e.g. rock fragments, concrete, tarmac). It is used in EUROSEM to reduce the rate of soil detachment by raindrop impact in direct proportion to the area occupied by non-erodible surfaces and also to influence the way rock fragments affect the saturated hydraulic conductivity of the soil (see ISTONE). This value was set to zero to prevent any further adjustment of FMIN.
+ 
+\paragraph{SIGMAS [0]}
+This is the standard deviation of the sediment particle diameter ($\mu$m) for any element immediately upslope of a pond. It is used within KINEROS for modelling the process of sedimentation in a pond or reservoir. Since current version of EUROSEM does not deal with ponds, SIGMAS was set = 0.0.
+ 
+\paragraph{MCODE [0]}
+The value chosen for MCODE allows the user to choose the equations used in EUROSEM to simulate sediment transport by interrill flow.
+MCODE = 1 selects the equations proposed by Everaert (1992) which relate specifically to interrill flow. MCODE = 0 selects the equations proposed by Govers (1990) for rill flow and applies them to both interrill and rill flow. See the model documentations for more details.

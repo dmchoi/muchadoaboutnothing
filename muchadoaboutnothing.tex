@@ -1,0 +1,112 @@
+\documentclass[oneside,12pt,a4paper]{oucethesis}
+
+% put all the other packages here:
+\usepackage{notmystyle}
+
+\begin{document}
+
+% Styles for frontmatter entries in toc
+\titlecontents{chapter}[0em]
+{\filright}{}{\scshape}
+{\titlerule*[1em]{.}\contentspage}
+
+\maketitle
+
+% insert a blank page right after title page (look nicer)
+\include{./tex/dummy}
+
+\frontmatter
+
+\begin{singlespace}
+\pagestyle{plain}
+\include{./tex/abstract}
+\include{./tex/extendedabstract}
+\include{./tex/acknowledgement}
+\tableofcontents
+\listoffigures
+\listoftables
+\end{singlespace}
+
+%%% adjust paragraph spaces
+\addtolength{\footskip}{2ex}
+\addtolength{\parskip}{1.5ex}% plus 0.5ex minus 0.2ex}
+
+%Normal Chapter styles in toc
+\titlecontents{chapter}[0em]
+{\addvspace{4ex} \filright \bfseries}{CHAPTER \thecontentslabel\\}{}
+{\titlerule*[1pc]{}\contentspage}
+
+\include{./tex/dedication}
+
+\mainmatter
+
+\part{Introduction}
+\label{sec:INTRODUCTION}
+\include{./tex/background_chapter}
+\include{./tex/objective_chapter}
+\include{./tex/data_method_chapter}
+
+\part{Rainfall Intensity and Erosion: Model Descriptions and Responses}
+\label{sec:RAINFALLINTENSITYCHANGESANDSOILEROSION}
+\include{./tex/improved_cligen_chapter}
+\include{./tex/temporal_resolution_chapter}
+\include{./tex/continue_discontinue_rainfall_chapter}
+\include{./tex/intensity_pattern_chapter}
+\include{./tex/bp2bp_variation_chapter}
+
+\part{Observed Rainfall Characteristics (and Intensity) of The Study Site}
+\label{sec:OBSERVEDPRECIPITATIONOFTHERESEARCHSITE}
+\include{./tex/observed_rainfall_chapter}
+\include{./tex/building_intensity_scenarios}
+
+\part{Implications for Model-based Studies of Future Climate Change and Soil
+Erosion}
+\label{sec:IMPLICATIONSOFCLIMATECHANGEONFUTURESOILEROSION}
+\include{./tex/future_erosion_chapter}
+
+\part{Conclusion}
+\label{sec:PARTCONCLUSION}
+\include{./tex/conclusion_chapter}
+
+\begin{singlespace}
+\bibliographystyle{thesisurl}
+{\small \bibliography{DPhil_refs}}
+\end{singlespace}
+
+\renewcommand{\appendixtocname}{APPENDICES}
+%\renewcommand{\appendixpagename}{\protect \thispagestyle{empty} APPENDICES}
+
+%redefine Chapter style for appendix entries in toc
+\titlecontents{chapter}[0em]
+{\addvspace{4ex} \filright \bfseries \scshape}{\thecontentslabel.\quad}{}
+{\titlerule*[1pc]{}\contentspage}
+
+%redefine Part style for appendix entries in part page
+\titleformat{\part}[display]
+{\protect \thispagestyle{empty} \singlespace \bfseries \LARGE}
+{}
+{1ex}
+{\filcenter \scshape \Large}
+
+%redefine Part style for appendix in toc
+\renewcommand{\thepart}{}
+\titlecontents{part}[0em]%Part
+{\addvspace{6ex} \filcenter \bfseries \scshape \large}{}{}
+{} % without page number
+
+\part{Appendices}
+\label{sec:PARTAPPENDICES}
+
+\begin{appendices}
+\begin{singlespace}
+\include{./tex/appendixA}
+\include{./tex/appendixB}
+\include{./tex/appendixC}
+%\include{./tex/appendixD}
+\end{singlespace}
+\end{appendices}
+
+\backmatter
+
+\end{document}
+
