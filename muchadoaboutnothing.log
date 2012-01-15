@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.1.10)  14 JAN 2012 10:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.1.10)  14 JAN 2012 10:27
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -871,9 +871,9 @@ LaTeX Info: Redefining \_ on input line 43.
 (./tex/temporal_resolution_chapter.aux)
 (./tex/continue_discontinue_rainfall_chapter.aux)
 (./tex/intensity_pattern_chapter.aux) (./tex/bp2bp_variation_chapter.aux)
-(./tex/observed_rainfall_chapter.aux) (./tex/building_intensity_scenarios.aux)
-(./tex/future_erosion_chapter.aux) (./tex/conclusion_chapter.aux)
-(./tex/appendixA.aux) (./tex/appendixB.aux) (./tex/appendixC.aux))
+(./tex/observed_rainfall_chapter.aux) (./tex/future_erosion_chapter.aux)
+(./tex/conclusion_chapter.aux) (./tex/appendixA.aux) (./tex/appendixB.aux)
+(./tex/appendixC.aux))
 \openout1 = `muchadoaboutnothing.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -1519,23 +1519,21 @@ File: ./img/eurosem_diff_runoff_soilloss_asc.eps Graphic file (type eps)
 File: ./img/eurosem_diff_runoff_soilloss_des.eps Graphic file (type eps)
 
 <./img/eurosem_diff_runoff_soilloss_des.eps> [126] [127] [128] [129] [130]
-[131] [132]) [133] [134
-
-
-]
+[131] [132]) [133]
 \openout2 = `./tex/observed_rainfall_chapter.aux'.
 
  (./tex/observed_rainfall_chapter.tex
 Chapter 9.
-[135
+[134
 
 
-] [136]
+
+] [135]
 LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <10> not availa
 ble
 (Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
 ine 107.
- [137] [138]
+ [136] [137]
 File: ./img/grid_annual_amount.eps Graphic file (type eps)
  <./img/grid_annual_amount.eps>
 File: ./img/grid_DJF_trend.eps Graphic file (type eps)
@@ -1553,13 +1551,13 @@ ne 218.
 
 (/home/dchoi/texmf/tex/latex/MyriadPro/TS1Myriad-OsF.fd
 File: TS1Myriad-OsF.fd 2004/10/15 font definitions for TS1/Myriad-OsF.
-) [139]
+) [138]
 File: ./img/grid_average_monthly.eps Graphic file (type eps)
 
 <./img/grid_average_monthly.eps>
 File: ./img/grid_july_trend.eps Graphic file (type eps)
- <./img/grid_july_trend.eps> [140] [141]
-[142]
+ <./img/grid_july_trend.eps> [139] [140]
+[141]
 File: ./img/dr_rr.eps Graphic file (type eps)
  <./img/dr_rr.eps>
 File: ./img/so_rr.eps Graphic file (type eps)
@@ -1633,8 +1631,8 @@ File: ./img/hpf_sdii.eps Graphic file (type eps)
 File: ./img/hd_sdii.eps Graphic file (type eps)
  <./img/hd_sdii.eps>
 File: ./img/ff_sdii.eps Graphic file (type eps)
- <./img/ff_sdii.eps> [143] [144]
-[145] [146]
+ <./img/ff_sdii.eps> [142] [143]
+[144] [145]
 File: ./img/dr_r10mm.eps Graphic file (type eps)
  <./img/dr_r10mm.eps>
 File: ./img/so_r10mm.eps Graphic file (type eps)
@@ -1749,44 +1747,37 @@ File: ./img/obs_mean_monthly_amount.eps Graphic file (type eps)
 <./img/obs_mean_monthly_amount.eps>
 File: ./img/obs_mean_monthly_duration.eps Graphic file (type eps)
  <./img/obs_mean_monthly_duration.eps>
-[147] [148] [149] [150] [151] [152] [153] [154] [155]
+[146] [147] [148] [149] [150] [151] [152] [153] [154]
 File: ./img/obs_mean_monthly_1min_intensity.eps Graphic file (type eps)
 
 <./img/obs_mean_monthly_1min_intensity.eps>
 File: ./img/obs_mean_monthly_30min_intensity.eps Graphic file (type eps)
 
-<./img/obs_mean_monthly_30min_intensity.eps> [156] [157] [158] [159] [160]
-[161]) [162]
-\openout2 = `./tex/building_intensity_scenarios.aux'.
-
- (./tex/building_intensity_scenarios.tex
-Chapter 10.
-[163
-
-
-
-] [164] [165] [166] [167] [168] [169]
-File: ./img/future_erosion_flowchart.eps Graphic file (type eps)
- <./img/future_erosion_flowchart.eps>) [170] [171] [172
+<./img/obs_mean_monthly_30min_intensity.eps> [155] [156] [157] [158] [159]
+[160]) [161] [162
 
 
 ]
 \openout2 = `./tex/future_erosion_chapter.aux'.
 
  (./tex/future_erosion_chapter.tex
-Chapter 11.
-[173
+Chapter 10.
+[163
 
 
-] [174] [175]
+] [164] (./tex/building_intensity_scenarios.tex [165] [166] [167] [168]
+[169] [170]
+File: ./img/future_erosion_flowchart.eps Graphic file (type eps)
+ <./img/future_erosion_flowchart.eps>) [171] [172] [173]
 File: ./img/wepp_respond_to_int_changes.eps Graphic file (type eps)
- <./img/wepp_respond_to_int_changes.eps> [176] [177] [178]
+
+<./img/wepp_respond_to_int_changes.eps> [174] [175] [176]
 File: ./img/annual_future_rainfall.eps Graphic file (type eps)
 
 <./img/annual_future_rainfall.eps>
 File: ./img/future_rainfall_duration_change.eps Graphic file (type eps)
  <./img/future_rainfall_duration_change.eps>
-[179]
+[177]
 File: ./img/future_monthly_intensity_wet.eps Graphic file (type eps)
  <./img/future_monthly_intensity_wet.eps>
 File: ./img/future_monthly_intensity_dry.eps Graphic file (type eps)
@@ -1794,43 +1785,43 @@ File: ./img/future_monthly_intensity_dry.eps Graphic file (type eps)
 <./img/future_monthly_intensity_dry.eps>
 File: ./img/future_roff_change.eps Graphic file (type eps)
  <./img/future_roff_change.eps>
-[180] [181]
+[178] [179]
 File: ./img/future_sloss_change.eps Graphic file (type eps)
- <./img/future_sloss_change.eps> [182]
+ <./img/future_sloss_change.eps> [180]
 File: ./img/event_original.eps Graphic file (type eps)
  <./img/event_original.eps>
 File: ./img/event_dry_incr_5.eps Graphic file (type eps)
 
 <./img/event_dry_incr_5.eps>
 File: ./img/event_dry_incr_10.eps Graphic file (type eps)
- <./img/event_dry_incr_10.eps> [183] [184] [185]
-[186]) [187] [188
+ <./img/event_dry_incr_10.eps> [181] [182] [183]
+[184]) [185] [186
 
 
 ]
 \openout2 = `./tex/conclusion_chapter.aux'.
 
  (./tex/conclusion_chapter.tex
-Chapter 12.
-[189
+Chapter 11.
+[187
 
 
-] [190] [191] [192] [193] [194] [195]
+] [188] [189] [190] [191] [192] [193]
 Underfull \hbox (badness 5288) in paragraph at lines 268--270
 [][]\T1/MinionPro-OsF/m/n/12 Experiments/measurements of dur-a-tion/frequency o
 f Within-Storm Pauses
  []
 
-) [196] (./muchadoaboutnothing.bbl
+) [194] (./muchadoaboutnothing.bbl
 Underfull \hbox (badness 1735) in paragraph at lines 65--68
 [][]\T1/MinionPro-OsF/b/n/10.95 Boardman, J., Par-sons, A. J., Hol-land, R., Ho
 lmes, P. J. and Wash-ing-ton, R. \T1/MinionPro-OsF/m/n/10.95 (2003)
  []
 
-[197
+[195
 
 
-] [198] [199]
+] [196] [197]
 LaTeX Font Info:    Try loading font information for T1+fi4 on input line 293.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/inconsolata/t1fi4.fd
@@ -1844,14 +1835,14 @@ Package microtype Info: Character `textendash ' is missing
 Package microtype Info: Character `textemdash ' is missing
 (microtype)             in font `T1/fi4/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
- [200]
-[201] [202]
+ [198]
+[199] [200]
 Underfull \hbox (badness 2635) in paragraph at lines 552--557
 [][]\T1/MinionPro-OsF/b/n/10.95 Mearns, L. O., Giorgi, F., Whetton, P., Pa-bon,
  D., Hulme, M. and Lal, M. \T1/MinionPro-OsF/m/n/10.95 (2003)
  []
 
-[203]
+[201]
 Underfull \hbox (badness 2662) in paragraph at lines 648--651
 [][]\T1/MinionPro-OsF/b/n/10.95 Nearing, M. A., Jetten, V., Baf-faut, C., Cerda
 n, O., Cou-tur-ier, A., Hernan-dez, M.,
@@ -1863,12 +1854,12 @@ Underfull \hbox (badness 3780) in paragraph at lines 696--700
 /n/10.95 (1998) `Eval-u-ation of the European daily pre-cip-it-a-tion
  []
 
-[204] [205] [206] [207]) [208]
+[202] [203] [204] [205]) [206]
 LaTeX Font Info:    Font shape `T1/MinionPro-OsF/bx/sc' in size <20.74> not ava
 ilable
 (Font)              Font shape `T1/MinionPro-OsF/b/sc' tried instead on input l
 ine 97.
- [209
+ [207
 
 ]
 \openout2 = `./tex/appendixA.aux'.
@@ -1883,29 +1874,29 @@ Package microtype Info: Character `textendash ' is missing
 Package microtype Info: Character `textemdash ' is missing
 (microtype)             in font `T1/fi4/m/n/8'.
 (microtype)             Ignoring protrusion settings for this character.
-[210
+[208
 
 
-] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221]
-[222] [223] [224]) [225]
+] [209] [210] [211] [212] [213] [214] [215] [216] [217] [218] [219]
+[220] [221] [222]) [223]
 \openout2 = `./tex/appendixB.aux'.
 
  (./tex/appendixB.tex
 Appendix B.
-[226
+[224
 
 
 
-] [227]) [228]
+] [225]) [226]
 \openout2 = `./tex/appendixC.aux'.
 
  (./tex/appendixC.tex
 Appendix C.
-[229
+[227
 
 
 
-] [230] [231] [232]) [233]
+] [228] [229] [230]) [231]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
  (./muchadoaboutnothing.aux (./tex/dummy.aux)
@@ -1915,21 +1906,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
 (./tex/improved_cligen_chapter.aux) (./tex/temporal_resolution_chapter.aux)
 (./tex/continue_discontinue_rainfall_chapter.aux)
 (./tex/intensity_pattern_chapter.aux) (./tex/bp2bp_variation_chapter.aux)
-(./tex/observed_rainfall_chapter.aux) (./tex/building_intensity_scenarios.aux)
-(./tex/future_erosion_chapter.aux) (./tex/conclusion_chapter.aux)
-(./tex/appendixA.aux) (./tex/appendixB.aux) (./tex/appendixC.aux))
+(./tex/observed_rainfall_chapter.aux) (./tex/future_erosion_chapter.aux)
+(./tex/conclusion_chapter.aux) (./tex/appendixA.aux) (./tex/appendixB.aux)
+(./tex/appendixC.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 111.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
 Package rerunfilecheck Info: File `muchadoaboutnothing.out' has not changed.
-(rerunfilecheck)             Checksum: AD86AAC215A4A1CB50152D0233BC32CE;10200.
+(rerunfilecheck)             Checksum: D356A286137EB597546D06BA0FCA01A1;9983.
  ) 
 Here is how much of TeX's memory you used:
- 16821 strings out of 495011
- 282784 string characters out of 3180123
- 426723 words of memory out of 3000000
- 19354 multiletter control sequences out of 15000+200000
+ 16812 strings out of 495011
+ 282465 string characters out of 3180123
+ 425561 words of memory out of 3000000
+ 19349 multiletter control sequences out of 15000+200000
  897770 words of font info for 134 fonts, out of 3000000 for 9000
  36 hyphenation exceptions out of 8191
  60i,17n,94p,741b,866s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on muchadoaboutnothing.dvi (250 pages, 1579544 bytes).
+Output written on muchadoaboutnothing.dvi (248 pages, 1576112 bytes).

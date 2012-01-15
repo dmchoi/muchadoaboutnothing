@@ -4,7 +4,7 @@ img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
 kileversion=2.1.0
-lastDocument=tex/building_intensity_scenarios.tex
+lastDocument=muchadoaboutnothing.tex
 masterDocument=
 name=muchadoaboutnothing
 pkg_extIsRegExp=false
@@ -2064,10 +2064,10 @@ order=-1
 
 [item:muchadoaboutnothing.tex]
 archive=true
-column=44
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=59
+line=58
 mode=LaTeX
 open=true
 order=4
@@ -2167,14 +2167,14 @@ archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=20
+line=0
 mode=LaTeX
 open=true
 order=0
 
 [item:tex/building_intensity_scenarios.tex]
 archive=true
-column=0
+column=1
 encoding=UTF-8
 highlight=LaTeX
 line=3
@@ -2204,10 +2204,10 @@ order=-1
 
 [item:tex/data_method_chapter.tex]
 archive=true
-column=0
+column=31
 encoding=UTF-8
 highlight=LaTeX
-line=525
+line=49
 mode=LaTeX
 open=false
 order=-1
@@ -2257,7 +2257,7 @@ archive=true
 column=42
 encoding=UTF-8
 highlight=LaTeX
-line=3
+line=62
 mode=LaTeX
 open=true
 order=3
@@ -2353,8 +2353,8 @@ open=false
 order=2
 
 [view-settings,view=0,item:muchadoaboutnothing.tex]
-CursorColumn=44
-CursorLine=59
+CursorColumn=0
+CursorLine=58
 
 [view-settings,view=0,item:notmystyle.sty]
 CursorColumn=22
@@ -2366,10 +2366,10 @@ CursorLine=0
 
 [view-settings,view=0,item:tex/bp2bp_variation_chapter.tex]
 CursorColumn=0
-CursorLine=20
+CursorLine=0
 
 [view-settings,view=0,item:tex/building_intensity_scenarios.tex]
-CursorColumn=0
+CursorColumn=1
 CursorLine=3
 
 [view-settings,view=0,item:tex/conclusion_chapter.tex]
@@ -2381,8 +2381,8 @@ CursorColumn=68
 CursorLine=270
 
 [view-settings,view=0,item:tex/data_method_chapter.tex]
-CursorColumn=0
-CursorLine=525
+CursorColumn=31
+CursorLine=49
 
 [view-settings,view=0,item:tex/erosion_model.tex]
 CursorColumn=0
@@ -2390,7 +2390,7 @@ CursorLine=758
 
 [view-settings,view=0,item:tex/future_erosion_chapter.tex]
 CursorColumn=42
-CursorLine=3
+CursorLine=62
 
 [view-settings,view=0,item:tex/intensity_climate.tex]
 CursorColumn=0

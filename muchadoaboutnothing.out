@@ -78,62 +78,60 @@
 \BOOKMARK [1][-]{section.8.4}{Discussion}{chapter.8}% 78
 \BOOKMARK [1][-]{section.8.5}{Additional tests}{chapter.8}% 79
 \BOOKMARK [2][-]{subsection.8.5.1}{Aims}{section.8.5}% 80
-\BOOKMARK [-1][-]{part.3}{III Observed Rainfall Characteristics \(and Intensity\) of The Study Site}{}% 81
-\BOOKMARK [0][-]{chapter.9}{OBSERVED RAINFALL CHARACTERISTICS OF THE STUDY AREA}{part.3}% 82
-\BOOKMARK [1][-]{section.9.1}{Introduction}{chapter.9}% 83
-\BOOKMARK [1][-]{section.9.2}{Method}{chapter.9}% 84
-\BOOKMARK [1][-]{section.9.3}{Monthly Precipitation}{chapter.9}% 85
-\BOOKMARK [1][-]{section.9.4}{Daily Precipitation}{chapter.9}% 86
-\BOOKMARK [1][-]{section.9.5}{Event Precipitation}{chapter.9}% 87
-\BOOKMARK [1][-]{section.9.6}{Discussion}{chapter.9}% 88
-\BOOKMARK [1][-]{section.9.7}{Conclusion}{chapter.9}% 89
-\BOOKMARK [0][-]{chapter.10}{FURTHER INVESTIGATIONS TO BUILD FUTURE RAINFALL INTENSITY SCENARIOS}{part.3}% 90
-\BOOKMARK [1][-]{section.10.1}{Proposed Simulation Methods}{chapter.10}% 91
-\BOOKMARK [2][-]{subsection.10.1.1}{Method One: Changing CLIGEN Generated Data}{section.10.1}% 92
-\BOOKMARK [2][-]{subsection.10.1.2}{Method Two: Changing One of CLIGEN Inputs, MX .5P}{section.10.1}% 93
-\BOOKMARK [2][-]{subsection.10.1.3}{Method Three: Using GCM/RCM Data}{section.10.1}% 94
-\BOOKMARK [2][-]{subsection.10.1.4}{Selected Method: Method Two, Changing CLIGEN Input}{section.10.1}% 95
-\BOOKMARK [-1][-]{part.4}{IV Implications for Model-based Studies of Future Climate Change and Soil Erosion}{}% 96
-\BOOKMARK [0][-]{chapter.11}{ESTIMATION OF SOIL EROSION: IMPLICATIONS FOR FUTURE RAINFALL INTENSITY}{part.4}% 97
-\BOOKMARK [1][-]{section.11.1}{Introduction}{chapter.11}% 98
-\BOOKMARK [1][-]{section.11.2}{Sensitivity of WEPP to Rainfall Intensity Changes}{chapter.11}% 99
-\BOOKMARK [2][-]{subsection.11.2.1}{Runoff and Soil Loss}{section.11.2}% 100
-\BOOKMARK [2][-]{subsection.11.2.2}{Discussion}{section.11.2}% 101
-\BOOKMARK [1][-]{section.11.3}{Estimation of Future Soil Erosion}{chapter.11}% 102
-\BOOKMARK [2][-]{subsection.11.3.1}{Estimated Future Rainfall for WEPP Simulations}{section.11.3}% 103
-\BOOKMARK [2][-]{subsection.11.3.2}{Estimated Changes of Future Soil Erosion}{section.11.3}% 104
-\BOOKMARK [2][-]{subsection.11.3.3}{Discussion}{section.11.3}% 105
-\BOOKMARK [1][-]{section.11.4}{Conclusion}{chapter.11}% 106
-\BOOKMARK [-1][-]{part.5}{V Conclusion}{}% 107
-\BOOKMARK [0][-]{chapter.12}{CONCLUSION}{part.5}% 108
-\BOOKMARK [1][-]{section.12.1}{Rainfall Intensity and Process Descriptions}{chapter.12}% 109
-\BOOKMARK [2][-]{subsection.12.1.1}{Findings}{section.12.1}% 110
-\BOOKMARK [2][-]{subsection.12.1.2}{Limitations}{section.12.1}% 111
-\BOOKMARK [1][-]{section.12.2}{What do we need to predict erosion under future changed rainfall intensities?}{chapter.12}% 112
-\BOOKMARK [2][-]{subsection.12.2.1}{Findings}{section.12.2}% 113
-\BOOKMARK [2][-]{subsection.12.2.2}{Limitations}{section.12.2}% 114
-\BOOKMARK [1][-]{section.12.3}{Past and Present Rates of Rainfall Intensity}{chapter.12}% 115
-\BOOKMARK [2][-]{subsection.12.3.1}{Findings}{section.12.3}% 116
-\BOOKMARK [2][-]{subsection.12.3.2}{Limitations}{section.12.3}% 117
-\BOOKMARK [1][-]{section.12.4}{Can we predict erosion rates under future changed rainfall intensities?}{chapter.12}% 118
-\BOOKMARK [2][-]{subsection.12.4.1}{Findings}{section.12.4}% 119
-\BOOKMARK [2][-]{subsection.12.4.2}{Limitations}{section.12.4}% 120
-\BOOKMARK [1][-]{section.12.5}{Suggestions for Future Research}{chapter.12}% 121
-\BOOKMARK [0][-]{chapter*.7}{REFERENCES}{part.5}% 122
-\BOOKMARK [-1][-]{part.6}{ Appendices}{}% 123
-\BOOKMARK [0][-]{Appendix.1.A}{WEPP Input Data}{part.6}% 124
-\BOOKMARK [1][-]{section.1.A.1}{Weather Input Data}{Appendix.1.A}% 125
-\BOOKMARK [2][-]{subsection.1.A.1.1}{For Temporal Scale Simulation}{section.1.A.1}% 126
-\BOOKMARK [2][-]{subsection.1.A.1.2}{For Storm Patterns Simulation}{section.1.A.1}% 127
-\BOOKMARK [2][-]{subsection.1.A.1.3}{For Continuous and Discontinuous Rainfall Simulation}{section.1.A.1}% 128
-\BOOKMARK [1][-]{section.1.A.2}{Soil Input\204calibrated}{Appendix.1.A}% 129
-\BOOKMARK [1][-]{section.1.A.3}{Management Input}{Appendix.1.A}% 130
-\BOOKMARK [1][-]{section.1.A.4}{slope Input}{Appendix.1.A}% 131
-\BOOKMARK [0][-]{Appendix.1.B}{CLIGEN Input Data}{part.6}% 132
-\BOOKMARK [1][-]{section.1.B.1}{Original Input for Ditchling Road}{Appendix.1.B}% 133
-\BOOKMARK [1][-]{section.1.B.2}{Updated Input for Ditchling Road}{Appendix.1.B}% 134
-\BOOKMARK [0][-]{Appendix.1.C}{EUROSEM Input Data}{part.6}% 135
-\BOOKMARK [1][-]{section.1.C.1}{SYSTEMS}{Appendix.1.C}% 136
-\BOOKMARK [1][-]{section.1.C.2}{OPTIONS}{Appendix.1.C}% 137
-\BOOKMARK [1][-]{section.1.C.3}{COMPUTATION ORDER}{Appendix.1.C}% 138
-\BOOKMARK [1][-]{section.1.C.4}{ELEMENT WISE INFO}{Appendix.1.C}% 139
+\BOOKMARK [0][-]{chapter.9}{OBSERVED RAINFALL CHARACTERISTICS OF THE STUDY AREA}{part.2}% 81
+\BOOKMARK [1][-]{section.9.1}{Introduction}{chapter.9}% 82
+\BOOKMARK [1][-]{section.9.2}{Method}{chapter.9}% 83
+\BOOKMARK [1][-]{section.9.3}{Monthly Precipitation}{chapter.9}% 84
+\BOOKMARK [1][-]{section.9.4}{Daily Precipitation}{chapter.9}% 85
+\BOOKMARK [1][-]{section.9.5}{Event Precipitation}{chapter.9}% 86
+\BOOKMARK [1][-]{section.9.6}{Discussion}{chapter.9}% 87
+\BOOKMARK [1][-]{section.9.7}{Conclusion}{chapter.9}% 88
+\BOOKMARK [-1][-]{part.3}{III Implications for Model-based Studies of Future Climate Change and Soil Erosion}{}% 89
+\BOOKMARK [0][-]{chapter.10}{ESTIMATION OF SOIL EROSION: IMPLICATIONS FOR FUTURE RAINFALL INTENSITY}{part.3}% 90
+\BOOKMARK [1][-]{section.10.1}{Introduction}{chapter.10}% 91
+\BOOKMARK [1][-]{section.10.2}{Proposed Simulation Methods}{chapter.10}% 92
+\BOOKMARK [2][-]{subsection.10.2.1}{Method One: Changing CLIGEN Generated Data}{section.10.2}% 93
+\BOOKMARK [2][-]{subsection.10.2.2}{Method Two: Changing One of CLIGEN Inputs, MX .5P}{section.10.2}% 94
+\BOOKMARK [2][-]{subsection.10.2.3}{Method Three: Using GCM/RCM Data}{section.10.2}% 95
+\BOOKMARK [2][-]{subsection.10.2.4}{Selected Method: Method Two, Changing CLIGEN Input}{section.10.2}% 96
+\BOOKMARK [1][-]{section.10.3}{Sensitivity of WEPP to Rainfall Intensity Changes}{chapter.10}% 97
+\BOOKMARK [2][-]{subsection.10.3.1}{Runoff and Soil Loss}{section.10.3}% 98
+\BOOKMARK [2][-]{subsection.10.3.2}{Discussion}{section.10.3}% 99
+\BOOKMARK [1][-]{section.10.4}{Estimation of Future Soil Erosion}{chapter.10}% 100
+\BOOKMARK [2][-]{subsection.10.4.1}{Estimated Future Rainfall for WEPP Simulations}{section.10.4}% 101
+\BOOKMARK [2][-]{subsection.10.4.2}{Estimated Changes of Future Soil Erosion}{section.10.4}% 102
+\BOOKMARK [2][-]{subsection.10.4.3}{Discussion}{section.10.4}% 103
+\BOOKMARK [1][-]{section.10.5}{Conclusion}{chapter.10}% 104
+\BOOKMARK [-1][-]{part.4}{IV Conclusion}{}% 105
+\BOOKMARK [0][-]{chapter.11}{CONCLUSION}{part.4}% 106
+\BOOKMARK [1][-]{section.11.1}{Rainfall Intensity and Process Descriptions}{chapter.11}% 107
+\BOOKMARK [2][-]{subsection.11.1.1}{Findings}{section.11.1}% 108
+\BOOKMARK [2][-]{subsection.11.1.2}{Limitations}{section.11.1}% 109
+\BOOKMARK [1][-]{section.11.2}{What do we need to predict erosion under future changed rainfall intensities?}{chapter.11}% 110
+\BOOKMARK [2][-]{subsection.11.2.1}{Findings}{section.11.2}% 111
+\BOOKMARK [2][-]{subsection.11.2.2}{Limitations}{section.11.2}% 112
+\BOOKMARK [1][-]{section.11.3}{Past and Present Rates of Rainfall Intensity}{chapter.11}% 113
+\BOOKMARK [2][-]{subsection.11.3.1}{Findings}{section.11.3}% 114
+\BOOKMARK [2][-]{subsection.11.3.2}{Limitations}{section.11.3}% 115
+\BOOKMARK [1][-]{section.11.4}{Can we predict erosion rates under future changed rainfall intensities?}{chapter.11}% 116
+\BOOKMARK [2][-]{subsection.11.4.1}{Findings}{section.11.4}% 117
+\BOOKMARK [2][-]{subsection.11.4.2}{Limitations}{section.11.4}% 118
+\BOOKMARK [1][-]{section.11.5}{Suggestions for Future Research}{chapter.11}% 119
+\BOOKMARK [0][-]{chapter*.7}{REFERENCES}{part.4}% 120
+\BOOKMARK [-1][-]{part.5}{ Appendices}{}% 121
+\BOOKMARK [0][-]{Appendix.1.A}{WEPP Input Data}{part.5}% 122
+\BOOKMARK [1][-]{section.1.A.1}{Weather Input Data}{Appendix.1.A}% 123
+\BOOKMARK [2][-]{subsection.1.A.1.1}{For Temporal Scale Simulation}{section.1.A.1}% 124
+\BOOKMARK [2][-]{subsection.1.A.1.2}{For Storm Patterns Simulation}{section.1.A.1}% 125
+\BOOKMARK [2][-]{subsection.1.A.1.3}{For Continuous and Discontinuous Rainfall Simulation}{section.1.A.1}% 126
+\BOOKMARK [1][-]{section.1.A.2}{Soil Input\204calibrated}{Appendix.1.A}% 127
+\BOOKMARK [1][-]{section.1.A.3}{Management Input}{Appendix.1.A}% 128
+\BOOKMARK [1][-]{section.1.A.4}{slope Input}{Appendix.1.A}% 129
+\BOOKMARK [0][-]{Appendix.1.B}{CLIGEN Input Data}{part.5}% 130
+\BOOKMARK [1][-]{section.1.B.1}{Original Input for Ditchling Road}{Appendix.1.B}% 131
+\BOOKMARK [1][-]{section.1.B.2}{Updated Input for Ditchling Road}{Appendix.1.B}% 132
+\BOOKMARK [0][-]{Appendix.1.C}{EUROSEM Input Data}{part.5}% 133
+\BOOKMARK [1][-]{section.1.C.1}{SYSTEMS}{Appendix.1.C}% 134
+\BOOKMARK [1][-]{section.1.C.2}{OPTIONS}{Appendix.1.C}% 135
+\BOOKMARK [1][-]{section.1.C.3}{COMPUTATION ORDER}{Appendix.1.C}% 136
+\BOOKMARK [1][-]{section.1.C.4}{ELEMENT WISE INFO}{Appendix.1.C}% 137

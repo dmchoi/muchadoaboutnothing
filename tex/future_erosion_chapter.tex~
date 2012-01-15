@@ -3,10 +3,10 @@
 INTENSITY}
 \label{sec:ESTIMATIONSOFFUTURESOILEROSION}
 
-\input{./tex/building_intensity_scenarios}
-
 \section{Introduction}
 \label{sec:FutureSoilErosionIntroduction}
+
+\input{./tex/building_intensity_scenarios}
 
 By acknowledging the limitation in investigating the effect of rainfall
 intensity changes on future erosion rates, it is very unlikely that we will be

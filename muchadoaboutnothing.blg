@@ -15,7 +15,6 @@ A level-1 auxiliary file: ./tex/continue_discontinue_rainfall_chapter.aux
 A level-1 auxiliary file: ./tex/intensity_pattern_chapter.aux
 A level-1 auxiliary file: ./tex/bp2bp_variation_chapter.aux
 A level-1 auxiliary file: ./tex/observed_rainfall_chapter.aux
-A level-1 auxiliary file: ./tex/building_intensity_scenarios.aux
 A level-1 auxiliary file: ./tex/future_erosion_chapter.aux
 A level-1 auxiliary file: ./tex/conclusion_chapter.aux
 The style file: thesisurl.bst
@@ -29,7 +28,7 @@ Reallocated global_strs (elt_size=5001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 You've used 163 entries,
             3609 wiz_defined-function locations,
-            1620 strings with 33181 characters,
+            1619 strings with 33143 characters,
 and the built_in function-call counts, 115305 in all, are:
 = -- 10210
 > -- 3729
