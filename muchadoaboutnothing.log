@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.1.10)  14 JAN 2012 10:27
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.2.1)  2 FEB 2012 11:50
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -871,9 +871,9 @@ LaTeX Info: Redefining \_ on input line 43.
 (./tex/temporal_resolution_chapter.aux)
 (./tex/continue_discontinue_rainfall_chapter.aux)
 (./tex/intensity_pattern_chapter.aux) (./tex/bp2bp_variation_chapter.aux)
-(./tex/observed_rainfall_chapter.aux) (./tex/future_erosion_chapter.aux)
-(./tex/conclusion_chapter.aux) (./tex/appendixA.aux) (./tex/appendixB.aux)
-(./tex/appendixC.aux))
+(./tex/future_erosion_chapter.aux) (./tex/conclusion_chapter.aux)
+(./tex/appendixA.aux) (./tex/appendixB.aux) (./tex/appendixC.aux)
+(./tex/appendixD.aux))
 \openout1 = `muchadoaboutnothing.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -1105,7 +1105,7 @@ ine 12.
 \openout5 = `muchadoaboutnothing.lof'.
 
  [12] (./muchadoaboutnothing.lot
-Underfull \hbox (badness 4341) in paragraph at lines 19--19
+Underfull \hbox (badness 4341) in paragraph at lines 21--21
  [][][] [][]\T1/MinionPro-OsF/m/n/12 Simulated an-nual av-er-age soil loss on h
 ill-slopes us-ing CLIGEN- 
  []
@@ -1243,323 +1243,42 @@ File: ./img/eventdatasite.eps Graphic file (type eps)
 [53] [54] [55]
 File: ./img/woodingdean.eps Graphic file (type eps)
  <./img/woodingdean.eps> [56] [57] [58] [59] [60] [61] [62]
-[63]) [64] [65
-
-
-]
-\openout2 = `./tex/improved_cligen_chapter.aux'.
-
- (./tex/improved_cligen_chapter.tex
-Chapter 4.
-[66
-
-
-] [67]
-File: ./img/cligen_annual_amount_series.eps Graphic file (type eps)
- <./img/cligen_annual_amount_series.eps> [68]
-File: ./img/cligen_annual_duration_series.eps Graphic file (type eps)
-
-<./img/cligen_annual_duration_series.eps> [69] [70]
-File: ./img/cligen_monthly_max_int_org.eps Graphic file (type eps)
-
-<./img/cligen_monthly_max_int_org.eps>
-File: ./img/cligen_monthly_max_int_mod.eps Graphic file (type eps)
- <./img/cligen_monthly_max_int_mod.eps>
-File: ./img/cligen_monthly_max_int_by_month.eps Graphic file (type eps)
-
-<./img/cligen_monthly_max_int_by_month.eps> [71] [72] [73] [74]
-File: ./img/cligen_annual_runoff_serise_old_original.eps Graphic file (type eps
-)
-
-<./img/cligen_annual_runoff_serise_old_original.eps>
-LaTeX Font Info:    Font shape `T1/Myriad-OsF/bx/n' in size <10> not available
-(Font)              Font shape `T1/Myriad-OsF/b/n' tried instead on input line 
-344.
-File: ./img/cligen_annual_runoff_serise_old_updated.eps Graphic file (type eps)
-
-
-<./img/cligen_annual_runoff_serise_old_updated.eps>
-File: ./img/cligen_annual_runoff_serise_new_original.eps Graphic file (type eps
-)
-
-<./img/cligen_annual_runoff_serise_new_original.eps>
-File: ./img/cligen_annual_runoff_serise_new_updated.eps Graphic file (type eps)
-
-
-<./img/cligen_annual_runoff_serise_new_updated.eps>
-File: ./img/cligen_annual_sloss_serise_old_original.eps Graphic file (type eps)
-
-
-<./img/cligen_annual_sloss_serise_old_original.eps>
-File: ./img/cligen_annual_sloss_serise_old_updated.eps Graphic file (type eps)
-
-<./img/cligen_annual_sloss_serise_old_updated.eps>
-File: ./img/cligen_annual_sloss_serise_new_original.eps Graphic file (type eps)
-
-
-<./img/cligen_annual_sloss_serise_new_original.eps>
-File: ./img/cligen_annual_sloss_serise_new_updated.eps Graphic file (type eps)
-
-<./img/cligen_annual_sloss_serise_new_updated.eps> [75] [76] [77]
-File: ./img/mean_p_cligen.eps Graphic file (type eps)
-
-<./img/mean_p_cligen.eps>
-File: ./img/mx5p_cligen.eps Graphic file (type eps)
- <./img/mx5p_cligen.eps> [78] [79] [80]) [81]
-\openout2 = `./tex/temporal_resolution_chapter.aux'.
-
-
-(./tex/temporal_resolution_chapter.tex
-Chapter 5.
-[82
-
-
-
-] [83] [84] [85] [86]
-File: ./img/dr_storm_1min.eps Graphic file (type eps)
- <./img/dr_storm_1min.eps>
-File: ./img/dr_storm_5min.eps Graphic file (type eps)
- <./img/dr_storm_5min.eps>
-File: ./img/dr_storm_15min.eps Graphic file (type eps)
-
-<./img/dr_storm_15min.eps>
-File: ./img/dr_storm_30min.eps Graphic file (type eps)
- <./img/dr_storm_30min.eps>
-File: ./img/dr_storm_60min.eps Graphic file (type eps)
-
-<./img/dr_storm_60min.eps>
-File: ./img/pl_storm_1min.eps Graphic file (type eps)
- <./img/pl_storm_1min.eps>
-File: ./img/pl_storm_5min.eps Graphic file (type eps)
- <./img/pl_storm_5min.eps>
-File: ./img/pl_storm_15min.eps Graphic file (type eps)
-
-<./img/pl_storm_15min.eps>
-File: ./img/pl_storm_30min.eps Graphic file (type eps)
- <./img/pl_storm_30min.eps>
-File: ./img/pl_storm_60min.eps Graphic file (type eps)
-
-<./img/pl_storm_60min.eps> [87] [88] [89] [90] [91]
-File: ./img/wepp_runoff_temp_scale.eps Graphic file (type eps)
-
-<./img/wepp_runoff_temp_scale.eps>
-File: ./img/wepp_sloss_temp_scale.eps Graphic file (type eps)
- <./img/wepp_sloss_temp_scale.eps>
-File: ./img/eurosem_roff_temp_scale.eps Graphic file (type eps)
-
-<./img/eurosem_roff_temp_scale.eps>
-File: ./img/eurosem_sloss_temp_scale.eps Graphic file (type eps)
- <./img/eurosem_sloss_temp_scale.eps>
-[92] [93] [94] [95] [96] [97] [98] [99] [100] [101]) [102]
-\openout2 = `./tex/continue_discontinue_rainfall_chapter.aux'.
-
-
-(./tex/continue_discontinue_rainfall_chapter.tex
-Chapter 6.
-[103
-
-
-
-]
-File: ./img/rainfall_discont_cont_input.eps Graphic file (type eps)
- <./img/rainfall_discont_cont_input.eps>
-Underfull \hbox (badness 1552) in paragraph at lines 58--63
-[][]\T1/MinionPro-OsF/m/n/12 Another set of con-tinu-ous and dis-con-tinu-ous r
-ain-fall data were pre-pared for
- []
-
-File: ./img/rg2_input_continuous.eps Graphic file (type eps)
-<./img/rg2_input_continuous.eps>
-File: ./img/rg2_input_discontinuous.eps Graphic file (type eps)
- <./img/rg2_input_discontinuous.eps> [104]
-[105] [106] [107]
-File: ./img/intensity_discontinuous.eps Graphic file (type eps)
- <./img/intensity_discontinuous.eps>
-File: ./img/intensity_continuous.eps Graphic file (type eps)
-
-<./img/intensity_continuous.eps> [108]) [109]
-\openout2 = `./tex/intensity_pattern_chapter.aux'.
-
-
-(./tex/intensity_pattern_chapter.tex
-Chapter 7.
-[110
-
-
-
-]
-File: ./img/wepp_input_increase_2hr.eps Graphic file (type eps)
- <./img/wepp_input_increase_2hr.eps>
-File: ./img/wepp_input_decrease_2hr.eps Graphic file (type eps)
- <./img/wepp_input_decrease_2hr.eps>
-File: ./img/wepp_input_constant_2hr.eps Graphic file (type eps)
-
-<./img/wepp_input_constant_2hr.eps>
-File: ./img/wepp_input_increase_decrease_2hr.eps Graphic file (type eps)
-
-<./img/wepp_input_increase_decrease_2hr.eps>
-File: ./img/wepp_input_increase_6hr.eps Graphic file (type eps)
-
-<./img/wepp_input_increase_6hr.eps>
-File: ./img/wepp_input_decrease_6hr.eps Graphic file (type eps)
- <./img/wepp_input_decrease_6hr.eps>
-File: ./img/wepp_input_constant_6hr.eps Graphic file (type eps)
-
-<./img/wepp_input_constant_6hr.eps>
-File: ./img/wepp_input_increase_decrease_6hr.eps Graphic file (type eps)
-
-<./img/wepp_input_increase_decrease_6hr.eps>
-File: ./img/rg2_input_increase.eps Graphic file (type eps)
- <./img/rg2_input_increase.eps>
-File: ./img/rg2_input_decrease.eps Graphic file (type eps)
-
-<./img/rg2_input_decrease.eps>
-File: ./img/rg2_input_control.eps Graphic file (type eps)
- <./img/rg2_input_control.eps>
-File: ./img/rg2_input_increase_decrease.eps Graphic file (type eps)
-
-<./img/rg2_input_increase_decrease.eps>
-LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <12> not availa
-ble
-(Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
-ine 119.
- [111] [112]
-LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <8> not availab
-le
-(Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
-ine 289.
- [113] [114]
-(./tex/model_result_summary.tex [115] [116] [117] [118])) [119]
-\openout2 = `./tex/bp2bp_variation_chapter.aux'.
-
-
-(./tex/bp2bp_variation_chapter.tex
-Chapter 8.
-
-Underfull \hbox (badness 1728) in paragraph at lines 24--26
-[][]\T1/MinionPro-OsF/m/n/12 Starting from 15-min (since 1- and 5-min are not p
-os-sible for WEPP and
- []
-
-[120
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 38--43
-[][]\T1/MinionPro-OsF/m/n/12 Sort data to ``as-cend-ing'' (Sorted-ascending) an
-d ``des-cend-ing'' (Sorted-
- []
-
-[121]
-File: ./img/wepp_runoff_with_original.eps Graphic file (type eps)
- <./img/wepp_runoff_with_original.eps>
-File: ./img/wepp_runoff_with_original_nogap.eps Graphic file (type eps)
-
-<./img/wepp_runoff_with_original_nogap.eps>
-File: ./img/wepp_runoff_with_sorted_asc.eps Graphic file (type eps)
-
-<./img/wepp_runoff_with_sorted_asc.eps>
-File: ./img/wepp_runoff_with_sorted_des.eps Graphic file (type eps)
-
-<./img/wepp_runoff_with_sorted_des.eps>
-File: ./img/wepp_soilloss_with_original.eps Graphic file (type eps)
-
-<./img/wepp_soilloss_with_original.eps>
-File: ./img/wepp_soilloss_with_original_nogap.eps Graphic file (type eps)
-
-<./img/wepp_soilloss_with_original_nogap.eps>
-File: ./img/wepp_soilloss_with_sorted_asc.eps Graphic file (type eps)
-
-<./img/wepp_soilloss_with_sorted_asc.eps>
-File: ./img/wepp_soilloss_with_sorted_des.eps Graphic file (type eps)
-
-<./img/wepp_soilloss_with_sorted_des.eps>
-File: ./img/wepp_mean_runoff.eps Graphic file (type eps)
- <./img/wepp_mean_runoff.eps>
-File: ./img/wepp_mean_soilloss.eps Graphic file (type eps)
-
-<./img/wepp_mean_soilloss.eps>
-File: ./img/wepp_diff_runoff_soilloss_asc.eps Graphic file (type eps)
- <./img/wepp_diff_runoff_soilloss_asc.eps>
-File: ./img/wepp_diff_runoff_soilloss_des.eps Graphic file (type eps)
-
-<./img/wepp_diff_runoff_soilloss_des.eps> [122] [123] [124] [125]
-File: ./img/eurosem_runoff_with_original.eps Graphic file (type eps)
-
-<./img/eurosem_runoff_with_original.eps>
-File: ./img/eurosem_runoff_with_original_nogap.eps Graphic file (type eps)
-
-<./img/eurosem_runoff_with_original_nogap.eps>
-File: ./img/eurosem_runoff_with_sorted_asc.eps Graphic file (type eps)
-
-<./img/eurosem_runoff_with_sorted_asc.eps>
-File: ./img/eurosem_runoff_with_sorted_des.eps Graphic file (type eps)
-
-<./img/eurosem_runoff_with_sorted_des.eps>
-File: ./img/eurosem_soilloss_with_original.eps Graphic file (type eps)
-
-<./img/eurosem_soilloss_with_original.eps>
-File: ./img/eurosem_soilloss_with_original_nogap.eps Graphic file (type eps)
-
-<./img/eurosem_soilloss_with_original_nogap.eps>
-File: ./img/eurosem_soilloss_with_sorted_asc.eps Graphic file (type eps)
-
-<./img/eurosem_soilloss_with_sorted_asc.eps>
-File: ./img/eurosem_soilloss_with_sorted_des.eps Graphic file (type eps)
-
-<./img/eurosem_soilloss_with_sorted_des.eps>
-File: ./img/eurosem_mean_runoff.eps Graphic file (type eps)
- <./img/eurosem_mean_runoff.eps>
-File: ./img/eurosem_mean_soilloss.eps Graphic file (type eps)
-
-<./img/eurosem_mean_soilloss.eps>
-File: ./img/eurosem_diff_runoff_soilloss_asc.eps Graphic file (type eps)
- <./img/eurosem_diff_runoff_soilloss_asc.eps>
-File: ./img/eurosem_diff_runoff_soilloss_des.eps Graphic file (type eps)
-
-<./img/eurosem_diff_runoff_soilloss_des.eps> [126] [127] [128] [129] [130]
-[131] [132]) [133]
-\openout2 = `./tex/observed_rainfall_chapter.aux'.
-
- (./tex/observed_rainfall_chapter.tex
-Chapter 9.
-[134
-
-
-
-] [135]
+[63] (./tex/observed_rainfall_chapter.tex [64] [65] [66]
 LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <10> not availa
 ble
 (Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
-ine 107.
- [136] [137]
+ine 108.
+ [67] [68]
 File: ./img/grid_annual_amount.eps Graphic file (type eps)
- <./img/grid_annual_amount.eps>
+
+<./img/grid_annual_amount.eps>
 File: ./img/grid_DJF_trend.eps Graphic file (type eps)
-
-<./img/grid_DJF_trend.eps>
+ <./img/grid_DJF_trend.eps>
+LaTeX Font Info:    Font shape `T1/Myriad-OsF/bx/n' in size <10> not available
+(Font)              Font shape `T1/Myriad-OsF/b/n' tried instead on input line 
+210.
 File: ./img/grid_MAM_trend.eps Graphic file (type eps)
- <./img/grid_MAM_trend.eps>
-File: ./img/grid_JJA_trend.eps Graphic file (type eps)
 
-<./img/grid_JJA_trend.eps>
+<./img/grid_MAM_trend.eps>
+File: ./img/grid_JJA_trend.eps Graphic file (type eps)
+ <./img/grid_JJA_trend.eps>
 File: ./img/grid_SON_trend.eps Graphic file (type eps)
- <./img/grid_SON_trend.eps>
+
+<./img/grid_SON_trend.eps>
 LaTeX Font Info:    Try loading font information for TS1+Myriad-OsF on input li
-ne 218.
+ne 219.
 
 (/home/dchoi/texmf/tex/latex/MyriadPro/TS1Myriad-OsF.fd
 File: TS1Myriad-OsF.fd 2004/10/15 font definitions for TS1/Myriad-OsF.
-) [138]
+)
 File: ./img/grid_average_monthly.eps Graphic file (type eps)
 
 <./img/grid_average_monthly.eps>
 File: ./img/grid_july_trend.eps Graphic file (type eps)
- <./img/grid_july_trend.eps> [139] [140]
-[141]
+ <./img/grid_july_trend.eps> [69] [70] [71]
 File: ./img/dr_rr.eps Graphic file (type eps)
- <./img/dr_rr.eps>
+
+<./img/dr_rr.eps>
 File: ./img/so_rr.eps Graphic file (type eps)
  <./img/so_rr.eps>
 File: ./img/pl_rr.eps Graphic file (type eps)
@@ -1606,222 +1325,496 @@ File: ./img/hd_rr1.eps Graphic file (type eps)
 
 <./img/hd_rr1.eps>
 File: ./img/ff_rr1.eps Graphic file (type eps)
- <./img/ff_rr1.eps>
+ <./img/ff_rr1.eps> [72] [73] [74]
 File: ./img/dr_sdii.eps Graphic file (type eps)
  <./img/dr_sdii.eps>
 File: ./img/so_sdii.eps Graphic file (type eps)
- <./img/so_sdii.eps>
-File: ./img/pl_sdii.eps Graphic file (type eps)
 
-<./img/pl_sdii.eps>
+<./img/so_sdii.eps>
+File: ./img/pl_sdii.eps Graphic file (type eps)
+ <./img/pl_sdii.eps>
 File: ./img/pb_sdii.eps Graphic file (type eps)
  <./img/pb_sdii.eps>
 File: ./img/sdr_sdii.eps Graphic file (type eps)
- <./img/sdr_sdii.eps>
-File: ./img/ew_sdii.eps Graphic file (type eps)
 
-<./img/ew_sdii.eps>
+<./img/sdr_sdii.eps>
+File: ./img/ew_sdii.eps Graphic file (type eps)
+ <./img/ew_sdii.eps>
 File: ./img/ft_sdii.eps Graphic file (type eps)
  <./img/ft_sdii.eps>
 File: ./img/li_sdii.eps Graphic file (type eps)
- <./img/li_sdii.eps>
-File: ./img/hpf_sdii.eps Graphic file (type eps)
 
-<./img/hpf_sdii.eps>
+<./img/li_sdii.eps>
+File: ./img/hpf_sdii.eps Graphic file (type eps)
+ <./img/hpf_sdii.eps>
 File: ./img/hd_sdii.eps Graphic file (type eps)
  <./img/hd_sdii.eps>
 File: ./img/ff_sdii.eps Graphic file (type eps)
- <./img/ff_sdii.eps> [142] [143]
-[144] [145]
+
+<./img/ff_sdii.eps>
 File: ./img/dr_r10mm.eps Graphic file (type eps)
  <./img/dr_r10mm.eps>
 File: ./img/so_r10mm.eps Graphic file (type eps)
  <./img/so_r10mm.eps>
 File: ./img/pl_r10mm.eps Graphic file (type eps)
- <./img/pl_r10mm.eps>
-File: ./img/pb_r10mm.eps Graphic file (type eps)
 
-<./img/pb_r10mm.eps>
+<./img/pl_r10mm.eps>
+File: ./img/pb_r10mm.eps Graphic file (type eps)
+ <./img/pb_r10mm.eps>
 File: ./img/sdr_r10mm.eps Graphic file (type eps)
  <./img/sdr_r10mm.eps>
 File: ./img/ew_r10mm.eps Graphic file (type eps)
- <./img/ew_r10mm.eps>
-File: ./img/ft_r10mm.eps Graphic file (type eps)
 
-<./img/ft_r10mm.eps>
+<./img/ew_r10mm.eps>
+File: ./img/ft_r10mm.eps Graphic file (type eps)
+ <./img/ft_r10mm.eps>
 File: ./img/li_r10mm.eps Graphic file (type eps)
  <./img/li_r10mm.eps>
 File: ./img/hpf_r10mm.eps Graphic file (type eps)
- <./img/hpf_r10mm.eps>
-File: ./img/hd_r10mm.eps Graphic file (type eps)
 
-<./img/hd_r10mm.eps>
+<./img/hpf_r10mm.eps>
+File: ./img/hd_r10mm.eps Graphic file (type eps)
+ <./img/hd_r10mm.eps>
 File: ./img/ff_r10mm.eps Graphic file (type eps)
  <./img/ff_r10mm.eps>
 File: ./img/dr_r10p.eps Graphic file (type eps)
- <./img/dr_r10p.eps>
-File: ./img/so_r10p.eps Graphic file (type eps)
 
-<./img/so_r10p.eps>
+<./img/dr_r10p.eps>
+File: ./img/so_r10p.eps Graphic file (type eps)
+ <./img/so_r10p.eps>
 File: ./img/pl_r10p.eps Graphic file (type eps)
  <./img/pl_r10p.eps>
 File: ./img/pb_r10p.eps Graphic file (type eps)
- <./img/pb_r10p.eps>
-File: ./img/sdr_r10p.eps Graphic file (type eps)
 
-<./img/sdr_r10p.eps>
+<./img/pb_r10p.eps>
+File: ./img/sdr_r10p.eps Graphic file (type eps)
+ <./img/sdr_r10p.eps>
 File: ./img/ew_r10p.eps Graphic file (type eps)
  <./img/ew_r10p.eps>
 File: ./img/ft_r10p.eps Graphic file (type eps)
- <./img/ft_r10p.eps>
-File: ./img/li_r10p.eps Graphic file (type eps)
 
-<./img/li_r10p.eps>
+<./img/ft_r10p.eps>
+File: ./img/li_r10p.eps Graphic file (type eps)
+ <./img/li_r10p.eps>
 File: ./img/hpf_r10p.eps Graphic file (type eps)
  <./img/hpf_r10p.eps>
 File: ./img/hd_r10p.eps Graphic file (type eps)
- <./img/hd_r10p.eps>
-File: ./img/ff_r10p.eps Graphic file (type eps)
 
-<./img/ff_r10p.eps>
+<./img/hd_r10p.eps>
+File: ./img/ff_r10p.eps Graphic file (type eps)
+ <./img/ff_r10p.eps>
 File: ./img/dr_r20mm.eps Graphic file (type eps)
  <./img/dr_r20mm.eps>
 File: ./img/so_r20mm.eps Graphic file (type eps)
- <./img/so_r20mm.eps>
-File: ./img/pl_r20mm.eps Graphic file (type eps)
 
-<./img/pl_r20mm.eps>
+<./img/so_r20mm.eps>
+File: ./img/pl_r20mm.eps Graphic file (type eps)
+ <./img/pl_r20mm.eps>
 File: ./img/pb_r20mm.eps Graphic file (type eps)
  <./img/pb_r20mm.eps>
 File: ./img/sdr_r20mm.eps Graphic file (type eps)
- <./img/sdr_r20mm.eps>
-File: ./img/ew_r20mm.eps Graphic file (type eps)
 
-<./img/ew_r20mm.eps>
+<./img/sdr_r20mm.eps>
+File: ./img/ew_r20mm.eps Graphic file (type eps)
+ <./img/ew_r20mm.eps>
 File: ./img/ft_r20mm.eps Graphic file (type eps)
  <./img/ft_r20mm.eps>
 File: ./img/li_r20mm.eps Graphic file (type eps)
- <./img/li_r20mm.eps>
-File: ./img/hpf_r20mm.eps Graphic file (type eps)
 
-<./img/hpf_r20mm.eps>
+<./img/li_r20mm.eps>
+File: ./img/hpf_r20mm.eps Graphic file (type eps)
+ <./img/hpf_r20mm.eps>
 File: ./img/hd_r20mm.eps Graphic file (type eps)
  <./img/hd_r20mm.eps>
 File: ./img/ff_r20mm.eps Graphic file (type eps)
- <./img/ff_r20mm.eps>
-File: ./img/dr_r20p.eps Graphic file (type eps)
 
-<./img/dr_r20p.eps>
+<./img/ff_r20mm.eps>
+File: ./img/dr_r20p.eps Graphic file (type eps)
+ <./img/dr_r20p.eps>
 File: ./img/so_r20p.eps Graphic file (type eps)
  <./img/so_r20p.eps>
 File: ./img/pl_r20p.eps Graphic file (type eps)
- <./img/pl_r20p.eps>
-File: ./img/pb_r20p.eps Graphic file (type eps)
 
-<./img/pb_r20p.eps>
+<./img/pl_r20p.eps>
+File: ./img/pb_r20p.eps Graphic file (type eps)
+ <./img/pb_r20p.eps>
 File: ./img/sdr_r20p.eps Graphic file (type eps)
  <./img/sdr_r20p.eps>
 File: ./img/ew_r20p.eps Graphic file (type eps)
- <./img/ew_r20p.eps>
-File: ./img/ft_r20p.eps Graphic file (type eps)
 
-<./img/ft_r20p.eps>
+<./img/ew_r20p.eps>
+File: ./img/ft_r20p.eps Graphic file (type eps)
+ <./img/ft_r20p.eps>
 File: ./img/li_r20p.eps Graphic file (type eps)
  <./img/li_r20p.eps>
 File: ./img/hpf_r20p.eps Graphic file (type eps)
- <./img/hpf_r20p.eps>
-File: ./img/hd_r20p.eps Graphic file (type eps)
 
-<./img/hd_r20p.eps>
+<./img/hpf_r20p.eps>
+File: ./img/hd_r20p.eps Graphic file (type eps)
+ <./img/hd_r20p.eps>
 File: ./img/ff_r20p.eps Graphic file (type eps)
  <./img/ff_r20p.eps>
 File: ./img/obs_daily_amount.eps Graphic file (type eps)
- <./img/obs_daily_amount.eps>
-File: ./img/obs_daily_duration.eps Graphic file (type eps)
 
-<./img/obs_daily_duration.eps>
+<./img/obs_daily_amount.eps>
+File: ./img/obs_daily_duration.eps Graphic file (type eps)
+ <./img/obs_daily_duration.eps>
 File: ./img/obs_daily_peak_int.eps Graphic file (type eps)
- <./img/obs_daily_peak_int.eps>
+
+<./img/obs_daily_peak_int.eps> [75] [76] [77] [78] [79] [80] [81] [82] [83]
 File: ./img/obs_mean_monthly_amount.eps Graphic file (type eps)
 
 <./img/obs_mean_monthly_amount.eps>
 File: ./img/obs_mean_monthly_duration.eps Graphic file (type eps)
  <./img/obs_mean_monthly_duration.eps>
-[146] [147] [148] [149] [150] [151] [152] [153] [154]
+[84]
 File: ./img/obs_mean_monthly_1min_intensity.eps Graphic file (type eps)
-
-<./img/obs_mean_monthly_1min_intensity.eps>
+ <./img/obs_mean_monthly_1min_intensity.eps>
 File: ./img/obs_mean_monthly_30min_intensity.eps Graphic file (type eps)
 
-<./img/obs_mean_monthly_30min_intensity.eps> [155] [156] [157] [158] [159]
-[160]) [161] [162
+<./img/obs_mean_monthly_30min_intensity.eps> [85] [86] [87] [88] [89] [90]))
+[91] [92
+
+
+]
+\openout2 = `./tex/improved_cligen_chapter.aux'.
+
+ (./tex/improved_cligen_chapter.tex
+Chapter 4.
+[93
+
+
+] [94] [95]
+File: ./img/cligen_annual_amount_series.eps Graphic file (type eps)
+ <./img/cligen_annual_amount_series.eps> [96]
+File: ./img/cligen_annual_duration_series.eps Graphic file (type eps)
+
+<./img/cligen_annual_duration_series.eps> [97]
+File: ./img/cligen_monthly_max_int_org.eps Graphic file (type eps)
+
+<./img/cligen_monthly_max_int_org.eps>
+File: ./img/cligen_monthly_max_int_mod.eps Graphic file (type eps)
+ <./img/cligen_monthly_max_int_mod.eps>
+File: ./img/cligen_monthly_max_int_by_month.eps Graphic file (type eps)
+
+<./img/cligen_monthly_max_int_by_month.eps> [98] [99] [100] [101]
+File: ./img/cligen_annual_runoff_serise_old_original.eps Graphic file (type eps
+)
+
+<./img/cligen_annual_runoff_serise_old_original.eps>
+File: ./img/cligen_annual_runoff_serise_old_updated.eps Graphic file (type eps)
+
+
+<./img/cligen_annual_runoff_serise_old_updated.eps>
+File: ./img/cligen_annual_runoff_serise_new_original.eps Graphic file (type eps
+)
+
+<./img/cligen_annual_runoff_serise_new_original.eps>
+File: ./img/cligen_annual_runoff_serise_new_updated.eps Graphic file (type eps)
+
+
+<./img/cligen_annual_runoff_serise_new_updated.eps>
+File: ./img/cligen_annual_sloss_serise_old_original.eps Graphic file (type eps)
+
+
+<./img/cligen_annual_sloss_serise_old_original.eps>
+File: ./img/cligen_annual_sloss_serise_old_updated.eps Graphic file (type eps)
+
+<./img/cligen_annual_sloss_serise_old_updated.eps>
+File: ./img/cligen_annual_sloss_serise_new_original.eps Graphic file (type eps)
+
+
+<./img/cligen_annual_sloss_serise_new_original.eps>
+File: ./img/cligen_annual_sloss_serise_new_updated.eps Graphic file (type eps)
+
+<./img/cligen_annual_sloss_serise_new_updated.eps> [102] [103] [104] [105]
+File: ./img/mean_p_cligen.eps Graphic file (type eps)
+
+<./img/mean_p_cligen.eps>
+File: ./img/mx5p_cligen.eps Graphic file (type eps)
+ <./img/mx5p_cligen.eps> [106] [107] [108]) [109]
+\openout2 = `./tex/temporal_resolution_chapter.aux'.
+
+
+(./tex/temporal_resolution_chapter.tex
+Chapter 5.
+[110
+
+
+
+] [111] [112] [113] [114]
+File: ./img/dr_storm_1min.eps Graphic file (type eps)
+ <./img/dr_storm_1min.eps>
+File: ./img/dr_storm_5min.eps Graphic file (type eps)
+
+<./img/dr_storm_5min.eps>
+File: ./img/dr_storm_15min.eps Graphic file (type eps)
+ <./img/dr_storm_15min.eps>
+File: ./img/dr_storm_30min.eps Graphic file (type eps)
+
+<./img/dr_storm_30min.eps>
+File: ./img/dr_storm_60min.eps Graphic file (type eps)
+ <./img/dr_storm_60min.eps>
+File: ./img/pl_storm_1min.eps Graphic file (type eps)
+
+<./img/pl_storm_1min.eps>
+File: ./img/pl_storm_5min.eps Graphic file (type eps)
+ <./img/pl_storm_5min.eps>
+File: ./img/pl_storm_15min.eps Graphic file (type eps)
+ <./img/pl_storm_15min.eps>
+File: ./img/pl_storm_30min.eps Graphic file (type eps)
+
+<./img/pl_storm_30min.eps>
+File: ./img/pl_storm_60min.eps Graphic file (type eps)
+ <./img/pl_storm_60min.eps> [115] [116] [117]
+[118] [119]
+File: ./img/wepp_runoff_temp_scale.eps Graphic file (type eps)
+ <./img/wepp_runoff_temp_scale.eps>
+File: ./img/wepp_sloss_temp_scale.eps Graphic file (type eps)
+
+<./img/wepp_sloss_temp_scale.eps>
+File: ./img/eurosem_roff_temp_scale.eps Graphic file (type eps)
+ <./img/eurosem_roff_temp_scale.eps>
+File: ./img/eurosem_sloss_temp_scale.eps Graphic file (type eps)
+
+<./img/eurosem_sloss_temp_scale.eps> [120] [121] [122] [123] [124] [125]
+[126] [127] [128] [129]) [130]
+\openout2 = `./tex/continue_discontinue_rainfall_chapter.aux'.
+
+ (./tex/continue_discontinue_rainfall_chapter.tex
+Chapter 6.
+[131
+
+
+
+]
+File: ./img/rainfall_discont_cont_input.eps Graphic file (type eps)
+ <./img/rainfall_discont_cont_input.eps>
+Underfull \hbox (badness 1552) in paragraph at lines 58--63
+[][]\T1/MinionPro-OsF/m/n/12 Another set of con-tinu-ous and dis-con-tinu-ous r
+ain-fall data were pre-pared for
+ []
+
+File: ./img/rg2_input_continuous.eps Graphic file (type eps)
+<./img/rg2_input_continuous.eps>
+File: ./img/rg2_input_discontinuous.eps Graphic file (type eps)
+ <./img/rg2_input_discontinuous.eps> [132]
+[133] [134] [135]
+File: ./img/intensity_discontinuous.eps Graphic file (type eps)
+ <./img/intensity_discontinuous.eps>
+File: ./img/intensity_continuous.eps Graphic file (type eps)
+
+<./img/intensity_continuous.eps> [136]) [137]
+\openout2 = `./tex/intensity_pattern_chapter.aux'.
+
+
+(./tex/intensity_pattern_chapter.tex
+Chapter 7.
+[138
+
+
+
+]
+File: ./img/wepp_input_increase_2hr.eps Graphic file (type eps)
+ <./img/wepp_input_increase_2hr.eps>
+File: ./img/wepp_input_decrease_2hr.eps Graphic file (type eps)
+ <./img/wepp_input_decrease_2hr.eps>
+File: ./img/wepp_input_constant_2hr.eps Graphic file (type eps)
+
+<./img/wepp_input_constant_2hr.eps>
+File: ./img/wepp_input_increase_decrease_2hr.eps Graphic file (type eps)
+
+<./img/wepp_input_increase_decrease_2hr.eps>
+File: ./img/wepp_input_increase_6hr.eps Graphic file (type eps)
+
+<./img/wepp_input_increase_6hr.eps>
+File: ./img/wepp_input_decrease_6hr.eps Graphic file (type eps)
+ <./img/wepp_input_decrease_6hr.eps>
+File: ./img/wepp_input_constant_6hr.eps Graphic file (type eps)
+
+<./img/wepp_input_constant_6hr.eps>
+File: ./img/wepp_input_increase_decrease_6hr.eps Graphic file (type eps)
+
+<./img/wepp_input_increase_decrease_6hr.eps>
+File: ./img/rg2_input_increase.eps Graphic file (type eps)
+ <./img/rg2_input_increase.eps>
+File: ./img/rg2_input_decrease.eps Graphic file (type eps)
+
+<./img/rg2_input_decrease.eps>
+File: ./img/rg2_input_control.eps Graphic file (type eps)
+ <./img/rg2_input_control.eps>
+File: ./img/rg2_input_increase_decrease.eps Graphic file (type eps)
+
+<./img/rg2_input_increase_decrease.eps>
+LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <12> not availa
+ble
+(Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
+ine 119.
+ [139] [140]
+LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <8> not availab
+le
+(Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
+ine 289.
+ [141] [142]
+(./tex/model_result_summary.tex [143] [144] [145] [146])) [147]
+\openout2 = `./tex/bp2bp_variation_chapter.aux'.
+
+
+(./tex/bp2bp_variation_chapter.tex
+Chapter 8.
+
+Underfull \hbox (badness 1728) in paragraph at lines 24--26
+[][]\T1/MinionPro-OsF/m/n/12 Starting from 15-min (since 1- and 5-min are not p
+os-sible for WEPP and
+ []
+
+[148
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 38--43
+[][]\T1/MinionPro-OsF/m/n/12 Sort data to ``as-cend-ing'' (Sorted-ascending) an
+d ``des-cend-ing'' (Sorted-
+ []
+
+[149]
+File: ./img/wepp_runoff_with_original.eps Graphic file (type eps)
+ <./img/wepp_runoff_with_original.eps>
+File: ./img/wepp_runoff_with_original_nogap.eps Graphic file (type eps)
+
+<./img/wepp_runoff_with_original_nogap.eps>
+File: ./img/wepp_runoff_with_sorted_asc.eps Graphic file (type eps)
+
+<./img/wepp_runoff_with_sorted_asc.eps>
+File: ./img/wepp_runoff_with_sorted_des.eps Graphic file (type eps)
+
+<./img/wepp_runoff_with_sorted_des.eps>
+File: ./img/wepp_soilloss_with_original.eps Graphic file (type eps)
+
+<./img/wepp_soilloss_with_original.eps>
+File: ./img/wepp_soilloss_with_original_nogap.eps Graphic file (type eps)
+
+<./img/wepp_soilloss_with_original_nogap.eps>
+File: ./img/wepp_soilloss_with_sorted_asc.eps Graphic file (type eps)
+
+<./img/wepp_soilloss_with_sorted_asc.eps>
+File: ./img/wepp_soilloss_with_sorted_des.eps Graphic file (type eps)
+
+<./img/wepp_soilloss_with_sorted_des.eps>
+File: ./img/wepp_mean_runoff.eps Graphic file (type eps)
+ <./img/wepp_mean_runoff.eps>
+File: ./img/wepp_mean_soilloss.eps Graphic file (type eps)
+
+<./img/wepp_mean_soilloss.eps>
+File: ./img/wepp_diff_runoff_soilloss_asc.eps Graphic file (type eps)
+ <./img/wepp_diff_runoff_soilloss_asc.eps>
+File: ./img/wepp_diff_runoff_soilloss_des.eps Graphic file (type eps)
+
+<./img/wepp_diff_runoff_soilloss_des.eps> [150] [151] [152] [153]
+File: ./img/eurosem_runoff_with_original.eps Graphic file (type eps)
+
+<./img/eurosem_runoff_with_original.eps>
+File: ./img/eurosem_runoff_with_original_nogap.eps Graphic file (type eps)
+
+<./img/eurosem_runoff_with_original_nogap.eps>
+File: ./img/eurosem_runoff_with_sorted_asc.eps Graphic file (type eps)
+
+<./img/eurosem_runoff_with_sorted_asc.eps>
+File: ./img/eurosem_runoff_with_sorted_des.eps Graphic file (type eps)
+
+<./img/eurosem_runoff_with_sorted_des.eps>
+File: ./img/eurosem_soilloss_with_original.eps Graphic file (type eps)
+
+<./img/eurosem_soilloss_with_original.eps>
+File: ./img/eurosem_soilloss_with_original_nogap.eps Graphic file (type eps)
+
+<./img/eurosem_soilloss_with_original_nogap.eps>
+File: ./img/eurosem_soilloss_with_sorted_asc.eps Graphic file (type eps)
+
+<./img/eurosem_soilloss_with_sorted_asc.eps>
+File: ./img/eurosem_soilloss_with_sorted_des.eps Graphic file (type eps)
+
+<./img/eurosem_soilloss_with_sorted_des.eps>
+File: ./img/eurosem_mean_runoff.eps Graphic file (type eps)
+ <./img/eurosem_mean_runoff.eps>
+File: ./img/eurosem_mean_soilloss.eps Graphic file (type eps)
+
+<./img/eurosem_mean_soilloss.eps>
+File: ./img/eurosem_diff_runoff_soilloss_asc.eps Graphic file (type eps)
+ <./img/eurosem_diff_runoff_soilloss_asc.eps>
+File: ./img/eurosem_diff_runoff_soilloss_des.eps Graphic file (type eps)
+
+<./img/eurosem_diff_runoff_soilloss_des.eps> [154] [155] [156] [157] [158]
+[159] [160]) [161] [162
 
 
 ]
 \openout2 = `./tex/future_erosion_chapter.aux'.
 
  (./tex/future_erosion_chapter.tex
-Chapter 10.
+Chapter 9.
 [163
 
 
-] [164] (./tex/building_intensity_scenarios.tex [165] [166] [167] [168]
+] (./tex/building_intensity_scenarios.tex [164] [165] [166] [167] [168]
 [169] [170]
 File: ./img/future_erosion_flowchart.eps Graphic file (type eps)
- <./img/future_erosion_flowchart.eps>) [171] [172] [173]
+ <./img/future_erosion_flowchart.eps>) [171] [172]
 File: ./img/wepp_respond_to_int_changes.eps Graphic file (type eps)
 
-<./img/wepp_respond_to_int_changes.eps> [174] [175] [176]
+<./img/wepp_respond_to_int_changes.eps> [173] [174] [175]
 File: ./img/annual_future_rainfall.eps Graphic file (type eps)
 
-<./img/annual_future_rainfall.eps>
+<./img/annual_future_rainfall.eps> [176]
 File: ./img/future_rainfall_duration_change.eps Graphic file (type eps)
- <./img/future_rainfall_duration_change.eps>
-[177]
+
+<./img/future_rainfall_duration_change.eps> [177]
 File: ./img/future_monthly_intensity_wet.eps Graphic file (type eps)
- <./img/future_monthly_intensity_wet.eps>
+
+<./img/future_monthly_intensity_wet.eps>
 File: ./img/future_monthly_intensity_dry.eps Graphic file (type eps)
 
 <./img/future_monthly_intensity_dry.eps>
 File: ./img/future_roff_change.eps Graphic file (type eps)
  <./img/future_roff_change.eps>
-[178] [179]
 File: ./img/future_sloss_change.eps Graphic file (type eps)
- <./img/future_sloss_change.eps> [180]
+
+<./img/future_sloss_change.eps> [178] [179] [180]
 File: ./img/event_original.eps Graphic file (type eps)
  <./img/event_original.eps>
 File: ./img/event_dry_incr_5.eps Graphic file (type eps)
 
 <./img/event_dry_incr_5.eps>
 File: ./img/event_dry_incr_10.eps Graphic file (type eps)
- <./img/event_dry_incr_10.eps> [181] [182] [183]
-[184]) [185] [186
+ <./img/event_dry_incr_10.eps> [181] [182] [183])
+[184] [185
 
 
 ]
 \openout2 = `./tex/conclusion_chapter.aux'.
 
  (./tex/conclusion_chapter.tex
-Chapter 11.
-[187
+Chapter 10.
+[186
 
 
-] [188] [189] [190] [191] [192] [193]
+] [187] [188] [189] [190] [191] [192]
 Underfull \hbox (badness 5288) in paragraph at lines 268--270
 [][]\T1/MinionPro-OsF/m/n/12 Experiments/measurements of dur-a-tion/frequency o
 f Within-Storm Pauses
  []
 
-) [194] (./muchadoaboutnothing.bbl
+) [193] (./muchadoaboutnothing.bbl
 Underfull \hbox (badness 1735) in paragraph at lines 65--68
 [][]\T1/MinionPro-OsF/b/n/10.95 Boardman, J., Par-sons, A. J., Hol-land, R., Ho
 lmes, P. J. and Wash-ing-ton, R. \T1/MinionPro-OsF/m/n/10.95 (2003)
  []
 
-[195
+[194
 
 
-] [196] [197]
+] [195] [196]
 LaTeX Font Info:    Try loading font information for T1+fi4 on input line 293.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/inconsolata/t1fi4.fd
@@ -1835,14 +1828,14 @@ Package microtype Info: Character `textendash ' is missing
 Package microtype Info: Character `textemdash ' is missing
 (microtype)             in font `T1/fi4/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
- [198]
-[199] [200]
+ [197]
+[198] [199]
 Underfull \hbox (badness 2635) in paragraph at lines 552--557
 [][]\T1/MinionPro-OsF/b/n/10.95 Mearns, L. O., Giorgi, F., Whetton, P., Pa-bon,
  D., Hulme, M. and Lal, M. \T1/MinionPro-OsF/m/n/10.95 (2003)
  []
 
-[201]
+[200]
 Underfull \hbox (badness 2662) in paragraph at lines 648--651
 [][]\T1/MinionPro-OsF/b/n/10.95 Nearing, M. A., Jetten, V., Baf-faut, C., Cerda
 n, O., Cou-tur-ier, A., Hernan-dez, M.,
@@ -1854,12 +1847,12 @@ Underfull \hbox (badness 3780) in paragraph at lines 696--700
 /n/10.95 (1998) `Eval-u-ation of the European daily pre-cip-it-a-tion
  []
 
-[202] [203] [204] [205]) [206]
+[201] [202] [203] [204]) [205]
 LaTeX Font Info:    Font shape `T1/MinionPro-OsF/bx/sc' in size <20.74> not ava
 ilable
 (Font)              Font shape `T1/MinionPro-OsF/b/sc' tried instead on input l
 ine 97.
- [207
+ [206
 
 ]
 \openout2 = `./tex/appendixA.aux'.
@@ -1874,53 +1867,62 @@ Package microtype Info: Character `textendash ' is missing
 Package microtype Info: Character `textemdash ' is missing
 (microtype)             in font `T1/fi4/m/n/8'.
 (microtype)             Ignoring protrusion settings for this character.
-[208
+[207
 
 
-] [209] [210] [211] [212] [213] [214] [215] [216] [217] [218] [219]
-[220] [221] [222]) [223]
+] [208] [209] [210] [211] [212] [213] [214] [215] [216] [217] [218]
+[219] [220] [221]) [222]
 \openout2 = `./tex/appendixB.aux'.
 
  (./tex/appendixB.tex
 Appendix B.
-[224
+[223
 
 
 
-] [225]) [226]
+] [224]) [225]
 \openout2 = `./tex/appendixC.aux'.
 
  (./tex/appendixC.tex
 Appendix C.
-[227
+[226
 
 
 
-] [228] [229] [230]) [231]
+] [227] [228] [229]) [230]
+\openout2 = `./tex/appendixD.aux'.
+
+ (./tex/appendixD.tex
+Appendix D.
+) [231
+
+
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
- (./muchadoaboutnothing.aux (./tex/dummy.aux)
-(./tex/abstract.aux) (./tex/extendedabstract.aux) (./tex/acknowledgement.aux)
-(./tex/dedication.aux) (./tex/background_chapter.aux)
-(./tex/objective_chapter.aux) (./tex/data_method_chapter.aux)
-(./tex/improved_cligen_chapter.aux) (./tex/temporal_resolution_chapter.aux)
+ (./muchadoaboutnothing.aux (./tex/dummy.aux) (./tex/abstract.aux)
+(./tex/extendedabstract.aux) (./tex/acknowledgement.aux) (./tex/dedication.aux)
+(./tex/background_chapter.aux) (./tex/objective_chapter.aux)
+(./tex/data_method_chapter.aux) (./tex/improved_cligen_chapter.aux)
+(./tex/temporal_resolution_chapter.aux)
 (./tex/continue_discontinue_rainfall_chapter.aux)
 (./tex/intensity_pattern_chapter.aux) (./tex/bp2bp_variation_chapter.aux)
-(./tex/observed_rainfall_chapter.aux) (./tex/future_erosion_chapter.aux)
-(./tex/conclusion_chapter.aux) (./tex/appendixA.aux) (./tex/appendixB.aux)
-(./tex/appendixC.aux))
+(./tex/future_erosion_chapter.aux) (./tex/conclusion_chapter.aux)
+(./tex/appendixA.aux) (./tex/appendixB.aux) (./tex/appendixC.aux)
+(./tex/appendixD.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 111.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
 Package rerunfilecheck Info: File `muchadoaboutnothing.out' has not changed.
-(rerunfilecheck)             Checksum: D356A286137EB597546D06BA0FCA01A1;9983.
+(rerunfilecheck)             Checksum: 20B6563E1AC97CDD127EF852FCC5BFFF;10170.
  ) 
 Here is how much of TeX's memory you used:
- 16812 strings out of 495011
- 282465 string characters out of 3180123
- 425561 words of memory out of 3000000
- 19349 multiletter control sequences out of 15000+200000
+ 16817 strings out of 495011
+ 282491 string characters out of 3180124
+ 425931 words of memory out of 3000000
+ 19351 multiletter control sequences out of 15000+200000
  897770 words of font info for 134 fonts, out of 3000000 for 9000
  36 hyphenation exceptions out of 8191
  60i,17n,94p,741b,866s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on muchadoaboutnothing.dvi (248 pages, 1576112 bytes).
+Output written on muchadoaboutnothing.dvi (248 pages, 1582140 bytes).

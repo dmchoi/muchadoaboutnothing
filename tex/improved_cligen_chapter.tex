@@ -1,5 +1,6 @@
 %\linenumbers*
-\chapter{IMPLICATION OF IMPROVED CLIGEN}
+\chapter{IMPLICATION OF IMPROVED CLIGEN ON RAINFALL AND SOIL EROSION
+SIMULATIONS}
 \label{sec:IMPLICATIONSOFIMPROVEDCLIGEN}
 
 \section{Introduction}
@@ -7,17 +8,24 @@
 CLIGEN, a weather generator for WEPP, went through extensive modifications while
 the current research was carried out \citep{yu2000-301}. The modification was
 done to improve CLIGEN in three aspects. The first is the recalculation of an
-input parameter, `MX~.5P', which controls rainfall intensity generations of
+input parameter, `{MX.5P}', which controls rainfall intensity generations of
 CLIGEN. The second is the correction of the unit conversion error in programming
 codes of CLIGEN. The third is a subsequent adjustment to shorten the extensive
-increases of simulated rainfall durations. These unforeseen changes prompted an
-investigation of their implications on rainfall generations of CLIGEN and, in
-turn, soil erosion estimations of WEPP.
+increases of simulated rainfall durations.
 
-This chapter aims to investigate effects of the changes of CLIGEN (from version
-4.2 to version 5.2) on WEPP and CLIGEN simulations. In addition, WEPP is
-calibrated here before being used for the subsequent simulation of this
-research.
+These unforeseen changes prompted an investigation of their implications on
+rainfall generations of CLIGEN and, in turn, soil erosion estimations of WEPP.
+Before using the improved CLIGEN, it is important to understand how the improved
+CLIGEN perform and simulates weather data in comparison to the previous version.
+Also, how these changes of CLIGEN affect on previous publications needs to be
+discussed.
+
+Therefore, this chapter investigates effects of the changes of CLIGEN (from
+version 4.2 to version 5.2) on rainfall data simulations and soil erosion
+estimations by WEPP. During the investigation process, WEPP is also calibrated
+and used for the subsequent simulations of this thesis. Some previous
+publications have been identified later in this chapter in regard to
+implications of CLIGEN changes.
 
 \section{Data Preparation and Method for Model Simulation}
 \label{sec:ImprovedCligenMethods}
@@ -40,12 +48,12 @@ the 1975 NERC publication---to convert these values into 0.5-hour maxima. I then
 sent these 0.5-hour max.\ values to Arlin. From these he calculated time-to-peak
 values.'' \end{quotation}}. The newly prepared CLIGEN input file used event data
 that have been measured since 1991 (Table \ref{tab:DetailsOfDataStations}).
-`MEAN~P' (Table \ref{tab:UpdatedMEANPForDitchlingRoad}) and `MX~.5P' (Table
+`MEAN~P' (Table \ref{tab:UpdatedMEANPForDitchlingRoad}) and `{MX.5P}' (Table
 \ref{tab:UpdatedMX5PForDitchlingRoad}) values of CLIGEN inputs were recalculated
 using the up-to-date event data. Note that the units for these parameters are in
 inches, not in millimetres. Only these two parameters were updated because
 rainfall intensity is closely related to these two parameters. The definition of
-the `MX~.5P' was revised by \citet{yu2000-301}, so it was recalculated
+the `{MX.5P}' was revised by \citet{yu2000-301}, so it was recalculated
 accordingly in this research.
 
 \begin{table}[htbp]
@@ -96,8 +104,8 @@ Nov & Dec\\
 \begin{table}[htbp]
   \figureversion{tabular}
   \centering
-  \caption[Original and Updated MX~.5P for Ditchling Road]{Original and
-Updated MX~.5P (in/hr) for Ditchling Road}
+  \caption[Original and Updated {MX.5P} for Ditchling Road]{Original and
+Updated {MX.5P} (in/hr) for Ditchling Road}
   \label{tab:UpdatedMX5PForDitchlingRoad}
     \footnotesize
     \begin{tabular}{lrrrrrrrrrrrr}
@@ -118,10 +126,11 @@ estimated for Woodingdean site (Figure \ref{fig:WoodingdeanSite}) with each
 CLIGEN-generated climate dataset. All other input data for the WEPP simulation
 were acquired from the previous study by \citet{favis-mortlock1998-141}. Runoff
 and soil loss rates were compared.
-Kolmogorov-Smirnov (K-S) tests was used to test the null hypothesis that the two
-populations are identical.
+Kolmogorov-Smirnov (K-S) test was used to test the null hypothesis that the two
+populations are identical. Results of K-S test are presented in the next
+section.
 
-\section{Impact on Rainfall Data Generation}
+\section{Implication on Rainfall Data Simulation}
 \label{sec:RainfallSimulation}
 
 \subsection{Rainfall Amount}
@@ -143,37 +152,45 @@ with original and updated input files.}
 \end{figure}
 
 \subsection{Rainfall Duration}
-Simulated annual rainfall durations using two versions of CLIGEN exhibited
-noticeable differences. Old version of CLIGEN generated identical annual
-rainfall durations even though two different input files were used (Figure
-\ref{fig:cligen_annual_duration}). New CLIGEN generated markedly different
-durations when two CLIGEN input files were used (Figure
-\ref{fig:cligen_annual_duration}) (K-S test, $p<0.05$). New CLIGEN with updated
-input file generated greatly increased rainfall durations, almost 2.5 times
-longer on average than with original input file. The rainfall duration was over
-1.5 times longer on average in comparison to the rainfall duration generated by
-old CLIGEN. New CLIGEN with original inputs generated the shortest annual
-rainfall durations among the four series.
+Contrastingly, simulated annual rainfall durations using two versions of CLIGEN
+exhibited noticeable differences. Old version of CLIGEN generated identical
+annual rainfall durations even though two different input files (original
+and updated) were used (Figure \ref{fig:cligen_annual_duration}). New CLIGEN
+generated markedly different rainfall durations when the same set of CLIGEN
+input files were used (Figure \ref{fig:cligen_annual_duration}) (K-S test,
+$p<0.05$).
 
 \begin{figure}[htbp]
   \centering
-
 \includegraphics[width=0.8\textwidth]{./img/cligen_annual_duration_series}
   \caption{Simulated annual rainfall duration using two versions of CLIGEN
 with original and updated input files.}
   \label{fig:cligen_annual_duration}
 \end{figure}
 
+New CLIGEN with updated input file generated greatly increased rainfall
+durations, almost 2.5 times longer on average than with original input file. The
+rainfall duration was over 1.5 times longer on average in comparison to the
+rainfall duration generated by old CLIGEN. New CLIGEN with original input file
+generated the shortest annual rainfall durations among the four series.
+This means that, unlike old version, new version of CLIGEN is sensitive to
+the change of two CLIGEN input parameters (i.e.\ MEAN~P and {MX.5P}),
+particularly to the change of {MX.5P}. Great differences in rainfall durations
+mean that rainfall intensities also differ greatly between the simulated
+rainfall data.
+
+
+
 \subsection{Monthly Maxima of Daily Peak Rainfall Intensity}
-Monthly maxima of daily peak rainfall intensity series generated by CLIGEN were
-compared in order to examine effects of extreme intensity events. The results
-are shown in Figure \ref{fig:cligen_monthly_max_int}.
+Next, monthly maxima of daily peak rainfall intensity series generated by CLIGEN
+were compared in order to examine effects of extreme intensity events. The
+results are shown in Figure \ref{fig:cligen_monthly_max_int}.
 Kolmogorov-Smirnov tests indicate that old CLIGEN was not sensitive to the
 changes of input files (See Figure \ref{fig:cligen_monthly_max_int}(a) and
-\ref{fig:cligen_monthly_max_int}(c)) (i.e. to the changes of MEAN~P and MX~.5P)
-($p<0.05$). In contrast, using original and updated input files with new CLIGEN
-resulted in two significantly (K-S test, $p<0.05$) different distributions of
-monthly maxima of daily peak rainfall intensity (See Figure
+\ref{fig:cligen_monthly_max_int}(c)) (i.e.\ to the changes of MEAN~P and
+{MX.5P}) ($p<0.05$). In contrast, using original and updated input files with
+new CLIGEN resulted in two significantly (K-S test, $p<0.05$) different
+distributions of monthly maxima of daily peak rainfall intensity (See Figure
 \ref{fig:cligen_monthly_max_int}(b) and \ref{fig:cligen_monthly_max_int}(d)).
 New CLIGEN generated fewer high-peaked rainfall intensity events than the old
 version (Figure \ref{fig:cligen_monthly_max_int}(a)(c) and
@@ -247,10 +264,11 @@ new CLIGEN with updated input file. The tests revealed that uncalibrated WEPP
 overestimates mean soil loss by about 630\% in comparison to observed soil
 losses from the study area (Table
 \ref{tab:SimulatedSoilLossWithCLIGENV52WithUpdatedInput}). This erosion rate is
-considered too high for the study site. Thus, WEPP was calibrated by adjusting
-hydrological and erosional parameter values. The adjusted parameters were shown
-in Table \ref{tab:HydrologicalAndErosionalParameters}. Simulated runoff and soil
-loss rates using uncalibrated and calibrated WEPP are presented in Table
+considered undesirably high for the study site so that calibrations is
+deemed to be essential. Thus, WEPP was calibrated by adjusting hydrological and
+erosional parameter values. The adjusted parameters were shown in Table
+\ref{tab:HydrologicalAndErosionalParameters}. Simulated runoff and soil loss
+rates using uncalibrated and calibrated WEPP are presented in Table
 \ref{tab:SimulatedRunoffWithCLIGENV52WithUpdatedInput} and
 \ref{tab:SimulatedSoilLossWithCLIGENV52WithUpdatedInput}. No measured runoff
 data were available for the site.
@@ -459,9 +477,9 @@ here confirms this improvement. Rainfall duration generated by new CLIGEN (v5.2)
 showed a clear evidence of this improvement (Figure
 \ref{fig:cligen_annual_duration}).
 
-Updated CLIGEN input file that includes lower MX~.5P values than original input
+Updated CLIGEN input file that includes lower {MX.5P} values than original input
 file resulted in longer rainfall durations as shown in Figure
-\ref{fig:cligen_annual_duration}. This was expected because of the lower MX~.5P
+\ref{fig:cligen_annual_duration}. This was expected because of the lower {MX.5P}
 values and the similar MEAN~P values in updated input file (Figure
 \ref{fig:mean_p_mx5p_cligen}). With rainfall amount almost unchanged---only
 slightly changed, but statistically the same ($p<0.05$), rainfall duration has
@@ -470,7 +488,7 @@ to be increased to satisfy low intensity parameter (Figure
 intensity (Figure \ref{fig:cligen_dr_monthly_max_int_by_month}).
 
 Old CLIGEN did not show much changes in rainfall intensity even though the
-rainfall intensity parameters (MX~.5P) were updated to the lower values when
+rainfall intensity parameters ({MX.5P}) were updated to the lower values when
 preparing original and updated input files. This insensitivity of old CLIGEN is
 clearly the result of the unit conversion error previously found by
 \citet{yu2000-301}. Correcting the errors in the previous version of CLIGEN
@@ -481,11 +499,11 @@ New CLIGEN with the updated input file simulated a peak monthly intensity in
 August that can also be seen in input file (Figure
 \ref{fig:cligen_dr_monthly_max_int_by_month} and Figure \ref{fig:mx5p_cligen}).
 This means that new CLIGEN generates monthly rainfall intensity that are similar
-to MX~.5P values which are calculated from observed weather data.
+to {MX.5P} values which are calculated from observed weather data.
 
 Old CLIGEN generated the similar monthly rainfall intensity for both input
 files. This implies that old CLIGEN does not recognize the intensity differences
-introduced by the different MX~.5P parameters in the original input file.
+introduced by the different {MX.5P} parameters in the original input file.
 
 \begin{figure}[htbp]
   \centering
@@ -529,7 +547,7 @@ file were used than when climate data generated by new CLIGEN with original
 input file were used. This can be explained by the stretched rainfall duration
 which have been caused by the decreases in rainfall intensity. Considering that
 simulated rainfall amounts (MEAN P) were not much different in both input files
-of CLIGEN, it is evident that low rainfall intensity (MX~.5P) is the reason for
+of CLIGEN, it is evident that low rainfall intensity ({MX.5P}) is the reason for
 the low annual runoff and annual soil loss rates estimated by WEPP.
 
 Another interesting finding is that the differences of average annual runoff and
@@ -560,7 +578,7 @@ and following WEPP estimations of runoff and soil loss rates. Old CLIGEN is not
 sensitive to changes of rainfall intensity and generate the similar climate data
 with both CLIGEN input files that have high and low intensity parameters. New
 CLIGEN is now sensitive to changes in rainfall intensity which is parametrized
-as MX~.5P. The effect of the improvement of CLIGEN is more significant for the
+as {MX.5P}. The effect of the improvement of CLIGEN is more significant for the
 regions where low intensity rainfall events are dominant. This is the case for
 an area like South Downs, UK where this research is based on.
 

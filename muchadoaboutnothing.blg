@@ -14,13 +14,13 @@ A level-1 auxiliary file: ./tex/temporal_resolution_chapter.aux
 A level-1 auxiliary file: ./tex/continue_discontinue_rainfall_chapter.aux
 A level-1 auxiliary file: ./tex/intensity_pattern_chapter.aux
 A level-1 auxiliary file: ./tex/bp2bp_variation_chapter.aux
-A level-1 auxiliary file: ./tex/observed_rainfall_chapter.aux
 A level-1 auxiliary file: ./tex/future_erosion_chapter.aux
 A level-1 auxiliary file: ./tex/conclusion_chapter.aux
 The style file: thesisurl.bst
 A level-1 auxiliary file: ./tex/appendixA.aux
 A level-1 auxiliary file: ./tex/appendixB.aux
 A level-1 auxiliary file: ./tex/appendixC.aux
+A level-1 auxiliary file: ./tex/appendixD.aux
 Database file #1: DPhil_refs.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -28,7 +28,7 @@ Reallocated global_strs (elt_size=5001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 You've used 163 entries,
             3609 wiz_defined-function locations,
-            1619 strings with 33143 characters,
+            1619 strings with 33127 characters,
 and the built_in function-call counts, 115305 in all, are:
 = -- 10210
 > -- 3729

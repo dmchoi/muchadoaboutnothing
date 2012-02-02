@@ -503,7 +503,7 @@ soil detachment by raindrop impact, soil detachment by runoff, transport
 capacity of the runoff and deposition of sediment. The model has a modular
 structure that aims to make further improvements of the model easier. The model
 considers the followings:
-\begin{itemize*}
+\begin{itemize}
 \item the interception of rainfall by the plant cover
 \item the volume and kinetic energy of the rainfall reaching the ground surface
 as direct throughfall and leaf drainage
@@ -513,7 +513,7 @@ as direct throughfall and leaf drainage
 \item sediment deposition
 \item the transport capacity of the runoff
 \item frozen soils and stoniness
-\end{itemize*}
+\end{itemize}
 
 The flow chart for EUROSEM is shown in Figure \ref{fig:eurosem_flow_chart}.
 

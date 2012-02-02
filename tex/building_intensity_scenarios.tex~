@@ -1,28 +1,45 @@
 %\linenumbers*
 
-\chapter{FURTHER INVESTIGATIONS TO BUILD FUTURE RAINFALL INTENSITY SCENARIOS}
-\label{sec:FurtherInvestigationstoBuildFutureRainfallIntensityScenarios}
+%\chapter{FURTHER INVESTIGATIONS TO BUILD FUTURE RAINFALL INTENSITY SCENARIOS}
+%\label{sec:FurtherInvestigationstoBuildFutureRainfallIntensityScenarios}
 
-\section{Proposed Simulation Methods}
+%\section{Proposed Simulation Methods}
+\section{Possible Methods for Simulating Future Intensity}
 \label{sec:ProposedSimulationMethods}
 
-WSIV, WSP and WSIP are needed, but even if we know these precisely for future,
-current models are not capable of utilising these properly because of the
-defects found previously (Section
-\ref{sec:EFFECTSOFCONTINOUSANDDISCONTINUSSTORM}). Thus, it has been suggested to
-analyse observed rainfall data to estimate a trend of rainfall intensity changes
-looking at a range of data scales. Based on the trend found, scenarios of future
-rainfall intensity were created.
+Despite the various efforts to find meaningful rainfall intensity trend for
+building future scenarios of rainfall intensity changes, no significant trend
+can be determined from analysing observed rainfall data in the study area.
+Yet future rainfall intensities are predicted to increase.
+%References and discuss why you did not find a trend (find it in CH3??)
+However, even if the trend in rainfall intensity is available (for
+example from an RCM), the results from this study indicate that knowing future
+WSIV, WSIP and WSP is vital in order to carry out future erosion predictions. To
+achieve the aim of this research, an alternative method has to be sought to
+obtain future rainfall data with a appropriate data scale and `changed' rainfall
+intensity. The process of finding alternative method is discussed in this
+section.
 
-The analysis methods presented in this section and the resulting outcomes are
-only presented to highlight limitations in our abilities to estimate future soil
-erosion rates. How future soil erosion may be estimated more adequately is
-discussed in the latter section of this chapter.
+%In order to predict changes of future rainfall intensity that are useful for
+%estimating future soil erosion rates, it is vital to know how WSIV, WSP and
+%WSIP are like in the future. However, even if we know these precisely for
+%future, current models are not capable of utilising these properly because of
+%the defects found previously (Section
+%\ref{sec:EFFECTSOFCONTINOUSANDDISCONTINUSSTORM}).
 
-WEPP is used for the estimation of future soil erosion because only WEPP can
-perform continuous long term simulations.
+%Thus, it has been suggested to analyse observed rainfall data to estimate a
+%trend of rainfall intensity changes looking at a range of data scales. Based on
+%the trend found, scenarios of future rainfall intensity were created.
 
-\subsection{Method One: Changing CLIGEN Generated Data}
+%The analysis methods and the outcomes in this chapter are only presented to
+%highlight limitations in our abilities to estimate future soil erosion rates.
+%How future soil erosion may be estimated more adequately is also discussed in
+%the latter section of this chapter.
+
+%WEPP is used for the estimation of future soil erosion because only WEPP can
+%perform continuous long term simulations.
+
+\subsection{Possible Method 1: Changing CLIGEN Generated Data}
 \label{sec:MethodOne}
 
 %A similar method has been used in Section
@@ -58,25 +75,72 @@ It may be considered to be crude and simple for simulating future rainfall
 intensity changes. It does not make a full use of the findings from the previous
 analyses. This clearly is an indirect approach.
 
-\subsection{Method Two: Changing One of CLIGEN Inputs, MX~.5P}
+\subsection{Possible Method 2: Changing {MX.5P}, One of CLIGEN Input
+Parameters}
 \label{sec:MethodTwo}
 
-The CLIGEN \emph{input} file was adjusted accordingly rather than the CLIGEN
+\paragraph{Description of {MX.5P} (Yu, personal communication 2003)}
+\label{sec:MX5PByBYu}
+
+{MX.5P} is defined as ``Average maximum 30-min peak intensity (in/hr) for each
+month''. If the sub-daily interval is denoted as $\Delta t$ (min), then there
+are 1440/$\Delta t$ intervals, called $M_t$, in a day. For each wet day, discard
+all the dry intervals to create a single storm event with \emph{continuous} rain
+for, say, $M$ intervals. Then the storm duration, $D$, (min) is given by:
+\begin{eqnarray}
+  D = M \Delta t \delta
+\end{eqnarray}
+
+Find the maximum precipitation intensity for any 30-min period within the storm,
+and call this $I_{30}$. If there are $n$ wet days in a month, find the maximum
+of these $n$ $I_{30}$ values, and denote this maximum $I_{30}$ for the month as
+$maxI_{30}$. If there are $K$ months on record, then {MX.5P} is given by:
+\begin{eqnarray}
+  \mathrm{MX.5P} = \frac{1}{K} \sum maxI_{30}
+\end{eqnarray}
+
+For example, let us say it rained on 3rd and 10th of May, 2001 with a peak
+30-min intensity of 1.2 in/hr and 1.5 in/hr, respectively. Then $maxI_{30}$
+would be 1.5 in/hr for May 2001. If we have 5 years of data for May:
+
+\begin{table}[hbpt]
+  \centering
+  \begin{tabular}{ccc}
+    \toprule
+    Month & Year & $maxI_{30}$ (in/hr)\\
+    \midrule
+    May & 1997 & 0.8\\
+    May & 1998 & 0.9\\
+    May & 1999 & 0.3\\
+    May & 2000 & 2.8\\
+    May & 2001 & 1.5\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Then the {MX.5P} value for May for this hypothetical site would be:
+\begin{equation}
+  \frac{0.8+0.9+0.3+2.8+1.5}{5} = 1.26 \ \textrm{(in/hr)}.
+\end{equation}
+
+\paragraph{Changing {MX.5P}} The CLIGEN \emph{input} file was adjusted
+accordingly rather than the CLIGEN
 \textit{output} file. Two CLIGEN input files were prepared as if they are from
 two different periods---present and future---of the site. Future climate changes
-may be seen as ``two different climate conditions in the same place with
-temporal variation''. The original input file was built using observed event
-rainfall data from Ditchling Road station. Rainfall intensity parameter (MX~.5P)
-of the original input file was adjusted accordingly to represent future rainfall
+are thus conceptualised here as ``two different climate conditions in the same
+place''. The original input file was built using observed event rainfall data
+from Ditchling Road station. Rainfall intensity parameter ({MX.5P}) of the
+original input file was adjusted accordingly to represent future rainfall
 intensity changes (Table \ref{tab:MX5PChanges}). Two sets of CLIGEN generated
 weather data using these two input files only differ in peak rainfall
-intensities, which is controlled by MX~.5P. Then, WEPP simulates runoff and soil
+intensities, which is controlled by {MX.5P}. Then, WEPP simulates runoff and
+soil
 loss rates using these two CLIGEN climate data.
 
 \begin{table}[htpb]
   \figureversion{tabular}
   \centering
-  \caption{Ratio of MX~.5P changes for each month}
+  \caption{Ratio of {MX.5P} changes for each month}
   \label{tab:MX5PChanges}
     \begin{tabular}{lcccc}
     \toprule
@@ -96,19 +160,20 @@ frequency change is considered. No rainfall amount change is also assumed here.
 Due to the lack of information, no intra-storm rainfall intensity pattern for
 the future was considered.
 
-As Nearing pointed out (personal e-mail communications, 8 June 2001), if MEAN~P
-in CLIGEN input file is changed together with MX~.5P, we would end up with
-completely different climate data from what we have started with. Also,
+Nearing (personal e-mail communications, 8 June 2001) pointed out that, if
+MEAN~P in CLIGEN input file is changed together with {MX.5P}, we would end up
+with completely different climate data from what we have started with. Also,
 generated data may not have clear relationships with original data. This is a
 problem for a sensitivity-type comparison---that is, comparing how WEPP
 estimates differ for two well-defined sets of input data. On the other hand,
 when creating ``realistic'' future rainfall data is to be the main concern, both
-parameters (MEAN~P and MX~.5P), together with other parameters may need to be
+parameters (MEAN~P and {MX.5P}), together with other parameters may need to be
 changed. It will, however, only be applicable to the case where sufficient
 reference data are available for the adjustment and comparison of all the
 parameter. No such information has been available for this research. Therefore,
-when such method is used, it is important to limit the changes only to MX~.5P,
-and carry out the sensitivity-type comparison.
+until such information is available, it is important to limit the changes only
+to a single parameter, {MX.5P} in this case, and carry out the sensitivity-type
+comparison.
 
 It is very unlikely all the month will have the same changes in rainfall
 intensity. There will be some degrees of variations depending on seasons, for
@@ -122,7 +187,7 @@ March, April, May, June, July and August (Table
   \figureversion{tabular}
   \centering
   \footnotesize
-  \caption{Adjusted MX~.5P values for the wet season}
+  \caption{Adjusted {MX.5P} values for the wet season}
   \label{tab:AdjustedMX5Pvaluesforwetseasons}
     \begin{tabular}{r|cc|cccccc|cccc}
       \toprule
@@ -147,7 +212,7 @@ March, April, May, June, July and August (Table
   \figureversion{tabular}
   \centering
   \footnotesize
-  \caption{Adjusted MX~.5P values for the dry season}
+  \caption{Adjusted {MX.5P} values for the dry season}
   \label{tab:AdjustedMX5Pvaluesfordryseasons}
     \begin{tabular}{r|cc|cccccc|cccc}
       \toprule
@@ -170,75 +235,29 @@ March, April, May, June, July and August (Table
 
 Since soil erosion is closely related to the extreme rainfall events, this
 thesis concentrates on extreme rainfall events which are closely related to the
-rainfall parameter, MX~.5P. This is the main reason why MX~.5P is chosen to be
+rainfall parameter, {MX.5P}. This is the main reason why {MX.5P} is chosen to be
 altered. It is clear that \citet{nicks1995-2} has recognised the close
-statistical relationship between MX~.5P and soil erosion rate. This may explain
+statistical relationship between {MX.5P} and soil erosion rate. This may explain
 why this parameter is included in a CLIGEN input file.
 
 \paragraph{Pros:}
 \label{sec:ProsMethodTwo}
-It might be a new approach to the changes of future rainfall intensity. The
-procedures are relatively easy and uncomplicated. Calculating MX~.5P is
+The procedures are relatively easy and uncomplicated. Calculating {MX.5P} is
 relatively straightforward from tipping-bucket data. It does change the rainfall
-intensity of extreme events. By adjusting monthly values, seasonal variations
-can be considered. It may be possible to calculate annual trend of MX~.5P.
+intensity of extreme events.
 
 \paragraph{Cons:}
 \label{sec:ConsMethodTwo}
 Generated rainfall data for the original and ``future'' climate are almost the
-same except rainfall intensity. Assumed future condition here is not the most
-likely future climate condition. Future climate will change in complex ways, not
+same except for rainfall intensity. Thus the ``future condition'' here is not,
+physically, very realistic. Future climate will change in complex ways, not
 only extreme rainfall intensity will change, but also probabilities of raindays,
-inter-storm patterns, and, surly rainfall amount will change. Also, even if we
-increase or decrease extreme rainfall intensity only, the intensity of small
-rainfall events are also affected in order to keep overall annual rainfall
-amount constant.
+WSIP (Within-Storm Intensity Pattern), and, surly rainfall amount will change.
+Also, even if we increase or decrease extreme rainfall intensity only, the
+intensity of small rainfall events are also affected in order to keep overall
+annual rainfall amount constant.
 
-\paragraph{Description of MX~.5P (Yu, personal communication 2003)}
-\label{sec:MX5PByBYu}
-
-MX~.5P is defined as ``Average maximum 30-min peak intensity (in/hr) for each
-month''. If the sub-daily interval is denoted as $\Delta t$ (min), then there
-are 1440/$\Delta t$ intervals, called $M_t$, in a day. For each wet day, discard
-all the dry intervals to create a single storm event with \emph{continuous} rain
-for, say, $M$ intervals. Then the storm duration, $D$, (min) is given by:
-\begin{eqnarray}
-  D = M \Delta t \delta
-\end{eqnarray}
-
-Find the maximum precipitation intensity for any 30-min period within the storm,
-and call this $I_{30}$. If there are $n$ wet days in a month, find the maximum
-of these $n$ $I_{30}$ values, and denote this maximum $I_{30}$ for the month as
-$maxI_{30}$. If there are $K$ months on record, then MX~.5P is given by:
-\begin{eqnarray}
-  MX~.5P = \frac{1}{K} \sum maxI_{30}
-\end{eqnarray}
-
-For example, let us say it rained on 3rd and 10th of May, 2001 with a peak
-30-min intensity of 1.2 in/hr and 1.5 in/hr, respectively. Then $maxI_{30}$
-would be 1.5 in/hr for May 2001. If we have 5 years of data for May:
-
-\begin{table}[hbpt]
-  \centering
-  \begin{tabular}{ccc}
-    \toprule
-    Month & Year & $maxI_{30}$ (in/hr)\\
-    \midrule
-    May & 1997 & 0.8\\
-    May & 1998 & 0.9\\
-    May & 1999 & 0.3\\
-    May & 2000 & 2.8\\
-    May & 2001 & 1.5\\
-    \bottomrule
-  \end{tabular}
-\end{table}
-
-Then the MX~.5P value for May for this hypothetical site would be:
-\begin{equation}
-  \frac{0.8+0.9+0.3+2.8+1.5}{5} = 1.26 \ \textrm{(in/hr)}.
-\end{equation}
-
-\subsection{Method Three: Using GCM/RCM Data}
+\subsection{Possible Method 3: Using GCM/RCM Data}
 \label{sec:MethodThree}
 
 This third method described here was proposed originally, but has not been used
@@ -277,7 +296,7 @@ Another possible problem is that, because of the preceding uncertainty of GCM
 output, we might end up with erroneous CLIGEN input files which, in turn, will
 lead to even greater errors for future erosion estimation.
 
-\subsection{Selected Method: Method Two, Changing CLIGEN Input}
+\subsection{Selected Method: Method 2, Changing CLIGEN Input}
 \label{sec:SelectedMethod}
 
 The Method Two (Section \ref{sec:MethodTwo}) is selected. The schematic
@@ -289,9 +308,9 @@ constructing future rainfall intensity scenarios.
 
 CLIGEN generates original climate data using the input file which statistically
 represents the characteristics of current rainfall intensity. Keeping all other
-parameters constant, the intensity parameter (MX~.5P) in the CLIGEN input file
+parameters constant, the intensity parameter ({MX.5P}) in the CLIGEN input file
 are increased or decreased proportionally (Table \ref{tab:MX5PChanges}).
-MX~.5P is specifically related to extreme intensity events as given by its
+{MX.5P} is specifically related to extreme intensity events as given by its
 definition, `Average maximum 30 minutes peak intensity (in/hr) for each month'.
 ``Future'' climate data are then generated using adjusted CLIGEN input file.
 WEPP simulates runoff and soil loss using both climate data. Runoff and soil
