@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.2.1)  17 FEB 2012 08:52
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.2.1)  17 FEB 2012 12:51
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1633,7 +1633,7 @@ ine 289.
 (./tex/bp2bp_variation_chapter.tex
 Chapter 8.
 
-Underfull \hbox (badness 1728) in paragraph at lines 24--26
+Underfull \hbox (badness 1728) in paragraph at lines 25--27
 [][]\T1/MinionPro-OsF/m/n/12 Starting from 15-min (since 1- and 5-min are not p
 os-sible for WEPP and
  []
@@ -1643,7 +1643,7 @@ os-sible for WEPP and
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 38--43
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
 [][]\T1/MinionPro-OsF/m/n/12 Sort data to ``as-cend-ing'' (Sorted-ascending) an
 d ``des-cend-ing'' (Sorted-
  []
@@ -1730,27 +1730,26 @@ Chapter 9.
 ] (./tex/building_intensity_scenarios.tex [168] [169] [170] [171] [172]
 [173] [174]
 File: ./img/future_erosion_flowchart.eps Graphic file (type eps)
- <./img/future_erosion_flowchart.eps>) [175] [176]
+ <./img/future_erosion_flowchart.eps>) [175] [176] [177]
 File: ./img/wepp_respond_to_int_changes.eps Graphic file (type eps)
 
-<./img/wepp_respond_to_int_changes.eps> [177] [178] [179]
+<./img/wepp_respond_to_int_changes.eps> [178] [179] [180]
 File: ./img/annual_future_rainfall.eps Graphic file (type eps)
 
-<./img/annual_future_rainfall.eps> [180]
+<./img/annual_future_rainfall.eps>
 File: ./img/future_rainfall_duration_change.eps Graphic file (type eps)
-
-<./img/future_rainfall_duration_change.eps> [181]
+ <./img/future_rainfall_duration_change.eps>
 File: ./img/future_monthly_intensity_wet.eps Graphic file (type eps)
 
 <./img/future_monthly_intensity_wet.eps>
 File: ./img/future_monthly_intensity_dry.eps Graphic file (type eps)
 
-<./img/future_monthly_intensity_dry.eps>
+<./img/future_monthly_intensity_dry.eps> [181]
 File: ./img/future_roff_change.eps Graphic file (type eps)
  <./img/future_roff_change.eps>
+[182] [183]
 File: ./img/future_sloss_change.eps Graphic file (type eps)
-
-<./img/future_sloss_change.eps> [182] [183] [184]
+ <./img/future_sloss_change.eps> [184]
 File: ./img/event_original.eps Graphic file (type eps)
  <./img/event_original.eps>
 File: ./img/event_dry_incr_5.eps Graphic file (type eps)
@@ -1877,15 +1876,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 111.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
 Package rerunfilecheck Info: File `muchadoaboutnothing.out' has not changed.
-(rerunfilecheck)             Checksum: 41CE302BB5A950E46D1FF80218E2E209;10285.
+(rerunfilecheck)             Checksum: B230DE88FCB68F89E05F21FD62417BEA;10285.
  ) 
 Here is how much of TeX's memory you used:
- 15310 strings out of 495011
- 251989 string characters out of 3180124
- 371186 words of memory out of 3000000
- 17864 multiletter control sequences out of 15000+200000
+ 15348 strings out of 495011
+ 252312 string characters out of 3180124
+ 371837 words of memory out of 3000000
+ 17902 multiletter control sequences out of 15000+200000
  897770 words of font info for 134 fonts, out of 3000000 for 9000
  36 hyphenation exceptions out of 8191
  60i,17n,94p,741b,860s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on muchadoaboutnothing.dvi (252 pages, 1620152 bytes).
+Output written on muchadoaboutnothing.dvi (252 pages, 1637692 bytes).

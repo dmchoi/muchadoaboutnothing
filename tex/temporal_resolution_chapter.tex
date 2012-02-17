@@ -8,13 +8,13 @@
 %******start with little bit of rationalization of this set of experiments and
 %why did I choose to do THIS and why IN THIS WAY
 When modelling soil erosion, finding suitable input data for the simulation is
-an important but also difficult part of model-based researches. Ideally, input
+an important part of model-based researches but it is not easy. Ideally, input
 data need to be measured directly from a study site and parametrized for a model
 simulation. However, this process requires a great effort and time. It is also
 frequently affected by geographical and financial situations of research. All
 these reasons affect how rainfall data are made available in different scales
 either spatially, temporally or both. Thus, we often end up using what is
-readily available rather than what is originally required by erosion models.
+readily available rather than what is really required by erosion models.
 
 Rainfall intensity is highly variable depending on data scales and where they
 are measured from \citep{nyssen2005-172}. Consequently, using rainfall data
@@ -31,31 +31,32 @@ answers for Research Question \ref{researchquestion2}:\
 Assuming that we use a model to predict erosion rates under the future climate
 which may have different rainfall intensities from the present, what information
 do we need to make predictions in terms of both climate and process
-understanding?                                                      
+understanding?
 \end{quotation}
 
-\section{Simulation Data and Methods}
+\section{Data Preparation and Method}
 \label{sec:TemporalScalesEffectsMethods}
 %******Need a section discussing what is meant by a ``storm'' and giving your
 %own definition. You can then refer to this in the Conclusions.
 
-There are two ways of defining average rainfall intensity. One is to calculate
-kinetic energy of rainfall by measuring size, distribution and velocity of
-raindrops. The other is to calculate it by dividing total rainfall amount by
-rainfall duration. The latter is used in this research because erosion models
-used here employ the latter concept when rainfall data are feed into the model
-as inputs. Rainfall intensity is expressed as rainfall amount divided by time
-(e.g.\ mm/hr) in this research.
+\paragraph{Definition of Intensity} There are two ways of defining average
+rainfall intensity. One is to calculate kinetic energy of rainfall by measuring
+size, distribution and velocity of raindrops \citep{vandijk2002-1}. The other is
+to calculate it by dividing total rainfall amount by rainfall duration. The
+latter is used in this research because erosion models used here employ the
+latter concept when rainfall data are feed into the model as inputs. Rainfall
+intensity is expressed as rainfall amount divided by time (e.g.\ mm/hr) in this
+research.
 
-The variations between data points such as breakpoints is termed as WSIV
-(Within-Storm Intensity Variation) for convenience. This is related to temporal
-scales of rainfall data as well as types of storms (convective and frontal). In
-this research, unless specified, a rainfall storm or rainfall event is defined
-as a daily rainfall. Consequences of this assumption were not covered in this
-study simply because all models used here assume that a rainfall storm does not
-last longer than a day. Nevertheless, this research recognises the presence
-of this issue and the need for further studies on the definition of rainfall
-storm.
+\paragraph{Preamble} The variations between data points such as breakpoints is
+termed as Within-Storm Intensity Variation (WSIV) for convenience. This is
+related to temporal scales of rainfall data as well as types of storms
+(convective and frontal). In this research, unless specified, a rainfall storm
+or rainfall event is defined as a daily rainfall. Consequences of this
+assumption were not covered in this study simply because all models used here
+assume that a rainfall storm does not last longer than a day. Nevertheless, this
+research recognises the presence of this issue and the need for further studies
+on the definition of rainfall storm.
 
 %The most intense activity started at around 1900 GMT on 11 October 2000 and
 %continued until 1000 GMT on 12 October 2000 \citep{saunders2001-360}. The
@@ -63,7 +64,7 @@ storm.
 %\citep{saunders2001-360}.
 Two storms that occurred on 4 July 2000 and on 11 October 2000 for summer and
 autumn, respectively, were selected from Plumpton event rainfall data (Table
-\ref{tab:DetailsOfDataStations}). 
+\ref{tab:DetailsOfDataStations}).
 The tipping-bucket data for both events were aggregated into 5 different
 temporal scales---1, 5, 15, 30 and 60 minutes. This was done to simulate
 different temporal scaled rainfall data. Each temporal scale was treated as if
@@ -312,7 +313,7 @@ runoff amounts, respectively (Table
 \ref{tab:DifferentTemporalScalesOfRainfallDataOnWEPPRunoffEstimation} and
 Figure \ref{fig:wepp_roff_sloss_temp_scale}(a)). The effect of temporal scale
 changes are greater when CLIGEN data for the July event are used than for the
-October event. 
+October event.
 
 \begin{table}[htbp]
   \figureversion{tabular}
