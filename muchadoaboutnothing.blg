@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: muchadoaboutnothing.aux
+A level-1 auxiliary file: ./tex/dummy.aux
+A level-1 auxiliary file: ./tex/abstract.aux
+A level-1 auxiliary file: ./tex/extendedabstract.aux
+A level-1 auxiliary file: ./tex/acknowledgement.aux
+A level-1 auxiliary file: ./tex/dedication.aux
+A level-1 auxiliary file: ./tex/background_chapter.aux
+A level-1 auxiliary file: ./tex/objective_chapter.aux
+A level-1 auxiliary file: ./tex/data_method_chapter.aux
+A level-1 auxiliary file: ./tex/improved_cligen_chapter.aux
+A level-1 auxiliary file: ./tex/temporal_resolution_chapter.aux
+A level-1 auxiliary file: ./tex/continue_discontinue_rainfall_chapter.aux
+A level-1 auxiliary file: ./tex/intensity_pattern_chapter.aux
+A level-1 auxiliary file: ./tex/bp2bp_variation_chapter.aux
+A level-1 auxiliary file: ./tex/future_erosion_chapter.aux
+A level-1 auxiliary file: ./tex/conclusion_chapter.aux
+The style file: thesisurl.bst
+A level-1 auxiliary file: ./tex/appendixA.aux
+A level-1 auxiliary file: ./tex/appendixB.aux
+A level-1 auxiliary file: ./tex/appendixC.aux
+A level-1 auxiliary file: ./tex/appendixD.aux
+Database file #1: DPhil_refs.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=5001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+You've used 165 entries,
+            3609 wiz_defined-function locations,
+            1635 strings with 33892 characters,
+and the built_in function-call counts, 117073 in all, are:
+= -- 10363
+> -- 3813
+< -- 129
++ -- 1524
+- -- 1292
+* -- 8797
+:= -- 16993
+add.period$ -- 355
+call.type$ -- 165
+change.case$ -- 1275
+chr.to.int$ -- 181
+cite$ -- 165
+duplicate$ -- 8055
+empty$ -- 10001
+format.name$ -- 1780
+if$ -- 25724
+int.to.chr$ -- 6
+int.to.str$ -- 1
+missing$ -- 1586
+newline$ -- 674
+num.names$ -- 697
+pop$ -- 3397
+preamble$ -- 1
+purify$ -- 1081
+quote$ -- 0
+skip$ -- 5073
+stack$ -- 0
+substring$ -- 4917
+swap$ -- 4871
+text.length$ -- 26
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1440
+warning$ -- 0
+while$ -- 676
+width$ -- 0
+write$ -- 2015

@@ -383,8 +383,9 @@ size. The watershed mode links hillslope elements of specified widths together
 with channel and impoundment elements. WEPP is designed to run on a continuous
 simulation but can also be operated for a single storm. A modified version of
 the hillslope WEPP has been developed for research purposes
-\citep{favis1999-329,favis1996-529}. This is designed to account for the effects
-of atmospheric CO$_2$ concentration changes on plant growth.
+\citep{favis-mortlock1999-329,favis-mortlock1996-529}. This is designed to
+account for the effects of atmospheric CO$_2$ concentration changes on plant
+growth.
 
 In this research, only hillslope mode of the WEPP (v2004.7) was used for
 continuous or single-event simulation, depending on the purpose.
@@ -477,11 +478,11 @@ This error in the CLIGEN code has certainly affected the results from the
 earlier studies, which employed the previous versions of WEPP and CLIGEN to
 estimate soil loss
 \citep{truman1993-405,zhang1995-1069,zhang1995-1079,zhang1996-855,
-baffaut1996-447,laflen1997-96,baffaut1998-756,favis1999-329}.
+baffaut1996-447,laflen1997-96,baffaut1998-756,favis-mortlock1999-329}.
 
-The current CLIGEN at the time of writing is version
+The version of CLIGEN at the time of writing is version
 5.22564\footnote{http://horizon.nserl.purdue.edu/Cligen/, April 2006}. This is
-also the version used in this research.
+the version used in this research.
 
 
 \subsection{European Soil Erosion Model (EUROSEM)}
@@ -673,10 +674,10 @@ transport runoff and sediment \citep{favis-mortlock1996-248}. Additionally,
 while such models separately describe the different processes responsible for
 erosion in rill and interrill areas, they largely fail to acknowledge the
 physical link that exists between the processes operating in the two zones
-\citep{favis2000-2173}.
+\citep{favis-mortlock2000-2173}.
 
 The development of the RillGrow model
-\citep{favis-mortlock1996-248,favis1998-353,favis2000-2173,
+\citep{favis-mortlock1996-248,favis-mortlock1998-353,favis-mortlock2000-2173,
 favis-mortlock2003-127,favis-mortlock2004-349} started with a consideration of
 these shortcomings, and a question `\emph{Is the initiation and development of
 hillslope rill systems driven by relatively simple rules acting on a much
@@ -700,13 +701,13 @@ flow patterns, and so on (Figure \ref{fig:rillgrow_feedback_concept}).
     \includegraphics[width=0.80\textwidth]
 {./img/rillgrow_feedback_concept}
   \caption[The conceptual feedback loop of RillGrow]{The conceptual
-feedback loop of RillGrow \citep[From][]{favis1998-353}}
+feedback loop of RillGrow \citep[From][]{favis-mortlock1998-353}}
   \label{fig:rillgrow_feedback_concept}
 \end{figure}
 
 The first version of the RillGrow model was able to realistically simulate rill
 initiation and development, reproducing several features of observed rill
-systems \citep{favis-mortlock1996-248,favis1998-353}:
+systems \citep{favis-mortlock1996-248,favis-mortlock1998-353}:
 \begin{enumerate*}
   \item a narrowing of rill spacing with increased slope angle
   \item an increased contribution of rill erosion with downslope distance
@@ -720,14 +721,16 @@ initiation are oversimplified. It also does not operate in a true time domain,
 since at any moment during the simulation, only a single `packet' of overland
 flow is moving over the topographic grid. Infiltration is ignored, thus all
 water on the grid is assumed to be rainfall excess, and transport capacity is
-assumed to be infinite because no deposition can occur \citep{favis2000-2173}.
+assumed to be infinite because no deposition can occur
+\citep{favis-mortlock2000-2173}.
 All these limitations meant that it was not possible to validate the model in a
 deterministic way, e.g. by comparing simulated and laboratory-produced rill
 networks.
 
 A second version of the model (`RillGrow 2') was developed to overcome some of
-these limitations, and allow more rigorous validation \citep{favis2000-2173}. In
-RillGrow 2, overland flow in effect moves concurrently between cells of the
+these limitations, and allow more rigorous validation
+\citep{favis-mortlock2000-2173}. In RillGrow 2, overland flow in effect moves
+concurrently between cells of the
 microtopographic grid. Such concurrency is not easy to achieve on a
 serial-processing computer, since only one instruction can be carried out at a
 time. Concurrent processing is simulated in RillGrow 2 in the following way:
@@ -741,7 +744,8 @@ effect operates in `parallel', i.e. concurrently, in a true time domain.
   \centering
   \small
   \caption[The main routing algorithm used in RillGrow 2]{The main routing
-algorithm used in RillGrow 2 \citep[From][]{favis2000-2173}. Note that, while
+algorithm used in RillGrow 2 \citep[From][]{favis-mortlock2000-2173}. Note that,
+while
 this set of rules does not change during the model simulation, the result of
 applying the rules to a given cell depends on the past history of elevation
 change both for that cell, and for adjacent ones.}
@@ -801,9 +805,10 @@ as the result of summation of soil losses from all areas.
 Flow velocities are so low on interrill areas that little detachment occurs as a
 result. On such areas, splash redistribution dominates.
 
-\citet{favis2000-2173} observes that RillGrow 2 replicates the responses of
-RillGrow 1 including realistic rill spacing with respect to slope gradient. In
-addition, the simulated spatial patterns of erosion compare well with
+\citet{favis-mortlock2000-2173} observes that RillGrow 2 replicates the
+responses of RillGrow 1 including realistic rill spacing with respect to slope
+gradient. In addition, the simulated spatial patterns of erosion compare well
+with
 laboratory-based observations, as do total erosion, variation in rill depth, and
 time-series of runoff and soil loss. Braided or dendritic flow patterns can be
 made to emerge by varying rainfall intensity. At low rainfall intensities,
