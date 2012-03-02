@@ -16,69 +16,69 @@
 \contentsline {subsection}{\numberline {1.2.1}Introduction}{4}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Rainfall}{6}{subsection.1.2.2}
 \contentsline {subsubsection}{\numberline {1.2.2.1}Raindrop Splash}{6}{subsubsection.1.2.2.1}
-\contentsline {subsubsection}{\numberline {1.2.2.2}Rainfall Intensity}{7}{subsubsection.1.2.2.2}
+\contentsline {subsubsection}{\numberline {1.2.2.2}Rainfall Intensity}{9}{subsubsection.1.2.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Soil Type}{10}{subsection.1.2.3}
 \contentsline {subsection}{\numberline {1.2.4}Topography}{11}{subsection.1.2.4}
 \contentsline {subsection}{\numberline {1.2.5}Land Use}{12}{subsection.1.2.5}
 \contentsline {section}{\numberline {1.3}Soil Erosion and Rainfall Intensity}{13}{section.1.3}
 \contentsline {paragraph}{South Downs, East Sussex, UK, October 1987 \citep {boardman1988-333}}{13}{section.1.3}
-\contentsline {paragraph}{South Downs, East Sussex, UK, October 2000 \citep {boardman2001-346}}{14}{section.1.3}
 \contentsline {paragraph}{Vicrello, Tuscany, Italy, May 1994 \citep {torri1999-131}}{14}{section.1.3}
-\contentsline {paragraph}{Northern Ethiopia Highlands, 1998-2000 \citep {nyssen2005-172}}{14}{section.1.3}
-\contentsline {paragraph}{Hadspen, Somerset, UK, May 1998 \citep {clark2000-17}}{15}{section.1.3}
-\contentsline {paragraph}{Ashow, Warwickshire, UK, August 1999 \citep {harrison1999-143}}{15}{section.1.3}
+\contentsline {paragraph}{Hadspen, Somerset, UK, May 1998 \citep {clark2000-17}}{14}{section.1.3}
+\contentsline {paragraph}{Ashow, Warwickshire, UK, August 1999 \citep {harrison1999-143}}{14}{section.1.3}
+\contentsline {paragraph}{Northern Ethiopia Highlands, 1998-2000 \citep {nyssen2005-172}}{15}{section.1.3}
+\contentsline {paragraph}{South Downs, East Sussex, UK, October 2000 \citep {boardman2001-346}}{15}{section.1.3}
 \contentsline {section}{\numberline {1.4}Rainfall Intensity and Climate Change}{16}{section.1.4}
-\contentsline {section}{\numberline {1.5}Soil Erosion Prediction Models}{19}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Introduction}{19}{subsection.1.5.1}
-\contentsline {paragraph}{Conceptual modelling of of the physical system}{23}{figure.1.2}
+\contentsline {section}{\numberline {1.5}Soil Erosion Prediction Models}{20}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Background and Categories of Erosion Models}{20}{subsection.1.5.1}
+\contentsline {paragraph}{Conceptual modelling of the physical system}{23}{figure.1.2}
 \contentsline {paragraph}{Mathematical modelling of the conceptual model}{24}{figure.1.2}
 \contentsline {paragraph}{Discretization and algorithm selection for the mathematical model}{24}{figure.1.2}
-\contentsline {paragraph}{Computer programming of the discrete model---modular approach}{24}{figure.1.2}
-\contentsline {paragraph}{Numerical solution of the computer program model}{24}{figure.1.2}
-\contentsline {paragraph}{Representation of the numerical solution}{24}{figure.1.2}
+\contentsline {paragraph}{Computer programming of the discrete model---modular approach}{25}{figure.1.2}
+\contentsline {paragraph}{Numerical solution of the computer program model}{25}{figure.1.2}
+\contentsline {paragraph}{Representation of the numerical solution}{25}{figure.1.2}
 \contentsline {subsection}{\numberline {1.5.2}Universal Soil Loss Equation (USLE)}{25}{subsection.1.5.2}
 \contentsline {subsection}{\numberline {1.5.3}Water Erosion Prediction Project (WEPP)}{28}{subsection.1.5.3}
-\contentsline {subsubsection}{\numberline {1.5.3.1}CLIGEN}{30}{subsubsection.1.5.3.1}
-\contentsline {subsection}{\numberline {1.5.4}European Soil Erosion Model (EUROSEM)}{32}{subsection.1.5.4}
-\contentsline {paragraph}{Soil particle detachment by raindrop impact}{35}{equation.1.5.9}
-\contentsline {paragraph}{Soil particle detachment by runoff}{36}{equation.1.5.10}
-\contentsline {paragraph}{Transport capacity of flow}{36}{equation.1.5.11}
-\contentsline {subsection}{\numberline {1.5.5}RillGrow}{38}{subsection.1.5.5}
-\contentsline {chapter}{\numberline {2}RESEARCH BACKGROUND AND OBJECTIVES}{43}{chapter.2}
-\contentsline {section}{\numberline {2.1}Background and Direction}{43}{section.2.1}
-\contentsline {section}{\numberline {2.2}Objectives and Rationales}{45}{section.2.2}
-\contentsline {section}{\numberline {2.3}Some Questions To Be Answered}{50}{section.2.3}
+\contentsline {subsubsection}{\numberline {1.5.3.1}CLIGEN}{32}{subsubsection.1.5.3.1}
+\contentsline {subsection}{\numberline {1.5.4}European Soil Erosion Model (EUROSEM)}{34}{subsection.1.5.4}
+\contentsline {paragraph}{Soil particle detachment by raindrop impact}{37}{equation.1.5.9}
+\contentsline {paragraph}{Soil particle detachment by runoff}{37}{equation.1.5.10}
+\contentsline {paragraph}{Transport capacity of flow}{37}{equation.1.5.11}
+\contentsline {subsection}{\numberline {1.5.5}RillGrow}{39}{subsection.1.5.5}
+\contentsline {chapter}{\numberline {2}RESEARCH BACKGROUND AND OBJECTIVES}{44}{chapter.2}
+\contentsline {section}{\numberline {2.1}Background and Direction}{44}{section.2.1}
+\contentsline {section}{\numberline {2.2}Objectives and Rationales}{46}{section.2.2}
+\contentsline {section}{\numberline {2.3}Some Questions To Be Considered}{51}{section.2.3}
 \contentsline {section}{\numberline {2.4}Expected Outcomes}{51}{section.2.4}
 \contentsline {chapter}{\numberline {3}DESCRIPTIONS OF DATA, MODELS AND METHODS}{52}{chapter.3}
 \contentsline {section}{\numberline {3.1}Data}{52}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Rainfall Data}{52}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Other Data}{56}{subsection.3.1.2}
 \contentsline {subsubsection}{\numberline {3.1.2.1}Soil}{56}{subsubsection.3.1.2.1}
-\contentsline {subsubsection}{\numberline {3.1.2.2}Management}{57}{subsubsection.3.1.2.2}
-\contentsline {subsubsection}{\numberline {3.1.2.3}Topography}{58}{subsubsection.3.1.2.3}
-\contentsline {subsubsection}{\numberline {3.1.2.4}Temperature}{58}{subsubsection.3.1.2.4}
+\contentsline {subsubsection}{\numberline {3.1.2.2}Management}{58}{subsubsection.3.1.2.2}
+\contentsline {subsubsection}{\numberline {3.1.2.3}Topography}{59}{subsubsection.3.1.2.3}
+\contentsline {subsubsection}{\numberline {3.1.2.4}Temperature}{59}{subsubsection.3.1.2.4}
 \contentsline {section}{\numberline {3.2}Justification for Erosion Model Selection}{59}{section.3.2}
-\contentsline {section}{\numberline {3.3}A Brief Overview of Research Method}{61}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Statistical Methods for Trend Investigation}{63}{subsection.3.3.1}
-\contentsline {paragraph}{Simple Linear Regression}{63}{subsection.3.3.1}
-\contentsline {paragraph}{Mann-Kendall's Test}{63}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.3}A Brief Overview of Research Method}{62}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Statistical Methods for Trend Investigation}{64}{subsection.3.3.1}
+\contentsline {paragraph}{Simple Linear Regression}{64}{subsection.3.3.1}
+\contentsline {paragraph}{Mann-Kendall's Test}{64}{subsection.3.3.1}
 \contentsline {paragraph}{Kolmogorov-Smirnov test}{64}{subsection.3.3.1}
-\contentsline {section}{\numberline {3.4}Observed Rainfall Characteristics Of The Study Area}{64}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Introduction}{64}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.4}Observed Rainfall Characteristics Of The Study Area}{65}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Introduction}{65}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Method}{66}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Monthly Precipitation}{69}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Daily Precipitation}{72}{subsection.3.4.4}
-\contentsline {paragraph}{Rainfall Amount (RR)}{72}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.4}Daily Precipitation}{71}{subsection.3.4.4}
+\contentsline {paragraph}{Rainfall Amount (RR)}{71}{subsection.3.4.4}
 \contentsline {paragraph}{Number of Wet Days (RR1)}{72}{figure.3.8}
 \contentsline {paragraph}{Simple Daily Intensity Index (SDII)}{72}{figure.3.9}
 \contentsline {paragraph}{Number of Days with Precipitation Amount $\geq $ 10 mm (R10mm)}{75}{figure.3.10}
 \contentsline {paragraph}{Number of Days with Precipitation Amount $\geq $ 20 mm (R20mm)}{75}{figure.3.12}
 \contentsline {subsection}{\numberline {3.4.5}Event Precipitation}{75}{subsection.3.4.5}
-\contentsline {paragraph}{Rainfall Amount}{75}{figure.3.17}
+\contentsline {paragraph}{Rainfall Amount}{84}{figure.3.17}
 \contentsline {paragraph}{Rainfall Duration}{84}{figure.3.18}
 \contentsline {paragraph}{Rainfall Intensity}{84}{figure.3.19}
-\contentsline {subsection}{\numberline {3.4.6}Discussion}{85}{subsection.3.4.6}
-\contentsline {subsection}{\numberline {3.4.7}Conclusion}{89}{subsection.3.4.7}
+\contentsline {subsection}{\numberline {3.4.6}Discussion}{86}{subsection.3.4.6}
+\contentsline {subsection}{\numberline {3.4.7}Conclusion}{90}{subsection.3.4.7}
 \contentsline {part}{II\hspace {1em}Rainfall Intensity and Erosion: Model Descriptions and Responses}{92}{part.2}
 \contentsline {chapter}{\numberline {4}IMPLICATION OF IMPROVED CLIGEN ON RAINFALL AND SOIL EROSION SIMULATIONS}{93}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{93}{section.4.1}

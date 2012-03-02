@@ -1,18 +1,19 @@
 \select@language {british}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Detachment and transport processes}}{8}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Proposed phases for computational modelling and simulation.}}{23}{figure.1.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Flow chart of EUROSEM}}{34}{figure.1.3}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces The conceptual feedback loop of RillGrow}}{39}{figure.1.4}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Detachment and transport processes}}{7}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Proposed phases for computational modelling and simulation.}}{24}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Flow chart of WEPP}}{29}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Flow chart of EUROSEM}}{36}{figure.1.4}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces The conceptual feedback loop of RillGrow}}{40}{figure.1.5}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Locations of daily rainfall data stations}}{54}{figure.3.1}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Locations of event rainfall data stations}}{55}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Woodingdean site}}{56}{figure.3.3}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Woodingdean site}}{57}{figure.3.3}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Annual rainfall amount trend of monthly grid data}}{69}{figure.3.4}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Seasonal rainfall amount trend of monthly 0.5\textdegree \ grid data}}{70}{figure.3.5}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Average monthly rainfall patterns of monthly grid data}}{71}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces July rainfall amount trend over 1901-2000}}{71}{figure.3.7}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces July rainfall amount trend over 1901-2000}}{72}{figure.3.7}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Trends of annual rainfall amount (RR) at daily data stations}}{73}{figure.3.8}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DR}}}{73}{subfigure.8.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SO}}}{73}{subfigure.8.2}
@@ -101,7 +102,7 @@
 \contentsline {figure}{\numberline {3.16}{\ignorespaces Observed daily rainfall duration}}{82}{figure.3.16}
 \contentsline {figure}{\numberline {3.17}{\ignorespaces Observed daily 1-min peak rainfall intensity}}{83}{figure.3.17}
 \contentsline {figure}{\numberline {3.18}{\ignorespaces Observed mean monthly rainfall amount}}{84}{figure.3.18}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Mean monthly rainfall duration}}{84}{figure.3.19}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Mean monthly rainfall duration}}{85}{figure.3.19}
 \contentsline {figure}{\numberline {3.20}{\ignorespaces Mean monthly maxima of 1-min peak rainfall intensity}}{85}{figure.3.20}
 \contentsline {figure}{\numberline {3.21}{\ignorespaces Mean monthly maxima of 30-min peak rainfall intensity}}{86}{figure.3.21}
 \addvspace {10\p@ }

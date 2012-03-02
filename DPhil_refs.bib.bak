@@ -800,6 +800,20 @@
   timestamp = {07.03.2008}
 }
 
+@INCOLLECTION{favis-mortlock2001-477,
+  author = {David Favis-Mortlock and John Boardman and Valerie MacMillan},
+  title = {The Limits of Erosion Modelling: Why We Should Proceed with Care},
+  booktitle = {Landscape Erosion and Evolution Modeling},
+  publisher = {Kluwer Academic/Plenum Publishers},
+  year = {2001},
+  editor = {Harmon, R. S. and Doe, W. W. III},
+  pages = {477-516},
+  address = {New York},
+  file = {favis-mortlock2001-477.pdf:FileBox/DPhil/Bibliography/favis-mortlock2001-477.pdf:PDF},
+  owner = {Daniel Choi},
+  timestamp = {24.02.2012}
+}
+
 @INCOLLECTION{favis-mortlock2003-127,
   author = {Favis-Mortlock, D.T. and de Boer, D.},
   title = {Simple at heart? {L}andscape as a self-organizing complex system},
@@ -1097,7 +1111,6 @@
   volume = {37},
   pages = {329-354},
   number = {3-4},
-  __markedentry = {[Daniel Choi:1]},
   abstract = {One consequence of global change will be shifts in the probability
 	of occurrence of soil erosion by water. This could have serious consequences
 	for those areas of the world which are present-day 'hotspots' for
@@ -1344,7 +1357,6 @@
   pages = {47--66},
   number = {1},
   month = jan,
-  __markedentry = {[Daniel Choi:1]},
   booktitle = {Journal of Climate},
   comment = {doi: 10.1175/1520-0442(2004)017<0047:TSAMCA>2.0.CO;2},
   doi = {10.1175/1520-0442(2004)017<0047:TSAMCA>2.0.CO;2},
@@ -1462,6 +1474,43 @@
 	model},
   owner = {Daniel Choi},
   timestamp = {2006.05.30}
+}
+
+@ARTICLE{gornall2010-2973,
+  author = {Gornall, Jemma and Betts, Richard and Burke, Eleanor and Clark, Robin
+	and Camp, Joanne and Willett, Kate and Wiltshire, Andrew},
+  title = {Implications of climate change for agricultural productivity in the
+	early twenty-first century},
+  journal = {Philosophical Transactions of the Royal Society B: Biological Sciences},
+  year = {2010},
+  volume = {365},
+  pages = {2973-2989},
+  number = {1554},
+  abstract = {This paper reviews recent literature concerning a wide range of processes
+	through which climate change could potentially impact global-scale
+	agricultural productivity, and presents projections of changes in
+	relevant meteorological, hydrological and plant physiological quantities
+	from a climate model ensemble to illustrate key areas of uncertainty.
+	Few global-scale assessments have been carried out, and these are
+	limited in their ability to capture the uncertainty in climate projections,
+	and omit potentially important aspects such as extreme events and
+	changes in pests and diseases. There is a lack of clarity on how
+	climate change impacts on drought are best quantified from an agricultural
+	perspective, with different metrics giving very different impressions
+	of future risk. The dependence of some regional agriculture on remote
+	rainfall, snowmelt and glaciers adds to the complexity. Indirect
+	impacts via sea-level rise, storms and diseases have not been quantified.
+	Perhaps most seriously, there is high uncertainty in the extent to
+	which the direct effects of CO2 rise on plant physiology will interact
+	with climate change in affecting productivity. At present, the aggregate
+	impacts of climate change on global-scale agricultural productivity
+	cannot be reliably quantified.},
+  doi = {10.1098/rstb.2010.0158},
+  eprint = {http://rstb.royalsocietypublishing.org/content/365/1554/2973.full.pdf+html},
+  file = {gornall2010-2973.pdf:FileBox/DPhil/Bibliography/gornall2010-2973.pdf:PDF},
+  owner = {Daniel Choi},
+  timestamp = {24.02.2012},
+  url = {http://rstb.royalsocietypublishing.org/content/365/1554/2973.abstract}
 }
 
 @ARTICLE{govers1990-45,
@@ -1620,11 +1669,35 @@
   timestamp = {2006.05.30}
 }
 
+@BOOK{ipcc2007-impact,
+  title = {Climate Change 2007: Impacts, Adaptation and Vulnerability},
+  publisher = {Cambridge University Press, Cambridge},
+  year = {2007},
+  editor = {M.L. Parry, O.F. Canziani, J.P. Palutikof, P.J. van der Linden and
+	C.E. Hanson},
+  author = {{IPCC}},
+  institution = {Cambridge University Press},
+  owner = {Daniel Choi},
+  timestamp = {2006.05.30}
+}
+
+@BOOK{ipcc2007-physical,
+  title = {Climate Change 2007: The Physical Science Basis},
+  publisher = {Cambridge University Press, Cambridge},
+  year = {2007},
+  editor = {Solomon, S., D. Qin, M. Manning, Z. Chen, M. Marquis, K.B. Averyt,
+	M. Tignor and H.L. Miller},
+  author = {{IPCC}},
+  institution = {Cambridge University Press},
+  owner = {Daniel Choi},
+  timestamp = {2006.05.30}
+}
+
 @BOOK{ipcc2001-1032,
   title = {Climate Change 2001: Impacts, Adaptation, and Vulnerability},
   publisher = {Cambridge University Press, Cambridge},
   year = {2001},
-  author = {{IPCC Working Group II}},
+  author = {{IPCC}},
   institution = {Cambridge University Press},
   owner = {Daniel Choi},
   timestamp = {2006.05.30}
@@ -1634,7 +1707,7 @@
   title = {Climate Change 2001: The Scientific Basis},
   publisher = {Cambridge University Press, Cambridge},
   year = {2001},
-  author = {{IPCC Working Group I}},
+  author = {{IPCC}},
   institution = {Cambridge University Press},
   owner = {Daniel Choi},
   timestamp = {2006.05.30}
@@ -2133,6 +2206,59 @@
 	management alachlor atrazine nitrogen losses},
   owner = {Daniel Choi},
   timestamp = {2006.05.30}
+}
+
+@ARTICLE{klik2010-529,
+  author = {Klik, A. and Eitzinger, J.},
+  title = {Impact of climate change on soil erosion and the efficiency of soil
+	conservation practices in Austria},
+  journal = {The Journal of Agricultural Science},
+  year = {2010},
+  volume = {148},
+  pages = {529-541},
+  number = {05},
+  abstract = {The goal of the present study was to assess the impact of selected
+	soil protection measures on soil erosion and retention of rainwater
+	in a 1·14 km2 watershed used for agriculture in the north-east of
+	Austria. Watershed conditions under conventional tillage (CT), no-till
+	(NT) and under grassland use were simulated using the Water Erosion
+	Prediction Project (WEPP) soil erosion model. The period 1961–90
+	was used as a reference and results were compared to future Intergovernmental
+	Panel on Climate Change (IPCC) scenarios A1B and A2 (2040–60).The
+	simulations for the NT and grassland options suggested runoff would
+	decrease by 38 and 75%, respectively, under the current climatic
+	conditions. The simulation results suggest that, under future climate
+	scenarios, the effectiveness of the selected soil conservation measures
+	with respect to runoff will be similar, or decreased by 16–53%.The
+	actual average net soil losses in the watershed varied from 2·57
+	t/ha/yr for conventional soil management systems to 0.01 t/ha/yr
+	for grassland. This corresponds to a maximum average annual loss
+	of about 0·2 mm, which is considered to be the average annual soil
+	formation rate and therefore an acceptable soil loss. The current
+	soil/land use does not exceed this limit, with most of the erosion
+	occurring during spring time. Under future climate scenarios, the
+	simulations suggested that CT would either decrease soil erosion
+	by up to 55% or increase it by up to 56%. Under these conditions,
+	the acceptable limits will partly be exceeded. The simulations of
+	NT suggested this would reduce annual soil loss rates (compared to
+	CT) to 0·2 and 1·4 t/ha, i.e. about the same or slightly higher than
+	for NT under actual conditions. The simulation of conversion to grassland
+	suggested soil erosion was almost completely prevented.The selected
+	soil conservation methods maintain their protective effect on soil
+	resources, independent of the climate scenario. Therefore, with small
+	adaptations, they can also be recommended as sustainable soil/land
+	management systems under future climatic conditions.However, based
+	on the available climate scenarios, climate-induced changes in the
+	frequency and intensity of heavy rainstorms were only considered
+	in a limited way in the present work. As the general future trend
+	indicates a strong increase of rainstorms with high intensity during
+	summer months, the results of the present study may be too optimistic.},
+  doi = {10.1017/S0021859610000158},
+  eprint = {http://journals.cambridge.org/article_S0021859610000158},
+  file = {klik2010-529.pdf:FileBox/DPhil/Bibliography/klik2010-529.pdf:PDF},
+  owner = {Daniel Choi},
+  timestamp = {24.02.2012},
+  url = {http://dx.doi.org/10.1017/S0021859610000158}
 }
 
 @TECHREPORT{knisel1980-creams,
@@ -2704,6 +2830,58 @@
   address = {Berlin},
   owner = {Daniel Choi},
   timestamp = {2006.05.30}
+}
+
+@ARTICLE{mullan2012-18,
+  author = {Donal Mullan and Dave Favis-Mortlock and Rowan Fealy},
+  title = {Addressing key limitations associated with modelling soil erosion
+	under the impacts of future climate change},
+  journal = {Agricultural and Forest Meteorology},
+  year = {2012},
+  volume = {156},
+  pages = {18 - 30},
+  number = {0},
+  __markedentry = {[Daniel Choi:]},
+  abstract = {Future climate change is expected to impact the extent, frequency,
+	and magnitude of soil erosion in a variety of ways. The most direct
+	of these impacts refers to the projected increase in the erosive
+	power of rainfall, whilst other more indirect impacts include changes
+	in plant biomass and shifts in land use to accommodate the new climatic
+	regime. Given the potential for climate change to increase soil erosion
+	and its associated adverse impacts, modelling future rates of erosion
+	is a crucial step in its assessment as a potential future environmental
+	problem, and as a basis to help advise future conservation strategies.
+	Despite the wide range of previous modelling studies, in the majority
+	of cases limitations are apparent with respect to their treatment
+	of the direct impacts (changed climate data), and their failure to
+	factor in the indirect impacts (changing land use and management).
+	In this study, these limitations are addressed in association with
+	the modelling of future soil erosion rates for a case study hillslope
+	in Northern Ireland using the Water Erosion Prediction Project (WEPP)
+	model. The direct impacts are handled using statistical downscaling
+	methods, enabling the generation of site-specific, daily resolution
+	future climate change scenarios, and a simple sensitivity analysis
+	approach is employed to investigate the previously unstudied impacts
+	of sub-daily rainfall intensity changes. Finally, the frequently
+	neglected indirect impacts are examined using a scenarios-based approach.
+	Results indicate a mix of soil erosion increases and decreases, depending
+	on which scenarios are considered. Downscaled climate change projections
+	in isolation generally result in erosion decreases, whereas large
+	increases are projected when land use is changed from the current
+	cover of grass to a row crop which requires annual tillage, and/or
+	where large changes in sub-daily rainfall intensity are applied.
+	The overall findings illustrate the potential for increased soil
+	erosion under future climate change, and illuminate the need to address
+	key limitations in previous studies with respect to the treatment
+	of future climate change projections, and crucially, the factoring
+	in of future land use and management.},
+  doi = {10.1016/j.agrformet.2011.12.004},
+  file = {mullan2012-18.pdf:FileBox/DPhil/Bibliography/mullan2012-18.pdf:PDF},
+  issn = {0168-1923},
+  keywords = {Soil erosion},
+  owner = {Daniel Choi},
+  timestamp = {24.02.2012},
+  url = {http://www.sciencedirect.com/science/article/pii/S0168192311003418}
 }
 
 @ARTICLE{murphy2006-65,
@@ -4119,20 +4297,6 @@
   timestamp = {2006.05.30}
 }
 
-@ARTICLE{trenberth2003-1205,
-  author = {Trenberth, KE},
-  title = {The Changing Character of Precipitation},
-  journal = {Bulletin of the American Meteorological Society},
-  year = {2003},
-  volume = {84},
-  pages = {1205-1217},
-  number = {9},
-  file = {trenberth2003-1205.pdf:FileBox\\DPhil\\Bibliography\\trenberth2003-1205.pdf:PDF;trenberth2003-1205.pdf:FileBox/DPhil/Bibliography/trenberth2003-1205.pdf:PDF},
-  issn = {0003-0007},
-  owner = {Daniel Choi},
-  timestamp = {01.05.2008}
-}
-
 @ARTICLE{trenberth2000-12,
   author = {Trenberth, Kevin E.},
   title = {Conceptual framework for changes of rainfall and extremes of the
@@ -4144,6 +4308,21 @@
   number = {1},
   owner = {Daniel Choi},
   timestamp = {2006.05.30}
+}
+
+@ARTICLE{trenberth2003-1205,
+  author = {Kevin E. Trenberth and Aiguo Dai and Roy M. Rasmussen and David B.
+	Parsons},
+  title = {The Changing Character of Precipitation},
+  journal = {Bulletin of the American Meteorological Society},
+  year = {2003},
+  volume = {84},
+  pages = {1205-1217},
+  number = {9},
+  file = {trenberth2003-1205.pdf:FileBox\\DPhil\\Bibliography\\trenberth2003-1205.pdf:PDF;trenberth2003-1205.pdf:FileBox/DPhil/Bibliography/trenberth2003-1205.pdf:PDF},
+  issn = {0003-0007},
+  owner = {Daniel Choi},
+  timestamp = {01.05.2008}
 }
 
 @ARTICLE{truman1993-405,
@@ -4668,6 +4847,18 @@
   address = {Chichester},
   owner = {Daniel Choi},
   timestamp = {2006.05.30}
+}
+
+@BOOK{lane1989-usda,
+  title = {{USDA}-Water Erosion Prediction Project: Hillslope Profile Model
+	Documentation},
+  publisher = {USDA-ARS National Soil Erosion Research Laboratory},
+  year = {1989},
+  editor = {Lane, L. J. and Nearing, M. A.},
+  number = {NSERL Report No. 2},
+  address = {West Lafayette, Ind.},
+  owner = {Daniel Choi},
+  timestamp = {24.02.2012}
 }
 
 @BOOK{marshall1996-soil,

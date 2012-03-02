@@ -1,7 +1,7 @@
 \section{Soil Erosion Prediction Models}
 \label{sec:SoilErosionPredictionModels}
 
-\subsection{Introduction}
+\subsection{Background and Categories of Erosion Models}
 \label{sec:Introductionerosionmodels}
 
 To assess the risk of soil erosion, estimates of soil loss rates may be compared
@@ -13,6 +13,8 @@ which are (like all models) simplified representations of reality. Types of
 erosion models are categorised by their structures in Table
 \ref{tab:TypesOfModels}. It needs to be noted that the categories in Table
 \ref{tab:TypesOfModels} tend to be mixed, nowadays.
+
+%\citep{favis-mortlock2001-477}
 
 Another categorisation scheme is based on objectives and levels of performance.
 In this scheme, there are two basic types of models in addition to the
@@ -39,7 +41,7 @@ physically-based models.
 
 \begin{sidewaystable}[htbp]
   \centering
-  \caption[Types of models]{Types of models
+  \caption[Types of erosion models]{Types of erosion models
 (from \citealp{morgan1995-soil})}
   \label{tab:TypesOfModels}
     \small
@@ -97,19 +99,21 @@ used and why the specific model is appropriate should be considered carefully.
 For error and uncertainty involved in modelling approaches,
 \citet{oberkampf2002-333} suggest two definitions of uncertainty: aleatory and
 epistemic.
-Aleatory uncertainty refers to irreducible uncertainty, inherent uncertainty,
-variability and stochastic uncertainty. A probability or frequency distribution
-is generally used to quantify aleatory uncertainty, when sufficient information
+Aleatory uncertainty (also can be termed as `unknown unknowns') refers to
+irreducible uncertainty, inherent uncertainty, variability and stochastic
+uncertainty. A probability or frequency distribution is generally used to
+quantify aleatory uncertainty, when sufficient information
 is available.
-Epistemic uncertainty refers to reducible uncertainty, subjective uncertainty
-and cognitive uncertainty. This is a source of non-deterministic behaviour that
-comes from lack of knowledge of the system or environment. This uncertainty can
-also be viewed as a potential inaccuracy in any phase or activity of the
-modelling process that is due to lack of knowledge.
+Epistemic uncertainty (also can be termed as `known unknowns') refers to
+reducible uncertainty, subjective uncertainty and cognitive uncertainty. This is
+a source of non-deterministic behaviour that comes from lack of knowledge of the
+system or environment. This uncertainty can also be viewed as a potential
+inaccuracy in any phase or activity of the modelling process that is due to lack
+of knowledge.
 
-Thus, even if we eliminate epistemic uncertainty by studying and obtain absolute
-knowledge, we will still not be able to predict future weather perfectly because
-of the aleatory uncertainty.
+Thus, even if we eliminate epistemic uncertainty (or known unknowns) by studying
+and obtain absolute knowledge, we will still not be able to predict future
+weather perfectly because of the aleatory uncertainty (unknown unknowns).
 
 \citet{oberkampf2002-333} defines error as a recognizable inaccuracy in any
 phase or activity of modelling and simulation that is not due to lack of
@@ -149,8 +153,9 @@ the analysis. Third, it includes a dominant element in the simulation of complex
 physical processes; the numerical solution of non-linear Partial Differential
 Equations (PDFs).
 
-\paragraph{Conceptual modelling of of the physical system}
-Conceptual issues are considered determining all possible factors.
+\paragraph{Conceptual modelling of the physical system}
+Conceptual issues about the physical system are considered by determining all
+possible factors that might affect the system.
 
 \paragraph{Mathematical modelling of the conceptual model}
 The primary activity of this phase is to develop detailed and precise
@@ -188,7 +193,8 @@ for a group of specific audiences.
 The erosion models used in the present research are reviewed in the next
 section. However, an additional model, the Universal Soil Loss Equation (USLE),
 is first discussed since this model embodies the basic concepts underpinning
-many more recent models.
+many more recent models such as the WEPP (Water Erosion Prediction Project)
+model, which is also reviewed in this chapter.
 
 \subsection{Universal Soil Loss Equation (USLE)}
 \label{sec:UniversalSoilLossEquationUSLE}
@@ -300,6 +306,15 @@ deposition, plant growth, senescence, and residue decomposition, that lead to
 erosion \citep{flanagan1995-usda}. The model takes four input files, climate,
 soil characteristic, slope, and crop management.
 
+\begin{figure}[htbp]
+  \centering
+    \includegraphics[width=0.80\textwidth]{./img/wepp_flowchart}
+  \caption[Flow chart of WEPP]{Flow chart illustrating the components of the
+hillslope profile of the WEPP model (from
+\citealp{lane1989-usda})}
+  \label{fig:wepp_flowchart}
+\end{figure}
+
 WEPP was developed by the USDA-ARS (United States Department of
 Agriculture-Agricultural Research Service) as a new-generation water erosion
 prediction technology for the routine assessment of soil erosion for soil and
@@ -388,7 +403,10 @@ account for the effects of atmospheric CO$_2$ concentration changes on plant
 growth.
 
 In this research, only hillslope mode of the WEPP (v2004.7) was used for
-continuous or single-event simulation, depending on the purpose.
+continuous or single-event simulation, depending on the purpose. The current
+version of the WEPP model is
+2010.1\footnote{http://www.ars.usda.gov/Research/docs.htm?docid=10621, Accessed
+in February 2012}.
 
 \subsubsection{CLIGEN}
 \label{sec:ClimateGeneratorCLIGEN}
@@ -421,27 +439,22 @@ four precipitation-related variables (Table
   \centering
   \caption[Precipitation parameters required by CLIGEN]{Precipitation
 parameters required by CLIGEN to generate WEPP precipitation inputs (from
-personal communication with Bofu Yu, 2003)}
+\citealp{nicks1995-2})}
   \label{tab:PrecipitaionParametersRequiredByCLIGEN}
   \footnotesize
     \begin{tabular}{ll}
     \toprule
     \textbf{Parameter} & \textbf{Description} \\
     \midrule
-    meanP & Average precipitation (inches) on wet days for each
+    meanP & Average precipitation (inches) on wet days for each month\\
+    sdP & Standard deviation of daily precipitation (inches) for each month\\
+    skP & Coefficient of skewness of daily precipitation (inches) for each
 month\\
-    sdP & Standard deviation of daily precipitation (inches) for
-each month\\
-    skP & Coefficient of skewness of daily precipitation (inches)
-for each month\\
-    P(W/W) & Probability of a wet day following a wet day for each
-month\\
-    P(W/D) & Probability of a wet day following a dry day for each
-month\\
-    {MX.5P} & Average maximum 30-min peak intensity (in/hr) for each
-month\\
-    TimePk & Cumulative distribution of time to peak as a fraction
-of the storm duration\\
+    P(W/W) & Probability of a wet day following a wet day for each month\\
+    P(W/D) & Probability of a wet day following a dry day for each month\\
+    {MX.5P} & Average maximum 30-min peak intensity (in/hr) for each month\\
+    TimePk & Cumulative distribution of time to peak as a fraction of the storm
+duration\\
     \bottomrule
     \end{tabular}
 \end{table}
@@ -449,7 +462,7 @@ of the storm duration\\
 Precipitation data required to derive the CLIGEN input parameters in Table
 \ref{tab:PrecipitaionParametersRequiredByCLIGEN} are time series of daily
 precipitation data and sub-daily precipitation data with a time intervals no
-greater than 30 minutes (personal communication with Bofu Yu, 2003). In
+greater than 30 minutes \citep{nicks1995-2,yu2000-301}. In
 principle, there is no need to distinguish these two types of precipitation data
 because sub-daily data can be accumulated to produce daily values. In practice,
 however, these two types of data usually come from two different sources. The
@@ -482,8 +495,10 @@ baffaut1996-447,laflen1997-96,baffaut1998-756,favis-mortlock1999-329}.
 
 The version of CLIGEN at the time of writing is version
 5.22564\footnote{http://horizon.nserl.purdue.edu/Cligen/, April 2006}. This is
-the version used in this research.
-
+the version used in this research. However, this version is not the current
+version any longer. The current version of CLIGEN is
+5.3\footnote{http://www.ars.usda.gov/Research/docs.htm?docid=18094, Accessed in
+February 2012}.
 
 \subsection{European Soil Erosion Model (EUROSEM)}
 \label{sec:EuropeanSoilErosionModelEUROSEM}
@@ -617,7 +632,7 @@ $\kappa$ = 5. Sediment delivery to the rills is simulated depending on the
 transport capacity of the interrill flow.
 
 Since EUROSEM uses a dynamic rather than steady-state approach used by WEPP, it
-gives a better understanding of the spatial and temporal distribution of runoff
+may be assumed to better represent the spatial and temporal variation of runoff
 and erosion. However, the result of the model simulation may become considerably
 uncertain due to its process-based nature that requires detailed model
 parametrization \citep{quinton1998-65}. Particularly, EUROSEM requires high
@@ -630,10 +645,11 @@ of the model is greatly restricted to where such data are available.
 heterogeneities in the infiltration characteristics of soil, the model generates
 delayed initiation times for runoff, so that predicted hydrographs showed the
 commencement of runoff later than observed. Such variabilities in the
-infiltration characteristics may be responsible for the comparatively rapid
-initiation of runoff on the plot. They also found that the subsequent soil
-detachment by runoff in interrill areas is overestimated by the model even
-though, according to the model document, detachment by flow should be negligible
+infiltration characteristics may be responsible for the
+comparatively rapid initiation of runoff on the plot. They also found that the
+subsequent soil detachment by runoff in interrill areas is overestimated by the
+model even though, according to the model document, detachment by flow should be
+negligible
 in interrill areas.
 
 After personal communication (16 Jun 2004) with Anthony J. Parsons , it is noted
@@ -644,6 +660,7 @@ is based indicates that the height is in millimetres (see Figure 2 in
 \citet{torri1987-149}). Anthony J. Parsons suggests that the height is in
 centimetres rather than either metres or millimetres. If confirmed, this error
 would have major effects on EUROSEM's ability to estimate runoff and erosion.
+However, this was not investigated further in this thesis.
 
 %First does the storm pattern affect the  runoff coefficient (same amount of
 %rain but different amount of runoff) so  do differences in erosion result
@@ -739,6 +756,8 @@ random sequence which differs for each timestep. This variation in sequence is
 necessary to prevent any artefacts of flow pattern which might result from a
 fixed routing sequence. Over a sufficient number of timesteps, the model in
 effect operates in `parallel', i.e. concurrently, in a true time domain.
+RillGrow is now at version 6, parallelised for multiple computer processors
+(personal communication with David Favis-Mortlock, 2012).
 
 \begin{table}[htb]
   \centering
@@ -808,14 +827,15 @@ result. On such areas, splash redistribution dominates.
 \citet{favis-mortlock2000-2173} observes that RillGrow 2 replicates the
 responses of RillGrow 1 including realistic rill spacing with respect to slope
 gradient. In addition, the simulated spatial patterns of erosion compare well
-with
-laboratory-based observations, as do total erosion, variation in rill depth, and
-time-series of runoff and soil loss. Braided or dendritic flow patterns can be
-made to emerge by varying rainfall intensity. At low rainfall intensities,
-however, the definition and stability of rill patterns is less well defined.
+with laboratory-based observations, as do total erosion, variation in rill
+depth, and time-series of runoff and soil loss. Braided or dendritic flow
+patterns can be made to emerge by varying rainfall intensity. At low rainfall
+intensities, however, the definition and stability of rill patterns is less well
+defined.
 
 As originally constructed, RillGrow 2 assumed each storm to have a constant
 rainfall intensity. For the research described in this thesis, RillGrow 2 has
 been modified to use breakpoint rainfall data. This allows the model to simulate
 rill initiation and development and total soil loss, as affected by rainfall
 intensity changes (Favis-Mortlock, personal communication 2006).
+

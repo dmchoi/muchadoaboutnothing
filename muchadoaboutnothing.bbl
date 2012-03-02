@@ -1,4 +1,4 @@
-\begin{thebibliography}{165}
+\begin{thebibliography}{168}
 \newcommand{\enquote}[1]{`#1'}
 \providecommand{\natexlab}[1]{#1}
 
@@ -348,14 +348,24 @@
 \textbf{Hudson, N.~W.} (1971) \emph{Soil Conservation}.
 \newblock Batsford, London.
 
-\bibitem[{{IPCC Working Group I}(2001)}]{ipcc2001-881}
-\textbf{{IPCC Working Group I}} (2001) \emph{Climate Change 2001: The
+\bibitem[{{IPCC}(2001{\natexlab{\emph{a}}})}]{ipcc2001-1032}
+\textbf{{IPCC}} (2001{\natexlab{\emph{a}}}) \emph{Climate Change 2001: Impacts,
+  Adaptation, and Vulnerability}.
+\newblock Cambridge University Press, Cambridge.
+
+\bibitem[{{IPCC}(2001{\natexlab{\emph{b}}})}]{ipcc2001-881}
+\textbf{{IPCC}} (2001{\natexlab{\emph{b}}}) \emph{Climate Change 2001: The
   Scientific Basis}.
 \newblock Cambridge University Press, Cambridge.
 
-\bibitem[{{IPCC Working Group II}(2001)}]{ipcc2001-1032}
-\textbf{{IPCC Working Group II}} (2001) \emph{Climate Change 2001: Impacts,
-  Adaptation, and Vulnerability}.
+\bibitem[{{IPCC}(2007{\natexlab{\emph{a}}})}]{ipcc2007-impact}
+\textbf{{IPCC}} (2007{\natexlab{\emph{a}}}) \emph{Climate Change 2007: Impacts,
+  Adaptation and Vulnerability}.
+\newblock Cambridge University Press, Cambridge.
+
+\bibitem[{{IPCC}(2007{\natexlab{\emph{b}}})}]{ipcc2007-physical}
+\textbf{{IPCC}} (2007{\natexlab{\emph{b}}}) \emph{Climate Change 2007: The
+  Physical Science Basis}.
 \newblock Cambridge University Press, Cambridge.
 
 \bibitem[{Jarvis \emph{et~al.}(1984)Jarvis, Allen, Fordham, Hazelden, Moffat
@@ -493,6 +503,12 @@
   Nearing, M.~A.} (1997) \enquote{{WEPP}-predicting water erosion using a
   process-based model}.
 \newblock \emph{Journal of Soil and Water Conservation} \textbf{52}(2):96--102.
+
+\bibitem[{Lane and Nearing(1989)}]{lane1989-usda}
+\textbf{Lane, L.~J. and Nearing, M.~A.} (eds)  (1989) \emph{{USDA}-Water
+  Erosion Prediction Project: Hillslope Profile Model Documentation}.
+\newblock NSERL Report No. 2, USDA-ARS National Soil Erosion Research
+  Laboratory, West Lafayette, Ind.
 
 \bibitem[{Lascelles \emph{et~al.}(2000)Lascelles, Favis-Mortlock, Parsons and
   Guerra}]{lascelles2000-709}
@@ -894,16 +910,17 @@
   detachment -- runoff depth and soil cohesion}.
 \newblock \emph{Catena} \textbf{14}(3):149--155.
 
-\bibitem[{Trenberth(2003)}]{trenberth2003-1205}
-\textbf{Trenberth, K.} (2003) \enquote{The changing character of
-  precipitation}.
-\newblock \emph{Bulletin of the American Meteorological Society}
-  \textbf{84}(9):1205--1217.
-
 \bibitem[{Trenberth(2000)}]{trenberth2000-12}
 \textbf{Trenberth, K.~E.} (2000) \enquote{Conceptual framework for changes of
   rainfall and extremes of the hydrological cycle with climate change}.
 \newblock \emph{CLIVAR Exchanges} \textbf{5}(1):12--13.
+
+\bibitem[{Trenberth \emph{et~al.}(2003)Trenberth, Dai, Rasmussen and
+  Parsons}]{trenberth2003-1205}
+\textbf{Trenberth, K.~E., Dai, A., Rasmussen, R.~M. and Parsons, D.~B.} (2003)
+  \enquote{The changing character of precipitation}.
+\newblock \emph{Bulletin of the American Meteorological Society}
+  \textbf{84}(9):1205--1217.
 
 \bibitem[{Truman and Bradford(1993)}]{truman1993-405}
 \textbf{Truman, C.~C. and Bradford, J.~M.} (1993) \enquote{Relationships
