@@ -1,4 +1,4 @@
-\begin{thebibliography}{168}
+\begin{thebibliography}{169}
 \newcommand{\enquote}[1]{`#1'}
 \providecommand{\natexlab}[1]{#1}
 
@@ -159,6 +159,11 @@
 \textbf{Everaert, W.} (1991) \enquote{Empirical relations for the sediment
   transport capacity of interrill flow}.
 \newblock \emph{Earth Surface Processes and Landforms} \textbf{16}(6):513--532.
+
+\bibitem[{Favis-Mortlock(1994)}]{favis-mortlock1994-use}
+\textbf{Favis-Mortlock, D.} (1994) \emph{Use and Abuse of Soil Erosion Models
+  in Southern England}.
+\newblock Ph.D. thesis, University of Brighton, UK.
 
 \bibitem[{Favis-Mortlock \emph{et~al.}(1997)Favis-Mortlock, Boardman and
   Bell}]{favis-mortlock1997-79}

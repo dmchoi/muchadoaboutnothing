@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.2.23)  2 MAR 2012 03:56
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.2.23)  2 MAR 2012 14:57
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1203,7 +1203,7 @@ Chapter 3.
 LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <10.95> not ava
 ilable
 (Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
-ine 46.
+ine 45.
 File: ./img/ukoutline.eps Graphic file (type eps)
  <./img/ukoutline.eps>
 File: ./img/dailydatasite.eps Graphic file (type eps)
@@ -1456,10 +1456,10 @@ Chapter 4.
 
 ] [94] [95]
 File: ./img/cligen_annual_amount_series.eps Graphic file (type eps)
- <./img/cligen_annual_amount_series.eps> [96]
+ <./img/cligen_annual_amount_series.eps>
 File: ./img/cligen_annual_duration_series.eps Graphic file (type eps)
 
-<./img/cligen_annual_duration_series.eps> [97]
+<./img/cligen_annual_duration_series.eps> [96] [97]
 File: ./img/cligen_monthly_max_int_org.eps Graphic file (type eps)
 
 <./img/cligen_monthly_max_int_org.eps>
@@ -1470,10 +1470,11 @@ File: ./img/cligen_monthly_max_int_by_month.eps Graphic file (type eps)
 <./img/cligen_monthly_max_int_by_month.eps> [98] [99] [100] [101]
 File: ./img/calibration.eps Graphic file (type eps)
 
-<./img/calibration.eps>
+<./img/calibration.eps> [102]
 File: ./img/cligen_annual_runoff_serise_old_original.eps Graphic file (type eps
 )
- <./img/cligen_annual_runoff_serise_old_original.eps>
+
+<./img/cligen_annual_runoff_serise_old_original.eps>
 File: ./img/cligen_annual_runoff_serise_old_updated.eps Graphic file (type eps)
 
 
@@ -1499,13 +1500,13 @@ File: ./img/cligen_annual_sloss_serise_new_original.eps Graphic file (type eps)
 <./img/cligen_annual_sloss_serise_new_original.eps>
 File: ./img/cligen_annual_sloss_serise_new_updated.eps Graphic file (type eps)
 
-<./img/cligen_annual_sloss_serise_new_updated.eps> [102] [103] [104] [105]
-[106]
+<./img/cligen_annual_sloss_serise_new_updated.eps> [103] [104] [105] [106]
 File: ./img/mean_p_cligen.eps Graphic file (type eps)
- <./img/mean_p_cligen.eps>
+
+<./img/mean_p_cligen.eps>
 File: ./img/mx5p_cligen.eps Graphic file (type eps)
- <./img/mx5p_cligen.eps> [107] [108] [109]
-[110] [111] [112]) [113]
+ <./img/mx5p_cligen.eps> [107] [108] [109] [110]
+[111] [112]) [113]
 \openout2 = `./tex/temporal_resolution_chapter.aux'.
 
  (./tex/temporal_resolution_chapter.tex
@@ -1800,19 +1801,19 @@ Underfull \hbox (badness 1960) in paragraph at lines 115--119
  []
 
 [199] [200] [201] [202] [203]
-Underfull \hbox (badness 2608) in paragraph at lines 585--590
+Underfull \hbox (badness 2608) in paragraph at lines 590--595
 [][]\T1/MinionPro-OsF/b/n/10.95 Mearns, L. O., Giorgi, F., Whetton, P., Pa-bon,
  D., Hulme, M. and Lal, M. \T1/MinionPro-OsF/m/n/10.95 (2003)
  []
 
 [204]
-Underfull \hbox (badness 2376) in paragraph at lines 681--684
+Underfull \hbox (badness 2376) in paragraph at lines 686--689
 [][]\T1/MinionPro-OsF/b/n/10.95 Nearing, M. A., Jetten, V., Baf-faut, C., Cerda
 n, O., Cou-tur-ier, A., Hernan-dez, M.,
  []
 
 
-Underfull \hbox (badness 3780) in paragraph at lines 729--733
+Underfull \hbox (badness 3780) in paragraph at lines 734--738
 [][]\T1/MinionPro-OsF/b/n/10.95 Osborn, T. J. and Hulme, M. \T1/MinionPro-OsF/m
 /n/10.95 (1998) `Eval-u-ation of the European daily pre-cip-it-a-tion
  []
@@ -1881,12 +1882,12 @@ Package rerunfilecheck Info: File `muchadoaboutnothing.out' has not changed.
 (rerunfilecheck)             Checksum: EBC4EC68AD3C04BFE4DEF63423E17DD2;10318.
  ) 
 Here is how much of TeX's memory you used:
- 15322 strings out of 495011
- 252251 string characters out of 3180123
- 371435 words of memory out of 3000000
- 17875 multiletter control sequences out of 15000+200000
+ 15325 strings out of 495011
+ 252341 string characters out of 3180123
+ 371470 words of memory out of 3000000
+ 17878 multiletter control sequences out of 15000+200000
  897770 words of font info for 134 fonts, out of 3000000 for 9000
  36 hyphenation exceptions out of 8191
- 60i,17n,94p,741b,856s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,17n,94p,741b,858s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on muchadoaboutnothing.dvi (252 pages, 1627448 bytes).
+Output written on muchadoaboutnothing.dvi (252 pages, 1634144 bytes).

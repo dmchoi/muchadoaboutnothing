@@ -88,13 +88,17 @@
 \contentsline {subsection}{\numberline {4.3.2}Rainfall Duration}{96}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Monthly Maxima of Daily Peak Rainfall Intensity}{98}{subsection.4.3.3}
 \contentsline {section}{\numberline {4.4}Implication on Runoff and Soil Erosion Simulation}{101}{section.4.4}
-\contentsline {paragraph}{Why Calibrate?}{101}{table.4.5}
-\contentsline {paragraph}{Relative vs Absolute Model Output}{105}{table.4.6}
+\contentsline {paragraph}{Why Calibrate?}{102}{table.4.5}
+\contentsline {paragraph}{Relative vs Absolute Model Output}{106}{table.4.6}
 \contentsline {section}{\numberline {4.5}Discussion}{106}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Impact on Rainfall Intensity Generation}{106}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Impact on Subsequent WEPP Simulation}{108}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.2}Impact on Subsequent WEPP Simulation}{109}{subsection.4.5.2}
 \contentsline {subsection}{\numberline {4.5.3}Implication for Previously Published Studies with Old CLIGEN}{110}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}Conclusion}{112}{section.4.6}
+\contentsline {paragraph}{\citet {baffaut1996-447}}{110}{subsection.4.5.3}
+\contentsline {paragraph}{\citet {zhang1996-855}}{111}{subsection.4.5.3}
+\contentsline {paragraph}{\citet {baffaut1998-756}}{111}{subsection.4.5.3}
+\contentsline {paragraph}{\citet {favis-mortlock1999-329}}{112}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Conclusion}{113}{section.4.6}
 \contentsline {chapter}{\numberline {5}EFFECT OF TEMPORAL SCALES OF STORM DATA ON EROSION}{114}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{114}{section.5.1}
 \contentsline {section}{\numberline {5.2}Data Preparation and Method}{115}{section.5.2}
