@@ -125,67 +125,69 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MEAN P}}}{107}{subfigure.8.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MX .5P}}}{107}{subfigure.8.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Various temporal scales of original breakpoint data for 4 July 2000 storm in Plumpton}}{120}{figure.5.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{120}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{120}{subfigure.1.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{120}{subfigure.1.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{120}{subfigure.1.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{120}{subfigure.1.5}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Various temporal scales of original breakpoint data for 11 October 2000 storm in Plumpton}}{121}{figure.5.2}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces A diagram of WEPP and EUROSEM simulations with CLIGEN and breakpoint data}}{118}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Various temporal scales of original breakpoint data for 4 July 2000 storm in Plumpton}}{121}{figure.5.2}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{121}{subfigure.2.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{121}{subfigure.2.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{121}{subfigure.2.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{121}{subfigure.2.4}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{121}{subfigure.2.5}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces WEPP runoff and soil loss changes}}{125}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces The changes of EUROSEM simulated runoff and soil loss from average runoff and soil loss}}{126}{figure.5.4}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Various temporal scales of original breakpoint data for 11 October 2000 storm in Plumpton}}{122}{figure.5.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{122}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{122}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{122}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{122}{subfigure.3.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{122}{subfigure.3.5}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces WEPP runoff and soil loss changes}}{127}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces The changes of EUROSEM simulated runoff and soil loss from average runoff and soil loss}}{127}{figure.5.5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces 15-min rainfall data used for the investigations of effects of continuous and discontinuous rainfall on soil erosion.}}{137}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Continuous and Discontinuous rainfall for RillGrow simulations. Both storms have the same total rainfall amount of 65.5 mm. Rainfall durations for continuous (a) and discontinuous (b) rainfall are 15 minutes and 30 minutes, respectively.}}{137}{figure.6.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Continuous}}}{137}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Discontinuous}}}{137}{subfigure.2.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Original rainfall intensity and WEPP-modified rainfall intensity for discontinuous and continuous rainfall.}}{140}{figure.6.3}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Discontinuous}}}{140}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Continuous}}}{140}{subfigure.3.2}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 15-min rainfall data used for the investigations of effects of continuous and discontinuous rainfall on soil erosion.}}{139}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Continuous and Discontinuous rainfall for RillGrow simulations. Both storms have the same total rainfall amount of 65.5 mm. Rainfall durations for continuous (a) and discontinuous (b) rainfall are 15 minutes and 30 minutes, respectively.}}{139}{figure.6.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Continuous}}}{139}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Discontinuous}}}{139}{subfigure.2.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Original rainfall intensity and WEPP-modified rainfall intensity for discontinuous and continuous rainfall.}}{142}{figure.6.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Discontinuous}}}{142}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Continuous}}}{142}{subfigure.3.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Intensity patterns of a convective storm for WEPP and EUROSEM simulations.}}{143}{figure.7.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{143}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{143}{subfigure.1.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{143}{subfigure.1.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{143}{subfigure.1.4}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Intensity patterns of a stratiform storm for WEPP and EUROSEM simulations.}}{143}{figure.7.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{143}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{143}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{143}{subfigure.2.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{143}{subfigure.2.4}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Intensity input patterns for RillGrow2 simulations.}}{144}{figure.7.3}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{144}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{144}{subfigure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{144}{subfigure.3.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{144}{subfigure.3.4}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Intensity patterns of a convective storm for WEPP and EUROSEM simulations.}}{145}{figure.7.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{145}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{145}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{145}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{145}{subfigure.1.4}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Intensity patterns of a stratiform storm for WEPP and EUROSEM simulations.}}{145}{figure.7.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{145}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{145}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{145}{subfigure.2.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{145}{subfigure.2.4}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Intensity input patterns for RillGrow2 simulations.}}{146}{figure.7.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{146}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{146}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{146}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{146}{subfigure.3.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces WEPP simulated runoff rates with original and sorted October rainfall data}}{156}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces WEPP simulated soil loss rates with original and sorted October rainfall data}}{157}{figure.8.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces WEPP simulated mean runoff and soil loss rates with different temporal data resolutions}}{157}{figure.8.3}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Changes in WEPP simulated runoff and soil loss rates using original and sorted rainfall data for different temporal data resolution}}{158}{figure.8.4}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces EUROSEM simulated runoff rates with original and sorted October rainfall data}}{160}{figure.8.5}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces EUROSEM simulated soil loss rates with original and sorted October rainfall data}}{161}{figure.8.6}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces EUROSEM simulated mean runoff and soil loss rates with different temporal data resolutions}}{161}{figure.8.7}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Changes in EUROSEM simulated runoff and soil loss rates using original and sorted rainfall data for different temporal data resolution}}{162}{figure.8.8}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Two examples of rainstorms}}{155}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces WEPP simulated runoff rates with original and sorted October rainfall data}}{159}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces WEPP simulated soil loss rates with original and sorted October rainfall data}}{160}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces WEPP simulated mean runoff and soil loss rates with different temporal data resolutions}}{160}{figure.8.4}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Changes in WEPP simulated runoff and soil loss rates using original and sorted rainfall data for different temporal data resolution}}{161}{figure.8.5}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces EUROSEM simulated runoff rates with original and sorted October rainfall data}}{163}{figure.8.6}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces EUROSEM simulated soil loss rates with original and sorted October rainfall data}}{164}{figure.8.7}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces EUROSEM simulated mean runoff and soil loss rates with different temporal data resolutions}}{164}{figure.8.8}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Changes in EUROSEM simulated runoff and soil loss rates using original and sorted rainfall data for different temporal data resolution}}{165}{figure.8.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Schematic flowchart of the method used for investigation of implications of rainfall intensity changes for future soil erosion}}{176}{figure.9.1}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces WEPP responses to the peak rainfall intensity changes}}{178}{figure.9.2}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Simulated annual rainfall amount using CLIGEN}}{181}{figure.9.3}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Simulated annual rainfall duration changes by changing mean maximum 30-min peak intensity for wet and dry seasons.}}{182}{figure.9.4}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Monthly maxima of daily peak rainfall intensity changes generated by CLIGEN with modified mean maximum 30-min peak intensity}}{183}{figure.9.5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wet months (9, 10, 11, 12, 1, 2) with modified intensity}}}{183}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Dry months (3, 4, 5, 6, 7, 8) with modified intensity}}}{183}{subfigure.5.2}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Runoff changes in response to the changes of mean maximum 30-min peak intensity for wet and dry seasons.}}{184}{figure.9.6}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Soil loss rate changes in response to the changes of mean maximum 30-min peak intensity for wet and dry seasons.}}{185}{figure.9.7}
-\contentsline {figure}{\numberline {9.8}{\ignorespaces Effects of 5\% and 10\% increases of mean maximum 30-min peak intensity on WEPP generated soil loss rates for individual events}}{186}{figure.9.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original}}}{186}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {+5\%}}}{186}{subfigure.8.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {+10\%}}}{186}{subfigure.8.3}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Schematic flowchart of the method used for investigation of implications of rainfall intensity changes for future soil erosion}}{179}{figure.9.1}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces WEPP responses to the peak rainfall intensity changes}}{181}{figure.9.2}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Simulated annual rainfall amount using CLIGEN}}{184}{figure.9.3}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Simulated annual rainfall duration changes by changing mean maximum 30-min peak intensity for wet and dry seasons.}}{185}{figure.9.4}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Monthly maxima of daily peak rainfall intensity changes generated by CLIGEN with modified mean maximum 30-min peak intensity}}{186}{figure.9.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wet months (9, 10, 11, 12, 1, 2) with modified intensity}}}{186}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Dry months (3, 4, 5, 6, 7, 8) with modified intensity}}}{186}{subfigure.5.2}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Runoff changes in response to the changes of mean maximum 30-min peak intensity for wet and dry seasons.}}{187}{figure.9.6}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Soil loss rate changes in response to the changes of mean maximum 30-min peak intensity for wet and dry seasons.}}{188}{figure.9.7}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Effects of 5\% and 10\% increases of mean maximum 30-min peak intensity on WEPP generated soil loss rates for individual events}}{189}{figure.9.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original}}}{189}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {+5\%}}}{189}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {+10\%}}}{189}{subfigure.8.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

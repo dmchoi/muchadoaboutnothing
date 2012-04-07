@@ -4,7 +4,7 @@ img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
 kileversion=2.1.0
-lastDocument=tex/observed_rainfall_chapter.tex
+lastDocument=tex/temporal_resolution_chapter.tex
 masterDocument=
 name=muchadoaboutnothing
 pkg_extIsRegExp=false
@@ -47,6 +47,8 @@ ReadWrite=true
 [document-settings,item:tex/abstract.tex]
 Bookmarks=
 Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
 Highlighting=LaTeX
 Indentation Mode=
 Mode=LaTeX
@@ -55,6 +57,8 @@ ReadWrite=true
 [document-settings,item:tex/acknowledgement.tex]
 Bookmarks=
 Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
 Highlighting=LaTeX
 Indentation Mode=
 Mode=LaTeX
@@ -63,6 +67,8 @@ ReadWrite=true
 [document-settings,item:tex/appendixA.tex]
 Bookmarks=
 Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
 Highlighting=LaTeX
 Indentation Mode=
 Mode=LaTeX
@@ -135,6 +141,8 @@ ReadWrite=true
 [document-settings,item:tex/continue_discontinue_rainfall_chapter.tex]
 Bookmarks=
 Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
 Highlighting=LaTeX
 Indentation Mode=
 Mode=LaTeX
@@ -179,6 +187,8 @@ ReadWrite=true
 [document-settings,item:tex/extendedabstract.tex]
 Bookmarks=
 Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
 Highlighting=LaTeX
 Indentation Mode=
 Mode=LaTeX
@@ -237,6 +247,8 @@ ReadWrite=true
 [document-settings,item:tex/model_result_summary.tex]
 Bookmarks=
 Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
 Highlighting=LaTeX
 Indentation Mode=
 Mode=LaTeX
@@ -2200,7 +2212,7 @@ highlight=LaTeX
 line=0
 mode=LaTeX
 open=false
-order=1
+order=0
 
 [item:notmystyle.sty]
 archive=true
@@ -2224,10 +2236,10 @@ order=-1
 
 [item:tex/abstract.tex]
 archive=true
-column=0
+column=42
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=107
 mode=LaTeX
 open=false
 order=-1
@@ -2240,7 +2252,7 @@ highlight=LaTeX
 line=0
 mode=LaTeX
 open=false
-order=-1
+order=1
 
 [item:tex/appendixA.tex]
 archive=true
@@ -2294,20 +2306,20 @@ order=1
 
 [item:tex/bp2bp_variation_chapter.tex]
 archive=true
-column=59
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=3
+line=58
 mode=LaTeX
 open=false
-order=0
+order=1
 
 [item:tex/building_intensity_scenarios.tex]
 archive=true
-column=29
+column=36
 encoding=UTF-8
 highlight=LaTeX
-line=331
+line=306
 mode=LaTeX
 open=false
 order=1
@@ -2317,30 +2329,30 @@ archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=429
+line=133
 mode=LaTeX
 open=false
 order=-1
 
 [item:tex/continue_discontinue_rainfall_chapter.tex]
 archive=true
-column=0
+column=22
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=4
 mode=LaTeX
 open=false
 order=-1
 
 [item:tex/data_method_chapter.tex]
 archive=true
-column=15
+column=50
 encoding=UTF-8
 highlight=LaTeX
-line=27
+line=47
 mode=LaTeX
 open=false
-order=0
+order=1
 
 [item:tex/dedication.tex]
 archive=true
@@ -2364,40 +2376,40 @@ order=-1
 
 [item:tex/erosion_model.tex]
 archive=true
-column=1
+column=28
 encoding=UTF-8
 highlight=LaTeX
-line=16
+line=311
 mode=LaTeX
 open=false
 order=0
 
 [item:tex/extendedabstract.tex]
 archive=true
-column=0
+column=70
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=47
 mode=LaTeX
 open=false
 order=-1
 
 [item:tex/future_erosion_chapter.tex]
 archive=true
-column=40
+column=42
 encoding=UTF-8
 highlight=LaTeX
-line=39
+line=184
 mode=LaTeX
 open=false
 order=0
 
 [item:tex/improved_cligen_chapter.tex]
 archive=true
-column=1
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=734
+line=344
 mode=LaTeX
 open=false
 order=0
@@ -2414,30 +2426,30 @@ order=-1
 
 [item:tex/intensity_erosion.tex]
 archive=true
-column=0
+column=25
 encoding=UTF-8
 highlight=LaTeX
-line=5
+line=4
 mode=LaTeX
 open=false
 order=-1
 
 [item:tex/intensity_pattern_chapter.tex]
 archive=true
-column=0
+column=57
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=2
 mode=LaTeX
 open=false
-order=-1
+order=1
 
 [item:tex/model_result_summary.tex]
 archive=true
-column=0
+column=74
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=37
 mode=LaTeX
 open=false
 order=-1
@@ -2450,17 +2462,17 @@ highlight=LaTeX
 line=0
 mode=LaTeX
 open=false
-order=1
+order=2
 
 [item:tex/observed_rainfall_chapter.tex]
 archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=561
+line=483
 mode=LaTeX
-open=true
-order=0
+open=false
+order=1
 
 [item:tex/soil_erosion_processes.tex]
 archive=true
@@ -2474,12 +2486,12 @@ order=0
 
 [item:tex/temporal_resolution_chapter.tex]
 archive=true
-column=9
+column=27
 encoding=UTF-8
 highlight=LaTeX
-line=48
+line=818
 mode=LaTeX
-open=false
+open=true
 order=0
 
 [view-settings,view=0,item:muchadoaboutnothing.tex]
@@ -2499,16 +2511,22 @@ CursorColumn=0
 CursorLine=0
 
 [view-settings,view=0,item:tex/abstract.tex]
-CursorColumn=0
-CursorLine=0
+CursorColumn=42
+CursorLine=107
+JumpList=
+ViMarks=
 
 [view-settings,view=0,item:tex/acknowledgement.tex]
 CursorColumn=0
 CursorLine=0
+JumpList=
+ViMarks=
 
 [view-settings,view=0,item:tex/appendixA.tex]
 CursorColumn=0
 CursorLine=0
+JumpList=
+ViMarks=
 
 [view-settings,view=0,item:tex/appendixB.tex]
 CursorColumn=0
@@ -2529,30 +2547,32 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/bp2bp_variation_chapter.tex]
-CursorColumn=59
-CursorLine=3
+CursorColumn=0
+CursorLine=58
 JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/building_intensity_scenarios.tex]
-CursorColumn=29
-CursorLine=331
+CursorColumn=36
+CursorLine=306
 JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/conclusion_chapter.tex]
 CursorColumn=0
-CursorLine=429
+CursorLine=133
 JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/continue_discontinue_rainfall_chapter.tex]
-CursorColumn=0
-CursorLine=0
+CursorColumn=22
+CursorLine=4
+JumpList=
+ViMarks=
 
 [view-settings,view=0,item:tex/data_method_chapter.tex]
-CursorColumn=15
-CursorLine=27
+CursorColumn=50
+CursorLine=47
 JumpList=
 ViMarks=
 
@@ -2565,24 +2585,26 @@ CursorColumn=0
 CursorLine=0
 
 [view-settings,view=0,item:tex/erosion_model.tex]
-CursorColumn=1
-CursorLine=16
+CursorColumn=28
+CursorLine=311
 JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/extendedabstract.tex]
-CursorColumn=0
-CursorLine=0
+CursorColumn=70
+CursorLine=47
+JumpList=
+ViMarks=
 
 [view-settings,view=0,item:tex/future_erosion_chapter.tex]
-CursorColumn=40
-CursorLine=39
+CursorColumn=42
+CursorLine=184
 JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/improved_cligen_chapter.tex]
-CursorColumn=1
-CursorLine=734
+CursorColumn=0
+CursorLine=344
 JumpList=
 ViMarks=
 
@@ -2593,20 +2615,22 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/intensity_erosion.tex]
-CursorColumn=0
-CursorLine=5
+CursorColumn=25
+CursorLine=4
 JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/intensity_pattern_chapter.tex]
-CursorColumn=0
-CursorLine=0
+CursorColumn=57
+CursorLine=2
 JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/model_result_summary.tex]
-CursorColumn=0
-CursorLine=0
+CursorColumn=74
+CursorLine=37
+JumpList=
+ViMarks=
 
 [view-settings,view=0,item:tex/objective_chapter.tex]
 CursorColumn=1
@@ -2616,7 +2640,7 @@ ViMarks=
 
 [view-settings,view=0,item:tex/observed_rainfall_chapter.tex]
 CursorColumn=0
-CursorLine=561
+CursorLine=483
 JumpList=
 ViMarks=
 
@@ -2627,7 +2651,7 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/temporal_resolution_chapter.tex]
-CursorColumn=9
-CursorLine=48
+CursorColumn=27
+CursorLine=818
 JumpList=
 ViMarks=

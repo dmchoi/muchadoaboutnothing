@@ -1,4 +1,4 @@
-\begin{thebibliography}{169}
+\begin{thebibliography}{170}
 \newcommand{\enquote}[1]{`#1'}
 \providecommand{\natexlab}[1]{#1}
 
@@ -59,8 +59,8 @@
 
 \bibitem[{Boardman(2001)}]{boardman2001-346}
 \textbf{Boardman, J.} (2001) \enquote{Storms, floods and soil erosion on the
-  {S}outh {D}owns, {E}ast {S}ussex, autumn and winter 2000-01}.
-\newblock \emph{Geography} \textbf{86}:346--355.
+  south downs, east sussex, autumn and winter 2000-01}.
+\newblock \emph{Geography} \textbf{86}(4):346--355.
 
 \bibitem[{Boardman(2003)}]{boardman2003-176}
 \textbf{Boardman, J.} (2003) \enquote{Soil erosion and flooding on the eastern
@@ -257,6 +257,12 @@
   and future enhancements}.
 \newblock \emph{Transactions Of The American Society of Agricultural and
   Biological Engineers} \textbf{50}(5):1603--1612.
+
+\bibitem[{Flanagan and Livingston(1995)}]{flanagan1995-weppusersummary}
+\textbf{Flanagan, D.~C. and Livingston, S.~J.} (eds)  (1995) \emph{WEPP User
+  Summary: USDA-Water Erosion Prediction Project}.
+\newblock NSERL Report No. 11, USDA-ARS National Soil Erosion Research
+  Laboratory, West Lafayette, USA.
 
 \bibitem[{Flanagan and Nearing(1995)}]{flanagan1995-usda}
 \textbf{Flanagan, D.~C. and Nearing, M.~A.} (eds)  (1995) \emph{{USDA}-Water
@@ -560,11 +566,6 @@
 \textbf{Mann, H.~B.} (1945) \enquote{Non-parametric tests against trend}.
 \newblock \emph{Econometrica} \textbf{13}(3):245--259.
 
-\bibitem[{Marsh(2001)}]{marsh2001-343}
-\textbf{Marsh, T.~J.} (2001) \enquote{The 2000/01 floods in the {UK} -- a brief
-  overview}.
-\newblock \emph{Weather} \textbf{56}(10):343--345.
-
 \bibitem[{Marshall and Palmer(1948)}]{marshall1948-165}
 \textbf{Marshall, J. and Palmer, W.~M.} (1948) \enquote{The distribution of
   raindrops with size}.
@@ -624,10 +625,20 @@
 \textbf{Morgan, R. P.~C.} (1995) \emph{Soil Erosion and Conservation}.
 \newblock Longman, Harlow, 2nd edn.
 
-\bibitem[{Morgan \emph{et~al.}(1998)Morgan, Quinton, Smith, Govers, Poesen,
-  Chisci and Torri}]{morgan1998-389}
+\bibitem[{Morgan \emph{et~al.}(1998{\natexlab{\emph{a}}})Morgan, Quinton,
+  Smith, Govers, Poesen, Auerswald, Chisci, Torri, Styczen and
+  Folly}]{morgan1998-europeansoilerosion}
 \textbf{Morgan, R. P.~C., Quinton, J.~N., Smith, R.~E., Govers, G., Poesen, J.
-  W.~A., Chisci, G. and Torri, D.} (1998) \enquote{The {EUROSEM} model}.
+  W.~A., Auerswald, K., Chisci, G., Torri, D., Styczen, M.~E. and Folly, A.
+  J.~V.} (1998{\natexlab{\emph{a}}}) \emph{The European Soil Erosion Model
+  (EUROSEM): documentation and user guide}.
+\newblock Siloe College, Cranfield University.
+
+\bibitem[{Morgan \emph{et~al.}(1998{\natexlab{\emph{b}}})Morgan, Quinton,
+  Smith, Govers, Poesen, Chisci and Torri}]{morgan1998-389}
+\textbf{Morgan, R. P.~C., Quinton, J.~N., Smith, R.~E., Govers, G., Poesen, J.
+  W.~A., Chisci, G. and Torri, D.} (1998{\natexlab{\emph{b}}}) \enquote{The
+  {EUROSEM} model}.
 \newblock In \emph{Modelling Soil Erosion by Water: Proceedings of the NATO
   Advanced Research Workshop}, vol.~55 of \emph{NATO ASI Series I: Global
   Enviornmental Change}, \textbf{Boardman, J. and Favis-Mortlock, D.}, (eds).
@@ -860,9 +871,8 @@
 \bibitem[{Saunders \emph{et~al.}(2001)Saunders, G\"{o}ber and
   Chalcraft}]{saunders2001-360}
 \textbf{Saunders, F., G\"{o}ber, M. and Chalcraft, B.} (2001) \enquote{The
-  exceptional rainfall event of 11 and 12 {O}ctover 2000 in {K}ent and
-  {S}ussex, as observed and as forecast by the {M}et {O}ffice {M}esoscale
-  {M}odel}.
+  exceptional rainfall event of 11 and 12 october 2000 in kent and sussex, as
+  observed and as forecast by the met office mesoscale model}.
 \newblock \emph{Weather} \textbf{56}(10):360--367.
 
 \bibitem[{Schubert and Henderson-Sellers(1997)}]{schubert1997-223}

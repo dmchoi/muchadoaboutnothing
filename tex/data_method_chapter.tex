@@ -18,6 +18,34 @@ favis-mortlock1998-141,boardman2001-346,boardman2003-176}.
 
 \subsection{Rainfall Data}
 \label{sec:RainfallData}
+%******Need a section discussing what is meant by a ``storm'' and giving your
+%own definition. You can then refer to this in the Conclusions.
+
+Some preliminary definitions are given before describing rainfall data that are
+used in this research.
+
+\paragraph{Intensity} There are two ways of defining average
+rainfall intensity. One is to calculate kinetic energy of rainfall by measuring
+size, distribution and velocity of raindrops \citep{vandijk2002-1}. The other is
+to calculate it by dividing total rainfall amount by rainfall duration. The
+latter is used in this research because erosion models used here employ the
+latter concept when rainfall data are feed into the model as inputs. Rainfall
+intensity is expressed as rainfall amount divided by time (e.g.\ mm/hr) in this
+research.
+
+\paragraph{Definition of a Rainfall Storm} In this research, a single rainfall
+storm is defined as a rainfall event that occurs within 24 hours and lasts no
+longer than 24 hours. This means that, if a rainfall storm lasts more than a day
+(24 hr), it will be considered as two separate events: one with 24 hr rainfall
+duration and the other with the duration that remains. This also means that two
+rainfall events which occur within a predefined 24-hour period will be treated
+as one rainfall storm. This is because all models used in this research assume
+that only one rainfall storm occurs per a day. This simplification is
+unrealistic and may have unknown consequences. However, consequences of this
+assumption were not covered in this study because they are out of the scope of
+this research. Nevertheless, this research recognises the existence of this
+issue and the need for further studies on a more appropriate definition of
+rainfall storm for soil erosion modelling studies.
 
 Reported mean annual rainfall of the South Downs, UK is between 750 and 1000 mm
 with an autumn peak \citep{potts1983-88}. Mean annual temperature is
@@ -642,6 +670,9 @@ no assumption about the distribution of data. Its null hypothesis is that the
 two samples are distributed identically. The test is sensitive to differences in
 location, dispersion and skewness of the distribution \citep{sokal1995-887}.
 
+
+\input{./tex/observed_rainfall_chapter}
+
 %\begin{verbatim}
 %http://en.wikipedia.org/wiki/Kolmogorov-Smirnov_test
 %\end{verbatim}
@@ -745,4 +776,4 @@ location, dispersion and skewness of the distribution \citep{sokal1995-887}.
 %\end{quote}
 
 %\nolinenumbers
-\input{./tex/observed_rainfall_chapter}
+

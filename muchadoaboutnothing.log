@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.2.23)  2 MAR 2012 14:57
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.2.23)  8 APR 2012 02:35
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -730,10 +730,10 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \JustifyingParindent=\skip70
 )
 (/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2011/11/10 v3.2e Customizing captions (AR)
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2011/11/01 v1.4a caption3 kernel (AR)
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
 \captionmargin=\dimen145
 \captionmargin@=\dimen146
 \captionwidth=\dimen147
@@ -1203,25 +1203,26 @@ Chapter 3.
 LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <10.95> not ava
 ilable
 (Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
-ine 45.
+ine 73.
+ [53]
 File: ./img/ukoutline.eps Graphic file (type eps)
  <./img/ukoutline.eps>
 File: ./img/dailydatasite.eps Graphic file (type eps)
- <./img/dailydatasite.eps>
+ <./img/dailydatasite.eps> [54]
 File: ./img/eventdatasite.eps Graphic file (type eps)
- <./img/eventdatasite.eps>
-[53] [54] [55]
+
+<./img/eventdatasite.eps> [55]
 File: ./img/woodingdean.eps Graphic file (type eps)
- <./img/woodingdean.eps> [56] [57] [58] [59] [60] [61] [62]
-[63] [64] (./tex/observed_rainfall_chapter.tex [65] [66]
+ <./img/woodingdean.eps> [56] [57] [58] [59]
+[60] [61] [62] [63] [64] (./tex/observed_rainfall_chapter.tex [65] [66]
 LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <10> not availa
 ble
 (Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
 ine 108.
- [67] [68]
-File: ./img/grid_annual_amount.eps Graphic file (type eps)
 
-<./img/grid_annual_amount.eps>
+[67] [68]
+File: ./img/grid_annual_amount.eps Graphic file (type eps)
+ <./img/grid_annual_amount.eps>
 File: ./img/grid_DJF_trend.eps Graphic file (type eps)
  <./img/grid_DJF_trend.eps>
 LaTeX Font Info:    Font shape `T1/Myriad-OsF/bx/n' in size <10> not available
@@ -1515,12 +1516,14 @@ Chapter 5.
 
 
 
-] [115] [116] [117] [118]
+] [115] [116]
+File: ./img/eurosem_cligen_workaround.eps Graphic file (type eps)
+ <./img/eurosem_cligen_workaround.eps> [117] [118] [119]
 File: ./img/dr_storm_1min.eps Graphic file (type eps)
- <./img/dr_storm_1min.eps>
-File: ./img/dr_storm_5min.eps Graphic file (type eps)
 
-<./img/dr_storm_5min.eps>
+<./img/dr_storm_1min.eps>
+File: ./img/dr_storm_5min.eps Graphic file (type eps)
+ <./img/dr_storm_5min.eps>
 File: ./img/dr_storm_15min.eps Graphic file (type eps)
  <./img/dr_storm_15min.eps>
 File: ./img/dr_storm_30min.eps Graphic file (type eps)
@@ -1539,8 +1542,8 @@ File: ./img/pl_storm_30min.eps Graphic file (type eps)
 
 <./img/pl_storm_30min.eps>
 File: ./img/pl_storm_60min.eps Graphic file (type eps)
- <./img/pl_storm_60min.eps> [119] [120] [121]
-[122] [123]
+ <./img/pl_storm_60min.eps> [120] [121] [122]
+[123] [124] [125]
 File: ./img/wepp_runoff_temp_scale.eps Graphic file (type eps)
  <./img/wepp_runoff_temp_scale.eps>
 File: ./img/wepp_sloss_temp_scale.eps Graphic file (type eps)
@@ -1550,13 +1553,18 @@ File: ./img/eurosem_roff_temp_scale.eps Graphic file (type eps)
  <./img/eurosem_roff_temp_scale.eps>
 File: ./img/eurosem_sloss_temp_scale.eps Graphic file (type eps)
 
-<./img/eurosem_sloss_temp_scale.eps> [124] [125] [126] [127] [128] [129]
-[130] [131] [132] [133]) [134]
+<./img/eurosem_sloss_temp_scale.eps> [126] [127] [128] [129] [130] [131]
+Underfull \hbox (badness 2772) in paragraph at lines 700--707
+[][]\T1/MinionPro-OsF/m/n/12 All these changes---lowering of in-tens-it-ies and
+ shift-ing the loc-a-tion of peak
+ []
+
+[132] [133] [134] [135]) [136]
 \openout2 = `./tex/continue_discontinue_rainfall_chapter.aux'.
 
  (./tex/continue_discontinue_rainfall_chapter.tex
 Chapter 6.
-[135
+[137
 
 
 
@@ -1571,19 +1579,19 @@ ain-fall data were pre-pared for
 File: ./img/rg2_input_continuous.eps Graphic file (type eps)
 <./img/rg2_input_continuous.eps>
 File: ./img/rg2_input_discontinuous.eps Graphic file (type eps)
- <./img/rg2_input_discontinuous.eps> [136]
-[137] [138] [139]
+ <./img/rg2_input_discontinuous.eps> [138]
+[139] [140] [141]
 File: ./img/intensity_discontinuous.eps Graphic file (type eps)
  <./img/intensity_discontinuous.eps>
 File: ./img/intensity_continuous.eps Graphic file (type eps)
 
-<./img/intensity_continuous.eps> [140]) [141]
+<./img/intensity_continuous.eps> [142]) [143]
 \openout2 = `./tex/intensity_pattern_chapter.aux'.
 
 
 (./tex/intensity_pattern_chapter.tex
 Chapter 7.
-[142
+[144
 
 
 
@@ -1623,35 +1631,38 @@ LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <12> not availa
 ble
 (Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
 ine 119.
- [143] [144]
+ [145] [146]
 LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <8> not availab
 le
 (Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
 ine 289.
- [145] [146]
-(./tex/model_result_summary.tex [147] [148] [149] [150])) [151]
+ [147] [148]
+(./tex/model_result_summary.tex [149] [150] [151] [152])) [153]
 \openout2 = `./tex/bp2bp_variation_chapter.aux'.
 
 
 (./tex/bp2bp_variation_chapter.tex
 Chapter 8.
-
-Underfull \hbox (badness 1728) in paragraph at lines 25--27
+File: ./img/example_storm_a.eps Graphic file (type eps)
+<./img/example_storm_a.eps>
+File: ./img/example_storm_b.eps Graphic file (type eps)
+ <./img/example_storm_b.eps>
+Underfull \hbox (badness 1728) in paragraph at lines 63--65
 [][]\T1/MinionPro-OsF/m/n/12 Starting from 15-min (since 1- and 5-min are not p
 os-sible for WEPP and
  []
 
-[152
+[154
 
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 39--44
+] [155]
+Underfull \hbox (badness 10000) in paragraph at lines 77--82
 [][]\T1/MinionPro-OsF/m/n/12 Sort data to ``as-cend-ing'' (Sorted-ascending) an
 d ``des-cend-ing'' (Sorted-
  []
 
-[153]
+[156]
 File: ./img/wepp_runoff_with_original.eps Graphic file (type eps)
  <./img/wepp_runoff_with_original.eps>
 File: ./img/wepp_runoff_with_original_nogap.eps Graphic file (type eps)
@@ -1684,7 +1695,7 @@ File: ./img/wepp_diff_runoff_soilloss_asc.eps Graphic file (type eps)
  <./img/wepp_diff_runoff_soilloss_asc.eps>
 File: ./img/wepp_diff_runoff_soilloss_des.eps Graphic file (type eps)
 
-<./img/wepp_diff_runoff_soilloss_des.eps> [154] [155] [156] [157]
+<./img/wepp_diff_runoff_soilloss_des.eps> [157] [158] [159] [160]
 File: ./img/eurosem_runoff_with_original.eps Graphic file (type eps)
 
 <./img/eurosem_runoff_with_original.eps>
@@ -1718,8 +1729,8 @@ File: ./img/eurosem_diff_runoff_soilloss_asc.eps Graphic file (type eps)
  <./img/eurosem_diff_runoff_soilloss_asc.eps>
 File: ./img/eurosem_diff_runoff_soilloss_des.eps Graphic file (type eps)
 
-<./img/eurosem_diff_runoff_soilloss_des.eps> [158] [159] [160] [161] [162]
-[163] [164]) [165] [166
+<./img/eurosem_diff_runoff_soilloss_des.eps> [161] [162] [163] [164] [165]
+[166] [167]) [168] [169
 
 
 ]
@@ -1727,16 +1738,16 @@ File: ./img/eurosem_diff_runoff_soilloss_des.eps Graphic file (type eps)
 
  (./tex/future_erosion_chapter.tex
 Chapter 9.
-[167
+[170
 
 
-] (./tex/building_intensity_scenarios.tex [168] [169] [170] [171] [172]
-[173] [174]
+] (./tex/building_intensity_scenarios.tex [171] [172] [173] [174] [175]
+[176] [177]
 File: ./img/future_erosion_flowchart.eps Graphic file (type eps)
- <./img/future_erosion_flowchart.eps>) [175] [176]
+ <./img/future_erosion_flowchart.eps>) [178] [179]
 File: ./img/wepp_respond_to_int_changes.eps Graphic file (type eps)
 
-<./img/wepp_respond_to_int_changes.eps> [177] [178] [179] [180]
+<./img/wepp_respond_to_int_changes.eps> [180] [181] [182] [183]
 File: ./img/annual_future_rainfall.eps Graphic file (type eps)
 
 <./img/annual_future_rainfall.eps>
@@ -1747,20 +1758,20 @@ File: ./img/future_monthly_intensity_wet.eps Graphic file (type eps)
 <./img/future_monthly_intensity_wet.eps>
 File: ./img/future_monthly_intensity_dry.eps Graphic file (type eps)
 
-<./img/future_monthly_intensity_dry.eps> [181]
+<./img/future_monthly_intensity_dry.eps> [184]
 File: ./img/future_roff_change.eps Graphic file (type eps)
  <./img/future_roff_change.eps>
-[182] [183]
+[185] [186]
 File: ./img/future_sloss_change.eps Graphic file (type eps)
- <./img/future_sloss_change.eps> [184]
+ <./img/future_sloss_change.eps> [187]
 File: ./img/event_original.eps Graphic file (type eps)
  <./img/event_original.eps>
 File: ./img/event_dry_incr_5.eps Graphic file (type eps)
 
 <./img/event_dry_incr_5.eps>
 File: ./img/event_dry_incr_10.eps Graphic file (type eps)
- <./img/event_dry_incr_10.eps> [185] [186] [187])
-[188] [189
+ <./img/event_dry_incr_10.eps> [188] [189] [190])
+[191] [192
 
 
 ]
@@ -1768,16 +1779,16 @@ File: ./img/event_dry_incr_10.eps Graphic file (type eps)
 
  (./tex/conclusion_chapter.tex
 Chapter 10.
-[190
+[193
 
 
-] [191] [192] [193] [194] [195] [196]
-Underfull \hbox (badness 5288) in paragraph at lines 268--270
+] [194] [195] [196] [197] [198] [199]
+Underfull \hbox (badness 10000) in paragraph at lines 268--270
 [][]\T1/MinionPro-OsF/m/n/12 Experiments/measurements of dur-a-tion/frequency o
-f Within-Storm Pauses
+f Within-Storm Gaps
  []
 
-) [197] (./muchadoaboutnothing.bbl
+) [200] (./muchadoaboutnothing.bbl
 LaTeX Font Info:    Try loading font information for T1+fi4 on input line 27.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/inconsolata/t1fi4.fd
@@ -1791,7 +1802,7 @@ Underfull \hbox (badness 1708) in paragraph at lines 74--77
 lmes, P. J. and Wash-ing-ton, R. \T1/MinionPro-OsF/m/n/10.95 (2003)
  []
 
-[198
+[201
 
 
 ]
@@ -1800,30 +1811,30 @@ Underfull \hbox (badness 1960) in paragraph at lines 115--119
 /MinionPro-OsF/m/it/10.95 Earth Sur-face Pro-cesses and Land-forms
  []
 
-[199] [200] [201] [202] [203]
-Underfull \hbox (badness 2608) in paragraph at lines 590--595
+[202] [203] [204] [205] [206]
+Underfull \hbox (badness 2608) in paragraph at lines 591--596
 [][]\T1/MinionPro-OsF/b/n/10.95 Mearns, L. O., Giorgi, F., Whetton, P., Pa-bon,
  D., Hulme, M. and Lal, M. \T1/MinionPro-OsF/m/n/10.95 (2003)
  []
 
-[204]
-Underfull \hbox (badness 2376) in paragraph at lines 686--689
+[207]
+Underfull \hbox (badness 2376) in paragraph at lines 697--700
 [][]\T1/MinionPro-OsF/b/n/10.95 Nearing, M. A., Jetten, V., Baf-faut, C., Cerda
 n, O., Cou-tur-ier, A., Hernan-dez, M.,
  []
 
-
-Underfull \hbox (badness 3780) in paragraph at lines 734--738
+[208]
+Underfull \hbox (badness 3780) in paragraph at lines 745--749
 [][]\T1/MinionPro-OsF/b/n/10.95 Osborn, T. J. and Hulme, M. \T1/MinionPro-OsF/m
 /n/10.95 (1998) `Eval-u-ation of the European daily pre-cip-it-a-tion
  []
 
-[205] [206] [207] [208]) [209]
+[209] [210] [211]) [212]
 LaTeX Font Info:    Font shape `T1/MinionPro-OsF/bx/sc' in size <20.74> not ava
 ilable
 (Font)              Font shape `T1/MinionPro-OsF/b/sc' tried instead on input l
 ine 97.
- [210
+ [213
 
 ]
 \openout2 = `./tex/appendixA.aux'.
@@ -1832,34 +1843,34 @@ ine 97.
 Appendix A.
 LaTeX Font Info:    Font shape `T1/fi4/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 14.
-[211
+[214
 
 
-] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221] [222]
-[223] [224] [225]) [226]
+] [215] [216] [217] [218] [219] [220] [221] [222] [223] [224] [225]
+[226] [227] [228]) [229]
 \openout2 = `./tex/appendixB.aux'.
 
  (./tex/appendixB.tex
 Appendix B.
-[227
-
-
-
-] [228]) [229]
-\openout2 = `./tex/appendixC.aux'.
-
- (./tex/appendixC.tex
-Appendix C.
 [230
 
 
 
-] [231] [232] [233]) [234]
+] [231]) [232]
+\openout2 = `./tex/appendixC.aux'.
+
+ (./tex/appendixC.tex
+Appendix C.
+[233
+
+
+
+] [234] [235] [236]) [237]
 \openout2 = `./tex/appendixD.aux'.
 
  (./tex/appendixD.tex
 Appendix D.
-) [235
+) [238
 
 
 
@@ -1879,15 +1890,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 111.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
 Package rerunfilecheck Info: File `muchadoaboutnothing.out' has not changed.
-(rerunfilecheck)             Checksum: EBC4EC68AD3C04BFE4DEF63423E17DD2;10318.
+(rerunfilecheck)             Checksum: DDA3FF240A6C00A6EACE9EDD2B5094CE;10376.
  ) 
 Here is how much of TeX's memory you used:
- 15325 strings out of 495011
- 252341 string characters out of 3180123
- 371470 words of memory out of 3000000
- 17878 multiletter control sequences out of 15000+200000
+ 15341 strings out of 495011
+ 252815 string characters out of 3180123
+ 372176 words of memory out of 3000000
+ 17891 multiletter control sequences out of 15000+200000
  897770 words of font info for 134 fonts, out of 3000000 for 9000
  36 hyphenation exceptions out of 8191
- 60i,17n,94p,741b,858s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,17n,94p,741b,856s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on muchadoaboutnothing.dvi (252 pages, 1634144 bytes).
+Output written on muchadoaboutnothing.dvi (255 pages, 1666296 bytes).

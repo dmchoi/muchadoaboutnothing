@@ -5,43 +5,43 @@
 \section{Introduction}
 \label{sec:ContinousAndDiscontinousStormIntroduction}
 This chapter investigates the effect of no-rain periods within a storm
-that is termed as WSP (Within-Storm Pause) on soil erosion estimations.
-Continuous and discontinuous storms are distinguished by the existence of WSPs
+that is termed as Within-Storm Gaps (WSGs) on soil erosion estimations.
+Continuous and discontinuous storms are distinguished by the existence of WSGs
 within the storm duration.
 
-% In this chapter, no-rain periods within a storm is termed as WSP
-% (Within-Storm Pause).
+% In this chapter, no-rain periods within a storm is termed as WSG
+% (Within-Storm Gap).
 
 \section{Simulation Data and Methods}
 \label{sec:ContinousAndDiscontinousStormMethods}
 
 Three process-based models---WEPP, EUROSEM and RillGrow---were used for
 runoff and soil loss simulations. Three erosion models were used to highlight
-the effect of WSP on erosion estimations. Although the outputs from three
+the effect of WSG on erosion estimations. Although the outputs from three
 erosion models could give three very different results---this actually was the
 case, employing all three models will give a stronger argument that the removal
-of WSPs does (or does not) have an impact on runoff and soil loss simulations.
-The main aim of this investigation is to find out whether WSPs influence runoff
-and soil loss generations. The more important question is, however, how WSPs
+of WSGs does (or does not) have an impact on runoff and soil loss simulations.
+The main aim of this investigation is to find out whether WSGs influence runoff
+and soil loss generations. The more important question is, however, how WSGs
 influence runoff and soil erosion. This is more difficult to answer even when a
 single erosion model was used.
 
 Event rainfall recorded on 11 October 2000 in Southover (Table
 \ref{tab:DetailsOfDataStations}) was subjectively selected. This event includes
-a number of WSPs in the total storm duration. The total rainfall amount is 89.9
+a number of WSGs in the total storm duration. The total rainfall amount is 89.9
 mm. This event was considered to be responsible for the severe flood incidents
 in the study region \citep{boardman2001-346}.
 
-As CLIGEN data removes WSPs by its design specification, only breakpoint data
-type, which retains WSPs, was used in this chapter. Breakpoint event rainfall
+As CLIGEN data removes WSGs by its design specification, only breakpoint data
+type, which retains WSGs, was used in this chapter. Breakpoint event rainfall
 data with 15-min timestep were used. The reason for the selection of 15-min time
 scale have been discussed in Chapter
 \ref{sec:EFFECTSOFTEMPORALSCALESOFSTROMDATA}. Hyetographs of the original
-October event and the modified October event after removing WSPs are shown in
+October event and the modified October event after removing WSGs are shown in
 Figure \ref{fig:rainfall_discont_cont}. The rainfall intensities for each 15-min
 interval are unchanged (Figure \ref{fig:rainfall_discont_cont}). WEPP and
 EUROSEM were used to simulate runoff and soil loss using these data. Total
-duration of the data with WSPs was 1230 minutes and 885 minutes without WSPs.
+duration of the data with WSGs was 1230 minutes and 885 minutes without WSGs.
 
 \begin{figure}[htpb]
   \centering
@@ -51,7 +51,7 @@ duration of the data with WSPs was 1230 minutes and 885 minutes without WSPs.
 continuous and discontinuous rainfall on soil erosion.]{15-min rainfall data
 used for the investigations of effects of continuous and discontinuous rainfall
 on soil erosion. (a) original 11 October 2000 event ;(b) modified 11 October
-2000 event after removing WSPs}
+2000 event after removing WSGs}
   \label{fig:rainfall_discont_cont}
 \end{figure}
 
@@ -171,15 +171,15 @@ are the \% changes from the result with a continuous storm.}
 \section{Discussion}
 \label{sec:InterStormPeriodsWithinAStormDiscussion}
 
-This investigation clearly shows the effect of removing WSPs during data
-preparations for erosion simulations. By removing WSPs, we are unintentionally
+This investigation clearly shows the effect of removing WSGs during data
+preparations for erosion simulations. By removing WSGs, we are unintentionally
 creating a rainfall event with higher average intensity than original average
 intensity as total storm duration becomes shortened. This decreased duration
 means that the time given for the erosion simulation effectively decreases,
 resulting in smaller time values for other relevant process calculations. This
 may have effects on, for example, gross infiltration amounts and runoff
 initiation times. This alteration clearly has effects on modelling
-runoff and soil loss in general. In principle, removing WSPs during a storm will
+runoff and soil loss in general. In principle, removing WSGs during a storm will
 result in overestimated erosion rates as well as overestimated runoff. This was
 the case for EUROSEM simulations.
 
@@ -187,7 +187,7 @@ Simulation results from RillGrow runs showed very small differences between
 continuous and discontinuous rainfall. The differences were almost negligible.
 This could be caused by internal random number generator which is used for
 generating raindrop size. Thus, the result may imply that RillGrow is not
-sensitive to WSPs.
+sensitive to WSGs.
 
 %This may be because of the proportion and total
 %duration of no-rain periods in the storm. The magnitude of the effect and
@@ -202,7 +202,7 @@ sensitive to WSPs.
 %Then this can be used only for pattern comparison (increased with increased
 %and decreased with decreased?) This is not the real observation.
 
-Using breakpoint data for erosion simulation will prevent the loss of WSP
+Using breakpoint data for erosion simulation will prevent the loss of WSG
 information. Therefore, using CLIGEN data is not recommended for studies
 like current research which investigates effects of rainfall intensity
 changes on soil erosion. However, using breakpoint data for continuous long-term
@@ -264,14 +264,14 @@ This explains why WEPP estimated more soil losses for discontinuous rainfall.
 \section{Conclusion}
 \label{sec:InterStormPeriodsWithinAStormConclusion}
 
-WSPs (Within-Storm Pauses) affected runoff and soil erosion simulations by WEPP
+WSGs (Within-Storm Gaps) affected runoff and soil erosion simulations by WEPP
 and EUROSEM. However, RillGrow showed almost no changes in runoff and soil
-erosion simulations. Although it was not evident to conclude whether WSPs have
+erosion simulations. Although it was not evident to conclude whether WSGs have
 positive or negative effects on runoff and soil erosion estimations, removing
-WSPs from rainfall data is not recommended for a study like this research.
+WSGs from rainfall data is not recommended for a study like this research.
 
 %EUROSEM
-%simulated decreased runoff and soil loss rates with rainfall data with WSPs.
+%simulated decreased runoff and soil loss rates with rainfall data with WSGs.
 
 Analyses of outputs from WEPP simulations revealed new problem. WEPP modifies
 original rainfall intensity data and simulates erroneous results. When
