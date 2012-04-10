@@ -4,27 +4,38 @@
 
 \section{Introduction}
 \label{sec:ContinousAndDiscontinousStormIntroduction}
-This chapter investigates the effect of no-rain periods within a storm
-that is termed as Within-Storm Gaps (WSGs) on soil erosion estimations.
-Continuous and discontinuous storms are distinguished by the existence of WSGs
-within the storm duration.
 
-% In this chapter, no-rain periods within a storm is termed as WSG
-% (Within-Storm Gap).
+As indicated previously, when effective rainfall duration ($D$, minute), which
+is one of four parameters that describe rainfall characteristics in CLIGEN
+data, is calculated, no-rain periods within storm durations are discarded and
+only rainfall periods within storm duration are considered by summing the
+rainfall period time. By removing no-rain periods, actual rainfall duration is
+reduced so that average intensity of rainfall storm is increased. Consequently,
+the removal of no-rain periods, which can be termed as Within-Storm Gaps (WSGs)
+for this research, may have effects on erosion modelling.
 
-\section{Simulation Data and Methods}
-\label{sec:ContinousAndDiscontinousStormMethods}
+Therefore, this chapter investigates the effect of the removal of WSGs on
+runoff and soil loss estimations. Continuous (without WSGs) and discontinuous
+(with WSGs) storms are distinguished by the existence of WSGs within the storm
+duration. Three process-based models---WEPP, EUROSEM and an
+additional model, RillGrow---are used in this chapter. Runoff and soil loss rate
+are estimated by these models and outputs are examined in terms of their
+relationships to the inclusion (or exclusion) of WSGs.
 
-Three process-based models---WEPP, EUROSEM and RillGrow---were used for
-runoff and soil loss simulations. Three erosion models were used to highlight
-the effect of WSG on erosion estimations. Although the outputs from three
-erosion models could give three very different results---this actually was the
-case, employing all three models will give a stronger argument that the removal
-of WSGs does (or does not) have an impact on runoff and soil loss simulations.
+WEPP and EUROSEM have showed contrasting results in the previous chapter. Thus,
+RillGrow is exerted here with an intention to strengthen the model estimation
+results by increasing the number of model predictions. Although the outputs from
+three erosion models may still give three very different results---this actually
+was the case---employing all three models may also give a stronger argument that
+the removal of WSGs does (or does not) have an impact on runoff and soil loss
+simulations.
 The main aim of this investigation is to find out whether WSGs influence runoff
 and soil loss generations. The more important question is, however, how WSGs
 influence runoff and soil erosion. This is more difficult to answer even when a
 single erosion model was used.
+
+\section{Simulation Data and Methods}
+\label{sec:ContinousAndDiscontinousStormMethods}
 
 Event rainfall recorded on 11 October 2000 in Southover (Table
 \ref{tab:DetailsOfDataStations}) was subjectively selected. This event includes

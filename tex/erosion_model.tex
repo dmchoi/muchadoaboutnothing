@@ -512,14 +512,14 @@ in the shape and size of rill channels as a result of erosion and deposition
 \citep{morgan1998-389}. It can be applied to a small field and up to a small
 catchment.
 
-EUROSEM requires a one-minute resolution breakpoint rainfall data for the storm.
-The model then computes, using the breakpoint rainfall data, the interception of
-the rain by the plant cover, the generation of runoff as infiltration excess,
-soil detachment by raindrop impact, soil detachment by runoff, transport
-capacity of the runoff and deposition of sediment. The model has a modular
-structure that aims to make further improvements of the model easier. The model
-considers the followings:
-\begin{itemize}
+EUROSEM requires a one-minute resolution breakpoint rainfall data ideally for
+the rainfall storm \citep{morgan1998-389}. The model then computes, using the
+breakpoint rainfall data, the interception of the rain by the plant cover, the
+generation of runoff as infiltration excess, soil detachment by raindrop impact,
+soil detachment by runoff, transport capacity of the runoff and deposition of
+sediment. The model has a modular structure that aims to make further
+improvements of the model easier. The model considers the followings:
+\begin{itemize*}
 \item the interception of rainfall by the plant cover
 \item the volume and kinetic energy of the rainfall reaching the ground surface
 as direct throughfall and leaf drainage
@@ -529,7 +529,7 @@ as direct throughfall and leaf drainage
 \item sediment deposition
 \item the transport capacity of the runoff
 \item frozen soils and stoniness
-\end{itemize}
+\end{itemize*}
 
 The flow chart for EUROSEM is shown in Figure \ref{fig:eurosem_flow_chart}.
 
@@ -636,10 +636,11 @@ may be assumed to better represent the spatial and temporal variation of runoff
 and erosion. However, the result of the model simulation may become considerably
 uncertain due to its process-based nature that requires detailed model
 parametrization \citep{quinton1998-65}. Particularly, EUROSEM requires high
-resolution rainfall data (ideally, 1-min breakpoint data), soil hydrological
-information, detailed surface geometry, and soil mechanical and vegetation
-characteristics. Because of the detailed requirements of the model, application
-of the model is greatly restricted to where such data are available.
+resolution rainfall data (e.g. one-minute breakpoint data)
+\citep{morgan1998-389}, soil hydrological information, detailed surface
+geometry, and soil mechanical and vegetation characteristics. Because of the
+detailed requirements of the model, application of the model is greatly
+restricted to where such data are available.
 
 \citet{parsons2000-181} found that because EUROSEM ignores small-scale
 heterogeneities in the infiltration characteristics of soil, the model generates
@@ -649,10 +650,10 @@ infiltration characteristics may be responsible for the
 comparatively rapid initiation of runoff on the plot. They also found that the
 subsequent soil detachment by runoff in interrill areas is overestimated by the
 model even though, according to the model document, detachment by flow should be
-negligible
-in interrill areas.
+negligible in interrill areas.
 
-After personal communication (16 Jun 2004) with Anthony J. Parsons , it is noted
+After personal communication (16 Jun 2004) with Anthony J. Parsons , it is
+also noted
 that EUROSEM may have a unit conversion error. The model document states that
 the flow depth ($h$) in equation \ref{eq:eurosemsoilparticledetachmentbyrunoff}
 is in metres. However, a study by \citet{torri1987-149} on which this equation
