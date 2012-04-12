@@ -1869,6 +1869,7 @@
   year = {1990},
   volume = {Publication No. 189},
   pages = {45-63},
+  file = {govers1990-45.pdf:FileBox/DPhil/Bibliography/govers1990-45.pdf:PDF},
   owner = {Daniel Choi},
   timestamp = {2006.05.30}
 }
@@ -4151,6 +4152,34 @@
 	programs. Numerical analysis Data processing.},
   owner = {Daniel Choi},
   timestamp = {2006.05.30}
+}
+
+@ARTICLE{prosser2000-179,
+  author = {Prosser, Ian P. and Rustomji, Paul},
+  title = {Sediment transport capacity relations for overland flow},
+  journal = {Progress in Physical Geography},
+  year = {2000},
+  volume = {24},
+  pages = {179-193},
+  number = {2},
+  __markedentry = {[Daniel Choi:6]},
+  abstract = {Nearly all physically based models of soil erosion and landform evolution
+	include an equation for the sediment transport capacity of flow,
+	yet the choice of relation varies from one model to another. This
+	raises the question of the empirical and theoretical support for
+	particular choices. We review descriptions of the effect of discharge
+	and slope on sediment transport capacity of overland flow. A limited
+	range of relations is defined for which there is strong theoretical
+	and empirical support. Nevertheless, suggestions are made for improved
+	experimental designs that further evaluate theories of sediment transport
+	capacity and reduce uncertainty in its application to catchment modelling
+	of sediment transport.},
+  doi = {10.1177/030913330002400202},
+  eprint = {http://ppg.sagepub.com/content/24/2/179.full.pdf+html},
+  file = {prosser2000-179.pdf:FileBox/DPhil/Bibliography/prosser2000-179.pdf:PDF},
+  owner = {Daniel Choi},
+  timestamp = {08.04.2012},
+  url = {http://ppg.sagepub.com/content/24/2/179.abstract}
 }
 
 @ARTICLE{pruski2002-7,

@@ -110,8 +110,8 @@ Breakpoint weather inputs for WEPP are also shown in Appendix
 \ref{sec:WEPPInputData}.
 
 Then, two process-based erosion models, WEPP and EUROSEM, are used at the
-current stage to simulate runoff and soil loss. RillGrow is not used in
-this chapter because of the data scale and computational time issues involved
+current stage to simulate runoff and soil loss. RillGrow is not used here
+because of the data scale and computational time issues involved
 with using RillGrow. Temporal scales that RillGrow simulates with is very small
 so that it requires a considerably long computational time compared to the
 duration that is simulated for. To give an idea, RillGrow2 requires almost 7
@@ -172,7 +172,7 @@ the scale that were used for the CLIGEN development.
 \label{sec:EffectsOnRainfallIntensityInput}
 
 CLIGEN data for two storms were built by calculating rainfall amount, duration,
-peak intensity and time to peak. These values are individually calculated for
+peak intensity and time to peak. These values were individually calculated for
 each temporal scale. The details of the input parameters are shown in Table
 \ref{tab:CLIGENWEPPInputFileParameters}.
 
@@ -332,8 +332,8 @@ July event are used than the October event.
   \figureversion{tabular}
   \centering
   \footnotesize
-  \caption[WEPP estimated runoff with different temporal scales of CLIGEN and
-breakpoint rainfall data]{WEPP estimated runoff (mm) with different temporal
+  \caption[WEPP-estimated runoff with different temporal scales of CLIGEN and
+breakpoint rainfall data]{WEPP-estimated runoff (mm) with different temporal
 scales of CLIGEN and breakpoint rainfall data}
   \label{tab:DifferentTemporalScalesOfRainfallDataOnWEPPRunoffEstimation}
     \begin{tabular}{lllllll}
@@ -361,8 +361,8 @@ from the result with the 15-min data. $+/-$ indicates a increase or decrease.}\\
   \figureversion{tabular}
   \centering
   \footnotesize
-  \caption[EUROSEM estimated runoff (mm) with different temporal scales of
-CLIGEN and breakpoint rainfall data]{EUROSEM estimated runoff (mm) with
+  \caption[EUROSEM-estimated runoff (mm) with different temporal scales of
+CLIGEN and breakpoint rainfall data]{EUROSEM-estimated runoff (mm) with
 different temporal scales of CLIGEN and breakpoint rainfall data}
 \label{tab:DifferentTemporalScalesOfRainfallDataOnEUROSEMRunoffEstimation}
     \begin{tabular}{lllllll}
@@ -443,8 +443,8 @@ same event result in an over 55\% decrease in soil loss.
   \figureversion{tabular}
   \centering
   \footnotesize
-  \caption[WEPP estimated soil loss with different temporal scales of CLIGEN and
-breakpoint rainfall data]{WEPP estimated soil loss (t/ha) with different
+  \caption[WEPP-estimated soil loss with different temporal scales of CLIGEN and
+breakpoint rainfall data]{WEPP-estimated soil loss (t/ha) with different
 temporal scales of CLIGEN and breakpoint rainfall data}
   \label{tab:DifferentTemporalScalesOfRainfallDataOnWEPPSoilLossEstimation}
     \begin{tabular}{lllllll}
@@ -472,8 +472,8 @@ from the result with the 15-min data. $+/-$ indicates a increase or decrease.}\\
   \figureversion{tabular}
   \centering
   \footnotesize
-  \caption[EUROSEM estimated soil loss with different temporal scales of CLIGEN
-and breakpoint rainfall data]{EUROSEM estimated soil loss (t/ha) with different
+  \caption[EUROSEM-estimated soil loss with different temporal scales of CLIGEN
+and breakpoint rainfall data]{EUROSEM-estimated soil loss (t/ha) with different
 temporal scales of CLIGEN and breakpoint rainfall data}
   \label{tab:DifferentTemporalScalesOfRainfallDataOnEUROSEMSoilLoss}
     \begin{tabular}{lllllll}
@@ -530,7 +530,7 @@ Runoff]{\includegraphics[width=0.5\textwidth]{./img/wepp_runoff_temp_scale}}
     %\qquad
     \subfloat[][Soil
 Loss]{\includegraphics[width=0.5\textwidth]{./img/wepp_sloss_temp_scale}}
-  \caption[WEPP runoff and soil loss changes]{The changes of WEPP simulated
+  \caption[WEPP runoff and soil loss changes]{The changes of WEPP-simulated
 runoff and soil loss from average runoff and soil loss. Note the different scale
 of y-axis in (b) Soil Loss.}
   \label{fig:wepp_roff_sloss_temp_scale}
@@ -543,7 +543,7 @@ Runoff]{\includegraphics[width=0.5\textwidth]{./img/eurosem_roff_temp_scale}}
     %\qquad
     \subfloat[][Soil
 Loss]{\includegraphics[width=0.5\textwidth]{./img/eurosem_sloss_temp_scale}}
-  \caption{The changes of EUROSEM simulated runoff and soil loss from average
+  \caption{The changes of EUROSEM-simulated runoff and soil loss from average
 runoff and soil loss}
   \label{fig:eurosem_roff_sloss_temp_scale}
 \end{figure}
@@ -606,7 +606,7 @@ same limitation which prevent from using more than 100 breakpoints. When tested
 with more than 100 breakpoints, EUROSEM simply does not yield any meaningful
 output. Also, EUROSEM has a limit on the total number of time increments which
 should not be more than 1000 per simulation
-\citep{morgan1998-europeansoilerosion}. This may pose more difficulties when a
+\citep{morgan1998-europeansoilerosion}. This may cause more difficulties when a
 storm with an extensively long duration is used for detailed simulations.
 Therefore, both models need to increase their dimension of breakpoint data array
 to meet the need.
@@ -614,9 +614,10 @@ to meet the need.
 \paragraph{WEPP vs EUROSEM} In terms of soil loss rates estimated by two
 models, WEPP exhibited greater responses than EUROSEM to the changes of temporal
 data scales. Although EUROSEM was not as much sensitive as WEPP to the temporal
-scale of rainfall data, it showed some responses. The biggest change, which was
-26.2 \%, in soil erosion estimations was observed when 1-min CLIGEN data were
-used (Table \ref{tab:DifferentTemporalScalesOfRainfallDataOnEUROSEMSoilLoss}).
+scale of rainfall data, it showed some responses to the temporal scale changes.
+The biggest change, which was 26.2 \%, in soil erosion estimations was observed
+when 1-min CLIGEN data were used (Table
+\ref{tab:DifferentTemporalScalesOfRainfallDataOnEUROSEMSoilLoss}).
 In comparison to the WEPP's response (i.e.\ 283.2 \%) for the same CLIGEN data,
 the change was considerably small (Table
 \ref{tab:DifferentTemporalScalesOfRainfallDataOnWEPPSoilLossEstimation}). Even
@@ -636,11 +637,11 @@ data than for 15, 30 and 60-min CLIGEN data (Table
 \ref{tab:eurosemscaleresultdetails}) while the amount of ``Net Erosion Rate''
 was roughly the same. This means that smaller amounts of ``Gross Rill Erosion''
 were estimated for 1 and 5-min data scales than for the bigger temporal scales.
-Thus, it seems that there is a certain change in the way EUROSEM calculates rill
-and interrill erosion rates when the temporal scale of data changes from 15-min
-to 5-min and vise versa.
+Thus, it seems that there is a certain change in the way that EUROSEM calculates
+rill and interrill erosion rates when the temporal scale of data changes from
+15-min to 5-min and vise versa.
 
-\begin{table}[htb]
+\begin{table}[htbp]
 \figureversion{tabular}
 \footnotesize
 \caption{Summary of detailed EUROSEM outputs estimated with CLIGEN data}
@@ -682,9 +683,11 @@ As reviewed previously in Chapter \ref{sec:PROBLEMINTHECONTEXT} (see page
 \pageref{sec:TransportCapacityOfTheFlow}), the model document
 indicated that EUROSEM uses separate transport capacity relationships for rill
 and interrill flows: \citet{govers1990-45} for rill transport capacity and
-\citet{everaert1991-513} for interrill transport capacity. In EUROSEM, one flow
-seems to play more important role than the other on erosion processes depending
-on the surface condition:
+\citet{everaert1991-513} for interrill transport capacity. The same is true
+for WEPP too as rill and interrill erosion are calculated using separate
+erodibility parameters \citep{flanagan1995-usda}. However, in EUROSEM, one seems
+to play more important role than the other on overall erosion depending on the
+surface condition:
 
 \begin{itemize}
   \item The surface may contain no rills, but have some surface irregularities
@@ -701,17 +704,22 @@ flows
 unified rill profile model can be used.
 \end{itemize}
 
+The EUROSEM model document also stated that EUROSEM uses a dynamic approach for
+estimating the spatial temporal distribution of runoff and soil loss
+\citep{morgan1998-europeansoilerosion}.
+
 Therefore, when temporal scale of rainfall data changes from 15-min to 5-min,
-the slope surface condition, which EUROSEM simulates, shifts from the latter to
-the second one from the list above. Then, EUROSEM changes its simulation mode so
-that interril erosion becomes noticeable. This explains why the relatively large
-interrill erosion was estimated for 1 and 5-min scale. Actually, it seems that
-the transition of the simulation mode occurs somewhere between 5-min
-and 15-min of temporal scales.
+the slope surface condition, which EUROSEM simulates, seems to shift from the
+third condition to the second condition from the list above. Then, EUROSEM
+changes its simulation mode so that interrill erosion becomes accounted for.
+This explains why the relatively large interrill erosion was estimated for 1 and
+5-min scale. Thus, it could be suggested that the transition of the simulation
+mode occurs somewhere between 5-min and 15-min of temporal scales.
 
 Yet, reasons for the disagreement between runoff and soil loss rate can
-not be explained by this ``mode-shifting''. An in-depth investigation is needed
-to explain this finding fully.
+not be explained by this ``mode-shifting'' as well as the reduction of net
+erosion for 5-min data. An in-depth investigation could be suggested to explain
+this finding fully as a follow-up study after this research.
 
 \paragraph{CLIGEN vs Breakpoint data} Rainfall parameters in the CLIGEN
 input file were originally calculated from 15-min breakpoint data. CLIGEN then
@@ -751,22 +759,27 @@ amounts of data. It also requires considerably less space to store such data.
 Also, CLIGEN data are very easy to use with WEPP as it is designed specifically
 for this purpose.
 
-When only two extreme ends of the scale are considered from the result shown
+If only two extreme ends of the scale are considered from the result shown
 previously in Table
 \ref{tab:DifferentTemporalScalesOfRainfallDataOnWEPPSoilLossEstimation} and
 \ref{tab:DifferentTemporalScalesOfRainfallDataOnEUROSEMSoilLoss}, for example,
 between 1-min and 60-min CLIGEN data, simulated erosion rates with 1-min data
 are almost 30 times greater at most than those with 60-min data. This certainly
 is problematic as far as the effect of temporal scales of rainfall data on
-erosion rates is concerned. Also, when erosion rates estimated with 15-min and
+erosion rates is concerned.
+
+Also, when erosion rates estimated with 15-min and
 60-min breakpoint data are compared, erosion rates with 15-min data is over 5
 times greater at most than those with 60-min data. Again, a greater difference
 is observed when erosion rates estimated with CLIGEN data for the same temporal
 scales are compared. Erosion rates with 15-min CLIGEN data are 7.5 times greater
-at most than those with 60-min CLIGEN data. Therefore, breakpoint data generally
-produce smaller changes in erosion rates when temporal scales are changed. This
-however is not conclusive by any means as the responses of two models (i.e.\
-WEPP and EUROSEM) are rather contradictory for both CLIGEN and breakpoint data.
+at most than those with 60-min CLIGEN data.
+
+Therefore, breakpoint data generally produce smaller changes in erosion rates
+when temporal scales are changed. This however is not conclusive by any means
+because the responses of two models (i.e.\ WEPP and EUROSEM) are rather
+contradictory for both CLIGEN and breakpoint data in terms of their trends of
+increases or decreases.
 
 \paragraph{Data aggregation and rainfall intensity} The intensity information
 of rainfall data is heavily dependant on how they are aggregated. When rainfall
