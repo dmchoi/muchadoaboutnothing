@@ -2,11 +2,9 @@
 \ttl@change@i {\@ne }{chapter}{0em}{\filright }{}{\scshape }{\titlerule *[1em]{.}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \contentsline {chapter}{Abstract}{i}{section*.1}
-\contentsline {chapter}{Extended Abstract}{ii}{section*.2}
-\contentsline {chapter}{Acknowledgements}{iv}{section*.3}
-\contentsline {chapter}{Contents}{v}{chapter*.4}
-\contentsline {chapter}{List of Figures}{x}{chapter*.5}
-\contentsline {chapter}{List of Tables}{xiii}{chapter*.6}
+\contentsline {chapter}{Contents}{ii}{chapter*.2}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.3}
+\contentsline {chapter}{List of Tables}{x}{chapter*.4}
 \ttl@change@i {\@ne }{chapter}{0em}{\addvspace {4ex} \filright \bfseries }{CHAPTER \thecontentslabel \\}{}{\titlerule *[1pc]{}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \contentsline {part}{I\hspace {1em}Introduction}{1}{part.1}
@@ -44,16 +42,16 @@
 \contentsline {paragraph}{Soil particle detachment by runoff}{37}{equation.1.5.10}
 \contentsline {paragraph}{Transport capacity of flow}{37}{equation.1.5.11}
 \contentsline {subsection}{\numberline {1.5.5}RillGrow}{39}{subsection.1.5.5}
-\contentsline {chapter}{\numberline {2}RESEARCH BACKGROUND AND OBJECTIVES}{45}{chapter.2}
-\contentsline {section}{\numberline {2.1}Background and Direction}{45}{section.2.1}
-\contentsline {section}{\numberline {2.2}Objectives and Rationales}{47}{section.2.2}
-\contentsline {section}{\numberline {2.3}Some Questions To Be Considered}{52}{section.2.3}
-\contentsline {section}{\numberline {2.4}Expected Outcomes}{52}{section.2.4}
-\contentsline {chapter}{\numberline {3}DESCRIPTIONS OF DATA, MODELS AND METHODS}{53}{chapter.3}
-\contentsline {section}{\numberline {3.1}Data}{53}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Rainfall Data}{53}{subsection.3.1.1}
-\contentsline {paragraph}{Intensity}{54}{subsection.3.1.1}
-\contentsline {paragraph}{Definition of a Rainfall Storm}{54}{subsection.3.1.1}
+\contentsline {chapter}{\numberline {2}RESEARCH BACKGROUND AND OBJECTIVES}{44}{chapter.2}
+\contentsline {section}{\numberline {2.1}Background and Direction}{44}{section.2.1}
+\contentsline {section}{\numberline {2.2}Objectives and Rationales}{46}{section.2.2}
+\contentsline {section}{\numberline {2.3}Some Questions To Be Considered}{51}{section.2.3}
+\contentsline {section}{\numberline {2.4}Expected Outcomes}{51}{section.2.4}
+\contentsline {chapter}{\numberline {3}DESCRIPTIONS OF DATA, MODELS AND METHODS}{52}{chapter.3}
+\contentsline {section}{\numberline {3.1}Data}{52}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Rainfall Data}{52}{subsection.3.1.1}
+\contentsline {paragraph}{Intensity}{53}{subsection.3.1.1}
+\contentsline {paragraph}{Definition of a Rainfall Storm}{53}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Other Data}{57}{subsection.3.1.2}
 \contentsline {subsubsection}{\numberline {3.1.2.1}Soil}{57}{subsubsection.3.1.2.1}
 \contentsline {subsubsection}{\numberline {3.1.2.2}Management}{59}{subsubsection.3.1.2.2}
@@ -101,22 +99,22 @@
 \contentsline {paragraph}{\citet {baffaut1998-756}}{112}{subsection.4.5.3}
 \contentsline {paragraph}{\citet {favis-mortlock1999-329}}{113}{subsection.4.5.3}
 \contentsline {section}{\numberline {4.6}Conclusion}{114}{section.4.6}
-\contentsline {chapter}{\numberline {5}EFFECT OF TEMPORAL SCALES OF STORM DATA ON EROSION}{115}{chapter.5}
+\contentsline {chapter}{\numberline {5}EFFECT OF TEMPORAL RESOLUTION OF STORM DATA ON SOIL EROSION}{115}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{115}{section.5.1}
 \contentsline {section}{\numberline {5.2}Data Preparation and Method}{116}{section.5.2}
-\contentsline {section}{\numberline {5.3}Effects on Rainfall Intensity Information}{120}{section.5.3}
-\contentsline {section}{\numberline {5.4}Effects on Simulated Runoff and Soil Loss}{121}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Effect of Temporal Scales on Runoff}{124}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Effect of Temporal Scales on Soil Loss}{126}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.3}Effect on Rainfall Intensity Information}{120}{section.5.3}
+\contentsline {section}{\numberline {5.4}Effect on Simulated Runoff and Soil Loss}{121}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Effect of Temporal resolution on Runoff}{124}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Effect of Temporal Resolution on Soil Loss}{126}{subsection.5.4.2}
 \contentsline {section}{\numberline {5.5}Discussion}{129}{section.5.5}
 \contentsline {paragraph}{Maximum number of breakpoints}{129}{section.5.5}
 \contentsline {paragraph}{WEPP vs EUROSEM}{130}{section.5.5}
 \contentsline {paragraph}{CLIGEN vs Breakpoint data}{133}{table.5.8}
 \contentsline {paragraph}{Data aggregation and rainfall intensity}{135}{Item.21}
-\contentsline {paragraph}{Effect of temporal scale changes}{136}{Item.21}
+\contentsline {paragraph}{Effect of temporal resolution changes}{136}{Item.21}
 \contentsline {paragraph}{Within-Storm Intensity Variation (WSIV)}{137}{Item.21}
 \contentsline {section}{\numberline {5.6}Conclusion}{140}{section.5.6}
-\contentsline {chapter}{\numberline {6}EFFECT OF CONTINUOUS AND DISCONTINUOUS STORM}{142}{chapter.6}
+\contentsline {chapter}{\numberline {6}EFFECT OF CONTINUOUS AND DISCONTINUOUS STORM ON SOIL EROSION}{142}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{142}{section.6.1}
 \contentsline {section}{\numberline {6.2}Simulation Data and Methods}{143}{section.6.2}
 \contentsline {section}{\numberline {6.3}Simulation Results}{145}{section.6.3}
@@ -129,160 +127,153 @@
 \contentsline {paragraph}{RillGrow without infiltration component}{148}{section.6.4}
 \contentsline {paragraph}{Modification of original breakpoint data by WEPP}{149}{section.6.4}
 \contentsline {section}{\numberline {6.5}Conclusion}{151}{section.6.5}
-\contentsline {chapter}{\numberline {7}EFFECT OF WITHIN-STORM RAINFALL INTENSITY CHANGES ON SOIL EROSION}{153}{chapter.7}
+\contentsline {chapter}{\numberline {7}EFFECT OF WITHIN-STORM RAINFALL INTENSITY PATTERN ON SOIL EROSION}{153}{chapter.7}
 \contentsline {section}{\numberline {7.1}Introduction}{153}{section.7.1}
-\contentsline {section}{\numberline {7.2}Simulation Data and Methods}{153}{section.7.2}
-\contentsline {section}{\numberline {7.3}Effects on Runoff and Soil Loss}{154}{section.7.3}
-\contentsline {section}{\numberline {7.4}Discussion}{156}{section.7.4}
-\contentsline {section}{\numberline {7.5}Conclusion}{158}{section.7.5}
-\contentsline {section}{\numberline {7.6}Summary of Model Simulation Results}{158}{section.7.6}
-\contentsline {section}{\numberline {7.7}Limitations of Erosion Models}{160}{section.7.7}
-\contentsline {chapter}{\numberline {8}FURTHER STUDY ON TEMPORAL INTENSITY VARIATION}{163}{chapter.8}
-\contentsline {section}{\numberline {8.1}Aim}{163}{section.8.1}
-\contentsline {section}{\numberline {8.2}Method}{163}{section.8.2}
-\contentsline {section}{\numberline {8.3}Result}{166}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}WEPP simulation}{170}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}EUROSEM simulation}{170}{subsection.8.3.2}
-\contentsline {section}{\numberline {8.4}Discussion}{170}{section.8.4}
-\contentsline {section}{\numberline {8.5}Additional tests}{175}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}Aims}{176}{subsection.8.5.1}
-\contentsline {part}{III\hspace {1em}Implications for Model-based Studies of Future Climate Change and Soil Erosion}{178}{part.3}
-\contentsline {chapter}{\numberline {9}ESTIMATION OF SOIL EROSION: IMPLICATIONS FOR FUTURE RAINFALL INTENSITY}{179}{chapter.9}
-\contentsline {section}{\numberline {9.1}Introduction}{179}{section.9.1}
-\contentsline {section}{\numberline {9.2}Possible Methods for Simulating Future Intensity}{181}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}Possible Method 1: Changing CLIGEN Generated Data}{181}{subsection.9.2.1}
-\contentsline {paragraph}{Pros:}{182}{subsection.9.2.1}
-\contentsline {paragraph}{Cons:}{182}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {9.2.2}Possible Method 2: Changing {MX.5P}, One of CLIGEN Input Parameters}{182}{subsection.9.2.2}
-\contentsline {paragraph}{Description of {MX.5P} (Yu, personal communication 2003)}{182}{subsection.9.2.2}
-\contentsline {paragraph}{Changing {MX.5P}}{183}{equation.9.2.3}
-\contentsline {paragraph}{Pros:}{185}{table.9.3}
-\contentsline {paragraph}{Cons:}{185}{table.9.3}
-\contentsline {subsection}{\numberline {9.2.3}Possible Method 3: Using GCM/RCM Data}{186}{subsection.9.2.3}
-\contentsline {subsection}{\numberline {9.2.4}Selected Method: Method 2, Changing CLIGEN Input}{187}{subsection.9.2.4}
-\contentsline {section}{\numberline {9.3}Sensitivity of WEPP to Rainfall Intensity Changes}{187}{section.9.3}
-\contentsline {subsection}{\numberline {9.3.1}Runoff and Soil Loss}{189}{subsection.9.3.1}
-\contentsline {subsection}{\numberline {9.3.2}Discussion}{190}{subsection.9.3.2}
-\contentsline {section}{\numberline {9.4}Estimation of Future Soil Erosion}{191}{section.9.4}
-\contentsline {subsection}{\numberline {9.4.1}Estimated Future Rainfall for WEPP Simulations}{193}{subsection.9.4.1}
-\contentsline {subsection}{\numberline {9.4.2}Estimated Changes of Future Soil Erosion}{194}{subsection.9.4.2}
-\contentsline {subsection}{\numberline {9.4.3}Discussion}{196}{subsection.9.4.3}
-\contentsline {section}{\numberline {9.5}Conclusion}{200}{section.9.5}
-\contentsline {part}{IV\hspace {1em}Conclusion}{201}{part.4}
-\contentsline {chapter}{\numberline {10}CONCLUSION}{202}{chapter.10}
-\contentsline {section}{\numberline {10.1}Rainfall Intensity and Process Descriptions}{203}{section.10.1}
-\contentsline {subsection}{\numberline {10.1.1}Findings}{203}{subsection.10.1.1}
-\contentsline {subsection}{\numberline {10.1.2}Limitations}{204}{subsection.10.1.2}
-\contentsline {section}{\numberline {10.2}What do we need to predict erosion under future changed rainfall intensities?}{205}{section.10.2}
-\contentsline {subsection}{\numberline {10.2.1}Findings}{205}{subsection.10.2.1}
-\contentsline {subsection}{\numberline {10.2.2}Limitations}{207}{subsection.10.2.2}
-\contentsline {section}{\numberline {10.3}Past and Present Rates of Rainfall Intensity}{207}{section.10.3}
-\contentsline {subsection}{\numberline {10.3.1}Findings}{207}{subsection.10.3.1}
-\contentsline {subsection}{\numberline {10.3.2}Limitations}{208}{subsection.10.3.2}
-\contentsline {section}{\numberline {10.4}Can we predict erosion rates under future changed rainfall intensities?}{208}{section.10.4}
-\contentsline {subsection}{\numberline {10.4.1}Findings}{208}{subsection.10.4.1}
-\contentsline {subsection}{\numberline {10.4.2}Limitations}{208}{subsection.10.4.2}
-\contentsline {section}{\numberline {10.5}Suggestions for Future Research}{209}{section.10.5}
-\contentsline {chapter}{\textbf {REFERENCES}}{210}{chapter*.7}
+\contentsline {section}{\numberline {7.2}Simulation Data and Methods}{154}{section.7.2}
+\contentsline {section}{\numberline {7.3}Effects of WSIPs on Runoff and Soil Loss}{156}{section.7.3}
+\contentsline {section}{\numberline {7.4}Discussion}{159}{section.7.4}
+\contentsline {paragraph}{Effect of WSIP on WEPP result}{159}{section.7.4}
+\contentsline {paragraph}{Effect of WSIP on EUROSEM result}{160}{section.7.4}
+\contentsline {paragraph}{Effect of WSIP on RillGrow result}{161}{section.7.4}
+\contentsline {section}{\numberline {7.5}Conclusion}{162}{section.7.5}
+\contentsline {section}{\numberline {7.6}Summary of Model Simulation Result: Effect of WSIV, WSG and WSIP}{163}{section.7.6}
+\contentsline {part}{III\hspace {1em}Implications for Model-based Studies of Future Climate Change and Soil Erosion}{168}{part.3}
+\contentsline {chapter}{\numberline {8}ESTIMATION OF SOIL EROSION: IMPLICATIONS FOR FUTURE RAINFALL INTENSITY}{169}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{169}{section.8.1}
+\contentsline {section}{\numberline {8.2}Possible Methods for Simulating Future Intensity}{171}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Possible Method 1: Changing CLIGEN Generated Data}{171}{subsection.8.2.1}
+\contentsline {paragraph}{Pros:}{172}{subsection.8.2.1}
+\contentsline {paragraph}{Cons:}{172}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Possible Method 2: Changing {MX.5P}, One of CLIGEN Input Parameters}{172}{subsection.8.2.2}
+\contentsline {paragraph}{Description of {MX.5P} (Yu, personal communication 2003)}{172}{subsection.8.2.2}
+\contentsline {paragraph}{Changing {MX.5P}}{173}{equation.8.2.3}
+\contentsline {paragraph}{Pros:}{175}{table.8.3}
+\contentsline {paragraph}{Cons:}{175}{table.8.3}
+\contentsline {subsection}{\numberline {8.2.3}Possible Method 3: Using GCM/RCM Data}{176}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Selected Method: Method 2, Changing CLIGEN Input}{177}{subsection.8.2.4}
+\contentsline {section}{\numberline {8.3}Sensitivity of WEPP to Rainfall Intensity Changes}{177}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Runoff and Soil Loss}{179}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Discussion}{180}{subsection.8.3.2}
+\contentsline {section}{\numberline {8.4}Estimation of Future Soil Erosion}{181}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Estimated Future Rainfall for WEPP Simulations}{183}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Estimated Changes of Future Soil Erosion}{184}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}Discussion}{186}{subsection.8.4.3}
+\contentsline {section}{\numberline {8.5}Conclusion}{190}{section.8.5}
+\contentsline {part}{IV\hspace {1em}Conclusion}{191}{part.4}
+\contentsline {chapter}{\numberline {9}CONCLUSION}{192}{chapter.9}
+\contentsline {section}{\numberline {9.1}Rainfall Intensity and Process Descriptions}{193}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Findings}{193}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Limitations}{194}{subsection.9.1.2}
+\contentsline {section}{\numberline {9.2}What do we need to predict erosion under future changed rainfall intensities?}{195}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Findings}{195}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Limitations}{197}{subsection.9.2.2}
+\contentsline {section}{\numberline {9.3}Past and Present Rates of Rainfall Intensity}{197}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Findings}{197}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}Limitations}{198}{subsection.9.3.2}
+\contentsline {section}{\numberline {9.4}Can we predict erosion rates under future changed rainfall intensities?}{198}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Findings}{198}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}Limitations}{198}{subsection.9.4.2}
+\contentsline {section}{\numberline {9.5}Suggestions for Future Research}{199}{section.9.5}
+\contentsline {chapter}{\textbf {REFERENCES}}{200}{chapter*.5}
 \ttl@change@i {\@ne }{chapter}{0em}{\addvspace {4ex} \filright \bfseries \scshape }{\thecontentslabel .\quad }{}{\titlerule *[1pc]{}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \ttl@change@i {\@ne }{part}{0em}{\addvspace {6ex} \filcenter \bfseries \scshape \large }{}{}{}\relax 
 \ttl@change@v {part}{}{}{}\relax 
-\contentsline {part}{\hspace {1em}Appendices}{222}{part.5}
-\contentsline {chapter}{\numberline {A}WEPP Input Data}{223}{Appendix.1.A}
-\contentsline {section}{\numberline {A.1}Weather Input Data}{223}{section.1.A.1}
-\contentsline {subsection}{\numberline {A.1.1}For Temporal Scale Simulation}{223}{subsection.1.A.1.1}
-\contentsline {subsubsection}{\numberline {A.1.1.1}4 July 2000, Plumpton---CLIGEN}{223}{subsubsection.1.A.1.1.1}
-\contentsline {subsubsection}{\numberline {A.1.1.2}4 July 2000, Plumpton---Breakpoint}{223}{subsubsection.1.A.1.1.2}
-\contentsline {subsubsection}{\numberline {A.1.1.3}11 October 2000, Plumpton---CLIGEN}{225}{subsubsection.1.A.1.1.3}
-\contentsline {subsubsection}{\numberline {A.1.1.4}11 October 2000, Plumpton---Breakpoint}{226}{subsubsection.1.A.1.1.4}
-\contentsline {subsection}{\numberline {A.1.2}For Storm Patterns Simulation}{228}{subsection.1.A.1.2}
-\contentsline {subsubsection}{\numberline {A.1.2.1}Constant Intensity---20 mm/hr}{228}{subsubsection.1.A.1.2.1}
-\contentsline {subsubsection}{\numberline {A.1.2.2}Increasing Intensity---20 mm/hr}{228}{subsubsection.1.A.1.2.2}
-\contentsline {subsubsection}{\numberline {A.1.2.3}Decreasing Intensity---20 mm/hr}{229}{subsubsection.1.A.1.2.3}
-\contentsline {subsubsection}{\numberline {A.1.2.4}Increasing-Decreasing Intensity---20 mm/hr}{229}{subsubsection.1.A.1.2.4}
-\contentsline {subsubsection}{\numberline {A.1.2.5}Constant Intensity---60 mm/hr}{229}{subsubsection.1.A.1.2.5}
-\contentsline {subsubsection}{\numberline {A.1.2.6}Increasing Intensity---60 mm/hr}{230}{subsubsection.1.A.1.2.6}
-\contentsline {subsubsection}{\numberline {A.1.2.7}Decreasing Intensity---60 mm/hr}{230}{subsubsection.1.A.1.2.7}
-\contentsline {subsubsection}{\numberline {A.1.2.8}Increasing-Decreasing Intensity---60 mm/hr}{230}{subsubsection.1.A.1.2.8}
-\contentsline {subsection}{\numberline {A.1.3}For Continuous and Discontinuous Rainfall Simulation}{231}{subsection.1.A.1.3}
-\contentsline {subsubsection}{\numberline {A.1.3.1}Continuous}{231}{subsubsection.1.A.1.3.1}
-\contentsline {subsubsection}{\numberline {A.1.3.2}Discontinuous}{232}{subsubsection.1.A.1.3.2}
-\contentsline {section}{\numberline {A.2}Soil Input---calibrated}{233}{section.1.A.2}
-\contentsline {section}{\numberline {A.3}Management Input}{233}{section.1.A.3}
-\contentsline {section}{\numberline {A.4}slope Input}{236}{section.1.A.4}
-\contentsline {paragraph}{Slope D}{236}{section.1.A.4}
-\contentsline {paragraph}{Slope E}{236}{section.1.A.4}
-\contentsline {paragraph}{Slope F}{236}{section.1.A.4}
-\contentsline {paragraph}{Slope G}{237}{section.1.A.4}
-\contentsline {paragraph}{Slope H}{237}{section.1.A.4}
-\contentsline {paragraph}{Slope I}{237}{section.1.A.4}
-\contentsline {paragraph}{Slope J}{237}{section.1.A.4}
-\contentsline {paragraph}{Slope K}{238}{section.1.A.4}
-\contentsline {paragraph}{Slope L}{238}{section.1.A.4}
-\contentsline {chapter}{\numberline {B}CLIGEN Input Data}{239}{Appendix.1.B}
-\contentsline {section}{\numberline {B.1}Original Input for Ditchling Road}{239}{section.1.B.1}
-\contentsline {section}{\numberline {B.2}Updated Input for Ditchling Road}{240}{section.1.B.2}
-\contentsline {chapter}{\numberline {C}EUROSEM Input Data}{242}{Appendix.1.C}
-\contentsline {section}{\numberline {C.1}SYSTEMS}{242}{section.1.C.1}
-\contentsline {paragraph}{NELE [1]}{242}{section.1.C.1}
-\contentsline {paragraph}{NPART [0]}{242}{section.1.C.1}
-\contentsline {paragraph}{CLEN (m) [135]}{242}{section.1.C.1}
-\contentsline {paragraph}{TFIN (min) [870]}{242}{section.1.C.1}
-\contentsline {paragraph}{DELT (min) [1]}{242}{section.1.C.1}
-\contentsline {paragraph}{THETA [0.7]}{242}{section.1.C.1}
-\contentsline {paragraph}{TEMP [2.55]}{242}{section.1.C.1}
-\contentsline {section}{\numberline {C.2}OPTIONS}{242}{section.1.C.2}
-\contentsline {paragraph}{NTIME [2]}{243}{section.1.C.2}
-\contentsline {paragraph}{NEROS [2]}{243}{section.1.C.2}
-\contentsline {section}{\numberline {C.3}COMPUTATION ORDER}{243}{section.1.C.3}
-\contentsline {paragraph}{COMP. ORDER (NLOG) [1]}{243}{section.1.C.3}
-\contentsline {paragraph}{ELEMENT NUM. (J) [1]}{243}{section.1.C.3}
-\contentsline {section}{\numberline {C.4}ELEMENT WISE INFO}{243}{section.1.C.4}
-\contentsline {paragraph}{J [1]}{243}{section.1.C.4}
-\contentsline {paragraph}{NU [0]}{243}{section.1.C.4}
-\contentsline {paragraph}{NR [0]}{243}{section.1.C.4}
-\contentsline {paragraph}{NL [0]}{243}{section.1.C.4}
-\contentsline {paragraph}{NC1 [0]}{243}{section.1.C.4}
-\contentsline {paragraph}{NC2 [0]}{243}{section.1.C.4}
-\contentsline {paragraph}{NPRINT [1]}{243}{section.1.C.4}
-\contentsline {paragraph}{XL (m) [135.0]}{243}{section.1.C.4}
-\contentsline {paragraph}{W (m) [50]}{243}{section.1.C.4}
-\contentsline {paragraph}{S [0.14]}{243}{section.1.C.4}
-\contentsline {paragraph}{ZR [0]}{244}{section.1.C.4}
-\contentsline {paragraph}{ZL [0]}{244}{section.1.C.4}
-\contentsline {paragraph}{BW [0]}{244}{section.1.C.4}
-\contentsline {paragraph}{MANN (Rill) [0.125]}{244}{section.1.C.4}
-\contentsline {paragraph}{Mann (IR) [0.170]}{244}{section.1.C.4}
-\contentsline {paragraph}{FMIN (mm/h) [3.0]}{244}{section.1.C.4}
-\contentsline {paragraph}{G (mm) [480.0]}{244}{section.1.C.4}
-\contentsline {paragraph}{POR [0.5]}{244}{section.1.C.4}
-\contentsline {paragraph}{ThI [0.4]}{244}{section.1.C.4}
-\contentsline {paragraph}{ThMX [0.42]}{244}{section.1.C.4}
-\contentsline {paragraph}{ROC [0.0]}{244}{section.1.C.4}
-\contentsline {paragraph}{RECS (mm) [1.0]}{244}{section.1.C.4}
-\contentsline {paragraph}{DINT (mm) [3.0]}{244}{section.1.C.4}
-\contentsline {paragraph}{DEPNO [15.0]}{244}{section.1.C.4}
-\contentsline {paragraph}{RILLW (m) [0.02]}{245}{section.1.C.4}
-\contentsline {paragraph}{RILLD (m) [0.03]}{245}{section.1.C.4}
-\contentsline {paragraph}{ZLR [10.0]}{245}{section.1.C.4}
-\contentsline {paragraph}{RS [1.0]}{245}{section.1.C.4}
-\contentsline {paragraph}{RFR [1.0]}{245}{section.1.C.4}
-\contentsline {paragraph}{SIR (m/m) [0.2]}{245}{section.1.C.4}
-\contentsline {paragraph}{COVER [0.3]}{245}{section.1.C.4}
-\contentsline {paragraph}{SHAPE [1]}{245}{section.1.C.4}
-\contentsline {paragraph}{PLANGLE (degree) [85.0]}{245}{section.1.C.4}
-\contentsline {paragraph}{PLANTBASE [0.0]}{245}{section.1.C.4}
-\contentsline {paragraph}{PLANTH (cm) [100]}{245}{section.1.C.4}
-\contentsline {paragraph}{DERO (m) [2.0]}{245}{section.1.C.4}
-\contentsline {paragraph}{ISTONE [+]}{245}{section.1.C.4}
-\contentsline {paragraph}{D50 ($\mu $m) [35.0]}{246}{section.1.C.4}
-\contentsline {paragraph}{EROD (g/J) [0.8]}{246}{section.1.C.4}
-\contentsline {paragraph}{SPLTEX [2.0]}{246}{section.1.C.4}
-\contentsline {paragraph}{COH (kPa) [6.3]}{246}{section.1.C.4}
-\contentsline {paragraph}{RHOS (Mg/m3) [2.65]}{246}{section.1.C.4}
-\contentsline {paragraph}{PAVE [0.0]}{246}{section.1.C.4}
-\contentsline {paragraph}{SIGMAS [0]}{246}{section.1.C.4}
-\contentsline {paragraph}{MCODE [0]}{246}{section.1.C.4}
-\contentsline {chapter}{\numberline {D}RillGrow Input Data}{247}{Appendix.1.D}
+\contentsline {part}{\hspace {1em}Appendices}{212}{part.5}
+\contentsline {chapter}{\numberline {A}WEPP Input Data}{213}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}Weather Input Data}{213}{section.1.A.1}
+\contentsline {subsection}{\numberline {A.1.1}For Temporal Scale Simulation}{213}{subsection.1.A.1.1}
+\contentsline {subsubsection}{\numberline {A.1.1.1}4 July 2000, Plumpton---CLIGEN}{213}{subsubsection.1.A.1.1.1}
+\contentsline {subsubsection}{\numberline {A.1.1.2}4 July 2000, Plumpton---Breakpoint}{213}{subsubsection.1.A.1.1.2}
+\contentsline {subsubsection}{\numberline {A.1.1.3}11 October 2000, Plumpton---CLIGEN}{215}{subsubsection.1.A.1.1.3}
+\contentsline {subsubsection}{\numberline {A.1.1.4}11 October 2000, Plumpton---Breakpoint}{216}{subsubsection.1.A.1.1.4}
+\contentsline {subsection}{\numberline {A.1.2}For Storm Patterns Simulation}{218}{subsection.1.A.1.2}
+\contentsline {subsubsection}{\numberline {A.1.2.1}Constant Intensity---20 mm/hr}{218}{subsubsection.1.A.1.2.1}
+\contentsline {subsubsection}{\numberline {A.1.2.2}Increasing Intensity---20 mm/hr}{218}{subsubsection.1.A.1.2.2}
+\contentsline {subsubsection}{\numberline {A.1.2.3}Decreasing Intensity---20 mm/hr}{219}{subsubsection.1.A.1.2.3}
+\contentsline {subsubsection}{\numberline {A.1.2.4}Increasing-Decreasing Intensity---20 mm/hr}{219}{subsubsection.1.A.1.2.4}
+\contentsline {subsubsection}{\numberline {A.1.2.5}Constant Intensity---60 mm/hr}{219}{subsubsection.1.A.1.2.5}
+\contentsline {subsubsection}{\numberline {A.1.2.6}Increasing Intensity---60 mm/hr}{220}{subsubsection.1.A.1.2.6}
+\contentsline {subsubsection}{\numberline {A.1.2.7}Decreasing Intensity---60 mm/hr}{220}{subsubsection.1.A.1.2.7}
+\contentsline {subsubsection}{\numberline {A.1.2.8}Increasing-Decreasing Intensity---60 mm/hr}{220}{subsubsection.1.A.1.2.8}
+\contentsline {subsection}{\numberline {A.1.3}For Continuous and Discontinuous Rainfall Simulation}{221}{subsection.1.A.1.3}
+\contentsline {subsubsection}{\numberline {A.1.3.1}Continuous}{221}{subsubsection.1.A.1.3.1}
+\contentsline {subsubsection}{\numberline {A.1.3.2}Discontinuous}{222}{subsubsection.1.A.1.3.2}
+\contentsline {section}{\numberline {A.2}Soil Input---calibrated}{223}{section.1.A.2}
+\contentsline {section}{\numberline {A.3}Management Input}{223}{section.1.A.3}
+\contentsline {section}{\numberline {A.4}slope Input}{226}{section.1.A.4}
+\contentsline {paragraph}{Slope D}{226}{section.1.A.4}
+\contentsline {paragraph}{Slope E}{226}{section.1.A.4}
+\contentsline {paragraph}{Slope F}{226}{section.1.A.4}
+\contentsline {paragraph}{Slope G}{227}{section.1.A.4}
+\contentsline {paragraph}{Slope H}{227}{section.1.A.4}
+\contentsline {paragraph}{Slope I}{227}{section.1.A.4}
+\contentsline {paragraph}{Slope J}{227}{section.1.A.4}
+\contentsline {paragraph}{Slope K}{228}{section.1.A.4}
+\contentsline {paragraph}{Slope L}{228}{section.1.A.4}
+\contentsline {chapter}{\numberline {B}CLIGEN Input Data}{229}{Appendix.1.B}
+\contentsline {section}{\numberline {B.1}Original Input for Ditchling Road}{229}{section.1.B.1}
+\contentsline {section}{\numberline {B.2}Updated Input for Ditchling Road}{230}{section.1.B.2}
+\contentsline {chapter}{\numberline {C}EUROSEM Input Data}{232}{Appendix.1.C}
+\contentsline {section}{\numberline {C.1}SYSTEMS}{232}{section.1.C.1}
+\contentsline {paragraph}{NELE [1]}{232}{section.1.C.1}
+\contentsline {paragraph}{NPART [0]}{232}{section.1.C.1}
+\contentsline {paragraph}{CLEN (m) [135]}{232}{section.1.C.1}
+\contentsline {paragraph}{TFIN (min) [870]}{232}{section.1.C.1}
+\contentsline {paragraph}{DELT (min) [1]}{232}{section.1.C.1}
+\contentsline {paragraph}{THETA [0.7]}{232}{section.1.C.1}
+\contentsline {paragraph}{TEMP [2.55]}{232}{section.1.C.1}
+\contentsline {section}{\numberline {C.2}OPTIONS}{232}{section.1.C.2}
+\contentsline {paragraph}{NTIME [2]}{233}{section.1.C.2}
+\contentsline {paragraph}{NEROS [2]}{233}{section.1.C.2}
+\contentsline {section}{\numberline {C.3}COMPUTATION ORDER}{233}{section.1.C.3}
+\contentsline {paragraph}{COMP. ORDER (NLOG) [1]}{233}{section.1.C.3}
+\contentsline {paragraph}{ELEMENT NUM. (J) [1]}{233}{section.1.C.3}
+\contentsline {section}{\numberline {C.4}ELEMENT WISE INFO}{233}{section.1.C.4}
+\contentsline {paragraph}{J [1]}{233}{section.1.C.4}
+\contentsline {paragraph}{NU [0]}{233}{section.1.C.4}
+\contentsline {paragraph}{NR [0]}{233}{section.1.C.4}
+\contentsline {paragraph}{NL [0]}{233}{section.1.C.4}
+\contentsline {paragraph}{NC1 [0]}{233}{section.1.C.4}
+\contentsline {paragraph}{NC2 [0]}{233}{section.1.C.4}
+\contentsline {paragraph}{NPRINT [1]}{233}{section.1.C.4}
+\contentsline {paragraph}{XL (m) [135.0]}{233}{section.1.C.4}
+\contentsline {paragraph}{W (m) [50]}{233}{section.1.C.4}
+\contentsline {paragraph}{S [0.14]}{233}{section.1.C.4}
+\contentsline {paragraph}{ZR [0]}{234}{section.1.C.4}
+\contentsline {paragraph}{ZL [0]}{234}{section.1.C.4}
+\contentsline {paragraph}{BW [0]}{234}{section.1.C.4}
+\contentsline {paragraph}{MANN (Rill) [0.125]}{234}{section.1.C.4}
+\contentsline {paragraph}{Mann (IR) [0.170]}{234}{section.1.C.4}
+\contentsline {paragraph}{FMIN (mm/h) [3.0]}{234}{section.1.C.4}
+\contentsline {paragraph}{G (mm) [480.0]}{234}{section.1.C.4}
+\contentsline {paragraph}{POR [0.5]}{234}{section.1.C.4}
+\contentsline {paragraph}{ThI [0.4]}{234}{section.1.C.4}
+\contentsline {paragraph}{ThMX [0.42]}{234}{section.1.C.4}
+\contentsline {paragraph}{ROC [0.0]}{234}{section.1.C.4}
+\contentsline {paragraph}{RECS (mm) [1.0]}{234}{section.1.C.4}
+\contentsline {paragraph}{DINT (mm) [3.0]}{234}{section.1.C.4}
+\contentsline {paragraph}{DEPNO [15.0]}{234}{section.1.C.4}
+\contentsline {paragraph}{RILLW (m) [0.02]}{235}{section.1.C.4}
+\contentsline {paragraph}{RILLD (m) [0.03]}{235}{section.1.C.4}
+\contentsline {paragraph}{ZLR [10.0]}{235}{section.1.C.4}
+\contentsline {paragraph}{RS [1.0]}{235}{section.1.C.4}
+\contentsline {paragraph}{RFR [1.0]}{235}{section.1.C.4}
+\contentsline {paragraph}{SIR (m/m) [0.2]}{235}{section.1.C.4}
+\contentsline {paragraph}{COVER [0.3]}{235}{section.1.C.4}
+\contentsline {paragraph}{SHAPE [1]}{235}{section.1.C.4}
+\contentsline {paragraph}{PLANGLE (degree) [85.0]}{235}{section.1.C.4}
+\contentsline {paragraph}{PLANTBASE [0.0]}{235}{section.1.C.4}
+\contentsline {paragraph}{PLANTH (cm) [100]}{235}{section.1.C.4}
+\contentsline {paragraph}{DERO (m) [2.0]}{235}{section.1.C.4}
+\contentsline {paragraph}{ISTONE [+]}{235}{section.1.C.4}
+\contentsline {paragraph}{D50 ($\mu $m) [35.0]}{236}{section.1.C.4}
+\contentsline {paragraph}{EROD (g/J) [0.8]}{236}{section.1.C.4}
+\contentsline {paragraph}{SPLTEX [2.0]}{236}{section.1.C.4}
+\contentsline {paragraph}{COH (kPa) [6.3]}{236}{section.1.C.4}
+\contentsline {paragraph}{RHOS (Mg/m3) [2.65]}{236}{section.1.C.4}
+\contentsline {paragraph}{PAVE [0.0]}{236}{section.1.C.4}
+\contentsline {paragraph}{SIGMAS [0]}{236}{section.1.C.4}
+\contentsline {paragraph}{MCODE [0]}{236}{section.1.C.4}
+\contentsline {chapter}{\numberline {D}RillGrow Input Data}{237}{Appendix.1.D}
 \contentsfinish 

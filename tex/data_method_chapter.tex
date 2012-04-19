@@ -47,6 +47,25 @@ this research. Nevertheless, this research recognises the existence of this
 issue and the need for further studies on a more appropriate definition of
 rainfall storm for soil erosion modelling studies.
 
+In CLIGEN, the rainfall duration is an artificial abstraction that is the
+duration calculated by summing up all the rainfall that occurred in 24 hours.
+Each storm starts and ends within the 24-hour period. This means all
+the storms are daily. The actual rainfall event is also expressed as a composite
+rainfall event with a triangular shape assuming that there is only one
+intensity peak per storm. CLIGEN's rainfall duration is not a actual rainfall
+duration which normally is the accumulated time from the start to the end of the
+event but ``effective'' duration which only considers duration that have
+detectable rainfall amounts. This is not a realistic concept for storms, which
+last for more than 24 hours, have multiple intensity peaks and have a lot of
+WSGs. This unrealistic definition of CLIGEN's rainfall can therefore be prone to
+unrealistic simulation of soil erosion.
+
+Thus, predictions of soil erosion may be improved if we consider rainfall as
+event-by-event rather than on a daily basis. In other words, rather than taking
+a whole wet-day (24 hours) as one ``event'', we may need to seek a way of
+separating rainfall events independent of the day. In this way, soil erosion
+estimations for the area with dominantly low rainfall intensity may be improved.
+
 Reported mean annual rainfall of the South Downs, UK is between 750 and 1000 mm
 with an autumn peak \citep{potts1983-88}. Mean annual temperature is
 9.8\textcelsius\ with a January mean of 3.9\textcelsius\ and a July mean of
