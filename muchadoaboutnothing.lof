@@ -7,178 +7,179 @@
 \contentsline {figure}{\numberline {1.5}{\ignorespaces The conceptual feedback loop of RillGrow}}{40}{figure.1.5}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Locations of daily rainfall data stations}}{55}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Locations of event rainfall data stations}}{56}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Woodingdean site}}{58}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Annual rainfall amount trend of monthly grid data}}{70}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Seasonal rainfall amount trend of monthly 0.5\textdegree \ grid data}}{71}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Average monthly rainfall patterns of monthly grid data}}{72}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces July rainfall amount trend over 1901-2000}}{73}{figure.3.7}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Trends of annual rainfall amount (RR) at daily data stations}}{74}{figure.3.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DR}}}{74}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SO}}}{74}{subfigure.8.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PL}}}{74}{subfigure.8.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {PB}}}{74}{subfigure.8.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SDR}}}{74}{subfigure.8.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {EW}}}{74}{subfigure.8.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {FT}}}{74}{subfigure.8.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {LI}}}{74}{subfigure.8.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {HPF}}}{74}{subfigure.8.9}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {HD}}}{74}{subfigure.8.10}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {FF}}}{74}{subfigure.8.11}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Trends of number of wetdays (RR1) at daily data stations}}{75}{figure.3.9}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DR}}}{75}{subfigure.9.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SO}}}{75}{subfigure.9.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PL}}}{75}{subfigure.9.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {PB}}}{75}{subfigure.9.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SDR}}}{75}{subfigure.9.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {EW}}}{75}{subfigure.9.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {FT}}}{75}{subfigure.9.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {LI}}}{75}{subfigure.9.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {HPF}}}{75}{subfigure.9.9}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {HD}}}{75}{subfigure.9.10}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {FF}}}{75}{subfigure.9.11}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Trend of annual simple daily intensity index (SDII) at daily data stations}}{77}{figure.3.10}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DR}}}{77}{subfigure.10.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SO}}}{77}{subfigure.10.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PL}}}{77}{subfigure.10.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {PB}}}{77}{subfigure.10.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SDR}}}{77}{subfigure.10.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {EW}}}{77}{subfigure.10.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {FT}}}{77}{subfigure.10.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {LI}}}{77}{subfigure.10.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {HPF}}}{77}{subfigure.10.9}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {HD}}}{77}{subfigure.10.10}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {FF}}}{77}{subfigure.10.11}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Annual number of wet days with rainfall amount $\geq $ 10 mm at daily data stations}}{78}{figure.3.11}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DR}}}{78}{subfigure.11.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SO}}}{78}{subfigure.11.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PL}}}{78}{subfigure.11.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {PB}}}{78}{subfigure.11.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SDR}}}{78}{subfigure.11.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {EW}}}{78}{subfigure.11.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {FT}}}{78}{subfigure.11.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {LI}}}{78}{subfigure.11.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {HPF}}}{78}{subfigure.11.9}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {HD}}}{78}{subfigure.11.10}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {FF}}}{78}{subfigure.11.11}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Annual \% of wet days with rainfall amount $\geq $ 10 mm at daily data stations}}{79}{figure.3.12}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DR}}}{79}{subfigure.12.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SO}}}{79}{subfigure.12.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PL}}}{79}{subfigure.12.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {PB}}}{79}{subfigure.12.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SDR}}}{79}{subfigure.12.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {EW}}}{79}{subfigure.12.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {FT}}}{79}{subfigure.12.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {LI}}}{79}{subfigure.12.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {HPF}}}{79}{subfigure.12.9}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {HD}}}{79}{subfigure.12.10}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {FF}}}{79}{subfigure.12.11}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Annual number of wet days with rainfall amount $\geq $ 20 mm at daily data stations}}{80}{figure.3.13}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DR}}}{80}{subfigure.13.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SO}}}{80}{subfigure.13.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PL}}}{80}{subfigure.13.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {PB}}}{80}{subfigure.13.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SDR}}}{80}{subfigure.13.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {EW}}}{80}{subfigure.13.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {FT}}}{80}{subfigure.13.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {LI}}}{80}{subfigure.13.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {HPF}}}{80}{subfigure.13.9}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {HD}}}{80}{subfigure.13.10}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {FF}}}{80}{subfigure.13.11}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Annual \% of wet days with rainfall amount $\geq $ 20 mm at daily data stations}}{81}{figure.3.14}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DR}}}{81}{subfigure.14.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SO}}}{81}{subfigure.14.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PL}}}{81}{subfigure.14.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {PB}}}{81}{subfigure.14.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SDR}}}{81}{subfigure.14.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {EW}}}{81}{subfigure.14.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {FT}}}{81}{subfigure.14.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {LI}}}{81}{subfigure.14.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {HPF}}}{81}{subfigure.14.9}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {HD}}}{81}{subfigure.14.10}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {FF}}}{81}{subfigure.14.11}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Observed daily rainfall amount}}{82}{figure.3.15}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Observed daily rainfall duration}}{83}{figure.3.16}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Observed daily 1-min peak rainfall intensity}}{84}{figure.3.17}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Observed mean monthly rainfall amount}}{85}{figure.3.18}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Mean monthly rainfall duration}}{86}{figure.3.19}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Mean monthly maxima of 1-min peak rainfall intensity}}{86}{figure.3.20}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Mean monthly maxima of 30-min peak rainfall intensity}}{87}{figure.3.21}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Locations of daily rainfall data stations}}{56}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Locations of event rainfall data stations}}{57}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Woodingdean site}}{59}{figure.3.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Simulated annual rainfall amount using two versions of CLIGEN with original and updated input files.}}{98}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Simulated annual rainfall duration using two versions of CLIGEN with original and updated input files.}}{98}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Simulated monthly maxima of daily peak rainfall intensity using two versions of CLIGEN with original and updated input files}}{100}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces CLIGEN-generated mean monthly maxima of daily peak intensity using two versions of CLIGEN with original and updated input files}}{101}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces A graphical representation of non-linear responses of a erosion model}}{103}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Simulated annual runoff for Ditchling Road}}{104}{figure.4.6}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{104}{subfigure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{104}{subfigure.6.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{104}{subfigure.6.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{104}{subfigure.6.4}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Simulated annual soil loss for Ditchling Road}}{105}{figure.4.7}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{105}{subfigure.7.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{105}{subfigure.7.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{105}{subfigure.7.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{105}{subfigure.7.4}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Mean daily precipitation depth and mean maximum daily 30-minute rainfall intensity for each month}}{108}{figure.4.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MEAN P}}}{108}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MX .5P}}}{108}{subfigure.8.2}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Simulated annual rainfall amount using two versions of CLIGEN with original and updated input files.}}{72}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Simulated annual rainfall duration using two versions of CLIGEN with original and updated input files.}}{72}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Simulated monthly maxima of daily peak rainfall intensity using two versions of CLIGEN with original and updated input files}}{74}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces CLIGEN-generated mean monthly maxima of daily peak intensity using two versions of CLIGEN with original and updated input files}}{75}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces A graphical representation of non-linear responses of a erosion model}}{77}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Simulated annual runoff for Ditchling Road}}{78}{figure.4.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{78}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{78}{subfigure.6.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{78}{subfigure.6.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{78}{subfigure.6.4}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Simulated annual soil loss for Ditchling Road}}{79}{figure.4.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{79}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{79}{subfigure.7.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{79}{subfigure.7.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{79}{subfigure.7.4}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Mean daily precipitation depth and mean maximum daily 30-minute rainfall intensity for each month}}{82}{figure.4.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MEAN P}}}{82}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MX .5P}}}{82}{subfigure.8.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces A diagram of WEPP and EUROSEM simulations with CLIGEN and breakpoint data}}{119}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Various temporal resolutions of original breakpoint data for 4 July 2000 storm in Plumpton}}{122}{figure.5.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{122}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{122}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{122}{subfigure.2.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{122}{subfigure.2.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{122}{subfigure.2.5}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Various temporal resolutions of original breakpoint data for 11 October 2000 storm in Plumpton}}{123}{figure.5.3}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{123}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{123}{subfigure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{123}{subfigure.3.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{123}{subfigure.3.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{123}{subfigure.3.5}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces WEPP runoff and soil loss changes}}{128}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces The changes of EUROSEM-simulated runoff and soil loss from average runoff and soil loss}}{128}{figure.5.5}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces A diagram of WEPP and EUROSEM simulations with CLIGEN and breakpoint data}}{93}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Various temporal resolutions of original breakpoint data for 4 July 2000 storm in Plumpton}}{96}{figure.5.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{96}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{96}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{96}{subfigure.2.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{96}{subfigure.2.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{96}{subfigure.2.5}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Various temporal resolutions of original breakpoint data for 11 October 2000 storm in Plumpton}}{97}{figure.5.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{97}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{97}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{97}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{97}{subfigure.3.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{97}{subfigure.3.5}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces WEPP runoff and soil loss changes}}{103}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces The changes of EUROSEM-simulated runoff and soil loss from average runoff and soil loss}}{103}{figure.5.5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces 15-min rainfall data used for the investigations of effects of continuous and discontinuous rainfall on soil erosion.}}{144}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Continuous and Discontinuous rainfall for RillGrow simulations. Both storms have the same total rainfall amount of 65.5 mm. Rainfall durations for continuous (a) and discontinuous (b) rainfall are 15 minutes and 30 minutes, respectively.}}{145}{figure.6.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Continuous}}}{145}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Discontinuous}}}{145}{subfigure.2.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Original rainfall intensity and WEPP-modified rainfall intensity for discontinuous and continuous rainfall.}}{150}{figure.6.3}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Continuous}}}{150}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Discontinuous}}}{150}{subfigure.3.2}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 15-min rainfall data used for the investigations of effects of continuous and discontinuous rainfall on soil erosion.}}{119}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Continuous and Discontinuous rainfall for RillGrow simulations. Both storms have the same total rainfall amount of 65.5 mm. Rainfall durations for continuous (a) and discontinuous (b) rainfall are 15 minutes and 30 minutes, respectively.}}{120}{figure.6.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Continuous}}}{120}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Discontinuous}}}{120}{subfigure.2.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Original rainfall intensity and WEPP-modified rainfall intensity for discontinuous and continuous rainfall.}}{125}{figure.6.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Continuous}}}{125}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Discontinuous}}}{125}{subfigure.3.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Intensity patterns of a stratiform storm for WEPP and EUROSEM simulations.}}{155}{figure.7.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{155}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{155}{subfigure.1.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{155}{subfigure.1.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{155}{subfigure.1.4}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Intensity patterns of a convective storm for WEPP and EUROSEM simulations.}}{155}{figure.7.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{155}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{155}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{155}{subfigure.2.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{155}{subfigure.2.4}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Intensity input patterns for RillGrow2 simulations.}}{156}{figure.7.3}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{156}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{156}{subfigure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{156}{subfigure.3.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{156}{subfigure.3.4}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Intensity patterns of a stratiform storm for WEPP and EUROSEM simulations.}}{130}{figure.7.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{130}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{130}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{130}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{130}{subfigure.1.4}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Intensity patterns of a convective storm for WEPP and EUROSEM simulations.}}{130}{figure.7.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{130}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{130}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{130}{subfigure.2.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{130}{subfigure.2.4}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Intensity input patterns for RillGrow2 simulations.}}{131}{figure.7.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{131}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{131}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{131}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{131}{subfigure.3.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Schematic flowchart of the method used for investigation of implications of rainfall intensity changes for future soil erosion}}{178}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces WEPP responses to the peak rainfall intensity changes}}{180}{figure.8.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Simulated annual rainfall amount using CLIGEN}}{183}{figure.8.3}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Simulated annual rainfall duration changes by changing mean maximum 30-min peak intensity for wet and dry seasons.}}{184}{figure.8.4}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Monthly maxima of daily peak rainfall intensity changes generated by CLIGEN with modified mean maximum 30-min peak intensity}}{185}{figure.8.5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wet months (9, 10, 11, 12, 1, 2) with modified intensity}}}{185}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Dry months (3, 4, 5, 6, 7, 8) with modified intensity}}}{185}{subfigure.5.2}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Runoff changes in response to the changes of mean maximum 30-min peak intensity for wet and dry seasons.}}{186}{figure.8.6}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Soil loss rate changes in response to the changes of mean maximum 30-min peak intensity for wet and dry seasons.}}{187}{figure.8.7}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Effects of 5\% and 10\% increases of mean maximum 30-min peak intensity on WEPP-generated soil loss rates for individual events}}{188}{figure.8.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original}}}{188}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {+5\%}}}{188}{subfigure.8.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {+10\%}}}{188}{subfigure.8.3}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Schematic flowchart of the approach used for investigation of implications of rainfall intensity changes for future soil erosion}}{153}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces WEPP responses to the peak rainfall intensity changes}}{155}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Simulated annual rainfall amount using CLIGEN}}{158}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Simulated annual rainfall duration changes by changing mean maximum 30-min peak intensity for wet and dry seasons.}}{159}{figure.8.4}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Monthly maxima of daily peak rainfall intensity changes generated by CLIGEN with modified mean maximum 30-min peak intensity}}{160}{figure.8.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wet months (9, 10, 11, 12, 1, 2) with modified intensity}}}{160}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Dry months (3, 4, 5, 6, 7, 8) with modified intensity}}}{160}{subfigure.5.2}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Runoff changes in response to the changes of mean maximum 30-min peak intensity for wet and dry seasons.}}{161}{figure.8.6}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Soil loss rate changes in response to the changes of mean maximum 30-min peak intensity for wet and dry seasons.}}{162}{figure.8.7}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Effects of 5\% and 10\% increases of mean maximum 30-min peak intensity on WEPP-generated soil loss rates for individual events}}{163}{figure.8.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original}}}{163}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {+5\%}}}{163}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {+10\%}}}{163}{subfigure.8.3}
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Annual rainfall amount trend of monthly grid data}}{191}{figure.1.A.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Seasonal rainfall amount trend of monthly 0.5\textdegree \ grid data}}{192}{figure.1.A.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Average monthly rainfall patterns of monthly grid data}}{193}{figure.1.A.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces July rainfall amount trend over 1901-2000}}{194}{figure.1.A.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Trends of annual rainfall amount (RR) at daily data stations}}{195}{figure.1.A.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DR}}}{195}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SO}}}{195}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PL}}}{195}{subfigure.5.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {PB}}}{195}{subfigure.5.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SDR}}}{195}{subfigure.5.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {EW}}}{195}{subfigure.5.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {FT}}}{195}{subfigure.5.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {LI}}}{195}{subfigure.5.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {HPF}}}{195}{subfigure.5.9}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {HD}}}{195}{subfigure.5.10}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {FF}}}{195}{subfigure.5.11}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Trends of number of wetdays (RR1) at daily data stations}}{196}{figure.1.A.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DR}}}{196}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SO}}}{196}{subfigure.6.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PL}}}{196}{subfigure.6.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {PB}}}{196}{subfigure.6.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SDR}}}{196}{subfigure.6.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {EW}}}{196}{subfigure.6.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {FT}}}{196}{subfigure.6.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {LI}}}{196}{subfigure.6.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {HPF}}}{196}{subfigure.6.9}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {HD}}}{196}{subfigure.6.10}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {FF}}}{196}{subfigure.6.11}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Trend of annual simple daily intensity index (SDII) at daily data stations}}{197}{figure.1.A.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DR}}}{197}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SO}}}{197}{subfigure.7.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PL}}}{197}{subfigure.7.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {PB}}}{197}{subfigure.7.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SDR}}}{197}{subfigure.7.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {EW}}}{197}{subfigure.7.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {FT}}}{197}{subfigure.7.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {LI}}}{197}{subfigure.7.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {HPF}}}{197}{subfigure.7.9}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {HD}}}{197}{subfigure.7.10}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {FF}}}{197}{subfigure.7.11}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Annual number of wet days with rainfall amount $\geq $ 10 mm at daily data stations}}{198}{figure.1.A.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DR}}}{198}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SO}}}{198}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PL}}}{198}{subfigure.8.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {PB}}}{198}{subfigure.8.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SDR}}}{198}{subfigure.8.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {EW}}}{198}{subfigure.8.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {FT}}}{198}{subfigure.8.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {LI}}}{198}{subfigure.8.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {HPF}}}{198}{subfigure.8.9}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {HD}}}{198}{subfigure.8.10}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {FF}}}{198}{subfigure.8.11}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Annual \% of wet days with rainfall amount $\geq $ 10 mm at daily data stations}}{199}{figure.1.A.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DR}}}{199}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SO}}}{199}{subfigure.9.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PL}}}{199}{subfigure.9.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {PB}}}{199}{subfigure.9.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SDR}}}{199}{subfigure.9.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {EW}}}{199}{subfigure.9.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {FT}}}{199}{subfigure.9.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {LI}}}{199}{subfigure.9.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {HPF}}}{199}{subfigure.9.9}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {HD}}}{199}{subfigure.9.10}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {FF}}}{199}{subfigure.9.11}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Annual number of wet days with rainfall amount $\geq $ 20 mm at daily data stations}}{200}{figure.1.A.10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DR}}}{200}{subfigure.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SO}}}{200}{subfigure.10.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PL}}}{200}{subfigure.10.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {PB}}}{200}{subfigure.10.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SDR}}}{200}{subfigure.10.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {EW}}}{200}{subfigure.10.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {FT}}}{200}{subfigure.10.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {LI}}}{200}{subfigure.10.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {HPF}}}{200}{subfigure.10.9}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {HD}}}{200}{subfigure.10.10}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {FF}}}{200}{subfigure.10.11}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Annual \% of wet days with rainfall amount $\geq $ 20 mm at daily data stations}}{201}{figure.1.A.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DR}}}{201}{subfigure.11.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SO}}}{201}{subfigure.11.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PL}}}{201}{subfigure.11.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {PB}}}{201}{subfigure.11.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SDR}}}{201}{subfigure.11.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {EW}}}{201}{subfigure.11.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {FT}}}{201}{subfigure.11.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {LI}}}{201}{subfigure.11.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {HPF}}}{201}{subfigure.11.9}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {HD}}}{201}{subfigure.11.10}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {FF}}}{201}{subfigure.11.11}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Observed daily rainfall amount}}{203}{figure.1.A.12}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Observed daily rainfall duration}}{204}{figure.1.A.13}
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Observed daily 1-min peak rainfall intensity}}{205}{figure.1.A.14}
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Observed mean monthly rainfall amount}}{206}{figure.1.A.15}
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Mean monthly rainfall duration}}{206}{figure.1.A.16}
+\contentsline {figure}{\numberline {A.17}{\ignorespaces Mean monthly maxima of 1-min peak rainfall intensity}}{207}{figure.1.A.17}
+\contentsline {figure}{\numberline {A.18}{\ignorespaces Mean monthly maxima of 30-min peak rainfall intensity}}{207}{figure.1.A.18}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

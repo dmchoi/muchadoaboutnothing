@@ -1,2 +1,196 @@
 \chapter{RillGrow Input Data}
 \label{sec:RillGrowInputData}
+
+\section{Continuous and Discontinuous Rainfall}
+
+\subsection{Continuous Rainfall}
+
+\begin{verbatim}
+
+Units for time intervals (sec or min)                 : min
+Time/intensity (mm/hr) pairs                          : 0  240
+                                                      : 3  240
+                                                      : 6  240
+                                                      : 9  240
+                                                      : 12 240
+                                                      : 15 0
+\end{verbatim}
+
+\subsection{Discontinuous Rainfall}
+
+\begin{verbatim}
+
+Units for time intervals (sec or min)                 : min
+Time/intensity (mm/hr) pairs                          : 0  0
+                                                      : 3  240
+                                                      : 6  0
+                                                      : 9  240
+                                                      : 12 0
+                                                      : 15 240
+                                                      : 18 0
+                                                      : 21 240
+                                                      : 24 0
+                                                      : 27 240
+                                                      : 30 0
+
+\end{verbatim}
+
+\section{Within-Storm Intensity Pattern}
+
+\subsection{Constant WSIP}
+
+\begin{verbatim}
+
+Units for time intervals (sec or min)                 : min
+Time/intensity (mm/hr) pairs                          : 0  120
+                                                      : 5  120
+                                                      : 10 120
+                                                      : 15 120
+                                                      : 20 120
+                                                      : 25 120
+                                                      : 30 0
+
+\end{verbatim}
+
+\subsection{Increasing WSIP}
+
+\begin{verbatim}
+
+Units for time intervals (sec or min)                 : min
+Time/intensity (mm/hr) pairs                          : 0  30
+                                                      : 8  60
+                                                      : 16 90
+                                                      : 20 180
+                                                      : 24 270
+                                                      : 28 360
+                                                      : 30 0
+\end{verbatim}
+
+\subsection{Decreasing WSIP}
+
+\begin{verbatim}
+
+Units for time intervals (sec or min)                 : min
+Time/intensity (mm/hr) pairs                          : 0  360
+                                                      : 2  270
+                                                      : 6  180
+                                                      : 10 90
+                                                      : 14 60
+                                                      : 22 30
+                                                      : 30 0
+
+\end{verbatim}
+
+\subsection{Increasing-Decreasing WSIP}
+
+\begin{verbatim}
+
+Units for time intervals (sec or min)                 : min
+Time/intensity (mm/hr) pairs                          : 0  30
+                                                      : 4  60
+                                                      : 8  90
+                                                      : 10 180
+                                                      : 12 270
+                                                      : 14 360
+                                                      : 16 270
+                                                      : 18 180
+                                                      : 20 90
+                                                      : 22 60
+                                                      : 26 30
+                                                      : 30 0
+
+\end{verbatim}
+
+\section{Other Inputs}
+
+\begin{verbatim}
+
+Duration of rain/duration of simulation (sec or min)  : 30 45 min
+Save interval (sec or min) : 0.25 0.5 1 2.83 3 3.16 7.83 8 8.16 12.83 13 13.16
+17.83 18 18.16 22.83 23 23.16 27.83 28 28.16 30 35 40 min
+Random number seed                                    : 27853
+Files to output                        [see codes.txt]: de sr ts tr ad rt fr re
+tc as sc as ak sp st td tn
+Output file names            [omit path and extension]: x11
+Variable report level/start/finish     [see codes.txt]: 0
+Input/output as Idrisi, Idrisi-32, ArcView? [i i32 av]: i32
+Output in binary or ascii?                       [b a]: b
+Include dummy border in output files?                 : n
+Output splash efficiency check file?                  : y
+
+; Run-time graphics ------------------------------------------------------------
+Run type    [0=silent 1=normal 2=minimized 3=graphics]: 3
+   If graphics, rotate 90 degrees?                    : y
+   Code for data item to graph         [see codes.txt]: 6
+   Data value which will be min. colour               : 0
+   Data value which will be max. colour               : 15
+   Palette file                  [Idrisi .pal or .smp]:/program
+files/idrisi32/symbols/watr256.smp
+
+; Microtopography --------------------------------------------------------------
+Microtopography file                   [path and name]: in/leics/x11/11dini10
+Edges bounded                                   [tlrb]: tlr
+Datum elevation to be added (mm)                      : 0
+Slope angle to be added (%)                           : 26.8
+Effective edge angle (%)      [0=use overall gradient]: 0
+
+; Rainfall ---------------------------------------------------------------------
+Mean rainfall intensity (mm/hr) or time-series file   : rain_time_series.dat
+Standard deviation of rainfall intensity (mm/hr)      : 6.25
+Mean raindrop diameter (mm)                           : 2.0
+Standard deviation of raindrop diameter (mm)          : 0.2
+File for rainfall variation               [blank=none]:
+in/leics/intensity/intens10
+
+; Splash redistribution --------------------------------------------------------
+Calculate splash redistribution?                      : y
+   Interval between splash calculations (sec)         : 0.5
+   Splash efficiency data file (path and name)        : splash_eff.ini
+   Constant n for splash efficiency (sec**2/mm)       : 30000
+   Couple splash and flow?                            : y
+
+; Run-on -----------------------------------------------------------------------
+Run-on from above top of slope?                       : y
+   Length of run-on area (mm)                         : 710
+   Rain intensity multiplier for run-on area          : 0.85
+   Flow speed on run-on area (mm/sec)                 : 30
+
+; Infiltration -----------------------------------------------------------------
+Infiltration rate (mm/hr)                             : 0
+
+; Overland flow ----------------------------------------------------------------
+Maximum instantaneous kinematic flow speed (mm/sec)   : 1200
+Within-cell roughness                                 : 0.0078
+Exponent n                                            : 0.5
+
+; Rill detachment --------------------------------------------------------------
+Calculate rill erosion?                               : y
+   Bulk density of soil (t/m**3)                      : 1.3
+   Constant k for detachment (kg/m**3)                : 0.078
+   Constant T for detachment (Pa)                     : 3000   ; 1100 Nearing
+orig
+   Coefficient of variation of T for detachment       : 0.4
+   Coefficient of variation of tau for detachment     : 0.4
+   Allow edges to erode?                              : n
+      Diff in plot end elev (below lowest point) (mm) : 13
+
+; Transport capacity -----------------------------------------------------------
+   Constant alpha for transport                       : -34.47
+   Constant beta for transport                        : 38.61
+   Constant gamma for transport                       : 0.845
+   Constant delta for transport                       : 0.412
+
+; Deposition -------------------------------------------------------------------
+   Instantaneous maximum sediment concentration (%)   : 20
+   Threshold Reynolds number for laminar flow         : 500
+   Constant C1 at laminar threshold (sec**-1)         : 50
+   Threshold Reynolds number for turbulent flow       : 2000
+   Constant C1 at turbulent threshold (sec**-1)       : 5
+   Exponent n                                         : 6
+
+; Various physical constants ---------------------------------------------------
+Density of water (t/m**3)                             : 1
+Kinematic viscosity of water (m**2/sec)               : 1e-6
+Gravitational acceleration (m/sec**2)                 : 9.81
+
+\end{verbatim}

@@ -5,10 +5,11 @@
 \section{Introduction}
 \label{sec:ContinousAndDiscontinousStormIntroduction}
 
-As indicated previously, effective rainfall duration ($D$, minute), which
+As indicated previously (see page \pageref{sec:ClimateGeneratorCLIGEN}),
+effective rainfall duration ($D$, minute), which
 is one of four parameters that describe rainfall characteristics in CLIGEN
-data, is calculated by discarding no-rain periods within storm duration and
-only rainfall periods within storm duration are aggregated into a ``gapless''
+data, is calculated by discarding no-rain periods within storm duration. Only
+rainfall periods within storm duration are aggregated into a ``gapless''
 rainfall storm. By removing no-rain periods, actual rainfall duration is
 reduced so that average intensity of rainfall storm is increased. Consequently,
 the removal of no-rain periods, which is termed as Within-Storm Gaps (WSGs) for
@@ -23,7 +24,7 @@ by these models and the outputs were examined in terms of their relationships to
 WSGs.
 
 WEPP and EUROSEM have shown contrasting results in the previous chapter. Thus,
-RillGrow was exerted here with an intention to strengthen the model estimation
+RillGrow was used here with an intention to strengthen the model estimation
 results by increasing the number of model predictions. Although the outputs from
 three erosion models may still give three very different results---this actually
 was the case---employing all three models may also give a stronger argument that
@@ -45,7 +46,7 @@ storm is 89.9 mm. This event is considered to be responsible for the severe
 flood incidents in the study region \citep{boardman2001-346}.
 
 Only breakpoint data type, which retains WSGs, was used in this chapter because
-CLIGEN data remove WSGs by its design specification. Also, temporal scale of
+CLIGEN data remove WSGs by its design specification. Also, temporal resolution of
 15-min was used as discussed in the previous chapter, Chapter
 \ref{sec:EFFECTSOFTEMPORALSCALESOFSTROMDATA}. Hyetographs of the original
 rainfall event and the modified rainfall event, in which WSGs are removed, are
@@ -215,7 +216,7 @@ are unintentionally creating a rainfall event with higher average intensity than
 the original average intensity as total storm duration becomes shortened. This
 means that, first of all, the time given for the erosion simulation is decreased
 so that smaller values of time-related parameters such as runoff duration are
-used for other relevant process calculations. This may have an effect on, for
+used for other relevant process calculations. This will have an effect on, for
 example, the time allowed for runoff initiation and development. Secondly, the
 increased average intensity may increase on the erosional power of rain
 storm. Thus, amounts of soil detachment and soil particles carried away by
@@ -278,7 +279,7 @@ breakpoint data, and modified the original intensity
 information before using them for estimating runoff and soil loss.
 
 WEPP reconstructed a ``new'' rainfall storm based on the original breakpoint
-data when the temporal scale of rainfall data shorter than an hour were used.
+data when the temporal resolution of rainfall data shorter than an hour were used.
 This ``WEPP-modified'' rainfall storm had the same accumulated rainfall
 amounts and the number of breakpoints from the original data, but the time
 increments for each data point were changed. By changing the original time
@@ -333,12 +334,12 @@ Change (\%) & -22.9 &  & +66.8 &  \\
 \label{tab:summaryofweppchangedstormdetails}
 \end{table}
 
-This finding poses a serious problem and, as far as only WEPP is concerned, has
-a substantial impact on our ability to investigate impacts of rainfall intensity
-changes not only in the future but also in the present. Without ability to
-process original intensity information, it is very likely to end up with invalid
-results similar to the WEPP simulation result shown in this chapter (see Table
-\ref{tab:EstimatedRunoffForEachHillslope}).
+This finding poses a serious problem and, as far as only WEPP (with breakpoint
+data) is concerned, has a substantial impact on our ability to investigate
+impacts of rainfall intensity changes not only in the future but also in the
+present. Without ability to process original intensity information, it is very
+likely to end up with invalid results similar to the WEPP simulation result
+shown in this chapter (see Table \ref{tab:EstimatedRunoffForEachHillslope}).
 
 \section{Conclusion}
 \label{sec:InterStormPeriodsWithinAStormConclusion}
@@ -357,7 +358,8 @@ Analyses of outputs from WEPP simulations revealed a new problem. WEPP modified
 original rainfall intensity information and simulated erroneous results
 (Table \ref{tab:EstimatedRunoffForEachHillslope}.  This is because that WEPP
 constructs a ``WEPP-modified'' rainfall data based on original rainfall data
-when breakpoint data with a time scale shorter than 60-min temporal scale is
+when breakpoint data with a temporal resolution shorter than 60-min temporal
+resolution is
 used for WEPP simulations. Particularly, peak rainfall intensity and the shapes
 of rainfall storm are altered. This clearly is a major problem for current
 research and for our ability to predict erosion. This is also a major model

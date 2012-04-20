@@ -8,34 +8,31 @@
 %******start with little bit of rationalization of this set of experiments and
 %why did I choose to do THIS and why IN THIS WAY
 When modelling soil erosion, finding suitable input data for the simulation is
-an important part of model-based researches but it is not easy. Ideally, input
+an important aspect of model-based researches but it is not easy. Ideally, input
 data need to be measured directly from a study site and parametrized for a model
 simulation. However, this process requires a great effort and time. It is also
 frequently affected by geographical and financial situations of research. All
 these reasons affect how rainfall data are made available in different
-resolutions
-either spatially, temporally or both. Thus, we often end up using what is
-readily available rather than what is really required by erosion models.
+resolutions either spatially, temporally or both. Thus, we often end up using
+what is readily available rather than what is really required by erosion models.
 
-Rainfall intensity is highly variable depending on data resolutions and where
-they
-are measured from \citep{nyssen2005-172}. Consequently, using rainfall data
-that have a undesired data resolution for erosion simulations may produce
-unknown
-implications that may later lead to inaccurate model outputs. Therefore, this
-chapter aims to investigate effects of different temporal resolutions of
-rainfall
-data on erosion model simulation processes. In addition, which data format
-between CLIGEN and breakpoint data is more suitable for current research was
-looked at.
+Rainfall intensity is highly variable depending on data resolutions and the
+location where they are measured from \citep{nyssen2005-172}. Consequently,
+using rainfall data that have a undesired data resolution for erosion
+simulations may produce unknown implications that may later lead to inaccurate
+model outputs. Therefore, this chapter aims to investigate effects of different
+temporal resolutions of rainfall data on erosion model simulation processes. In
+addition, which data format between CLIGEN and breakpoint data is more suitable
+for current research was looked at.
 
 The results of this chapter and the subsequent chapters attempts to provide some
 answers for Research Question \ref{researchquestion2}:\
 \begin{quotation}
-Assuming that we use a model to predict erosion rates under the future climate
-which may have different rainfall intensities from the present, what information
-do we need to make predictions in terms of both climate and process
-understanding?
+Assuming that we use a model to predict erosion rates under a future
+climate, and that this future climate has different rainfall intensity from the
+present, what information (both regarding climate, and regarding erosion
+processes) do we need to make predictions of soil erosion rates under that
+future climate?
 \end{quotation}
 
 \section{Data Preparation and Method}
@@ -119,18 +116,18 @@ Then, two process-based erosion models, WEPP and EUROSEM, are used at the
 current stage to simulate runoff and soil loss. RillGrow is not used here
 because of the data resolution and computational time issues involved
 with using RillGrow. Temporal resolutions that RillGrow simulates with is very
-small
-so that it requires a considerably long computational time compared to the
+small so that it requires a considerably long computational time compared to the
 duration that is simulated for. To give an idea, RillGrow2 requires almost 7
-hours, for example, for running a 45-min simulation. This makes using RillGrow
-for this set of investigations very impractical considering the number of
-simulations and the total duration of computational time required. Thus, only
-two models, WEPP and EUROSEM, are used in this chapter.
+hours, for example, for running a 45-min simulation (More recent versions of the
+model are faster, however: David Favis-Mortlock, personal communication, April
+2012). This makes using RillGrow for this set of investigations very impractical
+considering the number of simulations and the total duration of computational
+time required. Thus, only two models, WEPP and EUROSEM, are used in this
+chapter.
 
 CLIGEN data and breakpoint data prepared from rainfall data with 1, 5, 15,
 30 and 60-min temporal resolution were used for the simulations to investigate
-the
-effect of different temporal resolution.
+the effect of different temporal resolution.
 EUROSEM was designed to use only breakpoint rainfall data so that it would
 be a good comparison to WEPP which has been originally designed to use CLIGEN
 data as well as breakpoint data.
@@ -218,17 +215,20 @@ normalised peak intensity}
 
 As shown is Table \ref{tab:CLIGENWEPPInputFileParameters}, each set of
 temporally varying rainfall data shows different total rainfall durations. This
-is because of their time intervals being in different sizes. Therefore,
-effective rainfall duration increases as temporal data resolution increases.
-With
-rainfall amounts remaining the same, the changes in duration mean that rainfall
-intensity information is also affected by the temporal resolution of rainfall
-data.
+is because the size of their time intervals are different so that the total
+number of time intervals are different. For example, if there is rainfall
+lasted for two 1-min intervals long, total duration becomes 2 minutes. However,
+for the same rainfall, if we increase time intervals to 60-min, total duration
+becomes 60 minutes because those two 1-min intervals are included in one 60-min
+interval. Therefore, effective rainfall duration increases as temporal data
+resolution increases. With rainfall amounts remaining the same, the changes in
+duration mean that rainfall intensity information is also affected by the
+temporal resolution of rainfall data.
 Peak rainfall intensities are affected by the data resolution too. Moreover, the
 change of temporal resolution shifts the temporal location of peak intensity
-($t_p$). This means that the shape of a storm may change from, for example,
-ascending intensity to descending intensity. Effects of storm shapes on soil
-erosion are further investigated in Chapter
+($t_p$). This means that the effective shape of a storm may change from, for
+example, ascending intensity to descending intensity. Effects of storm shapes on
+soil erosion are further investigated in Chapter
 \ref{sec:EFFECTSOFRAINFALLINTENSITYCHANGESONSOILEROSION}.
 
 \begin{table}[htbp]
@@ -407,10 +407,11 @@ from the result with the 15-min data. $+/-$ indicates a increase or decrease.}\\
 \end{table}
 
 When breakpoint data are used, the opposite is observed---the magnitude of the
-changes are greater for the October event even though these changes are upward
-changes. In other words, WEPP-simulated runoff rates are greater when 30 or
-60-min breakpoint data of the October event are used than when 15-min
-breakpoint data of the same storm are used. For the July event, decreases in
+changes are greater for the October event even though these changes are in
+increasing trends as temporal resolution decreases. In other words,
+WEPP-simulated runoff rates are greater when 30 or 60-min breakpoint data of the
+October event are used than when 15-min breakpoint data of the same storm are
+used. For the July event, decreases in
 runoff are observed when breakpoint data with the same temporal resolutions
 (i.e.\
 30 or 60-min) are used. Also, the magnitude of changes in simulated runoff
@@ -630,12 +631,21 @@ data that were prepared for both July and October events with 1-min and 5-min
 data could not be used for WEPP and EUROSEM. This was because WEPP have a limit
 on the maximum number of breakpoint which is 50 points per day according to the
 model document \citep[see][page 10]{flanagan1995-weppusersummary}. This means
-that, for a rainfall event that last for a whole day, for example, 30-min data
+that, for a rainfall event that lasts for a whole day, for example, 30-min data
 is the highest resolution we can use for WEPP simulations because there are only
 48 (24 hr/0.5 hr) intervals available per day. This prohibits the use of
 breakpoint data with temporal resolution higher than 30-min in theory. In
 practice, any temporal resolution could be used as long as the total number of
-breakpoints does not exceed 50 points.
+breakpoints does not exceed 50 points. For example, for a storm that lasts 50
+mins, and if that storm is the only rain on that day, temporal resolution could
+be 1 minutes.
+
+WEPP was developed for the US \citep{flanagan2007-1603}. In the US mid-west, the
+whole of a day's rain may arrive in one rather short (with relatively high
+intensity) storm. Thus, this limitation (of $\leqq$ 50 breakpoints) is not so
+severe in the US. However, for places where it may rain for a whole day, where
+rain may arrive in long, low-intensity storms like South Downs, UK, this $\leqq$
+50 breakpoints limitation is a definite problem.
 
 Testing with WEPP (v2004.7) revealed that up to 100 breakpoints may be used
 without a problem. However, when the number of breakpoints exceeds 100

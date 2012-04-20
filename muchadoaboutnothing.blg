@@ -14,6 +14,7 @@ A level-1 auxiliary file: ./tex/intensity_pattern_chapter.aux
 A level-1 auxiliary file: ./tex/future_erosion_chapter.aux
 A level-1 auxiliary file: ./tex/conclusion_chapter.aux
 The style file: thesisurl.bst
+A level-1 auxiliary file: ./tex/observed_rainfall_chapter.aux
 A level-1 auxiliary file: ./tex/appendixA.aux
 A level-1 auxiliary file: ./tex/appendixB.aux
 A level-1 auxiliary file: ./tex/appendixC.aux
@@ -27,7 +28,7 @@ Warning--can't use both author and editor fields in ipcc2007-impact
 Warning--can't use both author and editor fields in ipcc2007-physical
 You've used 170 entries,
             3609 wiz_defined-function locations,
-            1653 strings with 34886 characters,
+            1654 strings with 34921 characters,
 and the built_in function-call counts, 120256 in all, are:
 = -- 10613
 > -- 3977

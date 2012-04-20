@@ -4,7 +4,7 @@
 %\label{sec:FurtherInvestigationstoBuildFutureRainfallIntensityScenarios}
 
 %\section{Proposed Simulation Methods}
-\section{Possible Methods for Simulating Future Intensity}
+\section{Possible Approaches to Simulating Future Rainfall Intensity}
 \label{sec:ProposedSimulationMethods}
 
 Despite the various efforts to find meaningful rainfall intensity trend for
@@ -15,9 +15,10 @@ Yet future rainfall intensities are predicted to increase.
 However, even if the trend in rainfall intensity is available (for
 example from an RCM), the results from this study indicate that knowing future
 WSIV, WSIP and WSG is vital in order to carry out future erosion predictions. To
-achieve the aim of this research, an alternative method has to be sought to
-obtain future rainfall data with a appropriate data scale and `changed' rainfall
-intensity. The process of finding alternative method is discussed in this
+achieve the aim of this research, an alternative approach has to be sought to
+obtain future rainfall data with a appropriate data resolution and
+`changed' rainfall
+intensity. The process of finding alternative approach is discussed in this
 section.
 
 %In order to predict changes of future rainfall intensity that are useful for
@@ -39,7 +40,7 @@ section.
 %WEPP is used for the estimation of future soil erosion because only WEPP can
 %perform continuous long term simulations.
 
-\subsection{Possible Method 1: Changing CLIGEN Generated Data}
+\subsection{Approach 1: Changing CLIGEN Generated Data}
 \label{sec:MethodOne}
 
 %A similar method has been used in Section
@@ -72,10 +73,11 @@ Simple, easy and fast.
 \paragraph{Cons:}
 \label{sec:ConsMethodOne}
 It may be considered to be crude and simple for simulating future rainfall
-intensity changes. It does not make a full use of the findings from the previous
-analyses. This clearly is an indirect approach.
+intensity changes. One reason is that it is not possible to change the number
+of raindays using this approach. It does not make a full use of the findings
+from the previous analyses. This is an indirect approach.
 
-\subsection{Possible Method 2: Changing {MX.5P}, One of CLIGEN Input
+\subsection{Approach 2: Changing {MX.5P}, One of CLIGEN Input
 Parameters}
 \label{sec:MethodTwo}
 
@@ -172,10 +174,10 @@ changed. It will, however, only be applicable to the case where sufficient
 reference data are available for the adjustment and comparison of all the
 parameter. No such information has been available for this research. Therefore,
 until such information is available, it is important to limit the changes only
-to a single parameter, {MX.5P} in this case, and carry out the sensitivity-type
-comparison.
+to a single parameter, {MX.5P} in this case, and carry out only the
+sensitivity-type comparison.
 
-It is very unlikely all the month will have the same changes in rainfall
+It is very unlikely all the months will have the same changes in rainfall
 intensity. There will be some degrees of variations depending on seasons, for
 example. Two seasonal variations are considered here---Wet and Dry season. The
 wet season includes September, October, November, December, January and February
@@ -237,8 +239,9 @@ Since soil erosion is closely related to the extreme rainfall events, this
 thesis concentrates on extreme rainfall events which are closely related to the
 rainfall parameter, {MX.5P}. This is the main reason why {MX.5P} is chosen to be
 altered. It is clear that \citet{nicks1995-2} has recognised the close
-statistical relationship between {MX.5P} and soil erosion rate. This may explain
-why this parameter is included in a CLIGEN input file.
+statistical relationship between {MX.5P} and soil erosion rate. Thus, it is
+unsurprising that this parameter is explicitly included in the CLIGEN input
+file.
 
 \paragraph{Pros:}
 \label{sec:ProsMethodTwo}
@@ -252,15 +255,17 @@ Generated rainfall data for the original and ``future'' climate are almost the
 same except for rainfall intensity. Thus the ``future condition'' here is not,
 physically, very realistic. Future climate will change in complex ways, not
 only extreme rainfall intensity will change, but also probabilities of raindays,
-WSIP (Within-Storm Intensity Pattern), and, surly rainfall amount will change.
+WSIP (Within-Storm Intensity Pattern) and rainfall amount will very
+probably also change.
 Also, even if we increase or decrease extreme rainfall intensity only, the
 intensity of small rainfall events are also affected in order to keep overall
 annual rainfall amount constant.
 
-\subsection{Possible Method 3: Using GCM/RCM Data}
+\subsection{Approach 3: Using GCM/RCM Data}
 \label{sec:MethodThree}
 
-This third method described here was proposed originally, but has not been used
+This third approach described here was proposed originally, but has not been
+used
 because there were no GCM data which were suitable for this research because of
 the scale mismatch.
 % (see Chapter \ref{sec:LimitationsOfErosionModels}) -- is this relevant?.
@@ -269,7 +274,7 @@ RCM also produced 20-min rainfall data, but with a high variability. Daily
 rainfall intensity (or amount) is not suitable to be used as erosion model input
 directly unless downscaled.
 
-The procedures of this method are:
+The procedures of this approach are:
 \begin{enumerate*}
   \item GCM data with 30-min time step for current and future climate
   \item CLIGEN input files for current and future climate are built
@@ -278,32 +283,32 @@ The procedures of this method are:
 \end{enumerate*}
 
 It might be possible to calculate all the CLIGEN input parameters out of the GCM
-output. GCMs can generate current and future climate data on a sufficient time
-scale---that is, 30-min time step---for building CLIGEN input files. This will
-permit ones to make a ``better'' (or maybe worse) judgement of impacts of
-rainfall intensity changes on future soil erosion.
+output. GCMs can generate current and future climate data on a
+sufficient temporal
+resolution---that is, 30-min time step---for building CLIGEN input files.
+This will permit a ``better''---in the sense of being more realistic---judgement
+of impacts of rainfall intensity changes on future soil erosion.
 
-There are some possible caveats with this approach. One is that high resolution
-climate data such as highly specified GCM and RCM data are generated with the
-most extreme set-ups of the climate model. This will push the model to its
-limits. These model-generated data, thus, may have problems and errors caused by
-unconventional configurations on the top of GCMs' uncertainty and wide range of
-variations. Another caveat is that the high resolution data are not always
-readily available. A separate model configuration is required to generate this
-kind of data, and the set-up process involving usually requires extended model
-set-up skills and simulation times. This was the case for the current research.
+%There are some possible caveats with this approach.
+%One is that these high-resolution model-generated GCM data may have
+%problems and errors caused by unconventional configurations on the top of GCMs'
+%uncertainty and wide range of variations.
+A major caveat is that the high resolution GCM data are still not readily
+available. A separate model configuration is required to generate this
+kind of data, and the set-up process usually requires extended model set-up
+skills and simulation times. This was the case for the current research.
 Another possible problem is that, because of the preceding uncertainty of GCM
 output, we might end up with erroneous CLIGEN input files which, in turn, will
 lead to even greater errors for future erosion estimation.
 
 %summary table here
 
-\subsection{Selected Method: Method 2, Changing CLIGEN Input}
+\subsection{Conclusion: Selected Approach}
 \label{sec:SelectedMethod}
 
-The Method Two (Section \ref{sec:MethodTwo}) is selected. The schematic
-procedure of this method is shown in Figure \ref{fig:future_erosion_flowchart}.
-
+Approach 2 (Section \ref{sec:MethodTwo}) is selected. The schematic
+procedure of this approach is shown in Figure
+\ref{fig:future_erosion_flowchart}.
 It was assumed that future WSIV, WSG and WSIP are the same as the present. Only
 monthly maximum of 30-min peak rainfall intensity was considered for
 constructing future rainfall intensity scenarios.
@@ -321,9 +326,9 @@ loss changes are compared with changes in rainfall intensity.
 \begin{figure}[htpb]
   \centering
 \includegraphics[width=0.8\textwidth]{./img/future_erosion_flowchart}
-  \caption[Schematic flowchart of the method used for investigation of
+  \caption[Schematic flowchart of the approach used for investigation of
 implications of rainfall intensity changes for future soil erosion]{Schematic
-flowchart of the method which is used for investigation of implications of
+flowchart of the approach which is used for investigation of implications of
 rainfall intensity changes for future soil erosion. Soil erosion simulated in
 the left-side box marked with `Present' represents the present erosion rate
 under current rainfall intensity. Soil erosion simulated in the right-side box

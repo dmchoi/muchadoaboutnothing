@@ -16,10 +16,10 @@ about the area that can be referenced to the current research
 \citep{boardman1995-177,favis-mortlock1995-365,favis-mortlock1997-79,
 favis-mortlock1998-141,boardman2001-346,boardman2003-176}.
 
-\subsection{Rainfall Data}
-\label{sec:RainfallData}
+
 %******Need a section discussing what is meant by a ``storm'' and giving your
 %own definition. You can then refer to this in the Conclusions.
+\subsection{Definitions of Intensity and Rainfall Storm}
 
 Some preliminary definitions are given before describing rainfall data that are
 used in this research.
@@ -30,42 +30,52 @@ size, distribution and velocity of raindrops \citep{vandijk2002-1}. The other is
 to calculate it by dividing total rainfall amount by rainfall duration. The
 latter is used in this research because erosion models used here employ the
 latter concept when rainfall data are feed into the model as inputs. Rainfall
-intensity is expressed as rainfall amount divided by time (e.g.\ mm/hr) in this
-research.
+intensity is expressed as rainfall amount divided by rainfall duration (e.g.\
+mm/hr).
 
-\paragraph{Definition of a Rainfall Storm} In this research, a single rainfall
-storm is defined as a rainfall event that occurs within 24 hours and lasts no
-longer than 24 hours. This means that, if a rainfall storm lasts more than a day
-(24 hr), it will be considered as two separate events: one with 24 hr rainfall
-duration and the other with the duration that remains. This also means that two
-rainfall events which occur within a predefined 24-hour period will be treated
-as one rainfall storm. This is because all models used in this research assume
-that only one rainfall storm occurs per a day. This simplification is
+\paragraph{Definition of rainfall storm} In this research, a rainfall storm
+is defined as a rainfall event that occurs within 24 hours and lasts no longer
+than 24 hours. This means that, if a rainfall storm lasts more than a day
+(i.e.\ 24 hr), it will be considered as two separate events: one with 24 hr
+rainfall duration and the other with the duration that remains. This also means
+that two rainfall events which occur within a predefined 24-hour period will be
+treated as one rainfall storm. This is because all models used in this research
+assume that only one rainfall storm occurs per a day. This simplification is
 unrealistic and may have unknown consequences. However, consequences of this
 assumption were not covered in this study because they are out of the scope of
 this research. Nevertheless, this research recognises the existence of this
 issue and the need for further studies on a more appropriate definition of
 rainfall storm for soil erosion modelling studies.
 
-In CLIGEN, the rainfall duration is an artificial abstraction that is the
-duration calculated by summing up all the rainfall that occurred in 24 hours.
-Each storm starts and ends within the 24-hour period. This means all
-the storms are daily. The actual rainfall event is also expressed as a composite
-rainfall event with a triangular shape assuming that there is only one
-intensity peak per storm. CLIGEN's rainfall duration is not a actual rainfall
-duration which normally is the accumulated time from the start to the end of the
-event but ``effective'' duration which only considers duration that have
-detectable rainfall amounts. This is not a realistic concept for storms, which
-last for more than 24 hours, have multiple intensity peaks and have a lot of
-WSGs. This unrealistic definition of CLIGEN's rainfall can therefore be prone to
-unrealistic simulation of soil erosion.
+Predictions of soil erosion may be improved if we consider rainfall as an
+event-by-event basis rather than as a daily basis.  We need to find a way of
+separating rainfall events independent of the day rather than taking
+a whole wet-day (24 hours) as one ``event''. In this way, soil erosion
+estimations for the area with dominantly long rainfall duration may be improved.
 
-Thus, predictions of soil erosion may be improved if we consider rainfall as
-event-by-event rather than on a daily basis. In other words, rather than taking
-a whole wet-day (24 hours) as one ``event'', we may need to seek a way of
-separating rainfall events independent of the day. In this way, soil erosion
-estimations for the area with dominantly low rainfall intensity may be improved.
+%In CLIGEN, the rainfall duration is an artificial abstraction that is the
+%duration calculated by summing up all the rainfall that occurred in 24 hours.
+%Each storm starts and ends within the 24-hour period. This means all
+%the storms are daily. The actual rainfall event is also expressed as a
+%composite rainfall event with a triangular shape assuming that there is only
+%one intensity peak per storm. CLIGEN's rainfall duration is not a actual
+%rainfall duration which normally is the accumulated time from the start to the
+%end of the event but ``effective'' duration which only considers duration that
+%have detectable rainfall amounts. This is not a realistic concept for storms,
+%which last for more than 24 hours, have multiple intensity peaks and have a lot
+%of WSGs. This unrealistic definition of CLIGEN's rainfall can therefore be
+%prone to unrealistic simulation of soil erosion.
 
+%Thus, predictions of soil erosion may be improved if we consider rainfall as
+%event-by-event rather than on a daily basis. In other words, rather than taking
+%a whole wet-day (24 hours) as one ``event'', we may need to seek a way of
+%separating rainfall events independent of the day. In this way, soil erosion
+%estimations for the area with dominantly low rainfall intensity may be
+%improved.
+\subsection{Rainfall Data}
+\label{sec:RainfallData}
+
+%\paragraph{Details of rainfall data}
 Reported mean annual rainfall of the South Downs, UK is between 750 and 1000 mm
 with an autumn peak \citep{potts1983-88}. Mean annual temperature is
 9.8\textcelsius\ with a January mean of 3.9\textcelsius\ and a July mean of
@@ -73,7 +83,15 @@ with an autumn peak \citep{potts1983-88}. Mean annual temperature is
 
 Three temporally and spatially different observational rainfall datasets were
 acquired from the site (Table
-\ref{tab:PrecipitationDataUsedForCurrentRainfallTrendInvestigation}).
+\ref{tab:PrecipitationDataUsedForCurrentRainfallTrendInvestigation}): monthly,
+daily and event data.
+Details of these data sets are described here because they are used at a certain
+stage of current research. For example, monthly grid and daily station data are
+used for the investigation on the trend of rainfall intensity in the
+area---included in Appendix \ref{sec:RainfallCharacteristicsOfTheStudyArea}.
+However, for the weather inputs of erosion model simulations, only event data
+set is used. Event rainfall data set is used either as original rainfall data or
+as parametrised rainfall data for erosion estimations.
 
 Observed monthly 0.5\textdegree$\times$0.5\textdegree\ grid rainfall data (CRU
 TS 2.0---0.5\textdegree$\times$0.5\textdegree\ Gridded Monthly Climate Data for
@@ -183,6 +201,33 @@ missing data between Sep. 1996 to Jun. 1998}\\
       \multicolumn{5}{l}{\footnotesize $^\ddagger$  with
 missing data between Feb. 1995 to Sep. 1997}
     \end{tabular}
+\end{table}
+
+Also, a summary of average characteristics of event rainfall data in the area is
+shown in Table \ref{tab:averagecharacteristicsofeventdata}. Over 75\% of the
+rainfall events that occurred in the area only lasted for less than or
+equal to 5 minutes. 
+
+\begin{table}[htbp]
+\caption{Summary of average characteristics of event data}
+\figureversion{tabular}
+\footnotesize
+\centering
+\begin{tabular}{llrrrr}
+\toprule
+ %&  & \multicolumn{ 3}{c}{Average Characteristics of Daily Storm} & Maximum \\
+%\cmidrule{3-5}
+ & & Amount & Duration$^\dagger$ & Intensity$^\ddag$ & Max. Intensity$^\ddag$
+\\
+Code & Station & (mm) & (min) & (mm/hr) & (mm/hr) \\ \midrule
+S & Southover & 5.3 & 24.5 & 12.8 & 72 \\ \midrule
+D & Ditchling Road & 4.9 & 22.7 & 12.8 & 89 \\ \midrule
+P & Plumpton & 7.5 & 33.9 & 12.7 & 28 \\
+\bottomrule
+\multicolumn{6}{l}{$^\dag$ ``effective'' duration without no-rain periods.}\\
+\multicolumn{6}{l}{$^\ddag$ Intensity calculated with effective durations.}
+\end{tabular}
+\label{tab:averagecharacteristicsofeventdata}
 \end{table}
 
 \subsection{Other Data}
@@ -416,7 +461,7 @@ was employed in the later stage of the research in order to generate stronger
 consensus from an additional model. RillGrow's unique approach (i.e.\ a
 self-organising dynamic systems approach) to soil erosion simulation (See
 Section \ref{sec:ModelDescriptionRillGrow}) is also another reason for the
-selection. RillGrow simulates erosion on a finer scale using iterations of
+selection. RillGrow simulates erosion on a finer resolution using iterations of
 erosion estimations by a single raindrop at a time. This also gives a good
 comparison to the former two models.
 
@@ -509,13 +554,14 @@ comparison to the former two models.
 %
 %RillGrow input settings and assumptions.
 
-\section{A Brief Overview of Research Method}
+\section{Overview of Research Method}
 \label{sec:OverviewOfResearchMethods}
 
 This research aims to discover how rainfall intensity changes will affect the
 soil erosion rate in the future, using soil erosion models. The research method
 involves data acquisition, such as observed rainfall properties and soil
-properties, configuring erosion models, and sensitivity tests of erosion models.
+properties, configuring erosion models, and sensitivity tests of erosion
+models.
 The simulation carried out for the sensitivity test mainly employs a univariate
 method.
 
@@ -536,15 +582,18 @@ method.
 Three soil erosion models, WEPP (Water Erosion Prediction Project), EUROSEM
 (EURopean Soil Erosion Model), and RillGrow were used to simulate runoff and
 erosion rate under various rainfall intensity conditions. Effects of temporal
-resolution of rainfall data on runoff and soil loss generations are investigated
+resolution of rainfall data on runoff and soil loss generations are
+investigated
 to identify requirements of rainfall intensity information for erosion
 simulations. Two extreme rainfall events; one with highest rainfall intensity
 and the other with highest rainfall amount, were selected from the
 tipping-bucket rainfall data. Tipping-bucket data for the events are then
-aggregated into a range of different temporal ``scales". This is done by the
+aggregated into a range of different temporal ``resolution". This is done by
+the
 discretization of tipping-bucket data into rainfall data that have a range of
 time-steps (i.e. 1, 5, 15, 30 and 60min).
-Runoff and soil loss rates were simulated using three models with these rainfall
+Runoff and soil loss rates were simulated using three models with these
+rainfall
 input data. An additional rainfall event, which has both wet and dry phases
 during the storm period, was selected. Two rainfall input data were prepared
 from this event data; one without any alteration and the other that is
@@ -558,27 +607,28 @@ decreasing and constant rainfall intensity were prepared for erosion
 simulations. Rainfall amounts for all four storms were kept the same while the
 intensities vary.
 
-To understand observed trends of rainfall intensity changes, three observed
-precipitation data (i.e.\ Monthly 0.5\textdegree\ grid data, daily station data
-and tipping-bucket gauge data) were acquired from the South Downs, UK. Monthly
-0.5\textdegree\ grid data for 100 years were analysed, firstly, to draw outlines
-of long term rainfall trends in the area. Daily precipitation data from 11
-stations for the various observational periods (i.e.\ 9--93 years) in the area
-were then analysed, in terms of:
-\begin{itemize*}
- \item daily rainfall amount,
- \item number of raindays,
- \item simple daily intensity index,
- \item number of raindays with rainfall amount $\geq$10 mm, and
- \item number of raindays with rainfall amount $\geq$20 mm.
-\end{itemize*}
-This gave more detailed information about the trends of rainfall in the region
-than that obtained from monthly 0.5\textdegree\ grid data. Lastly, even greater
-detailed rainfall trends were studied using tipping-bucket collected rainfall
-data from three stations over the period of 2--13 years. This kind of high
-resolution data provides very detailed information on the patterns of the
-rainfall amount and intensity.
-
+%To understand observed trends of rainfall intensity changes, three observed
+%precipitation data (i.e.\ Monthly 0.5\textdegree\ grid data, daily station data
+%and tipping-bucket gauge data) were acquired from the South Downs, UK. Monthly
+%0.5\textdegree\ grid data for 100 years were analysed, firstly, to draw
+%outlines
+%of long term rainfall trends in the area. Daily precipitation data from 11
+%stations for the various observational periods (i.e.\ 9--93 years) in the area
+%were then analysed, in terms of:
+% \begin{itemize*}
+%  \item daily rainfall amount,
+%  \item number of raindays,
+%  \item simple daily intensity index,
+%  \item number of raindays with rainfall amount $\geq$10 mm, and
+%  \item number of raindays with rainfall amount $\geq$20 mm.
+% \end{itemize*}
+% This gave more detailed information about the trends of rainfall in the region
+% than that obtained from monthly 0.5\textdegree\ grid data. Lastly, even greater
+% detailed rainfall trends were studied using tipping-bucket collected rainfall
+% data from three stations over the period of 2--13 years. This kind of high
+% resolution data provides very detailed information on the patterns of the
+% rainfall amount and intensity.
+% 
 Likely future soil erosion rates were estimated only using WEPP, as the other
 two models are not designed for continuous long term simulations. A hundred
 year-long weather is generated by the WEPP's climate component called CLIGEN
@@ -587,12 +637,12 @@ then increased proportionally from the control data by changing rainfall
 duration, keeping rainfall amount constant. Runoff and erosion rates were
 simulated using these climate data.
 
-\subsection{Statistical Methods for Trend Investigation}
+\subsection{Statistical Methods}
 \label{StatisticalMethodsForTrendInvestigation}
 
 Statistical methods used in this research are briefly summarized here.
 
-\paragraph{Simple Linear Regression}
+\subsubsection{Simple Linear Regression}
 \label{sec:SimpleLinearRegression}
 
 %REGRESSION OR CORRELATION?
@@ -624,7 +674,7 @@ statistically significant.
 %2.023 sdev/N1/2 ; and for ``arge'' N: Xavg$\pm$ 1.960 sdev/N1/2
 
 
-\paragraph{Mann-Kendall's Test}
+\subsubsection{Mann-Kendall's Test}
 \label{sec:MannKendallSTest}
 
 Mann-Kendall's test is a non-parametric test for the detection of trend in a
@@ -680,7 +730,7 @@ upward, downward or unchanged).
 %When $Z(T)$ is significant, $Z(T) > 0$ or $Z(T) < 0$ defines an ascending
 %or descending trend.
 
-\paragraph{Kolmogorov-Smirnov test}
+\subsubsection{Kolmogorov-Smirnov test}
 \label{sec:KolmogorovSmirnovTest}
 The two sample Kolmogorov-Smirnov test is used to determine if two distributions
 differ significantly. The K-S test is a non-parametric test that tests
@@ -690,7 +740,7 @@ two samples are distributed identically. The test is sensitive to differences in
 location, dispersion and skewness of the distribution \citep{sokal1995-887}.
 
 
-\input{./tex/observed_rainfall_chapter}
+%\input{./tex/observed_rainfall_chapter}
 
 %\begin{verbatim}
 %http://en.wikipedia.org/wiki/Kolmogorov-Smirnov_test
