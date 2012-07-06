@@ -312,11 +312,10 @@ WSIP. However, estimated soil loss rates change when the different WSIPs are
 used. The largest soil loss rate (90.5 t/ha) is estimated with decreasing WSIP
 while the constant WSIP produces the smallest soil loss rate (64 t/ha) (Table
 \ref{tab:RillGrowSimulationResults}). Increasing, decreasing, and
-increasing-decreasing WSIPs all gave increases in soil loss rates, compared
-with soil loss rates simulated with the constant WSIP (Table
-\ref{tab:RillGrowSimulationResults}). This is also similar to the results
-obtained with WEPP. These increases in soil loss rates ranged
-approximately between 15 and 40\% (Table \ref{tab:RillGrowSimulationResults}).
+increasing-decreasing WSIPs all gave increases in soil loss rates, compared with
+soil loss rates simulated with a constant WSIP. These increases in soil loss
+rates ranged between 15 and 40\% (Table \ref{tab:RillGrowSimulationResults}).
+This is similar to the results obtained with WEPP.
 %Similarly to the WEPP results, increasing,
 %decreasing and increasing-decreasing WSIPs result in increases (about 15--40\%)
 %in soil loss rates in comparison to the soil loss rates estimated with the

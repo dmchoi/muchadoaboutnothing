@@ -1,4 +1,4 @@
-% This file was created with JabRef 2.8b2.
+% This file was created with JabRef 2.8.
 % Encoding: UTF8
 
 @ARTICLE{adamowski2003-3547,
@@ -567,7 +567,7 @@
   pages = {391--403},
   address = {Paris},
   publisher = {IAHS},
-  __markedentry = {[Daniel Choi:6]},
+  __markedentry = {[Daniel Choi:]},
   abstract = {Although rainfall simulation is widely used, little attempt has been
 	made to standardize simulators or test procedures, and comparability
 	of results has suffered. Even where major rainfall parameters are
@@ -3055,6 +3055,55 @@
   timestamp = {2006.05.30}
 }
 
+@ARTICLE{martinez-casasnovas2009-1927,
+  author = {Jos{\'e} A. Mart{\'i}nez-Casasnovas and M Concepci{\'o}n Ramos and
+	David Garc{\'i}a-Hern{\'a}ndez},
+  title = {Effects of land-use changes in vegetation cover and sidewall erosion
+	in a gully head of the {P}ened{\'e}s region (northeast {S}pain)},
+  journal = {Earth Surface Processes and Landforms},
+  year = {2009},
+  volume = {34},
+  pages = {1927--1937},
+  number = {14},
+  __markedentry = {[Daniel Choi:6]},
+  abstract = {The present research addresses the effects of land-use changes in
+	the evolution of vegetation cover on gully erosion in the Penedès
+	region of northeast Spain. The contribution of vegetation cover to
+	gully wall stabilization is also discussed. The catchment area of
+	the gully is 60·2 ha and is mainly composed of vineyards. In this
+	area, large gullies have developed on Tertiary marls and unconsolidated
+	sandstones. Detailed aerial photographs (1 : 5000 and 1 : 7000 scale)
+	of three dates (1975, 1995 and 2002) were ortho-rectified to derive
+	land-use information in the catchment, gully vegetation cover and
+	height information to construct detailed digital elevation models.
+	Land-use and gully vegetation cover mapping of the most recent period
+	was assisted by means of fieldwork and a photo-interpretation key
+	constructed to help map the older dates. Soil loss in the catchment
+	was estimated for the 1975 and 2002 scenarios to determine the relations
+	between land-use changes to vegetation cover changes and gully sidewall
+	erosion. The Revised Universal Soil Loss Equation was applied for
+	that purpose. Sidewall mass movements were determined by subtraction
+	of digital elevation models (1 m resolution) of each period. The
+	results show important land-use changes in the catchment due to field
+	reorganization for the plantation of mechanized vineyards. It increased
+	soil loss from agricultural fields by 26·5%, which influenced vegetation
+	cover dynamics on gully walls, with an important development of scrubland
+	to forest, and gully erosion, with sidewall retreat at rates of 0·025
+	to 0·50 ha y−1 and mass movements at rates of 16 to 63·2 Mg ha−1 y−1.
+	These results indicate that vegetation cover on gully walls, although
+	suggesting an improvement with respect to wall protection against
+	splash, sheet and rill erosion, did not affect sidewall retreat and
+	mass movements. Copyright © 2009 John Wiley & Sons, Ltd.},
+  doi = {10.1002/esp.1870},
+  file = {martinez-casasnovas2009-1927.pdf:FileBox/DPhil/Bibliography/martinez-casasnovas2009-1927.pdf:PDF},
+  issn = {1096-9837},
+  keywords = {gully erosion, vegetation cover, land-use change, soil erosion, Spain},
+  owner = {Daniel Choi},
+  publisher = {John Wiley \& Sons, Ltd.},
+  timestamp = {29.06.2012},
+  url = {http://dx.doi.org/10.1002/esp.1870}
+}
+
 @ARTICLE{mcguffie1999-1,
   author = {McGuffie, K. and Henderson-Sellers, A. and Holbrook, N. and Kothavala,
 	Z. and Balachova, O. and Hoekstra, J.},
@@ -4135,7 +4184,7 @@
 	understanding of the processes of interrill sediment detachment and
 	transport in order to model successfully erosion under temporally
 	varying rainfall.},
-  file = {parsons2006-68.pdf:FileBox\\DPhil\\Bibliography\\parsons2006-68.pdf:PDF;parsons2006-68.pdf:FileBox/DPhil/Bibliography/parsons2006-68.pdf:PDF},
+  file = {parsons2006-68.pdf:FileBox/DPhil/Bibliography/Tony_Parsons/parsons2006-68.pdf:PDF},
   keywords = {Interrill processes Runoff Soil erosion Particle size Splash transport},
   owner = {Daniel Choi},
   timestamp = {01.03.2008}
@@ -4485,6 +4534,7 @@
 	show that above 50% cover of low vegetation in the gully floor as
 	a percentage of the gully floor surface, gullies are generally inactive.
 	(C) 2003 Elsevier Science B.V. All rights reserved.},
+  file = {rey2003-549.pdf:FileBox/DPhil/Bibliography/rey2003-549.pdf:PDF},
   keywords = {erosion marls gully forest vegetation vegetation distribution sediment
 	trapping rainfall simulation grass hedges water erosion soil-erosion
 	loam belt se spain patterns deposition landscape movement},

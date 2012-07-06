@@ -39,7 +39,7 @@ future climate?
 \label{sec:TemporalScalesEffectsMethods}
 
 Two storms that occurred on 4 July 2000 and on 11 October 2000 were selected
-from the Plumpton event rainfall dataset (P) (Table
+from Plumpton event rainfall dataset (P) (Table
 \ref{tab:DetailsOfDataStations}). The storm on 11 October 2000 was selected
 because the rainfall amount of this event was exceptionally high (133.8 mm) for
 the area and was related to severe erosion and property damage
@@ -51,12 +51,12 @@ rainfall amount. This ``October'' storm was typical of frontal, low-intensity
 event that occur in winters in South Downs, UK. In comparison, the ``July''
 storm that occurred on 4 July 2000 was selected from the same year in order to
 increase the diversity of storm patterns that are investigated in this chapter.
-This storm is typical of summer storm that has a shorter duration than the
+This storm is typical of summer storm that has a shorter duration than
 ``October'' storm (Table \ref{tab:DetailsoftworainstormsobservedinPlumpton}) and
 has a distinctive high intensity peak in the middle of storm duration. Rainfall
 amount of this storm also is comparably high and distinctive.
 
-The duration of the ``October'' event was 1208 minutes (i.e.\ 20 hours and 8
+The duration of ``October'' event was 1208 minutes (i.e.\ 20 hours and 8
 minutes). Average intensity for this rainfall was 6.65 mm/hr with 1-min peak
 intensity of 84 mm/hr. The ``July'' rainfall, on the other hand, was recorded
 with total rainfall amount of 74.8 mm and duration of 808 minutes (i.e.\ 13
@@ -86,9 +86,11 @@ summarised in Table \ref{tab:DetailsoftworainstormsobservedinPlumpton}.
 Tipping-bucket data for both events were aggregated into 5 different temporal
 resolutions---1, 5, 15, 30 and 60 minutes. This was done to simulate different
 temporal rainfall data resolution. Each temporal resolution was treated as if it
-was the ``baseline'' resolution for the data with these being the only records
-available. Two sets of temporally varying ``July'' and ``October'' storm data
-were prepared into CLIGEN and breakpoint data format for erosion estimations.
+was the
+``baseline'' resolution for the data with these being the only records
+available. Two
+sets of temporally varying ``July'' and ``October'' storm data were prepared
+into CLIGEN and breakpoint data format for erosion estimations.
 
 CLIGEN rainfall data describe a rainfall storm with four parameters: total
 rainfall amount ($R$, inch), effective rainfall duration ($D$, minute),
@@ -162,9 +164,11 @@ It needs to be noted again that the emphasis of this research is not on
 assessing the performance of models against measured data.
 
 The effect of the temporal resolutions on rainfall intensity, runoff and soil
-loss were examined. For comparison purpose, 15-min data were used as a reference
+loss
+were examined. For comparison purpose, 15-min data were used as a reference
 resolution when comparisons were done to highlight the effects. 15-min
-resolution is the resolution that were used for the CLIGEN development.
+resolution is
+the resolution that were used for the CLIGEN development.
 
 %It may be a good idea to compare, or at least, talk  about little bit about
 %the effects caused by using CLIGEN data or breakpoint data. By using one or
@@ -248,8 +252,9 @@ the number of breakpoints for each storm are shown in Figure
 \ref{tab:maxnooftimeintervalsperday}. The number of breakpoints for the storms
 decreases as the temporal resolution increases. Also, the rainfall data with
 different temporal resolutions show different rainfall intensity information
-(Figure \ref{fig:dr_storm} and \ref{fig:pl_storm}). Higher temporal resolution
-data show higher instantaneous peak rainfall intensities. With 1-min data of the
+(Figure
+\ref{fig:dr_storm} and \ref{fig:pl_storm}). Higher temporal resolution data show
+higher instantaneous peak rainfall intensities. With 1-min data of the
 ``October'' storm, for example, a peak rainfall intensity was over 80 mm/hr
 (Figure \ref{fig:pl_storm-a}). In comparison, 60-min data of the ``October''
 storm show no peak rainfall intensity higher than 20 mm/hr (Figure
@@ -310,7 +315,8 @@ total number of breakpoints that they can process
 limitations are discussed further later in the chapter. Thus, no runoff and soil
 loss rates were estimated with 1 and 5-min breakpoint data. Instead, CLIGEN data
 with 1 to 60-min resolutions and breakpoint data with 15 to 60-min resolutions
-were used to estimate runoff and soil loss rates.
+were used
+to estimate runoff and soil loss rates.
 
 \subsection{Effect of Temporal resolution on Runoff}
 \label{sec:TemporalScalesSimulatedRunoff}
@@ -324,7 +330,7 @@ unclear for both models.
 %getting more specific as I build up the argument.
 
 Runoff amounts estimated by WEPP with CLIGEN and breakpoint rainfall data for
-each temporal resolution are shown in Table of
+each temporal resolution are shown in Tableof
 \ref{tab:DifferentTemporalScalesOfRainfallDataOnWEPPRunoffEstimation}. Results
 from WEPP simulations show that the changes of runoff rates from the runoff
 rates simulated with 15-min CLIGEN data are greater when simulated with 1-min
@@ -344,7 +350,8 @@ July event are used than the October event.
   \centering
   \footnotesize
   \caption[WEPP-estimated runoff with different temporal resolutions of CLIGEN
-and breakpoint rainfall data]{WEPP-estimated runoff (mm) with different temporal
+and
+breakpoint rainfall data]{WEPP-estimated runoff (mm) with different temporal
 resolutions of CLIGEN and breakpoint rainfall data}
   \label{tab:DifferentTemporalScalesOfRainfallDataOnWEPPRunoffEstimation}
     \begin{tabular}{lllllll}
@@ -402,12 +409,16 @@ changes are greater for the October event even though these changes are in
 increasing trends as temporal resolution decreases. In other words,
 WEPP-simulated runoff rates are greater when 30 or 60-min breakpoint data of the
 October event are used than when 15-min breakpoint data of the same storm are
-used. For the July event, decreases in runoff are observed when breakpoint data
-with the same temporal resolutions (i.e.\ 30 or 60-min) are used. Also, the
-magnitude of changes in simulated runoff rates from 15-min data resolution are
-slightly greater for 60-min data resolution than for 30-min data resolution.
-Despite these contrasting responses, changing temporal resolutions of breakpoint
-data for both rainfall events resulted in changes of WEPP runoff generations.
+used. For the July event, decreases in
+runoff are observed when breakpoint data with the same temporal resolutions
+(i.e.\
+30 or 60-min) are used. Also, the magnitude of changes in simulated runoff
+rates from 15-min data resolution are slightly greater for 60-min data
+resolution than for
+30-min data resolution. Despite these contrasting responses, changing temporal
+resolutions
+of breakpoint data for both rainfall events resulted in changes of WEPP runoff
+generations.
 
 Runoff results generated by EUROSEM for CLIGEN and breakpoint rainfall data with
 each temporal resolution are shown in Table
@@ -416,14 +427,17 @@ results from EUROSEM simulations show closely similar results to those from the
 WEPP simulation. Particularly, when CLIGEN data are used, increases and
 decreases of runoff rates as well as the magnitude of changes in runoff
 rates depending on temporal resolutions of the data show the same tenancy as
-WEPP simulations: The higher the temporal resolution is used, the greater the
-effect is.
+WEPP
+simulations: The higher the temporal resolution is used, the greater the effect
+is.
 Also, simulations with breakpoint data of the October storm show the
 corresponding results to WEPP simulations which show increased runoff rates for
 the coarser temporal resolution. However, when breakpoint data of the July storm
-are used, EUROSEM interestingly generates over 11\% greater runoff rate with
-60-min resolution than with 15-min resolution while still generating the
-downward change in runoff rate with 30-min resolution (Table
+are
+used, EUROSEM interestingly generates over 11\% greater runoff rate with 60-min
+resolution than with 15-min resolution while still generating the downward
+change in
+runoff rate with 30-min resolution (Table
 \ref{tab:DifferentTemporalScalesOfRainfallDataOnEUROSEMRunoffEstimation}).
 
 \subsection{Effect of Temporal Resolution on Soil Loss}
@@ -433,17 +447,19 @@ Soil loss results generated by WEPP with CLIGEN and breakpoint rainfall data for
 the different time resolutions are shown in Table
 \ref{tab:DifferentTemporalScalesOfRainfallDataOnWEPPSoilLossEstimation}. WEPP
 estimates greater soil loss rates with high temporal resolutions and lesser soil
-loss rates with coarse temporal resolutions than with 15-min temporal
-resolution---with one exception of 30-min breakpoint data of the October storm.
-Soil loss is increased almost 20\% when 30-min breakpoint data of the October
-storm are used in comparison to when 15-min breakpoint data of the storm are
-used.
+loss
+rates with coarse temporal resolutions than with 15-min temporal
+resolution---with one
+exception of 30-min breakpoint data of the October storm. Soil loss is increased
+almost 20\% when 30-min breakpoint data of the October storm are used in
+comparison to when 15-min breakpoint data of the storm are used.
 
 For WEPP simulations, soil loss rates are affected more dramatically by the
 change of temporal resolutions than runoff rates. For example, with 1-min CLIGEN
-data of the July event, WEPP estimates almost a 300\% increase in soil loss rate
-and almost a 90\% decrease with 60-min CLIGEN data for the same event in
-comparison to the estimation result with 15-min CLIGEN data (Table
+data
+of the July event, WEPP estimates almost a 300\% increase in soil loss rate and
+almost a 90\% decrease with 60-min CLIGEN data for the same event in comparison
+to the estimation result with 15-min CLIGEN data (Table
 \ref{tab:DifferentTemporalScalesOfRainfallDataOnWEPPSoilLossEstimation}). The
 effect of changes in temporal resolution for the breakpoint data of July storm
 is also similar to the change patterns with the CLIGEN data which is inversely
@@ -457,8 +473,9 @@ same event result in an over 55\% decrease in soil loss.
   \centering
   \footnotesize
   \caption[WEPP-estimated soil loss with different temporal resolutions of
-CLIGEN and breakpoint rainfall data]{WEPP-estimated soil loss (t/ha) with
-different temporal resolutions of CLIGEN and breakpoint rainfall data}
+CLIGEN and
+breakpoint rainfall data]{WEPP-estimated soil loss (t/ha) with different
+temporal resolutions of CLIGEN and breakpoint rainfall data}
   \label{tab:DifferentTemporalScalesOfRainfallDataOnWEPPSoilLossEstimation}
     \begin{tabular}{lllllll}
     \toprule
@@ -486,8 +503,9 @@ from the result with the 15-min data. $+/-$ indicates a increase or decrease.}\\
   \centering
   \footnotesize
   \caption[EUROSEM-estimated soil loss with different temporal resolutions of
-CLIGEN and breakpoint rainfall data]{EUROSEM-estimated soil loss (t/ha) with
-different temporal resolutions of CLIGEN and breakpoint rainfall data}
+CLIGEN
+and breakpoint rainfall data]{EUROSEM-estimated soil loss (t/ha) with different
+temporal resolutions of CLIGEN and breakpoint rainfall data}
   \label{tab:DifferentTemporalScalesOfRainfallDataOnEUROSEMSoilLoss}
     \begin{tabular}{lllllll}
     \toprule
@@ -524,11 +542,14 @@ CLIGEN data (Table
 \ref{tab:DifferentTemporalScalesOfRainfallDataOnEUROSEMRunoffEstimation}).
 EUROSEM estimates increases in soil loss while estimating decreases in runoff
 when 30 and 60-min resolutions of CLIGEN data are used. Also, decreases in soil
-loss are estimated while increases in runoff are estimated with 5-min resolution
-of CLIGEN data. For breakpoint data, the effect of changes in temporal data
-resolution on soil loss rates is almost---except for the 30-min breakpoint data
-of ``July'' storm---consistent with the effect on runoff rates simulated by
-EUROSEM with breakpoint data.
+loss
+are estimated while increases in runoff are estimated with 5-min resolution of
+CLIGEN
+data. For breakpoint data, the effect of changes in temporal data resolution on
+soil
+loss rates is almost---except for the 30-min breakpoint data of ``July''
+storm---consistent with the effect on runoff rates simulated by EUROSEM with
+breakpoint data.
 
 The changes (\%) from the mean values of runoff and soil loss simulated by WEPP
 and EUROSEM are also plotted in Figures \ref{fig:wepp_roff_sloss_temp_scale} and
@@ -562,13 +583,16 @@ runoff and soil loss}
 \end{figure}
 
 Changes of temporal resolutions of CLIGEN rainfall data are inversely
-proportional to WEPP-simulated runoff and erosion rates (Figure
+proportional
+to WEPP-simulated runoff and erosion rates (Figure
 \ref{fig:wepp_roff_sloss_temp_scale}). CLIGEN data with higher temporal
 resolutions (i.e.\ 1-min and 5-min resolutions) resulted in greater
-WEPP-simulated runoff and erosion rate than CLIGEN data with lower temporal
-resolutions (30-min and 60-min resolutions). For breakpoint data, temporal data
-resolutions have a varying effects on WEPP-simulated runoff and erosion rates
-and do not show clear correlations with the simulation result (Figure
+WEPP-simulated
+runoff and erosion rate than CLIGEN data with lower temporal resolutions (30-min
+and 60-min resolutions). For breakpoint data, temporal data resolutions have a
+varying
+effects on WEPP-simulated runoff and erosion rates and do not show clear
+correlations with the simulation result (Figure
 \ref{fig:wepp_roff_sloss_temp_scale}).
 
 Temporal data resolutions also have certain effects on runoff and erosion rates
@@ -732,13 +756,14 @@ for estimating the spatial temporal distribution of runoff and soil loss
 \citep{morgan1998-europeansoilerosion}.
 
 Therefore, when temporal resolution of rainfall data changes from 15-min to
-5-min, the slope surface condition, which EUROSEM simulates, seems to shift from
-the third condition to the second condition from the list above. Then, EUROSEM
+5-min,
+the slope surface condition, which EUROSEM simulates, seems to shift from the
+third condition to the second condition from the list above. Then, EUROSEM
 changes its simulation mode so that interrill erosion becomes accounted for.
 This explains why the relatively large interrill erosion was estimated for 1 and
 5-min resolutions. Thus, it could be suggested that the transition of the
-simulation mode occurs somewhere between 5-min and 15-min of temporal
-resolutions.
+simulation
+mode occurs somewhere between 5-min and 15-min of temporal resolutions.
 
 Yet, reasons for the disagreement between runoff and soil loss rate can
 not be explained by this ``mode-shifting'' as well as the reduction of net
@@ -799,28 +824,31 @@ are almost 30 times greater at most than those with 60-min data. This certainly
 is problematic as far as the effect of temporal resolutions of rainfall data on
 erosion rates is concerned.
 
-Also, when erosion rates estimated with 15-min and 60-min breakpoint data are
-compared, erosion rates with 15-min data is over 5 times greater at most than
-those with 60-min data. Again, a greater difference is observed when erosion
-rates estimated with CLIGEN data for the same temporal resolutions are compared.
-Erosion rates with 15-min CLIGEN data are 7.5 times greater at most than those
-with 60-min CLIGEN data.
+Also, when erosion rates estimated with 15-min and
+60-min breakpoint data are compared, erosion rates with 15-min data is over 5
+times greater at most than those with 60-min data. Again, a greater difference
+is observed when erosion rates estimated with CLIGEN data for the same temporal
+resolutions are compared. Erosion rates with 15-min CLIGEN data are 7.5 times
+greater
+at most than those with 60-min CLIGEN data.
 
 Therefore, breakpoint data generally produce smaller changes in erosion rates
 when temporal resolutions are changed. This however is not conclusive by any
-means because the responses of two models (i.e.\ WEPP and EUROSEM) are rather
+means
+because the responses of two models (i.e.\ WEPP and EUROSEM) are rather
 contradictory for both CLIGEN and breakpoint data in terms of their trends of
 increases or decreases.
 
 \paragraph{Data aggregation and rainfall intensity} The intensity information
 of rainfall data is heavily dependent on how they are aggregated. When rainfall
-data such as tipping-bucket data are aggregated into certain time-steps, they
-are usually stored in a digitized data format. It means that the averaged
-rainfall intensity is dependent on the start time as well as the time-steps
-which are also temporal resolutions. Time-steps and start time are important as
-the rainfall intensity is averaged over the given time-steps and start point
-when they are archived. This method, however, unintentionally discards rainfall
-intensity information by averaging rainfall peaks over the given time step.
+data such as tipping-bucket data are aggregated into certain time steps, they
+are usually stored in a digitized data format. It means the averaged rainfall
+intensity is dependent on the start time as well as time-steps which is temporal
+resolutions. Time-steps and start time are important as the rainfall intensity
+is
+averaged over the given time-steps and start point when they are archived. This
+method, however, unintentionally discards rainfall intensity information by
+averaging rainfall peaks over the given time step.
 
 The effect of discarding rainfall intensity information has been clearly shown
 when both rainfall events---i.e.\ 4 July 2000 and 11 October 2000---were
@@ -830,8 +858,9 @@ because intensities were averaged out over the longer time-steps (cf. Figures
 \ref{fig:dr_storm-e} and \ref{fig:pl_storm-e}).
 
 \paragraph{Effect of temporal resolution changes} Two effects can be noted when
-temporal resolution increases. One is that it lowers the actual instantaneous
-peak intensity and average intensity of rainfall storms. The other is that it
+temporal resolution increases. One is that it lowers of the actual instantaneous
+peak
+intensity and average intensity of rainfall storms. The other is that it
 changes the location of peak intensities during storm durations.
 
 Lowering the average intensity means a reduced average power of erodibility
@@ -845,8 +874,9 @@ decreases. Some of these responses are observed in this chapter (see Figures
 
 Shifting the location of the peak rainfall intensity can occur when temporal
 resolutions are changed regardless of increase or decrease. Also, the placement
-of the peak intensity does not seem to be related to the direction of changes
-(see Table \ref{tab:CLIGENWEPPInputFileParameters} and Figures
+of
+the peak intensity do not seem to be related to the direction of changes (see
+Table \ref{tab:CLIGENWEPPInputFileParameters} and Figures
 \ref{fig:dr_storm}--\ref{fig:pl_storm}). However, When the location of the peak
 intensity changes, it too changes rainfall shapes (or patterns) which may be
 closely related to the timing of the runoff generations and amount of the runoff
@@ -856,9 +886,10 @@ temporal resolutions of rainfall data affect the shape of rainfall storm.
 
 All these changes---lowering of intensities and shifting the location of peak
 intensities---will of course occur simultaneously when the temporal resolution
-of rainfall data is altered. Thus, what we observed in this chapter may well be
-the end product from compound effects of these two changes. Effects of lowering
-of intensities and shifting the location of peak intensities on runoff and
+of
+rainfall data is altered. Thus, what we observed in this chapter may well be the
+end product from compound effects of these two changes. Effects of lowering of
+intensities and shifting the location of peak intensities on runoff and
 soil loss rates therefore need to be investigated separately to be understood
 further.
 
@@ -867,33 +898,35 @@ intensities within a storm could be termed as Within-Storm Intensity Variation
 (WSIV) for convenience. WSIV may include the magnitude and number of peak
 intensities and average intensity of a storm. As suggested previously, WSIV is
 related to temporal resolutions of rainfall data as well as types of storms
-(e.g. convective and frontal). WSIV changes when rainfall intensities are
-decreased (or increased) by increasing (or decreasing) temporal resolutions of
-rainfall data.
+(e.g.
+convective and frontal). WSIV changes when rainfall intensities are decreased
+(or increased) by increasing (or decreasing) temporal resolutions of rainfall
+data.
 
 \citet{wainwright2002-1271} carried out numerical experiments to test if
 temporal variability of rainfall intensity during a storm can cause the decrease
 in runoff coefficients with increasing slop length. They found that variability
 of temporal resolution in rainfall is a significant factor in controlling the
 resolution-dependency of runoff coefficients. Also, overland-flow models which
-use mean rainfall intensities may notably under-predict the runoff.
+use
+mean rainfall intensities may notably under-predict the runoff.
 High rainfall intensity is closely related to high rainfall kinetic energy,
 which controls runoff generation and soil loss. Yet the way of archiving and
 aggregating long term rainfall data into a manageable data format may let
 important rainfall intensity details to be missed out as shown in this chapter.
 
-\citet{boardman1987-36} also pointed out that short period high intensities
-are probably important for soil erosion processes. However, short duration
-rainfall intensities are subject to a large uncertainty, especially when they
-are produced during extreme convective rainfall events \citep{garcia2001-675}.
-In the study by \citet{garcia2001-675}, 408 rainfall events have been
-statistically analysed for the period 1925-1992 in Alicante, Spain. Maximum
-intensities for durations ranging from 2 minutes up to 240 minutes were
-extracted from the series \citep{garcia2001-675}. Considerable differences are
-found in the behaviour of the empirical functions for short durations (t < 10
-minutes) \citep{garcia2001-675}. The energy of individual storms could only be
-predicted with limited accuracy because of natural variations in rainfall
-characteristics \citep{vandijk2002-1}.
+\citet{boardman1987-36} also pointed out that
+short period high intensities probably important for soil erosion processes.
+However, short duration rainfall intensities are subject to a large uncertainty,
+especially when they are produced during extreme convective rainfall events
+\citep{garcia2001-675}. In the study by \citet{garcia2001-675}, 408 rainfall
+events have been statistically analysed for the period 1925-1992 in Alicante,
+Spain. Maximum intensities for durations ranging from 2 minutes up to 240
+minutes were extracted from the series \citep{garcia2001-675}. Considerable
+differences are found in the behaviour of the empirical functions for short
+durations (t < 10 minutes) \citep{garcia2001-675}. The energy of individual
+storms could only be predicted with limited accuracy because of natural
+variations in rainfall characteristics \citep{vandijk2002-1}.
 
 % For future soil erosion studies, one needs to know about future rainfall
 % intensity. But without high resolution rainfall data, one may predict future
@@ -910,8 +943,7 @@ WSIVs including high instantaneous intensity peaks. However, high resolution
 data even as sub-hourly data are very rarely available.
 As \citet{allott2002-73} pointed out, rainfall data with high resolutions permit
 a more detailed assessment of the storm structure and evolution of localised
-intense storms, but storms are rarely stored by a sub-hourly temporal
-resolution.
+intense storms, but storms are rarely stored by sub-hourly.
 
 Even though storms are often originally recorded as sub-hourly data by
 tipping-bucket gauges, the original records are rarely kept as they are.
@@ -976,7 +1008,7 @@ rainfall than CLIGEN data, it still has some problems. The temporal resolution
 of breakpoint data limits their closeness to real rainfall since rainfall
 intensity is averaged between starting and ending time of breakpoints.
 
-Lastly, it is important to note again that an erosion model should be able
+Lastly, it is important to note again that a erosion model should be able
 to take high resolution data such as 1-min breakpoint data. Once this
 limitation is resolved, other sub-hourly data resolutions may also become
 available for the similar investigation conducted in this chapter. This, in
@@ -988,20 +1020,20 @@ turn, extend the findings presented in this research.
 This set of investigations evidently showed that temporal resolution of rainfall
 data have certain impacts on runoff and soil loss estimations. However, it could
 not answer if rainfall data with a high resolution always give better simulation
-results than rainfall data with a low resolution. This is because there are no
-measured runoff and soil loss rates to compare. Despite the absence of the
+results than rainfall data with a low resolution. This is because there are
+no measured runoff and soil loss rates to compare. Despite the absence of the
 measured data to be compared with, this chapter identifies the close
 relationship between temporal resolutions and WSIVs of rainfall data. When
 temporal resolutions of rainfall data increase (or decrease), rainfall
 intensities are decreased (or increased). WSIVs are also changed when rainfall
 intensities of storms change.
 
-If there are no available high resolution data but only low resolution data
-(e.g. 60-min data), we will never know what the intensity was like during those
-60 minutes because the disaggregation of rainfall data is not plausible. Also,
-simulation results can be up to about 30 times different from the ``original
-results'' if these low resolution data are used. This magnitude is so great that
-it might mean from almost no erosion to disastrous events.
+If there are no available high resolution data but only low resolution
+data (e.g. 60-min data), we will never know what the intensity was like
+during those 60 minutes because the disaggregation of rainfall data is no
+plausible. Also, simulation results can be up to about 30 times different from
+the ``original results'' if these low resolution data are used. This magnitude
+is so great that it might mean from almost no erosion to disastrous events.
 
 %What temporal scaled rainfall data should I suppose to use? and why?
 %What can we expect to happen if we use other temporal data?

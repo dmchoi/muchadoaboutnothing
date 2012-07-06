@@ -166,7 +166,7 @@ To predict soil erosion rates under future climate, the following is required:
 \begin{enumerate}
   \item Long-term rainfall data, preferably breakpoint data, with adequately
 high temporal resolution---high enough to capture details of Within-Storm
-Intensity Variations (WSIVs) for the past and future
+Intensity Variations (WSIVs)
   \item Quantity (\%) of Within-Storm Gaps (WSGs) for each rainfall event
 %*** how detailed? i.e. minimum size of no-rain gap which must be known?
   \item Information about Within-Storm Intensity Patterns (WSIPs) for each

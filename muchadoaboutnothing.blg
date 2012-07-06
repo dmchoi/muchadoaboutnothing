@@ -3,6 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: muchadoaboutnothing.aux
 A level-1 auxiliary file: ./tex/dummy.aux
 A level-1 auxiliary file: ./tex/abstract.aux
+A level-1 auxiliary file: ./tex/acknowledgement.aux
 A level-1 auxiliary file: ./tex/dedication.aux
 A level-1 auxiliary file: ./tex/background_chapter.aux
 A level-1 auxiliary file: ./tex/objective_chapter.aux
@@ -28,7 +29,7 @@ Warning--can't use both author and editor fields in ipcc2007-impact
 Warning--can't use both author and editor fields in ipcc2007-physical
 You've used 170 entries,
             3609 wiz_defined-function locations,
-            1654 strings with 34921 characters,
+            1655 strings with 34946 characters,
 and the built_in function-call counts, 120256 in all, are:
 = -- 10613
 > -- 3977
