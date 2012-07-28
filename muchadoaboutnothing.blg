@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2011)
+This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: muchadoaboutnothing.aux
 A level-1 auxiliary file: ./tex/dummy.aux
@@ -23,49 +23,49 @@ A level-1 auxiliary file: ./tex/appendixD.aux
 Database file #1: DPhil_refs.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=5001) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Warning--can't use both author and editor fields in ipcc2007-impact
 Warning--can't use both author and editor fields in ipcc2007-physical
-You've used 170 entries,
+You've used 172 entries,
             3609 wiz_defined-function locations,
-            1655 strings with 34946 characters,
-and the built_in function-call counts, 120256 in all, are:
-= -- 10613
-> -- 3977
-< -- 132
-+ -- 1589
-- -- 1349
-* -- 9058
-:= -- 17492
-add.period$ -- 365
-call.type$ -- 170
-change.case$ -- 1313
-chr.to.int$ -- 183
-cite$ -- 172
-duplicate$ -- 8250
-empty$ -- 10253
-format.name$ -- 1854
-if$ -- 26400
+            1666 strings with 35385 characters,
+and the built_in function-call counts, 121758 in all, are:
+= -- 10746
+> -- 4045
+< -- 133
++ -- 1615
+- -- 1373
+* -- 9175
+:= -- 17716
+add.period$ -- 370
+call.type$ -- 172
+change.case$ -- 1332
+chr.to.int$ -- 185
+cite$ -- 174
+duplicate$ -- 8347
+empty$ -- 10364
+format.name$ -- 1886
+if$ -- 26718
 int.to.chr$ -- 9
 int.to.str$ -- 1
-missing$ -- 1629
-newline$ -- 694
-num.names$ -- 719
-pop$ -- 3510
+missing$ -- 1650
+newline$ -- 703
+num.names$ -- 727
+pop$ -- 3560
 preamble$ -- 1
-purify$ -- 1120
+purify$ -- 1136
 quote$ -- 0
-skip$ -- 5205
+skip$ -- 5265
 stack$ -- 0
-substring$ -- 4955
-swap$ -- 4982
+substring$ -- 5002
+swap$ -- 5040
 text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1470
+type$ -- 1488
 warning$ -- 2
-while$ -- 691
+while$ -- 699
 width$ -- 0
-write$ -- 2072
+write$ -- 2098
 (There were 2 warnings)

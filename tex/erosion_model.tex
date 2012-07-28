@@ -268,7 +268,7 @@ USLE, there is no direct consideration of runoff even though erosion depends on
 sediment being discharged with flow, which varies with runoff and sediment
 concentration. \citet{kinnell2005-851} concludes that the failure to consider
 runoff as a primary factor in the USLE is the factor that causes the USLE to
-produce the erroneous prediction of event erosion, which in turn leads to
+produce the erroneous prediction of event erosion. This, in turn, leads to
 systematic errors in predicting average annual soil loss.
 
 Since the introduction of the USLE to estimate soil loss, it has become the
@@ -471,9 +471,9 @@ comparison to sub-daily data at short time intervals. In addition, the two types
 of data are normally stored in different formats. It is therefore useful to
 treat the two types of precipitation data separately.
 
-CLIGEN (version 4.2) was previously released with WEPP version 2001.3. However,
+CLIGEN (v4.2) was previously released with WEPP version 2001.3. However,
 this version of CLIGEN had a major coding error and was modified substantially
-\citep{yu2000-301}. CLIGEN (version 4.2) computed a ratio $\omega = R_{0.5}/R$,
+\citep{yu2000-301}. CLIGEN (v4.2) computed a ratio $\omega = R_{0.5}/R$,
 where both $R_{0.5}$ and $R$ were rainfall depth (originally in inches).
 $R_{0.5}$ had been converted from inches into millimetres (mm), while $R$ was
 not \citep{yu2000-301}. The CLIGEN code was thus changed to correct this error.
@@ -487,13 +487,13 @@ coefficient of variation for the ratio of the maximum 30-min rainfall depth to
 daily rainfall required in CLIGEN were estimated using the break-point rainfall
 data \citep{yu2000-301}.
 
-This error in the CLIGEN code has certainly affected the results from the
-earlier studies, which employed the previous versions of WEPP and CLIGEN to
-estimate soil loss
+This error in the programming code of the previous CLIGENs (up to v4.2) has
+certainly affected the results from the earlier studies, which employed the
+previous versions of WEPP and CLIGEN to estimate soil loss
 \citep{truman1993-405,zhang1995-1069,zhang1995-1079,zhang1996-855,
 baffaut1996-447,laflen1997-96,baffaut1998-756,favis-mortlock1999-329}.
 
-The version of CLIGEN at the time of writing is version
+The version of CLIGEN at the time of writing was version
 5.22564\footnote{http://horizon.nserl.purdue.edu/Cligen/, April 2006}. This is
 the version used in this research. However, this version is not the current
 version any longer. The current version of CLIGEN is

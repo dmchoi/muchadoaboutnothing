@@ -85,13 +85,13 @@ Three temporally and spatially different observational rainfall datasets were
 acquired from the site (Table
 \ref{tab:PrecipitationDataUsedForCurrentRainfallTrendInvestigation}): monthly,
 daily and event data.
-Details of these data sets are described here because they are used at a certain
+Details of these datasets are described here because they are used at a certain
 stage of current research. For example, monthly grid and daily station data are
 used for the investigation on the trend of rainfall intensity in the
 area---included in Appendix \ref{sec:RainfallCharacteristicsOfTheStudyArea}.
-However, for the weather inputs of erosion model simulations, only event data
-set is used. Event rainfall data set is used either as original rainfall data or
-as parametrised rainfall data for erosion estimations.
+However, for the weather inputs of erosion model simulations, only event
+rainfall datasets are used. Event rainfall datasets are used either as original
+rainfall data or as parametrised rainfall data for erosion estimations.
 
 Observed monthly 0.5\textdegree$\times$0.5\textdegree\ grid rainfall data (CRU
 TS 2.0---0.5\textdegree$\times$0.5\textdegree\ Gridded Monthly Climate Data for
@@ -366,8 +366,8 @@ metres, and width is 50 metres for all the slopes.
 
 Daily temperature records for 1990--2000 were obtained from Horseye Station
 (NGR: TQ627083) (Figure \ref{fig:DailyRainfallDataSite}). The distance of this
-station from the study site is about 25 km. This data set was used in this study
-since no other data set was available from the region at that time. Average
+station from the study site is about 25 km. This dataset was used in this study
+since no other dataset was available from the region at that time. Average
 annual maximum and minimum temperature are 14.9\textcelsius\ (SD:
 5.5\textcelsius)\ and 6.6\textcelsius\ (SD: 4.9\textcelsius), respectively.
 
@@ -583,29 +583,25 @@ Three soil erosion models, WEPP (Water Erosion Prediction Project), EUROSEM
 (EURopean Soil Erosion Model), and RillGrow were used to simulate runoff and
 erosion rate under various rainfall intensity conditions. Effects of temporal
 resolution of rainfall data on runoff and soil loss generations are
-investigated
-to identify requirements of rainfall intensity information for erosion
-simulations. Two extreme rainfall events; one with highest rainfall intensity
-and the other with highest rainfall amount, were selected from the
+investigated to identify requirements of rainfall intensity information for
+erosion simulations. Two extreme rainfall events; one with highest rainfall
+intensity and the other with highest rainfall amount, were selected from the
 tipping-bucket rainfall data. Tipping-bucket data for the events are then
 aggregated into a range of different temporal ``resolution". This is done by
-the
-discretization of tipping-bucket data into rainfall data that have a range of
-time-steps (i.e. 1, 5, 15, 30 and 60min).
-Runoff and soil loss rates were simulated using three models with these
-rainfall
-input data. An additional rainfall event, which has both wet and dry phases
-during the storm period, was selected. Two rainfall input data were prepared
-from this event data; one without any alteration and the other that is
-aggregated into a continuous storm by removing dry phases during the storm.
-Runoff and soil loss rates were simulated using three models with these two
-additional rainfall inputs. This was done to investigate effects of the dry
-phase within a storm on soil erosion. Impacts of various rainfall intensities
-patterns on soil erosion were also studied using rainfall data from a designed
-storm. Four different storms that have increasing, increasing-decreasing,
-decreasing and constant rainfall intensity were prepared for erosion
-simulations. Rainfall amounts for all four storms were kept the same while the
-intensities vary.
+the discretization of tipping-bucket data into rainfall data that have a range
+of time-steps (i.e. 1, 5, 15, 30 and 60min). Runoff and soil loss rates were
+simulated using three models with these rainfall input data. An additional
+rainfall event, which has both wet and dry phases during the storm period, was
+selected. Two rainfall input data were prepared from this event data; one
+without any alteration and the other that is aggregated into a continuous storm
+by removing dry phases during the storm. Runoff and soil loss rates were
+simulated using three models with these two additional rainfall inputs. This was
+done to investigate effects of the dry phase within a storm on soil erosion.
+Impacts of various rainfall intensities patterns on soil erosion were also
+studied using rainfall data from a designed storm. Four different storms that
+have increasing, increasing-decreasing, decreasing and constant rainfall
+intensity were prepared for erosion simulations. Rainfall amounts for all four
+storms were kept the same while the intensities vary.
 
 %To understand observed trends of rainfall intensity changes, three observed
 %precipitation data (i.e.\ Monthly 0.5\textdegree\ grid data, daily station data
@@ -630,12 +626,13 @@ intensities vary.
 % rainfall amount and intensity.
 %
 Likely future soil erosion rates were estimated only using WEPP, as the other
-two models are not designed for continuous long term simulations. A hundred
-year-long weather is generated by the WEPP's climate component called CLIGEN
-(CLImate GENerator) as a control climate dataset. Rainfall intensity was
-then increased proportionally from the control data by changing rainfall
-duration, keeping rainfall amount constant. Runoff and erosion rates were
-simulated using these climate data.
+two models are not designed for continuous long-term simulations. A 30-year-long
+weather was generated by the WEPP's climate component called CLIGEN
+(CLImate GENerator) as a control climate dataset. Rainfall intensity was then
+increased or decreased proportionally from the control data by changing rainfall
+intensity values (i.e. {MX. 5P}). Rainfall amount was kept constant. Runoff and
+erosion rates were simulated and compared with the runoff and erosion rates
+simulated with the control dataset.
 
 \subsection{Statistical Methods}
 \label{StatisticalMethodsForTrendInvestigation}
@@ -701,7 +698,7 @@ upward, downward or unchanged).
 %\label{eq:Tau}
 % T=\sum^{N}_{i=1}n_i
 %\end{equation}
-%where, $N$ is the total number of element in the data set (no. of years).
+%where, $N$ is the total number of element in the dataset (no. of years).
 %$n_i$ is the number of preceding element that is larger than element $x_i$
 %(i=1,2,\ldots $N$).
 %When $N$ is greater than 10, the distribution function of $T$ (test

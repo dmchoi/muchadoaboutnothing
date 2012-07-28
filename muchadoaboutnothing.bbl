@@ -1,4 +1,4 @@
-\begin{thebibliography}{170}
+\begin{thebibliography}{172}
 \newcommand{\enquote}[1]{`#1'}
 \providecommand{\natexlab}[1]{#1}
 
@@ -761,6 +761,11 @@
   precipitation}.
 \newblock \emph{International Journal of Climatology} \textbf{20}(4):347--364.
 
+\bibitem[{Osborn and Maraun(2008)}]{osborn2008-changing}
+\textbf{Osborn, T.~J. and Maraun, D.} (2008) \enquote{Changing intensity of
+  rainfall over britain}.
+\newblock Tech. rep., Climatic Research Unit Information Sheet No. 15.
+
 \bibitem[{Parsons and Gadian(2000)}]{parsons2000-723}
 \textbf{Parsons, A.~J. and Gadian, A.~M.} (2000) \enquote{Uncertainty in
   modelling the detachment of soil by rainfall}.
@@ -948,11 +953,19 @@
   temporal variations in rainfall on scale dependency in runoff coefficients}.
 \newblock \emph{Water Resources Research} \textbf{38}(12):art no--1271.
 
+\bibitem[{Wainwright \emph{et~al.}(2008)Wainwright, Parsons, M\"uller, Brazier,
+  Powell and Fenti}]{wainwright2008-813}
+\textbf{Wainwright, J., Parsons, A.~J., M\"uller, E.~N., Brazier, R.~E.,
+  Powell, D.~M. and Fenti, B.} (2008) \enquote{{A transport-distance approach
+  to scaling erosion rates: I. Background and model development}}.
+\newblock \emph{Earth Surface Processes and Landforms} \textbf{33}(5):813--826.
+\newblock Available from: \url{http://dx.doi.org/10.1002/esp.1624}.
+
 \bibitem[{Wakiyama \emph{et~al.}(2010)Wakiyama, Onda, Nanko, Mizugaki, Kim,
   Kitahara and Ono}]{wakiyama2010-993}
 \textbf{Wakiyama, Y., Onda, Y., Nanko, K., Mizugaki, S., Kim, Y., Kitahara, H.
-  and Ono, H.} (2010) \enquote{Estimation of temporal variation in splash
-  detachment in two japanese cypress plantations of contrasting age}.
+  and Ono, H.} (2010) \enquote{{Estimation of temporal variation in splash
+  detachment in two Japanese cypress plantations of contrasting age}}.
 \newblock \emph{Earth Surf. Process. Landforms} \textbf{35}(9):993--1005.
 \newblock Available from: \url{http://dx.doi.org/10.1002/esp.1844}.
 

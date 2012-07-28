@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.18)  6 JUL 2012 18:36
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=latex 2012.7.27)  28 JUL 2012 23:06
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -6,16 +6,18 @@ entering extended mode
 **muchadoaboutnothing.tex
 (./muchadoaboutnothing.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, pi
-nyin, ukenglish, usenglishmax, loaded.
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, af
+rikaans, armenian, pinyin, coptic, ukenglish, usenglishmax, esperanto, estonian
+, friulan, icelandic, indonesian, interlingua, irish, kurmanji, romanian, roman
+sh, serbian, serbianc, slovenian, turkish, uppersorbian, welsh, loaded.
 (./oucethesis.cls
 Document Class: oucethesis 09/02/2006 v1.0 OUCE thesis class
-(/usr/local/texlive/2011/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/book.cls
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/bk12.clo
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -42,7 +44,7 @@ File: MinionPro-FontDef.sty 2007/02/01 v2.2 font definition macros
 (/home/dchoi/texmf/tex/latex/MinionPro/otfontdef.sty
 Package: otfontdef 2005/06/04 v0.1e OpenType font definition
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 ))
@@ -52,7 +54,7 @@ ize=12.0pt on input line 52.
 \Mn@config@cnt=\count88
 \Mn@fontdimen=\dimen104
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -67,7 +69,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ts1enc.def
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -133,27 +135,27 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/mnsymbol/MnSymbol.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/mnsymbol/MnSymbol.sty
 Package: MnSymbol 2007/01/21 v1.4 support for the MnSymbol font
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen105
 ))
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen106
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count89
@@ -194,7 +196,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/eufrak.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/eufrak.sty
 Package: eufrak 2009/06/22 v3.00 Euler Fraktur fonts
 LaTeX Font Info:    Overwriting math alphabet `\EuFrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 39.
@@ -393,17 +395,17 @@ File: MinionPro-FontDef.sty 2007/02/01 v2.2 font definition macros
 (/home/dchoi/texmf/tex/latex/MinionPro/tabfigures.sty
 Package: tabfigures 2007/05/07 v0.1d Tabular figures (patches)
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/inconsolata/inconsolata.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/inconsolata/inconsolata.sty
 Package: inconsolata 2009/11/28 Inconsolata
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip46
 \bibsep=\skip47
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count103
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/lineno/lineno.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count104
 \output=\toks20
@@ -421,40 +423,40 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframebox=\box28
 LaTeX Info: Redefining \\ on input line 3056.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is not detected.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: dvips.def on input line 91.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/dvips.def
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/dvips.def
 File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen119
 \Gin@req@width=\dimen120
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/02/28 v6.82p Hypertext links for LaTeX
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -484,7 +486,7 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
@@ -492,22 +494,22 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen121
 \Hy@linkcounter=\count111
 \Hy@pagecounter=\count112
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/02/28 v6.82p Hyperref: PDFDocEncoding definition (HO)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count113
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 3941.
@@ -520,7 +522,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4300.
 \c@Hy@tempcnt=\count114
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
@@ -544,11 +546,11 @@ LaTeX Info: Redefining \pageref on input line 5847.
 
 Package hyperref Message: Driver (default): hdvips.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hdvips.def
-File: hdvips.def 2012/02/28 v6.82p Hyperref driver for dvips
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2012/05/13 v6.82q Hyperref driver for dvips
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/pdfmark.def
-File: pdfmark.def 2012/02/28 v6.82p Hyperref definitions for pdfmark specials
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2012/05/13 v6.82q Hyperref definitions for pdfmark specials
 
 
 Package hyperref Warning: You have enabled option `breaklinks'.
@@ -561,20 +563,20 @@ Package hyperref Warning: You have enabled option `breaklinks'.
 \pdf@defaulttoks=\toks23
 \Fld@listcount=\count119
 \c@bookmark@seq@number=\count120
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip48
 ))
-(/usr/local/texlive/2011/texmf-dist/tex/latex/breakurl/breakurl.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/breakurl/breakurl.sty
 Package: breakurl 2009/01/24 v1.30 Breakable hyperref URLs
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 \XKV@toks=\toks24
 \XKV@tempa@toks=\toks25
 \XKV@depth=\count121
@@ -582,10 +584,10 @@ File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
 ))
 \burl@toks=\toks26
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1enc.def
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 )
@@ -599,10 +601,10 @@ File: T1MinionPro-OsF.fd 2005/01/23 v2.0 font definitions for T1/MinionPro-OsF.
 (/home/dchoi/texmf/tex/latex/MinionPro/MinionPro-FontDef.sty
 File: MinionPro-FontDef.sty 2007/02/01 v2.2 font definition macros
 )))
-(/usr/local/texlive/2011/texmf-dist/tex/latex/ucs/ucs.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/ucs/ucs.sty
 Package: ucs 2004/10/17 UCS: Unicode input support
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/ucs/data/uni-global.def
+(/usr/local/texlive/2012/texmf-dist/tex/latex/ucs/data/uni-global.def
 File: uni-global.def 2012/04/20 UCS: Unicode global data
 )
 \uc@secondtry=\count122
@@ -610,27 +612,27 @@ File: uni-global.def 2012/04/20 UCS: Unicode global data
 \uc@combtoksb=\toks28
 \uc@temptokena=\toks29
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks30
 \inpenc@posthook=\toks31
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/ucs/utf8x.def
+(/usr/local/texlive/2012/texmf-dist/tex/latex/ucs/utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
-(/usr/local/texlive/2011/texmf-dist/tex/latex/appendix/appendix.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@pps=\count123
 \c@@ppsavesec=\count124
 \c@@ppsaveapp=\count125
 )
-(/usr/local/texlive/2011/texmf-dist/tex/generic/babel/babel.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2008/07/08 v3.8m The Babel package
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/babel/english.ldf
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/english.ldf
 Language: english 2005/03/30 v3.3o English support from the babel system
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/babel/babel.def
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count126
 \U@D=\dimen124
@@ -639,18 +641,18 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/local/texlive/2011/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (/usr/local/texlive/2011/texmf-dist/tex/latex/titlesec/titletoc.sty
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen125
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/titlesec/titlesec.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box30
 \beforetitleunit=\skip49
@@ -662,10 +664,10 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen129
 \titlewidthfirst=\dimen130
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/rotating/rotating.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count127
@@ -674,7 +676,7 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box31
 \rot@mess@toks=\toks33
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/booktabs/booktabs.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen131
 \lightrulewidth=\dimen132
@@ -694,7 +696,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count131
 \@thisrulewidth=\dimen143
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/longtable.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip53
 \LTright=\skip54
@@ -712,10 +714,10 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count136
 \LT@p@ftn=\toks34
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/ms/ragged2e.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/ms/everysel.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \CenteringLeftskip=\skip57
@@ -733,10 +735,10 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip69
 \JustifyingParindent=\skip70
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2012/02/19 v3.2f Customizing captions (AR)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
 \captionmargin=\dimen145
 \captionmargin@=\dimen146
@@ -749,12 +751,12 @@ Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/ltcaption.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/floatrow/floatrow.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/floatrow/floatrow.sty
 Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
 \c@float@type=\count138
 \float@exts=\toks35
@@ -792,7 +794,7 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \LTright=\skip84
 \flrow@types=\toks37
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/subfig/subfig.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@KVtest=\count145
 \sf@farskip=\skip85
@@ -808,7 +810,7 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \sf@top=\skip88
 \sf@bottom=\skip89
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count152
 \Gm@cntv=\count153
@@ -823,13 +825,13 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen163
 \Gm@dimlist=\toks38
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/mdwtools/mdwlist.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/mdwtools/mdwlist.sty
 Package: mdwlist 1996/05/02 1.1 Various list-related things
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/paralist/paralist.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/paralist/paralist.sty
 Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
 \pltopsep=\skip90
 \plpartopsep=\skip91
@@ -837,12 +839,12 @@ Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
 \plparsep=\skip93
 \pl@lab=\toks39
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language6
+\langwohyphens=\language25
 LaTeX Info: Redefining \_ on input line 43.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip94
 \f@ncyO@elh=\skip95
 \f@ncyO@erh=\skip96
@@ -880,7 +882,7 @@ LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 6.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 6.
@@ -889,10 +891,10 @@ LaTeX Font Info:    ... okay on input line 6.
 \AtBeginShipoutBox=\box39
 Package hyperref Info: Link coloring OFF on input line 6.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count155
@@ -906,7 +908,7 @@ LaTeX Info: Redefining \nameref on input line 6.
 \openout3 = `muchadoaboutnothing.out'.
 
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/ucs/ucsencs.def
+(/usr/local/texlive/2012/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 ABD: EverySelectfont initializing macros
@@ -917,23 +919,23 @@ Package caption Info: float package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: dvips.def on input line 130.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/dvipsnam.def
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-(/usr/local/texlive/2011/texmf-dist/tex/latex/floatrow/fr-subfig.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/floatrow/fr-subfig.sty
 Package: fr-subfig 2007/12/24 v0.1g (beta) floatrow: additions for subfig
 \FBsc@max=\skip103
 \FBso@max=\skip104
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/floatrow/fr-longtable.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/floatrow/fr-longtable.sty
 Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 
 \flrow@LT@lasthead=\box40
@@ -1016,11 +1018,27 @@ ne 142.
 
 
 ])
+\openout2 = `./tex/dedication.aux'.
+
+ (./tex/dedication.tex
+LaTeX Font Info:    Try loading font information for T1+fi4 on input line 2.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/inconsolata/t1fi4.fd
+File: t1fi4.fd 2009/05/28 T1/Inconsolata
+)
+LaTeX Font Info:    Font shape `T1/fi4/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 2.
+ [3
+
+
+
+])
 LaTeX Font Info:    Font shape `T1/MinionPro-OsF/bx/n' in size <24.88> not avai
 lable
 (Font)              Font shape `T1/MinionPro-OsF/b/n' tried instead on input li
-ne 25.
- (./muchadoaboutnothing.toc
+ne 26.
+
+(./muchadoaboutnothing.toc
 LaTeX Font Info:    Font shape `T1/MinionPro-OsF/bx/n' in size <12> not availab
 le
 (Font)              Font shape `T1/MinionPro-OsF/b/n' tried instead on input li
@@ -1042,15 +1060,15 @@ OsF.
 
 (/home/dchoi/texmf/tex/latex/MinionPro/MinionPro-FontDef.sty
 File: MinionPro-FontDef.sty 2007/02/01 v2.2 font definition macros
-)) [3
+)) [4
 
 
-] [4] [5]
-[6])
+] [5] [6]
+[7])
 \tf@toc=\write4
 \openout4 = `muchadoaboutnothing.toc'.
 
- [7] (./muchadoaboutnothing.lof [8
+ [8] (./muchadoaboutnothing.lof [9
 
 ]
 LaTeX Font Info:    Try loading font information for TS1+MinionPro-OsF on input
@@ -1062,18 +1080,18 @@ F.
 
 (/home/dchoi/texmf/tex/latex/MinionPro/MinionPro-FontDef.sty
 File: MinionPro-FontDef.sty 2007/02/01 v2.2 font definition macros
-)) [9])
+)) [10])
 \tf@lof=\write5
 \openout5 = `muchadoaboutnothing.lof'.
 
- [10]
+ [11]
 (./muchadoaboutnothing.lot
 Underfull \hbox (badness 3407) in paragraph at lines 20--20
  [][][] [][]\T1/MinionPro-OsF/m/n/12 Simulated an-nual av-er-age soil loss on h
 ill-slopes us-ing CLIGEN- 
  []
 
-[11
+[12
 
 ])
 \tf@lot=\write6
@@ -1082,32 +1100,25 @@ ill-slopes us-ing CLIGEN-
 LaTeX Font Info:    Font shape `T1/MinionPro-OsF/bx/n' in size <8> not availabl
 e
 (Font)              Font shape `T1/MinionPro-OsF/b/n' tried instead on input li
-ne 39.
+ne 40.
 LaTeX Font Info:    Font shape `T1/MinionPro-OsF/bx/it' in size <8> not availab
 le
 (Font)              Font shape `T1/MinionPro-OsF/b/it' tried instead on input l
-ine 39.
- [12]
-\openout2 = `./tex/dedication.aux'.
-
- (./tex/dedication.tex [13
-
-
-])
+ine 40.
+ [13]
 LaTeX Font Info:    Font shape `T1/MinionPro-OsF/bx/sw' in size <14.4> not avai
 lable
 (Font)              Font shape `T1/MinionPro-OsF/b/sw' tried instead on input l
-ine 43.
+ine 42.
 LaTeX Font Info:    Font shape `T1/MinionPro-OsF/bx/sw' in size <20.74> not ava
 ilable
 (Font)              Font shape `T1/MinionPro-OsF/b/sw' tried instead on input l
-ine 43.
+ine 42.
 LaTeX Font Info:    Font shape `T1/MinionPro-OsF/bx/sc' in size <17.28> not ava
 ilable
 (Font)              Font shape `T1/MinionPro-OsF/b/sc' tried instead on input l
-ine 43.
+ine 42.
  [1
-
 
 
 ]
@@ -1136,7 +1147,7 @@ le
 LaTeX Font Info:    Font shape `T1/MinionPro-OsF/bx/it' in size <12> not availa
 ble
 (Font)              Font shape `T1/MinionPro-OsF/b/it' tried instead on input l
-ine 29.
+ine 31.
  [14] [15])
 (./tex/intensity_climate.tex [16] [17] [18] [19]) (./tex/erosion_model.tex
 [20]
@@ -1185,7 +1196,7 @@ Chapter 2.
 LaTeX Font Info:    Font shape `T1/MinionPro-OsF/m/sl' in size <12> not availab
 le
 (Font)              Font shape `T1/MinionPro-OsF/m/it' tried instead on input l
-ine 101.
+ine 95.
  [47] [48] [49] [50] [51] [52]) [53]
 \openout2 = `./tex/data_method_chapter.aux'.
 
@@ -1209,7 +1220,7 @@ File: ./img/eventdatasite.eps Graphic file (type eps)
 <./img/eventdatasite.eps> [58] [59]
 File: ./img/woodingdean.eps Graphic file (type eps)
  <./img/woodingdean.eps> [60] [61] [62]
-[63] [64] [65] [66]) [67] [68
+[63] [64] [65] [66] [67]) [68] [69
 
 
 ]
@@ -1217,15 +1228,15 @@ File: ./img/woodingdean.eps Graphic file (type eps)
 
  (./tex/improved_cligen_chapter.tex
 Chapter 4.
-[69
+[70
 
 
-] [70] [71]
+] [71] [72]
 File: ./img/cligen_annual_amount_series.eps Graphic file (type eps)
  <./img/cligen_annual_amount_series.eps>
 File: ./img/cligen_annual_duration_series.eps Graphic file (type eps)
 
-<./img/cligen_annual_duration_series.eps> [72] [73]
+<./img/cligen_annual_duration_series.eps> [73] [74]
 File: ./img/cligen_monthly_max_int_org.eps Graphic file (type eps)
 
 <./img/cligen_monthly_max_int_org.eps>
@@ -1233,17 +1244,17 @@ File: ./img/cligen_monthly_max_int_mod.eps Graphic file (type eps)
  <./img/cligen_monthly_max_int_mod.eps>
 File: ./img/cligen_monthly_max_int_by_month.eps Graphic file (type eps)
 
-<./img/cligen_monthly_max_int_by_month.eps> [74] [75] [76] [77]
+<./img/cligen_monthly_max_int_by_month.eps> [75] [76] [77] [78]
 File: ./img/calibration.eps Graphic file (type eps)
 
-<./img/calibration.eps> [78]
+<./img/calibration.eps> [79]
 File: ./img/cligen_annual_runoff_serise_old_original.eps Graphic file (type eps
 )
 
 <./img/cligen_annual_runoff_serise_old_original.eps>
 LaTeX Font Info:    Font shape `T1/Myriad-OsF/bx/n' in size <10> not available
 (Font)              Font shape `T1/Myriad-OsF/b/n' tried instead on input line 
-380.
+383.
 File: ./img/cligen_annual_runoff_serise_old_updated.eps Graphic file (type eps)
 
 
@@ -1269,24 +1280,24 @@ File: ./img/cligen_annual_sloss_serise_new_original.eps Graphic file (type eps)
 <./img/cligen_annual_sloss_serise_new_original.eps>
 File: ./img/cligen_annual_sloss_serise_new_updated.eps Graphic file (type eps)
 
-<./img/cligen_annual_sloss_serise_new_updated.eps> [79] [80] [81] [82]
+<./img/cligen_annual_sloss_serise_new_updated.eps> [80] [81] [82] [83]
 File: ./img/mean_p_cligen.eps Graphic file (type eps)
 
 <./img/mean_p_cligen.eps>
 File: ./img/mx5p_cligen.eps Graphic file (type eps)
- <./img/mx5p_cligen.eps> [83] [84] [85] [86] [87]
-[88]) [89]
+ <./img/mx5p_cligen.eps> [84] [85] [86] [87] [88]
+[89]) [90]
 \openout2 = `./tex/temporal_resolution_chapter.aux'.
 
  (./tex/temporal_resolution_chapter.tex
 Chapter 5.
-[90
+[91
 
 
 
-] [91] [92] [93]
+] [92] [93] [94]
 File: ./img/eurosem_cligen_workaround.eps Graphic file (type eps)
- <./img/eurosem_cligen_workaround.eps> [94] [95]
+ <./img/eurosem_cligen_workaround.eps> [95] [96]
 File: ./img/dr_storm_1min.eps Graphic file (type eps)
 
 <./img/dr_storm_1min.eps>
@@ -1310,8 +1321,8 @@ File: ./img/pl_storm_30min.eps Graphic file (type eps)
 
 <./img/pl_storm_30min.eps>
 File: ./img/pl_storm_60min.eps Graphic file (type eps)
- <./img/pl_storm_60min.eps> [96] [97] [98] [99]
-[100] [101] [102]
+ <./img/pl_storm_60min.eps> [97] [98] [99] [100]
+[101] [102] [103]
 File: ./img/wepp_runoff_temp_scale.eps Graphic file (type eps)
  <./img/wepp_runoff_temp_scale.eps>
 File: ./img/wepp_sloss_temp_scale.eps Graphic file (type eps)
@@ -1321,55 +1332,55 @@ File: ./img/eurosem_roff_temp_scale.eps Graphic file (type eps)
  <./img/eurosem_roff_temp_scale.eps>
 File: ./img/eurosem_sloss_temp_scale.eps Graphic file (type eps)
 
-<./img/eurosem_sloss_temp_scale.eps> [103] [104] [105] [106] [107] [108]
-[109] [110] [111]
-Underfull \hbox (badness 2772) in paragraph at lines 857--864
+<./img/eurosem_sloss_temp_scale.eps> [104] [105] [106] [107] [108] [109]
+[110] [111] [112] [113]
+Underfull \hbox (badness 2772) in paragraph at lines 859--866
 [][]\T1/MinionPro-OsF/m/n/12 All these changes---lowering of in-tens-it-ies and
  shift-ing the loc-a-tion of peak
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 857--864
+Underfull \hbox (badness 1466) in paragraph at lines 859--866
 \T1/MinionPro-OsF/m/n/12 intensities---will of course oc-cur sim-ul-tan-eously 
 when the tem-poral res-ol-u-tion of
  []
 
-[112] [113] [114] [115] [116]) [117]
+[114] [115] [116] [117] [118]) [119]
 \openout2 = `./tex/continue_discontinue_rainfall_chapter.aux'.
 
 
 (./tex/continue_discontinue_rainfall_chapter.tex
 Chapter 6.
-[118
+[120
 
 
 
-] [119]
+] [121]
 File: ./img/rainfall_discont_cont_input.eps Graphic file (type eps)
  <./img/rainfall_discont_cont_input.eps>
 File: ./img/rg2_input_continuous.eps Graphic file (type eps)
 
 <./img/rg2_input_continuous.eps>
 File: ./img/rg2_input_discontinuous.eps Graphic file (type eps)
- <./img/rg2_input_discontinuous.eps> [120]
-[121] [122] [123]
-Underfull \hbox (badness 2418) in paragraph at lines 247--253
+ <./img/rg2_input_discontinuous.eps> [122]
+[123] [124] [125]
+Underfull \hbox (badness 2418) in paragraph at lines 249--255
 [] []\T1/MinionPro-OsF/b/n/12 RillGrow without in-filt-ra-tion com-pon-ent[] []
 \T1/MinionPro-OsF/m/n/12 First of all, sim-u-la-tion res-ults from
  []
 
-[124] [125]
+[126] [127]
 File: ./img/intensity_continuous.eps Graphic file (type eps)
  <./img/intensity_continuous.eps>
 File: ./img/intensity_discontinuous.eps Graphic file (type eps)
 
-<./img/intensity_discontinuous.eps> [126] [127]) [128]
+<./img/intensity_discontinuous.eps> [128] [129]) [130]
 \openout2 = `./tex/intensity_pattern_chapter.aux'.
 
 
 (./tex/intensity_pattern_chapter.tex
 Chapter 7.
-[129
+[131
 
 
 
@@ -1379,7 +1390,7 @@ Underfull \hbox (badness 2326) in paragraph at lines 48--56
 WSIP---increasing, de-creas-ing,
  []
 
-[130]
+[132]
 File: ./img/wepp_input_increase_6hr.eps Graphic file (type eps)
  <./img/wepp_input_increase_6hr.eps>
 File: ./img/wepp_input_decrease_6hr.eps Graphic file (type eps)
@@ -1400,7 +1411,7 @@ File: ./img/wepp_input_constant_2hr.eps Graphic file (type eps)
 <./img/wepp_input_constant_2hr.eps>
 File: ./img/wepp_input_increase_decrease_2hr.eps Graphic file (type eps)
 
-<./img/wepp_input_increase_decrease_2hr.eps> [131]
+<./img/wepp_input_increase_decrease_2hr.eps> [133]
 File: ./img/rg2_input_increase.eps Graphic file (type eps)
 
 <./img/rg2_input_increase.eps>
@@ -1410,24 +1421,24 @@ File: ./img/rg2_input_control.eps Graphic file (type eps)
 
 <./img/rg2_input_control.eps>
 File: ./img/rg2_input_increase_decrease.eps Graphic file (type eps)
- <./img/rg2_input_increase_decrease.eps> [132]
+ <./img/rg2_input_increase_decrease.eps> [134]
 LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <12> not availa
 ble
 (Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
 ine 185.
 
-[133] [134] [135] [136]
+[135] [136] [137] [138]
 LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <8> not availab
 le
 (Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
 ine 454.
- [137] [138]
+ [139] [140]
 Underfull \hbox (badness 2326) in paragraph at lines 544--544
  |[][]\T1/MinionPro-OsF/b/n/17.28 Summary of Model Sim-u-la-tion Res-ult: Ef-fe
 ct of
  []
 
-[139] [140] [141] [142]) [143] [144
+[141] [142] [143] [144]) [145] [146
 
 
 ]
@@ -1435,45 +1446,45 @@ ct of
 
  (./tex/future_erosion_chapter.tex
 Chapter 8.
-[145
+[147
 
 
-] (./tex/building_intensity_scenarios.tex [146] [147] [148] [149]
+] (./tex/building_intensity_scenarios.tex [148] [149] [150] [151] [152]
 LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <10> not availa
 ble
 (Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
-ine 194.
- [150]
-[151] [152]
-File: ./img/future_erosion_flowchart.eps Graphic file (type eps)
- <./img/future_erosion_flowchart.eps>) [153] [154]
-File: ./img/wepp_respond_to_int_changes.eps Graphic file (type eps)
+ine 195.
 
-<./img/wepp_respond_to_int_changes.eps> [155] [156] [157] [158]
+[153] [154]
+File: ./img/future_erosion_flowchart.eps Graphic file (type eps)
+ <./img/future_erosion_flowchart.eps>) [155] [156]
+File: ./img/wepp_respond_to_int_changes_mod.eps Graphic file (type eps)
+
+<./img/wepp_respond_to_int_changes_mod.eps> [157] [158] [159] [160]
 File: ./img/annual_future_rainfall.eps Graphic file (type eps)
 
 <./img/annual_future_rainfall.eps>
 File: ./img/future_rainfall_duration_change.eps Graphic file (type eps)
  <./img/future_rainfall_duration_change.eps>
+[161]
 File: ./img/future_monthly_intensity_wet.eps Graphic file (type eps)
-
-<./img/future_monthly_intensity_wet.eps>
+ <./img/future_monthly_intensity_wet.eps>
 File: ./img/future_monthly_intensity_dry.eps Graphic file (type eps)
 
-<./img/future_monthly_intensity_dry.eps> [159]
+<./img/future_monthly_intensity_dry.eps>
 File: ./img/future_roff_change.eps Graphic file (type eps)
  <./img/future_roff_change.eps>
-[160] [161]
+[162] [163]
 File: ./img/future_sloss_change.eps Graphic file (type eps)
- <./img/future_sloss_change.eps> [162]
+ <./img/future_sloss_change.eps> [164]
 File: ./img/event_original.eps Graphic file (type eps)
  <./img/event_original.eps>
 File: ./img/event_dry_incr_5.eps Graphic file (type eps)
 
 <./img/event_dry_incr_5.eps>
 File: ./img/event_dry_incr_10.eps Graphic file (type eps)
- <./img/event_dry_incr_10.eps> [163] [164] [165])
-[166] [167
+ <./img/event_dry_incr_10.eps> [165] [166] [167]
+[168]) [169] [170
 
 
 ]
@@ -1481,21 +1492,16 @@ File: ./img/event_dry_incr_10.eps Graphic file (type eps)
 
  (./tex/conclusion_chapter.tex
 Chapter 9.
-[168
+[171
 
 
-] [169] [170] [171] [172] [173] [174]
+] [172] [173] [174] [175] [176] [177]
 Underfull \hbox (badness 1715) in paragraph at lines 275--277
 [][]\T1/MinionPro-OsF/m/n/12 More labor-at-ory ex-per-i-ments on ef-fects of Wi
 thin-Storm In-tens-ity Pat-terns
  []
 
-) [175] (./muchadoaboutnothing.bbl
-LaTeX Font Info:    Try loading font information for T1+fi4 on input line 27.
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/inconsolata/t1fi4.fd
-File: t1fi4.fd 2009/05/28 T1/Inconsolata
-)
+) [178] (./muchadoaboutnothing.bbl
 LaTeX Font Info:    Font shape `T1/fi4/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 27.
 
@@ -1504,7 +1510,7 @@ Underfull \hbox (badness 1708) in paragraph at lines 74--77
 lmes, P. J. and Wash-ing-ton, R. \T1/MinionPro-OsF/m/n/10.95 (2003)
  []
 
-[176
+[179
 
 
 ]
@@ -1513,40 +1519,40 @@ Underfull \hbox (badness 1960) in paragraph at lines 115--119
 /MinionPro-OsF/m/it/10.95 Earth Sur-face Pro-cesses and Land-forms
  []
 
-[177] [178] [179] [180] [181]
+[180] [181] [182] [183] [184]
 Underfull \hbox (badness 2608) in paragraph at lines 591--596
 [][]\T1/MinionPro-OsF/b/n/10.95 Mearns, L. O., Giorgi, F., Whetton, P., Pa-bon,
  D., Hulme, M. and Lal, M. \T1/MinionPro-OsF/m/n/10.95 (2003)
  []
 
-[182]
+[185]
 Underfull \hbox (badness 2376) in paragraph at lines 697--700
 [][]\T1/MinionPro-OsF/b/n/10.95 Nearing, M. A., Jetten, V., Baf-faut, C., Cerda
 n, O., Cou-tur-ier, A., Hernan-dez, M.,
  []
 
-[183]
+[186]
 Underfull \hbox (badness 3780) in paragraph at lines 745--749
 [][]\T1/MinionPro-OsF/b/n/10.95 Osborn, T. J. and Hulme, M. \T1/MinionPro-OsF/m
 /n/10.95 (1998) `Eval-u-ation of the European daily pre-cip-it-a-tion
  []
 
-[184] [185] [186]) [187]
+[187] [188] [189]) [190]
 LaTeX Font Info:    Font shape `T1/MinionPro-OsF/bx/sc' in size <20.74> not ava
 ilable
 (Font)              Font shape `T1/MinionPro-OsF/b/sc' tried instead on input l
-ine 98.
- [188
+ine 97.
+ [191
 
 ]
 \openout2 = `./tex/observed_rainfall_chapter.aux'.
 
  (./tex/observed_rainfall_chapter.tex
 Appendix A.
-[189
+[192
 
 
-] [190] [191]
+] [193] [194]
 File: ./img/grid_annual_amount.eps Graphic file (type eps)
  <./img/grid_annual_amount.eps>
 File: ./img/grid_DJF_trend.eps Graphic file (type eps)
@@ -1567,7 +1573,7 @@ File: TS1Myriad-OsF.fd 2004/10/15 font definitions for TS1/Myriad-OsF.
 )
 File: ./img/grid_average_monthly.eps Graphic file (type eps)
 
-<./img/grid_average_monthly.eps> [192] [193]
+<./img/grid_average_monthly.eps> [195] [196]
 File: ./img/grid_july_trend.eps Graphic file (type eps)
  <./img/grid_july_trend.eps>
 File: ./img/dr_rr.eps Graphic file (type eps)
@@ -1594,7 +1600,7 @@ File: ./img/hpf_rr.eps Graphic file (type eps)
 File: ./img/hd_rr.eps Graphic file (type eps)
  <./img/hd_rr.eps>
 File: ./img/ff_rr.eps Graphic file (type eps)
- <./img/ff_rr.eps> [194]
+ <./img/ff_rr.eps> [197]
 File: ./img/dr_rr1.eps Graphic file (type eps)
 
 <./img/dr_rr1.eps>
@@ -1747,8 +1753,8 @@ File: ./img/hpf_r20p.eps Graphic file (type eps)
 File: ./img/hd_r20p.eps Graphic file (type eps)
  <./img/hd_r20p.eps>
 File: ./img/ff_r20p.eps Graphic file (type eps)
- <./img/ff_r20p.eps> [195] [196]
-[197] [198] [199] [200] [201] [202]
+ <./img/ff_r20p.eps> [198] [199]
+[200] [201] [202] [203] [204] [205]
 File: ./img/obs_daily_amount.eps Graphic file (type eps)
  <./img/obs_daily_amount.eps>
 File: ./img/obs_daily_duration.eps Graphic file (type eps)
@@ -1766,51 +1772,51 @@ File: ./img/obs_mean_monthly_1min_intensity.eps Graphic file (type eps)
 <./img/obs_mean_monthly_1min_intensity.eps>
 File: ./img/obs_mean_monthly_30min_intensity.eps Graphic file (type eps)
 
-<./img/obs_mean_monthly_30min_intensity.eps> [203] [204] [205] [206] [207]
-[208] [209] [210]) [211]
+<./img/obs_mean_monthly_30min_intensity.eps> [206] [207] [208] [209] [210]
+[211] [212] [213]) [214]
 \openout2 = `./tex/appendixA.aux'.
 
  (./tex/appendixA.tex
 Appendix B.
 LaTeX Font Info:    Font shape `T1/fi4/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 14.
-[212
+[215
 
 
 
-] [213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223]
-[224] [225] [226]) [227]
+] [216] [217] [218] [219] [220] [221] [222] [223] [224] [225] [226]
+[227] [228] [229]) [230]
 \openout2 = `./tex/appendixB.aux'.
 
  (./tex/appendixB.tex
 Appendix C.
-[228
-
-
-
-] [229]) [230]
-\openout2 = `./tex/appendixC.aux'.
-
- (./tex/appendixC.tex
-Appendix D.
 [231
 
 
 
-] [232] [233] [234] [235]) [236]
+] [232]) [233]
+\openout2 = `./tex/appendixC.aux'.
+
+ (./tex/appendixC.tex
+Appendix D.
+[234
+
+
+
+] [235] [236] [237] [238]) [239]
 \openout2 = `./tex/appendixD.aux'.
 
  (./tex/appendixD.tex
 Appendix E.
 LaTeX Font Info:    Font shape `T1/fi4/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 8.
-[237
+[240
 
 
 
-] [238] [239]) [240]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
+] [241] [242]) [243]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
  (./muchadoaboutnothing.aux (./tex/dummy.aux)
 (./tex/abstract.aux) (./tex/acknowledgement.aux) (./tex/dedication.aux)
 (./tex/background_chapter.aux) (./tex/objective_chapter.aux)
@@ -1821,19 +1827,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
 (./tex/conclusion_chapter.aux) (./tex/observed_rainfall_chapter.aux)
 (./tex/appendixA.aux) (./tex/appendixB.aux) (./tex/appendixC.aux)
 (./tex/appendixD.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 113.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `muchadoaboutnothing.out' has not changed.
-(rerunfilecheck)             Checksum: 977F3426DB2D51FF608268685BDCA687;10385.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
+(rerunfilecheck)             Checksum: AD6B1CA9AB3CC611B938C46E6FF451F4;10390.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 15292 strings out of 495011
- 250893 string characters out of 3180123
- 361313 words of memory out of 3000000
- 17881 multiletter control sequences out of 15000+200000
- 881930 words of font info for 135 fonts, out of 3000000 for 9000
- 36 hyphenation exceptions out of 8191
+ 15300 strings out of 494463
+ 251092 string characters out of 3168208
+ 361035 words of memory out of 3000000
+ 17916 multiletter control sequences out of 15000+200000
+ 882234 words of font info for 136 fonts, out of 3000000 for 9000
+ 414 hyphenation exceptions out of 8191
  60i,17n,94p,434b,856s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on muchadoaboutnothing.dvi (255 pages, 1682612 bytes).
+Output written on muchadoaboutnothing.dvi (258 pages, 1697048 bytes).

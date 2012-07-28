@@ -13,43 +13,43 @@
 \contentsline {table}{\numberline {3.6}{\ignorespaces Tillage operation timing at Woodingdean site}}{62}{table.3.6}
 \contentsline {table}{\numberline {3.7}{\ignorespaces Summary of the erosion models used in this research}}{64}{table.3.7}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Original and Updated MEAN~P for Ditchling Road}}{71}{table.4.1}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Original and Updated {MX.5P} for Ditchling Road}}{71}{table.4.2}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Weather simulation settings with different CLIGEN versions and inputs for Ditchling Road}}{71}{table.4.3}
-\contentsline {table}{\numberline {4.4}{\ignorespaces Simulated annual average runoff on hillslopes using CLIGEN-generated weather with updated input}}{77}{table.4.4}
-\contentsline {table}{\numberline {4.5}{\ignorespaces Simulated annual average soil loss on hillslopes using CLIGEN-generated weather with updated input}}{77}{table.4.5}
-\contentsline {table}{\numberline {4.6}{\ignorespaces WEPP-simulated average annual runoff and soil loss}}{81}{table.4.6}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Original and Updated MEAN~P for Ditchling Road}}{72}{table.4.1}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Original and Updated {MX.5P} for Ditchling Road}}{72}{table.4.2}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Weather simulation settings with different CLIGEN versions and inputs for Ditchling Road}}{72}{table.4.3}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Simulated annual average runoff on hillslopes using CLIGEN-generated weather with updated input}}{78}{table.4.4}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Simulated annual average soil loss on hillslopes using CLIGEN-generated weather with updated input}}{78}{table.4.5}
+\contentsline {table}{\numberline {4.6}{\ignorespaces WEPP-simulated average annual runoff and soil loss}}{82}{table.4.6}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Details of two rain storms observed in Plumpton}}{92}{table.5.1}
-\contentsline {table}{\numberline {5.2}{\ignorespaces CLIGEN data parameters for two rain storms observed in Plumpton}}{95}{table.5.2}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Number of time intervals (breakpoints) for each temporal resolution}}{96}{table.5.3}
-\contentsline {table}{\numberline {5.4}{\ignorespaces WEPP-estimated runoff with different temporal resolutions of CLIGEN and breakpoint rainfall data}}{100}{table.5.4}
-\contentsline {table}{\numberline {5.5}{\ignorespaces EUROSEM-estimated runoff (mm) with different temporal resolutions of CLIGEN and breakpoint rainfall data}}{100}{table.5.5}
-\contentsline {table}{\numberline {5.6}{\ignorespaces WEPP-estimated soil loss with different temporal resolutions of CLIGEN and breakpoint rainfall data}}{102}{table.5.6}
-\contentsline {table}{\numberline {5.7}{\ignorespaces EUROSEM-estimated soil loss with different temporal resolutions of CLIGEN and breakpoint rainfall data}}{103}{table.5.7}
-\contentsline {table}{\numberline {5.8}{\ignorespaces Summary of detailed EUROSEM outputs estimated with CLIGEN data}}{107}{table.5.8}
-\contentsline {table}{\numberline {5.9}{\ignorespaces Desirability of different ways of expressing rainfall intensity}}{115}{table.5.9}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Details of two rain storms observed in Plumpton}}{93}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces CLIGEN data parameters for two rain storms observed in Plumpton}}{96}{table.5.2}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Number of time intervals (breakpoints) for each temporal resolution}}{97}{table.5.3}
+\contentsline {table}{\numberline {5.4}{\ignorespaces WEPP-estimated runoff with different temporal resolutions of CLIGEN and breakpoint rainfall data}}{101}{table.5.4}
+\contentsline {table}{\numberline {5.5}{\ignorespaces EUROSEM-estimated runoff (mm) with different temporal resolutions of CLIGEN and breakpoint rainfall data}}{101}{table.5.5}
+\contentsline {table}{\numberline {5.6}{\ignorespaces WEPP-estimated soil loss with different temporal resolutions of CLIGEN and breakpoint rainfall data}}{103}{table.5.6}
+\contentsline {table}{\numberline {5.7}{\ignorespaces EUROSEM-estimated soil loss with different temporal resolutions of CLIGEN and breakpoint rainfall data}}{104}{table.5.7}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Summary of detailed EUROSEM outputs estimated with CLIGEN data}}{109}{table.5.8}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Desirability of different ways of expressing rainfall intensity}}{117}{table.5.9}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces WEPP-estimated runoff and soil loss with continuous and discontinuous rainfall for each hillslope}}{122}{table.6.1}
-\contentsline {table}{\numberline {6.2}{\ignorespaces EUROSEM-estimated runoff and soil loss with continuous and discontinuous rainfall for each hillslope}}{122}{table.6.2}
-\contentsline {table}{\numberline {6.3}{\ignorespaces RillGrow-simulated runoff and soil loss with continuous and discontinuous rainfall}}{123}{table.6.3}
-\contentsline {table}{\numberline {6.4}{\ignorespaces Detailed summary of original and wepp-interpreted storm intensity (mm/hr)}}{127}{table.6.4}
+\contentsline {table}{\numberline {6.1}{\ignorespaces WEPP-estimated runoff and soil loss with continuous and discontinuous rainfall for each hillslope}}{124}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces EUROSEM-estimated runoff and soil loss with continuous and discontinuous rainfall for each hillslope}}{124}{table.6.2}
+\contentsline {table}{\numberline {6.3}{\ignorespaces RillGrow-simulated runoff and soil loss with continuous and discontinuous rainfall}}{125}{table.6.3}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Detailed summary of original and wepp-interpreted storm intensity (mm/hr)}}{129}{table.6.4}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Summary of WEPP simulation results for varying WSIPs}}{133}{table.7.1}
-\contentsline {table}{\numberline {7.2}{\ignorespaces Summary of EUROSEM simulation results for varying WSIPs}}{134}{table.7.2}
-\contentsline {table}{\numberline {7.3}{\ignorespaces Summary of RillGrow simulation results for varying WSIPs}}{134}{table.7.3}
-\contentsline {table}{\numberline {7.4}{\ignorespaces Experiment results}}{137}{table.7.4}
-\contentsline {table}{\numberline {7.5}{\ignorespaces Magnitude of soil loss affected by WSIPs}}{138}{table.7.5}
-\contentsline {table}{\numberline {7.6}{\ignorespaces Summary of the effect of within-storm intensity characteristics on runoff and soil erosion}}{142}{table.7.6}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Summary of WEPP simulation results for varying WSIPs}}{135}{table.7.1}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Summary of EUROSEM simulation results for varying WSIPs}}{136}{table.7.2}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Summary of RillGrow simulation results for varying WSIPs}}{136}{table.7.3}
+\contentsline {table}{\numberline {7.4}{\ignorespaces Experiment results}}{139}{table.7.4}
+\contentsline {table}{\numberline {7.5}{\ignorespaces Magnitude of soil loss affected by WSIPs}}{140}{table.7.5}
+\contentsline {table}{\numberline {7.6}{\ignorespaces Summary of the effect of within-storm intensity characteristics on runoff and soil erosion}}{144}{table.7.6}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Ratio of {MX.5P} changes for each month}}{150}{table.8.1}
-\contentsline {table}{\numberline {8.2}{\ignorespaces Adjusted {MX.5P} values for the wet season}}{151}{table.8.2}
-\contentsline {table}{\numberline {8.3}{\ignorespaces Adjusted {MX.5P} values for the dry season}}{151}{table.8.3}
-\contentsline {table}{\numberline {8.4}{\ignorespaces Peak rainfall intensity changes for WEPP simulation}}{155}{table.8.4}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Ratio of {MX.5P} changes for each month}}{152}{table.8.1}
+\contentsline {table}{\numberline {8.2}{\ignorespaces Adjusted {MX.5P} values for the wet season}}{153}{table.8.2}
+\contentsline {table}{\numberline {8.3}{\ignorespaces Adjusted {MX.5P} values for the dry season}}{153}{table.8.3}
+\contentsline {table}{\numberline {8.4}{\ignorespaces Peak rainfall intensity changes for WEPP simulation}}{157}{table.8.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Rainfall intensity indicators}}{191}{table.1.A.1}
-\contentsline {table}{\numberline {A.2}{\ignorespaces Daily Rainfall Stations and Record Details }}{191}{table.1.A.2}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Rainfall intensity indicators}}{194}{table.1.A.1}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Daily Rainfall Stations and Record Details }}{194}{table.1.A.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

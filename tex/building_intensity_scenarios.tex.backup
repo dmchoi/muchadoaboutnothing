@@ -129,13 +129,13 @@ accordingly rather than the CLIGEN \textit{output} file. Two CLIGEN input files
 were prepared as if they are from two different periods---present and
 future---of the site. Future climate changes are thus conceptualised here as
 ``two different climate conditions in the same place''. The original input file
-was built using observed event rainfall data from Ditchling Road station
-(D, Table \ref{tab:DetailsOfDataStations}). Rainfall intensity parameter
-({MX.5P}) of the original input file was adjusted accordingly to represent
-future rainfall intensity changes (Table \ref{tab:MX5PChanges}). Two sets of
-CLIGEN-generated weather data using these two input files only differ in peak
-rainfall intensities, which is controlled by {MX.5P}. Then, WEPP simulates
-runoff and soil loss rates using these two CLIGEN climate data. 
+was built using observed event rainfall data from Ditchling Road (D) station
+(Table \ref{tab:DetailsOfDataStations}). Rainfall intensity parameter ({MX.5P})
+of the original input file was adjusted accordingly to represent future rainfall
+intensity changes (Table \ref{tab:MX5PChanges}). Two sets of CLIGEN-generated
+weather data using these two input files only differ in peak rainfall
+intensities, which is controlled by {MX.5P}. Then, WEPP simulates runoff and
+soil loss rates using these two CLIGEN climate data. 
 
 \begin{table}[htpb]
   \figureversion{tabular}
