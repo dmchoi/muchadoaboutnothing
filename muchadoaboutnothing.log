@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=latex 2012.7.27)  28 JUL 2012 23:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=latex 2012.7.31)  7 AUG 2012 11:16
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -448,7 +448,7 @@ File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 \Gin@req@width=\dimen120
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+Package: hyperref 2012/08/03 v6.82y Hypertext links for LaTeX
 
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
@@ -497,6 +497,9 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
@@ -505,40 +508,40 @@ Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 \Hy@pagecounter=\count112
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2012/08/03 v6.82y Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count113
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 3941.
-Package hyperref Info: Hyper figures OFF on input line 4062.
-Package hyperref Info: Link nesting OFF on input line 4067.
-Package hyperref Info: Hyper index ON on input line 4070.
-Package hyperref Info: Plain pages OFF on input line 4077.
-Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4080.
+Package hyperref Info: Hyper figures OFF on input line 4204.
+Package hyperref Info: Link nesting OFF on input line 4209.
+Package hyperref Info: Hyper index ON on input line 4212.
+Package hyperref Info: Plain pages OFF on input line 4219.
+Package hyperref Info: Backreferencing OFF on input line 4224.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4300.
+Package hyperref Info: Bookmarks ON on input line 4442.
 \c@Hy@tempcnt=\count114
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4653.
+LaTeX Info: Redefining \url on input line 4795.
 \Fld@menulength=\count115
 \Field@Width=\dimen122
 \Fld@charsize=\dimen123
-Package hyperref Info: Hyper figures OFF on input line 5773.
-Package hyperref Info: Link nesting OFF on input line 5778.
-Package hyperref Info: Hyper index ON on input line 5781.
-Package hyperref Info: backreferencing OFF on input line 5788.
-Package hyperref Info: Link coloring OFF on input line 5793.
-Package hyperref Info: Link coloring with OCG OFF on input line 5798.
-Package hyperref Info: PDF/A mode OFF on input line 5803.
-LaTeX Info: Redefining \ref on input line 5843.
-LaTeX Info: Redefining \pageref on input line 5847.
+Package hyperref Info: Hyper figures OFF on input line 5985.
+Package hyperref Info: Link nesting OFF on input line 5990.
+Package hyperref Info: Hyper index ON on input line 5993.
+Package hyperref Info: backreferencing OFF on input line 6000.
+Package hyperref Info: Link coloring OFF on input line 6005.
+Package hyperref Info: Link coloring with OCG OFF on input line 6010.
+Package hyperref Info: PDF/A mode OFF on input line 6015.
+LaTeX Info: Redefining \ref on input line 6055.
+LaTeX Info: Redefining \pageref on input line 6059.
 \Hy@abspage=\count116
 \c@Item=\count117
 \c@Hfootnote=\count118
@@ -547,10 +550,10 @@ LaTeX Info: Redefining \pageref on input line 5847.
 Package hyperref Message: Driver (default): hdvips.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hdvips.def
-File: hdvips.def 2012/05/13 v6.82q Hyperref driver for dvips
+File: hdvips.def 2012/08/03 v6.82y Hyperref driver for dvips
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pdfmark.def
-File: pdfmark.def 2012/05/13 v6.82q Hyperref definitions for pdfmark specials
+File: pdfmark.def 2012/08/03 v6.82y Hyperref definitions for pdfmark specials
 
 
 Package hyperref Warning: You have enabled option `breaklinks'.
@@ -892,7 +895,7 @@ LaTeX Font Info:    ... okay on input line 6.
 Package hyperref Info: Link coloring OFF on input line 6.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+Package: nameref 2012/07/31 v2.42 Cross-referencing by name of section
 
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
@@ -1013,14 +1016,17 @@ ne 142.
 \openout2 = `./tex/acknowledgement.aux'.
 
  (./tex/acknowledgement.tex
-[2
+(/usr/local/texlive/2012/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2012/04/20 UCS: Unicode data U+2000..U+20FF
+) [2
 
 
 
 ])
 \openout2 = `./tex/dedication.aux'.
 
- (./tex/dedication.tex
+
+(./tex/dedication.tex
 LaTeX Font Info:    Try loading font information for T1+fi4 on input line 2.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/inconsolata/t1fi4.fd
@@ -1086,7 +1092,7 @@ File: MinionPro-FontDef.sty 2007/02/01 v2.2 font definition macros
 
  [11]
 (./muchadoaboutnothing.lot
-Underfull \hbox (badness 3407) in paragraph at lines 20--20
+Underfull \hbox (badness 3407) in paragraph at lines 22--22
  [][][] [][]\T1/MinionPro-OsF/m/n/12 Simulated an-nual av-er-age soil loss on h
 ill-slopes us-ing CLIGEN- 
  []
@@ -1148,19 +1154,19 @@ LaTeX Font Info:    Font shape `T1/MinionPro-OsF/bx/it' in size <12> not availa
 ble
 (Font)              Font shape `T1/MinionPro-OsF/b/it' tried instead on input l
 ine 31.
- [14] [15])
-(./tex/intensity_climate.tex [16] [17] [18] [19]) (./tex/erosion_model.tex
-[20]
+ [14] [15] [16])
+(./tex/intensity_climate.tex [17] [18] [19]) (./tex/erosion_model.tex [20]
+[21]
 LaTeX Font Info:    Font shape `T1/MinionPro-OsF/bx/n' in size <10.95> not avai
 lable
 (Font)              Font shape `T1/MinionPro-OsF/b/n' tried instead on input li
 ne 50.
- [21] [22]
+ [22] [23]
 File: ./img/modelling_phases.eps Graphic file (type eps)
- <./img/modelling_phases.eps> [23] [24] [25] [26] [27]
+ <./img/modelling_phases.eps> [24] [25] [26] [27] [28]
 File: ./img/wepp_flowchart.eps Graphic file (type eps)
 
-<./img/wepp_flowchart.eps> [28] [29] [30]
+<./img/wepp_flowchart.eps> [29] [30] [31]
 LaTeX Font Info:    Try loading font information for U+MinionPro-Extra on input
  line 408.
 
@@ -1170,57 +1176,56 @@ a.
 
 (/home/dchoi/texmf/tex/latex/MinionPro/MinionPro-FontDef.sty
 File: MinionPro-FontDef.sty 2007/02/01 v2.2 font definition macros
-)) [31] [32]
-[33] [34]
+)) [32] [33]
+[34] [35]
 File: ./img/eurosem_flow_chart.eps Graphic file (type eps)
- <./img/eurosem_flow_chart.eps> [35] [36] [37] [38] [39]
+ <./img/eurosem_flow_chart.eps> [36] [37] [38] [39] [40]
 Underfull \hbox (badness 1622) in paragraph at lines 703--711
 [][]\T1/MinionPro-OsF/m/n/12 The de-vel-op-ment of the RillGrow model ([]Favis-
 Mortlock[][], []1996[][], []1998\T1/MinionPro-OsF/m/it/12 b[][]\T1/MinionPro-Os
 F/m/n/12 ; []Favis-
  []
 
-[40]
 File: ./img/rillgrow_feedback_concept.eps Graphic file (type eps)
- <./img/rillgrow_feedback_concept.eps> [41] [42] [43])) [44]
+<./img/rillgrow_feedback_concept.eps> [41] [42] [43]) [44]) [45]
 \openout2 = `./tex/objective_chapter.aux'.
 
 
 (./tex/objective_chapter.tex
 Chapter 2.
-[45
+[46
 
 
 
-] [46]
+] [47]
 LaTeX Font Info:    Font shape `T1/MinionPro-OsF/m/sl' in size <12> not availab
 le
 (Font)              Font shape `T1/MinionPro-OsF/m/it' tried instead on input l
-ine 95.
- [47] [48] [49] [50] [51] [52]) [53]
+ine 99.
+ [48] [49] [50] [51] [52] [53]) [54]
 \openout2 = `./tex/data_method_chapter.aux'.
 
  (./tex/data_method_chapter.tex
 Chapter 3.
-[54
+[55
 
 
 
-] [55]
+] [56] [57]
 LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <10.95> not ava
 ilable
 (Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
-ine 110.
+ine 156.
 File: ./img/ukoutline.eps Graphic file (type eps)
  <./img/ukoutline.eps>
 File: ./img/dailydatasite.eps Graphic file (type eps)
- <./img/dailydatasite.eps> [56] [57]
+ <./img/dailydatasite.eps> [58] [59]
 File: ./img/eventdatasite.eps Graphic file (type eps)
 
-<./img/eventdatasite.eps> [58] [59]
+<./img/eventdatasite.eps> [60]
 File: ./img/woodingdean.eps Graphic file (type eps)
- <./img/woodingdean.eps> [60] [61] [62]
-[63] [64] [65] [66] [67]) [68] [69
+ <./img/woodingdean.eps> [61] [62] [63] [64]
+[65] [66] [67] [68]) [69] [70
 
 
 ]
@@ -1228,15 +1233,15 @@ File: ./img/woodingdean.eps Graphic file (type eps)
 
  (./tex/improved_cligen_chapter.tex
 Chapter 4.
-[70
+[71
 
 
-] [71] [72]
+] [72] [73]
 File: ./img/cligen_annual_amount_series.eps Graphic file (type eps)
  <./img/cligen_annual_amount_series.eps>
 File: ./img/cligen_annual_duration_series.eps Graphic file (type eps)
 
-<./img/cligen_annual_duration_series.eps> [73] [74]
+<./img/cligen_annual_duration_series.eps> [74] [75]
 File: ./img/cligen_monthly_max_int_org.eps Graphic file (type eps)
 
 <./img/cligen_monthly_max_int_org.eps>
@@ -1244,10 +1249,10 @@ File: ./img/cligen_monthly_max_int_mod.eps Graphic file (type eps)
  <./img/cligen_monthly_max_int_mod.eps>
 File: ./img/cligen_monthly_max_int_by_month.eps Graphic file (type eps)
 
-<./img/cligen_monthly_max_int_by_month.eps> [75] [76] [77] [78]
+<./img/cligen_monthly_max_int_by_month.eps> [76] [77] [78] [79]
 File: ./img/calibration.eps Graphic file (type eps)
 
-<./img/calibration.eps> [79]
+<./img/calibration.eps> [80]
 File: ./img/cligen_annual_runoff_serise_old_original.eps Graphic file (type eps
 )
 
@@ -1280,24 +1285,24 @@ File: ./img/cligen_annual_sloss_serise_new_original.eps Graphic file (type eps)
 <./img/cligen_annual_sloss_serise_new_original.eps>
 File: ./img/cligen_annual_sloss_serise_new_updated.eps Graphic file (type eps)
 
-<./img/cligen_annual_sloss_serise_new_updated.eps> [80] [81] [82] [83]
+<./img/cligen_annual_sloss_serise_new_updated.eps> [81] [82] [83] [84]
 File: ./img/mean_p_cligen.eps Graphic file (type eps)
 
 <./img/mean_p_cligen.eps>
 File: ./img/mx5p_cligen.eps Graphic file (type eps)
- <./img/mx5p_cligen.eps> [84] [85] [86] [87] [88]
-[89]) [90]
+ <./img/mx5p_cligen.eps> [85] [86] [87] [88] [89]
+[90]) [91]
 \openout2 = `./tex/temporal_resolution_chapter.aux'.
 
  (./tex/temporal_resolution_chapter.tex
 Chapter 5.
-[91
+[92
 
 
 
-] [92] [93] [94]
+] [93] [94] [95]
 File: ./img/eurosem_cligen_workaround.eps Graphic file (type eps)
- <./img/eurosem_cligen_workaround.eps> [95] [96]
+ <./img/eurosem_cligen_workaround.eps> [96] [97]
 File: ./img/dr_storm_1min.eps Graphic file (type eps)
 
 <./img/dr_storm_1min.eps>
@@ -1321,8 +1326,8 @@ File: ./img/pl_storm_30min.eps Graphic file (type eps)
 
 <./img/pl_storm_30min.eps>
 File: ./img/pl_storm_60min.eps Graphic file (type eps)
- <./img/pl_storm_60min.eps> [97] [98] [99] [100]
-[101] [102] [103]
+ <./img/pl_storm_60min.eps> [98] [99] [100] [101]
+[102] [103] [104]
 File: ./img/wepp_runoff_temp_scale.eps Graphic file (type eps)
  <./img/wepp_runoff_temp_scale.eps>
 File: ./img/wepp_sloss_temp_scale.eps Graphic file (type eps)
@@ -1332,8 +1337,8 @@ File: ./img/eurosem_roff_temp_scale.eps Graphic file (type eps)
  <./img/eurosem_roff_temp_scale.eps>
 File: ./img/eurosem_sloss_temp_scale.eps Graphic file (type eps)
 
-<./img/eurosem_sloss_temp_scale.eps> [104] [105] [106] [107] [108] [109]
-[110] [111] [112] [113]
+<./img/eurosem_sloss_temp_scale.eps> [105] [106] [107] [108] [109] [110]
+[111] [112] [113] [114]
 Underfull \hbox (badness 2772) in paragraph at lines 859--866
 [][]\T1/MinionPro-OsF/m/n/12 All these changes---lowering of in-tens-it-ies and
  shift-ing the loc-a-tion of peak
@@ -1345,42 +1350,42 @@ Underfull \hbox (badness 1466) in paragraph at lines 859--866
 when the tem-poral res-ol-u-tion of
  []
 
-[114] [115] [116] [117] [118]) [119]
+[115] [116] [117] [118] [119]) [120]
 \openout2 = `./tex/continue_discontinue_rainfall_chapter.aux'.
 
 
 (./tex/continue_discontinue_rainfall_chapter.tex
 Chapter 6.
-[120
+[121
 
 
 
-] [121]
+] [122]
 File: ./img/rainfall_discont_cont_input.eps Graphic file (type eps)
  <./img/rainfall_discont_cont_input.eps>
 File: ./img/rg2_input_continuous.eps Graphic file (type eps)
 
 <./img/rg2_input_continuous.eps>
 File: ./img/rg2_input_discontinuous.eps Graphic file (type eps)
- <./img/rg2_input_discontinuous.eps> [122]
-[123] [124] [125]
+ <./img/rg2_input_discontinuous.eps> [123]
+[124] [125] [126]
 Underfull \hbox (badness 2418) in paragraph at lines 249--255
 [] []\T1/MinionPro-OsF/b/n/12 RillGrow without in-filt-ra-tion com-pon-ent[] []
 \T1/MinionPro-OsF/m/n/12 First of all, sim-u-la-tion res-ults from
  []
 
-[126] [127]
+[127] [128]
 File: ./img/intensity_continuous.eps Graphic file (type eps)
  <./img/intensity_continuous.eps>
 File: ./img/intensity_discontinuous.eps Graphic file (type eps)
 
-<./img/intensity_discontinuous.eps> [128] [129]) [130]
+<./img/intensity_discontinuous.eps> [129] [130]) [131]
 \openout2 = `./tex/intensity_pattern_chapter.aux'.
 
 
 (./tex/intensity_pattern_chapter.tex
 Chapter 7.
-[131
+[132
 
 
 
@@ -1390,7 +1395,7 @@ Underfull \hbox (badness 2326) in paragraph at lines 48--56
 WSIP---increasing, de-creas-ing,
  []
 
-[132]
+[133]
 File: ./img/wepp_input_increase_6hr.eps Graphic file (type eps)
  <./img/wepp_input_increase_6hr.eps>
 File: ./img/wepp_input_decrease_6hr.eps Graphic file (type eps)
@@ -1411,7 +1416,7 @@ File: ./img/wepp_input_constant_2hr.eps Graphic file (type eps)
 <./img/wepp_input_constant_2hr.eps>
 File: ./img/wepp_input_increase_decrease_2hr.eps Graphic file (type eps)
 
-<./img/wepp_input_increase_decrease_2hr.eps> [133]
+<./img/wepp_input_increase_decrease_2hr.eps> [134]
 File: ./img/rg2_input_increase.eps Graphic file (type eps)
 
 <./img/rg2_input_increase.eps>
@@ -1421,24 +1426,24 @@ File: ./img/rg2_input_control.eps Graphic file (type eps)
 
 <./img/rg2_input_control.eps>
 File: ./img/rg2_input_increase_decrease.eps Graphic file (type eps)
- <./img/rg2_input_increase_decrease.eps> [134]
+ <./img/rg2_input_increase_decrease.eps> [135]
 LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <12> not availa
 ble
 (Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
 ine 185.
 
-[135] [136] [137] [138]
+[136] [137] [138] [139]
 LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <8> not availab
 le
 (Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
 ine 454.
- [139] [140]
+ [140] [141]
 Underfull \hbox (badness 2326) in paragraph at lines 544--544
  |[][]\T1/MinionPro-OsF/b/n/17.28 Summary of Model Sim-u-la-tion Res-ult: Ef-fe
 ct of
  []
 
-[141] [142] [143] [144]) [145] [146
+[142] [143] [144] [145]) [146] [147
 
 
 ]
@@ -1446,27 +1451,27 @@ ct of
 
  (./tex/future_erosion_chapter.tex
 Chapter 8.
-[147
+[148
 
 
-] (./tex/building_intensity_scenarios.tex [148] [149] [150] [151] [152]
+] (./tex/building_intensity_scenarios.tex [149] [150] [151] [152] [153]
 LaTeX Font Info:    Font shape `T1/MinionPro-TOsF/bx/n' in size <10> not availa
 ble
 (Font)              Font shape `T1/MinionPro-TOsF/b/n' tried instead on input l
 ine 195.
 
-[153] [154]
+[154] [155]
 File: ./img/future_erosion_flowchart.eps Graphic file (type eps)
- <./img/future_erosion_flowchart.eps>) [155] [156]
+ <./img/future_erosion_flowchart.eps>) [156] [157]
 File: ./img/wepp_respond_to_int_changes_mod.eps Graphic file (type eps)
 
-<./img/wepp_respond_to_int_changes_mod.eps> [157] [158] [159] [160]
+<./img/wepp_respond_to_int_changes_mod.eps> [158] [159] [160] [161]
 File: ./img/annual_future_rainfall.eps Graphic file (type eps)
 
 <./img/annual_future_rainfall.eps>
 File: ./img/future_rainfall_duration_change.eps Graphic file (type eps)
  <./img/future_rainfall_duration_change.eps>
-[161]
+[162]
 File: ./img/future_monthly_intensity_wet.eps Graphic file (type eps)
  <./img/future_monthly_intensity_wet.eps>
 File: ./img/future_monthly_intensity_dry.eps Graphic file (type eps)
@@ -1474,17 +1479,17 @@ File: ./img/future_monthly_intensity_dry.eps Graphic file (type eps)
 <./img/future_monthly_intensity_dry.eps>
 File: ./img/future_roff_change.eps Graphic file (type eps)
  <./img/future_roff_change.eps>
-[162] [163]
+[163] [164]
 File: ./img/future_sloss_change.eps Graphic file (type eps)
- <./img/future_sloss_change.eps> [164]
+ <./img/future_sloss_change.eps> [165]
 File: ./img/event_original.eps Graphic file (type eps)
  <./img/event_original.eps>
 File: ./img/event_dry_incr_5.eps Graphic file (type eps)
 
 <./img/event_dry_incr_5.eps>
 File: ./img/event_dry_incr_10.eps Graphic file (type eps)
- <./img/event_dry_incr_10.eps> [165] [166] [167]
-[168]) [169] [170
+ <./img/event_dry_incr_10.eps> [166] [167] [168]
+[169]) [170] [171
 
 
 ]
@@ -1492,16 +1497,16 @@ File: ./img/event_dry_incr_10.eps Graphic file (type eps)
 
  (./tex/conclusion_chapter.tex
 Chapter 9.
-[171
+[172
 
 
-] [172] [173] [174] [175] [176] [177]
+] [173] [174] [175] [176] [177] [178]
 Underfull \hbox (badness 1715) in paragraph at lines 275--277
 [][]\T1/MinionPro-OsF/m/n/12 More labor-at-ory ex-per-i-ments on ef-fects of Wi
 thin-Storm In-tens-ity Pat-terns
  []
 
-) [178] (./muchadoaboutnothing.bbl
+) [179] (./muchadoaboutnothing.bbl
 LaTeX Font Info:    Font shape `T1/fi4/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 27.
 
@@ -1510,49 +1515,55 @@ Underfull \hbox (badness 1708) in paragraph at lines 74--77
 lmes, P. J. and Wash-ing-ton, R. \T1/MinionPro-OsF/m/n/10.95 (2003)
  []
 
-[179
+[180
 
 
 ]
-Underfull \hbox (badness 1960) in paragraph at lines 115--119
+Underfull \hbox (badness 1960) in paragraph at lines 117--121
 \T1/MinionPro-OsF/m/n/10.95 trans-port in a semi-arid sub-andean val-ley'.  \T1
 /MinionPro-OsF/m/it/10.95 Earth Sur-face Pro-cesses and Land-forms
  []
 
-[180] [181] [182] [183] [184]
-Underfull \hbox (badness 2608) in paragraph at lines 591--596
+[181] [182]
+Underfull \hbox (badness 1859) in paragraph at lines 328--334
+[][]\T1/MinionPro-OsF/b/n/10.95 Gornall, J., Betts, R., Burke, E., Clark, R., C
+amp, J., Wil-lett, K. and Wilt-shire, A.
+ []
+
+[183] [184] [185]
+Underfull \hbox (badness 2608) in paragraph at lines 603--608
 [][]\T1/MinionPro-OsF/b/n/10.95 Mearns, L. O., Giorgi, F., Whetton, P., Pa-bon,
  D., Hulme, M. and Lal, M. \T1/MinionPro-OsF/m/n/10.95 (2003)
  []
 
-[185]
-Underfull \hbox (badness 2376) in paragraph at lines 697--700
+[186]
+Underfull \hbox (badness 2376) in paragraph at lines 718--721
 [][]\T1/MinionPro-OsF/b/n/10.95 Nearing, M. A., Jetten, V., Baf-faut, C., Cerda
 n, O., Cou-tur-ier, A., Hernan-dez, M.,
  []
 
-[186]
-Underfull \hbox (badness 3780) in paragraph at lines 745--749
+[187]
+Underfull \hbox (badness 3780) in paragraph at lines 766--770
 [][]\T1/MinionPro-OsF/b/n/10.95 Osborn, T. J. and Hulme, M. \T1/MinionPro-OsF/m
 /n/10.95 (1998) `Eval-u-ation of the European daily pre-cip-it-a-tion
  []
 
-[187] [188] [189]) [190]
+[188] [189] [190] [191]) [192]
 LaTeX Font Info:    Font shape `T1/MinionPro-OsF/bx/sc' in size <20.74> not ava
 ilable
 (Font)              Font shape `T1/MinionPro-OsF/b/sc' tried instead on input l
 ine 97.
- [191
+ [193
 
 ]
 \openout2 = `./tex/observed_rainfall_chapter.aux'.
 
  (./tex/observed_rainfall_chapter.tex
 Appendix A.
-[192
+[194
 
 
-] [193] [194]
+] [195] [196]
 File: ./img/grid_annual_amount.eps Graphic file (type eps)
  <./img/grid_annual_amount.eps>
 File: ./img/grid_DJF_trend.eps Graphic file (type eps)
@@ -1570,251 +1581,251 @@ ne 222.
 
 (/home/dchoi/texmf/tex/latex/MyriadPro/TS1Myriad-OsF.fd
 File: TS1Myriad-OsF.fd 2004/10/15 font definitions for TS1/Myriad-OsF.
-)
+) [197] [198]
 File: ./img/grid_average_monthly.eps Graphic file (type eps)
 
-<./img/grid_average_monthly.eps> [195] [196]
+<./img/grid_average_monthly.eps>
 File: ./img/grid_july_trend.eps Graphic file (type eps)
  <./img/grid_july_trend.eps>
 File: ./img/dr_rr.eps Graphic file (type eps)
-
-<./img/dr_rr.eps>
+ <./img/dr_rr.eps>
 File: ./img/so_rr.eps Graphic file (type eps)
- <./img/so_rr.eps>
+
+<./img/so_rr.eps>
 File: ./img/pl_rr.eps Graphic file (type eps)
  <./img/pl_rr.eps>
 File: ./img/pb_rr.eps Graphic file (type eps)
  <./img/pb_rr.eps>
 File: ./img/sdr_rr.eps Graphic file (type eps)
-
-<./img/sdr_rr.eps>
+ <./img/sdr_rr.eps>
 File: ./img/ew_rr.eps Graphic file (type eps)
- <./img/ew_rr.eps>
+
+<./img/ew_rr.eps>
 File: ./img/ft_rr.eps Graphic file (type eps)
  <./img/ft_rr.eps>
 File: ./img/li_rr.eps Graphic file (type eps)
  <./img/li_rr.eps>
 File: ./img/hpf_rr.eps Graphic file (type eps)
-
-<./img/hpf_rr.eps>
+ <./img/hpf_rr.eps>
 File: ./img/hd_rr.eps Graphic file (type eps)
- <./img/hd_rr.eps>
-File: ./img/ff_rr.eps Graphic file (type eps)
- <./img/ff_rr.eps> [197]
-File: ./img/dr_rr1.eps Graphic file (type eps)
 
-<./img/dr_rr1.eps>
+<./img/hd_rr.eps>
+File: ./img/ff_rr.eps Graphic file (type eps)
+ <./img/ff_rr.eps> [199]
+File: ./img/dr_rr1.eps Graphic file (type eps)
+ <./img/dr_rr1.eps>
 File: ./img/so_rr1.eps Graphic file (type eps)
- <./img/so_rr1.eps>
+
+<./img/so_rr1.eps>
 File: ./img/pl_rr1.eps Graphic file (type eps)
  <./img/pl_rr1.eps>
 File: ./img/pb_rr1.eps Graphic file (type eps)
  <./img/pb_rr1.eps>
 File: ./img/sdr_rr1.eps Graphic file (type eps)
-
-<./img/sdr_rr1.eps>
+ <./img/sdr_rr1.eps>
 File: ./img/ew_rr1.eps Graphic file (type eps)
- <./img/ew_rr1.eps>
+
+<./img/ew_rr1.eps>
 File: ./img/ft_rr1.eps Graphic file (type eps)
  <./img/ft_rr1.eps>
 File: ./img/li_rr1.eps Graphic file (type eps)
  <./img/li_rr1.eps>
 File: ./img/hpf_rr1.eps Graphic file (type eps)
-
-<./img/hpf_rr1.eps>
+ <./img/hpf_rr1.eps>
 File: ./img/hd_rr1.eps Graphic file (type eps)
- <./img/hd_rr1.eps>
+
+<./img/hd_rr1.eps>
 File: ./img/ff_rr1.eps Graphic file (type eps)
  <./img/ff_rr1.eps>
 File: ./img/dr_sdii.eps Graphic file (type eps)
  <./img/dr_sdii.eps>
 File: ./img/so_sdii.eps Graphic file (type eps)
-
-<./img/so_sdii.eps>
+ <./img/so_sdii.eps>
 File: ./img/pl_sdii.eps Graphic file (type eps)
- <./img/pl_sdii.eps>
+
+<./img/pl_sdii.eps>
 File: ./img/pb_sdii.eps Graphic file (type eps)
  <./img/pb_sdii.eps>
 File: ./img/sdr_sdii.eps Graphic file (type eps)
-
-<./img/sdr_sdii.eps>
+ <./img/sdr_sdii.eps>
 File: ./img/ew_sdii.eps Graphic file (type eps)
- <./img/ew_sdii.eps>
+
+<./img/ew_sdii.eps>
 File: ./img/ft_sdii.eps Graphic file (type eps)
  <./img/ft_sdii.eps>
 File: ./img/li_sdii.eps Graphic file (type eps)
-
-<./img/li_sdii.eps>
+ <./img/li_sdii.eps>
 File: ./img/hpf_sdii.eps Graphic file (type eps)
- <./img/hpf_sdii.eps>
+
+<./img/hpf_sdii.eps>
 File: ./img/hd_sdii.eps Graphic file (type eps)
  <./img/hd_sdii.eps>
 File: ./img/ff_sdii.eps Graphic file (type eps)
-
-<./img/ff_sdii.eps>
+ <./img/ff_sdii.eps>
 File: ./img/dr_r10mm.eps Graphic file (type eps)
- <./img/dr_r10mm.eps>
+
+<./img/dr_r10mm.eps>
 File: ./img/so_r10mm.eps Graphic file (type eps)
  <./img/so_r10mm.eps>
 File: ./img/pl_r10mm.eps Graphic file (type eps)
-
-<./img/pl_r10mm.eps>
+ <./img/pl_r10mm.eps>
 File: ./img/pb_r10mm.eps Graphic file (type eps)
- <./img/pb_r10mm.eps>
+
+<./img/pb_r10mm.eps>
 File: ./img/sdr_r10mm.eps Graphic file (type eps)
  <./img/sdr_r10mm.eps>
 File: ./img/ew_r10mm.eps Graphic file (type eps)
-
-<./img/ew_r10mm.eps>
+ <./img/ew_r10mm.eps>
 File: ./img/ft_r10mm.eps Graphic file (type eps)
- <./img/ft_r10mm.eps>
+
+<./img/ft_r10mm.eps>
 File: ./img/li_r10mm.eps Graphic file (type eps)
  <./img/li_r10mm.eps>
 File: ./img/hpf_r10mm.eps Graphic file (type eps)
-
-<./img/hpf_r10mm.eps>
+ <./img/hpf_r10mm.eps>
 File: ./img/hd_r10mm.eps Graphic file (type eps)
- <./img/hd_r10mm.eps>
+
+<./img/hd_r10mm.eps>
 File: ./img/ff_r10mm.eps Graphic file (type eps)
  <./img/ff_r10mm.eps>
 File: ./img/dr_r10p.eps Graphic file (type eps)
-
-<./img/dr_r10p.eps>
+ <./img/dr_r10p.eps>
 File: ./img/so_r10p.eps Graphic file (type eps)
- <./img/so_r10p.eps>
+
+<./img/so_r10p.eps>
 File: ./img/pl_r10p.eps Graphic file (type eps)
  <./img/pl_r10p.eps>
 File: ./img/pb_r10p.eps Graphic file (type eps)
-
-<./img/pb_r10p.eps>
+ <./img/pb_r10p.eps>
 File: ./img/sdr_r10p.eps Graphic file (type eps)
- <./img/sdr_r10p.eps>
+
+<./img/sdr_r10p.eps>
 File: ./img/ew_r10p.eps Graphic file (type eps)
  <./img/ew_r10p.eps>
 File: ./img/ft_r10p.eps Graphic file (type eps)
-
-<./img/ft_r10p.eps>
+ <./img/ft_r10p.eps>
 File: ./img/li_r10p.eps Graphic file (type eps)
- <./img/li_r10p.eps>
+
+<./img/li_r10p.eps>
 File: ./img/hpf_r10p.eps Graphic file (type eps)
  <./img/hpf_r10p.eps>
 File: ./img/hd_r10p.eps Graphic file (type eps)
-
-<./img/hd_r10p.eps>
+ <./img/hd_r10p.eps>
 File: ./img/ff_r10p.eps Graphic file (type eps)
- <./img/ff_r10p.eps>
+
+<./img/ff_r10p.eps>
 File: ./img/dr_r20mm.eps Graphic file (type eps)
  <./img/dr_r20mm.eps>
 File: ./img/so_r20mm.eps Graphic file (type eps)
-
-<./img/so_r20mm.eps>
+ <./img/so_r20mm.eps>
 File: ./img/pl_r20mm.eps Graphic file (type eps)
- <./img/pl_r20mm.eps>
+
+<./img/pl_r20mm.eps>
 File: ./img/pb_r20mm.eps Graphic file (type eps)
  <./img/pb_r20mm.eps>
 File: ./img/sdr_r20mm.eps Graphic file (type eps)
-
-<./img/sdr_r20mm.eps>
+ <./img/sdr_r20mm.eps>
 File: ./img/ew_r20mm.eps Graphic file (type eps)
- <./img/ew_r20mm.eps>
+
+<./img/ew_r20mm.eps>
 File: ./img/ft_r20mm.eps Graphic file (type eps)
  <./img/ft_r20mm.eps>
 File: ./img/li_r20mm.eps Graphic file (type eps)
-
-<./img/li_r20mm.eps>
+ <./img/li_r20mm.eps>
 File: ./img/hpf_r20mm.eps Graphic file (type eps)
- <./img/hpf_r20mm.eps>
+
+<./img/hpf_r20mm.eps>
 File: ./img/hd_r20mm.eps Graphic file (type eps)
  <./img/hd_r20mm.eps>
 File: ./img/ff_r20mm.eps Graphic file (type eps)
-
-<./img/ff_r20mm.eps>
+ <./img/ff_r20mm.eps>
 File: ./img/dr_r20p.eps Graphic file (type eps)
- <./img/dr_r20p.eps>
+
+<./img/dr_r20p.eps>
 File: ./img/so_r20p.eps Graphic file (type eps)
  <./img/so_r20p.eps>
 File: ./img/pl_r20p.eps Graphic file (type eps)
-
-<./img/pl_r20p.eps>
+ <./img/pl_r20p.eps>
 File: ./img/pb_r20p.eps Graphic file (type eps)
- <./img/pb_r20p.eps>
+
+<./img/pb_r20p.eps>
 File: ./img/sdr_r20p.eps Graphic file (type eps)
  <./img/sdr_r20p.eps>
 File: ./img/ew_r20p.eps Graphic file (type eps)
-
-<./img/ew_r20p.eps>
+ <./img/ew_r20p.eps>
 File: ./img/ft_r20p.eps Graphic file (type eps)
- <./img/ft_r20p.eps>
+
+<./img/ft_r20p.eps>
 File: ./img/li_r20p.eps Graphic file (type eps)
  <./img/li_r20p.eps>
 File: ./img/hpf_r20p.eps Graphic file (type eps)
-
-<./img/hpf_r20p.eps>
+ <./img/hpf_r20p.eps>
 File: ./img/hd_r20p.eps Graphic file (type eps)
- <./img/hd_r20p.eps>
+
+<./img/hd_r20p.eps>
 File: ./img/ff_r20p.eps Graphic file (type eps)
- <./img/ff_r20p.eps> [198] [199]
-[200] [201] [202] [203] [204] [205]
+ <./img/ff_r20p.eps> [200] [201] [202] [203] [204] [205]
+[206] [207]
 File: ./img/obs_daily_amount.eps Graphic file (type eps)
  <./img/obs_daily_amount.eps>
 File: ./img/obs_daily_duration.eps Graphic file (type eps)
-
-<./img/obs_daily_duration.eps>
+ <./img/obs_daily_duration.eps>
 File: ./img/obs_daily_peak_int.eps Graphic file (type eps)
- <./img/obs_daily_peak_int.eps>
-File: ./img/obs_mean_monthly_amount.eps Graphic file (type eps)
 
-<./img/obs_mean_monthly_amount.eps>
+<./img/obs_daily_peak_int.eps>
+File: ./img/obs_mean_monthly_amount.eps Graphic file (type eps)
+ <./img/obs_mean_monthly_amount.eps>
 File: ./img/obs_mean_monthly_duration.eps Graphic file (type eps)
- <./img/obs_mean_monthly_duration.eps>
+
+<./img/obs_mean_monthly_duration.eps>
 File: ./img/obs_mean_monthly_1min_intensity.eps Graphic file (type eps)
 
 <./img/obs_mean_monthly_1min_intensity.eps>
 File: ./img/obs_mean_monthly_30min_intensity.eps Graphic file (type eps)
 
-<./img/obs_mean_monthly_30min_intensity.eps> [206] [207] [208] [209] [210]
-[211] [212] [213]) [214]
+<./img/obs_mean_monthly_30min_intensity.eps> [208] [209] [210] [211] [212]
+[213] [214] [215]) [216]
 \openout2 = `./tex/appendixA.aux'.
 
  (./tex/appendixA.tex
 Appendix B.
 LaTeX Font Info:    Font shape `T1/fi4/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 14.
-[215
+[217
 
 
 
-] [216] [217] [218] [219] [220] [221] [222] [223] [224] [225] [226]
-[227] [228] [229]) [230]
+] [218] [219] [220] [221] [222] [223] [224] [225] [226] [227] [228]
+[229] [230] [231]) [232]
 \openout2 = `./tex/appendixB.aux'.
 
  (./tex/appendixB.tex
 Appendix C.
-[231
+[233
 
 
 
-] [232]) [233]
+] [234]) [235]
 \openout2 = `./tex/appendixC.aux'.
 
  (./tex/appendixC.tex
 Appendix D.
-[234
+[236
 
 
 
-] [235] [236] [237] [238]) [239]
+] [237] [238] [239] [240]) [241]
 \openout2 = `./tex/appendixD.aux'.
 
  (./tex/appendixD.tex
 Appendix E.
 LaTeX Font Info:    Font shape `T1/fi4/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 8.
-[240
+[242
 
 
 
-] [241] [242]) [243]
+] [243] [244]) [245]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
  (./muchadoaboutnothing.aux (./tex/dummy.aux)
@@ -1830,16 +1841,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 112.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `muchadoaboutnothing.out' has not changed.
-(rerunfilecheck)             Checksum: AD6B1CA9AB3CC611B938C46E6FF451F4;10390.
+(rerunfilecheck)             Checksum: ABE3DE47427BF0CA6042D49A10C59DC7;10643.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 15300 strings out of 494463
- 251092 string characters out of 3168208
- 361035 words of memory out of 3000000
- 17916 multiletter control sequences out of 15000+200000
+ 15631 strings out of 494463
+ 255335 string characters out of 3168208
+ 364118 words of memory out of 3000000
+ 18241 multiletter control sequences out of 15000+200000
  882234 words of font info for 136 fonts, out of 3000000 for 9000
  414 hyphenation exceptions out of 8191
- 60i,17n,94p,434b,856s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,17n,94p,434b,886s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on muchadoaboutnothing.dvi (258 pages, 1697048 bytes).
+Output written on muchadoaboutnothing.dvi (260 pages, 1735080 bytes).

@@ -2,24 +2,64 @@
 \chapter{DESCRIPTIONS OF DATA, MODELS AND METHODS}
 \label{sec:SIMULATIONDATAMODELSANDMETHODS}
 
-\section{Data}
+\section{Background and Data Availability}
 \label{sec:Data}
 
-All of the datasets used here for climate analyses, model parametrizations and
-erosion simulations are obtained from the South Downs, England, UK (Figure
-\ref{fig:DailyRainfallDataSite}).
-One of the reasons for choosing this particular site is, because the area has
-been extensively monitored for soil erosion since the late 1970s
-\citep{boardman1995-177,boardman2003-176}, that data availability of the
-site is reasonably great. In addition, there is a well-established expertise
-about the area that can be referenced to the current research
-\citep{boardman1995-177,favis-mortlock1995-365,favis-mortlock1997-79,
+All of the datasets used in this research; for climate analyses, model
+parametrizations and erosion simulations are obtained from the South Downs,
+England, UK. Figure \ref{fig:DailyRainfallDataSite} shows locations of
+rainfall gauges and types of rainfall data recorded.
+
+One of the reasons for choosing this particular research site is that data
+availability of the site is reasonably good. The area has been extensively
+monitored for soil erosion since the late 1970s
+\citep{boardman1995-177,boardman2003-176}. In addition, there is a
+well-established expertise about the area that can be referenced to the current
+research \citep{boardman1995-177,favis-mortlock1995-365,favis-mortlock1997-79,
 favis-mortlock1998-141,boardman2001-346,boardman2003-176}.
 
+\citet{boardman2003-176} provides a comprehensive insight of soil erosion
+problems in the region as well as the details of researches that have been
+carried out previously. A compilation of rainfall events and subsequent soil
+erosion events are included in the article.
+
+With the exception of rainfall data, the data used here for erosion modelling
+are adopted from \citet{favis-mortlock1998-141}. Details of these data are
+included in this chapter.
+
+Another more important reason for choosing Woodingdean site as a research
+site is because observed (but rather short-term) soil loss data are available
+for this site (Table \ref{tab:ObservedSoilLoss}). These observed soil loss data
+are used later for the model calibration (See page
+\pageref{sec:RunoffAndSoilLossSimulation}).
+
+\begin{table}[htbp]
+  \figureversion{tabular}
+  \centering
+  \caption[Observed annual average soil loss from Woodingdean]{Observed
+annual average soil loss from hillslopes (D-L) of Woodingdean}
+  \label{tab:ObservedSoilLoss}
+  \footnotesize
+    \begin{tabular}{lrrrrrrrrrr}
+      \toprule
+      & D & E & F & G & H & I & J & K & L & Mean\\
+      \cmidrule{2-11}
+%      uncalibrated & 49.4 & 42.9 & 76.1 & 96.5 & 117.5 & 111.1 & 105.3 & 84.1 &
+%79.7 & 84.7\\
+%      recalibrated & 3.4 & 3.2 & 11.1 & 18.2 & 23.7 & 21.3 & 17.3 & 9.8 & 7.9 &
+%12.8\\
+      measured$^a$ (m$^3$/ha) & 3.4 & 7.8 & 13.7 & 17.5 & 21.4 & 9.6 & 11.6 &
+11.2 & 8.1 & 11.6\\
+      \bottomrule
+      %\addlinespace[1mm]
+      \multicolumn{8}{l}{\footnotesize $^a$ over the periods
+of 1985-1986 \citep[From][]{favis-mortlock1998-141}}
+    \end{tabular}
+\end{table}
 
 %******Need a section discussing what is meant by a ``storm'' and giving your
 %own definition. You can then refer to this in the Conclusions.
-\subsection{Definitions of Intensity and Rainfall Storm}
+\section{Definitions of Intensity and Rainfall Storm}
 
 Some preliminary definitions are given before describing rainfall data that are
 used in this research.
@@ -72,7 +112,7 @@ estimations for the area with dominantly long rainfall duration may be improved.
 %separating rainfall events independent of the day. In this way, soil erosion
 %estimations for the area with dominantly low rainfall intensity may be
 %improved.
-\subsection{Rainfall Data}
+\section{Rainfall Data}
 \label{sec:RainfallData}
 
 %\paragraph{Details of rainfall data}
@@ -82,22 +122,28 @@ with an autumn peak \citep{potts1983-88}. Mean annual temperature is
 16.3\textcelsius\ \citep{potts1983-88}.
 
 Three temporally and spatially different observational rainfall datasets were
-acquired from the site (Table
+acquired initially from the site (Table
 \ref{tab:PrecipitationDataUsedForCurrentRainfallTrendInvestigation}): monthly,
 daily and event data.
-Details of these datasets are described here because they are used at a certain
-stage of current research. For example, monthly grid and daily station data are
-used for the investigation on the trend of rainfall intensity in the
-area---included in Appendix \ref{sec:RainfallCharacteristicsOfTheStudyArea}.
-However, for the weather inputs of erosion model simulations, only event
-rainfall datasets are used. Event rainfall datasets are used either as original
+Details of these datasets are described here because they have been used at a
+certain stage of current research. For example, monthly grid and daily station
+data are used for the investigation on the trend of rainfall intensity in the
+area---included in Appendix \ref{sec:RainfallCharacteristicsOfTheStudyArea}. As
+pointed out previously, attempts to find a trend of rainfall intensity did
+not succeed. However, because these data were used in this research at some
+points of the research procedure, their details are give here.
+
+For the weather inputs of erosion model simulations, only event rainfall
+datasets are used (Table \ref{tab:DetailsOfDataStations}). This is because
+soil erosion models require high resolution rainfall data such as tipping
+bucket rainfall data. Event rainfall datasets are used either as original
 rainfall data or as parametrised rainfall data for erosion estimations.
 
-Observed monthly 0.5\textdegree$\times$0.5\textdegree\ grid rainfall data (CRU
-TS 2.0---0.5\textdegree$\times$0.5\textdegree\ Gridded Monthly Climate Data for
-Land Areas) for 100 years were obtained from \citet{mitchell2004-a}. Coordinates
-of the centre point of the study grid are 50.75\textdegree\ (Latitude) and
--0.25\textdegree\ (Longitude).
+For few occasions, design storm data were also used for erosion simulations (See
+Chapter \ref{sec:EFFECTSOFCONTINOUSANDDISCONTINUSSTORM} and Chapter
+\ref{sec:EFFECTSOFRAINFALLINTENSITYCHANGESONSOILEROSION}). The reasons for
+using design storm data and data themselves are presented at the chapter where
+design storms are used.
 
 \begin{table}[htbp]
   \figureversion{tabular}
@@ -118,17 +164,49 @@ of the centre point of the study grid are 50.75\textdegree\ (Latitude) and
 intensity\\
     \bottomrule
 %   \addlinespace[1mm]
-    \multicolumn{4}{p{10cm}}{\footnotesize $^\dagger$ Aggregated
-1-min data originally from tipping bucket data}
+    \multicolumn{4}{p{12cm}}{\footnotesize $^\dagger$ Aggregated into
+1-min data which are originally from tipping bucket data}
     \end{tabular}
 \end{table}
 
+Observed monthly 0.5\textdegree$\times$0.5\textdegree\ grid rainfall data (CRU
+TS 2.0---0.5\textdegree$\times$0.5\textdegree\ Gridded Monthly Climate Data for
+Land Areas) for 100 years were obtained from \citet{mitchell2004-a}. Coordinates
+of the centre point of the study grid are 50.75\textdegree\ (Latitude) and
+-0.25\textdegree\ (Longitude).
+
 Daily rainfall amounts from 11 stations were obtained for the period of 1904 to
 2004. Data durations are varied for each station (Table
-\ref{tab:DetailsOfDataStations}). Locations of individual daily stations are
-shown in Figure \ref{fig:DailyRainfallDataSite}.
+\ref{tab:DetailsOfDailyDataStations}). Locations of individual daily stations
+are shown in Figure \ref{fig:DailyRainfallDataSite}.
 
-\begin{figure}[phtb]
+\begin{table}[htbp]
+  \figureversion{tabular}
+  \centering
+  \caption{Details of daily rainfall data stations}
+  \label{tab:DetailsOfDailyDataStations}
+    \small
+    \begin{tabular}{lllll}
+      \toprule
+      \textbf{Code} & \textbf{Station} & \textbf{Data type} &
+\textbf{Grid reference} & \textbf{Periods}\\
+      \midrule
+      DR & Ditchling Road & daily & TQ314076 & 1980--1989\\
+      SO & Southover & daily & TQ407093 & 1980--1998\\
+      PL & Plumpton & daily & TQ356136 & 1980--2000\\
+      SDR & Seaford D. Road & daily & TV491993 & 1980--2000\\
+      EW & Eastbourne Wilm. & daily & TV611980 & 1980--2000\\
+      FT & Friston Tower & daily & TV551982 & 1980--2000\\
+      LI & Litlington & daily & TQ523020 & 1980--2000\\
+      PB & Poverty Bottom & daily & TQ467002 & 1980--2000\\
+      HPF & High Park Farm & daily & TQ331115 & 1974--2004\\
+      HD & Housedean & daily & TQ369093 & 1967--2004\\
+      FF & Falmer Farm & daily & TQ342084 & 1904--2002\\
+      \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
   \includegraphics[width=0.19\textwidth]{./img/ukoutline}
   \includegraphics[width=0.8\textwidth]{./img/dailydatasite}
   \caption[Locations of daily rainfall data stations]{Locations of daily
@@ -154,7 +232,11 @@ Long term high resolution rainfall data with good quality is seldom available
 because of, for example, a large size of data file. However, quality of the data
 used here was reasonably good capturing rainfall intensity details.
 
-\begin{figure}[phtb]
+%The detailed information about the daily and event data are summarised in Table
+%\ref{tab:DetailsOfDailyDataStations} and Table \ref{tab:DetailsOfDataStations},
+%respectively.
+
+\begin{figure}[htbp]
   \centering
   \includegraphics[width=0.8\textwidth]{./img/eventdatasite}
   \caption[Locations of event rainfall data stations]{Locations of event
@@ -164,35 +246,30 @@ Southover, D: Ditchling Road, P: Plumpton); Woodingdean site is indicated by
   \label{fig:EventRainfallDataSite}
 \end{figure}
 
-The detailed information about the daily and event data are summarised in Table
-\ref{tab:DetailsOfDataStations}.
-
 \begin{table}[htbp]
   \figureversion{tabular}
   \centering
-  \caption{Details of rainfall data stations}
+  \caption{Details of event rainfall data stations}
   \label{tab:DetailsOfDataStations}
     \small
     \begin{tabular}{lllll}
       \toprule
-      \textbf{Code} & \textbf{Station} & \textbf{Data type} &
-\textbf{Grid reference} & \textbf{Periods}\\
+      \textbf{Code} & \textbf{Station} & \textbf{Data type} & \textbf{Grid
+reference} & \textbf{Periods}\\
       \midrule
-      DR & Ditchling Road & daily & TQ314076 & 1980--1989\\
-      SO & Southover & daily & TQ407093 & 1980--1998\\
-      PL & Plumpton & daily & TQ356136 & 1980--2000\\
-      SDR & Seaford D. Road & daily & TV491993 & 1980--2000\\
-      EW & Eastbourne Wilm. & daily & TV611980 & 1980--2000\\
-      FT & Friston Tower & daily & TV551982 & 1980--2000\\
-      LI & Litlington & daily & TQ523020 & 1980--2000\\
-      PB & Poverty Bottom & daily & TQ467002 & 1980--2000\\
-      HPF & High Park Farm & daily & TQ331115 & 1974--2004\\
-      HD & Housedean & daily & TQ369093 & 1967--2004\\
-      FF & Falmer Farm & daily & TQ342084 & 1904--2002\\
-      S & Southover & event & TQ407093 &
-1993--2001$^\dagger$\\
-      D & Ditchling Road & event & TQ315077 &
-1991--2003$^\ddagger$\\
+%      DR & Ditchling Road & daily & TQ314076 & 1980--1989\\
+%      SO & Southover & daily & TQ407093 & 1980--1998\\
+%      PL & Plumpton & daily & TQ356136 & 1980--2000\\
+%      SDR & Seaford D. Road & daily & TV491993 & 1980--2000\\
+%      EW & Eastbourne Wilm. & daily & TV611980 & 1980--2000\\
+%      FT & Friston Tower & daily & TV551982 & 1980--2000\\
+%      LI & Litlington & daily & TQ523020 & 1980--2000\\
+%      PB & Poverty Bottom & daily & TQ467002 & 1980--2000\\
+%      HPF & High Park Farm & daily & TQ331115 & 1974--2004\\
+%      HD & Housedean & daily & TQ369093 & 1967--2004\\
+%      FF & Falmer Farm & daily & TQ342084 & 1904--2002\\
+      S & Southover & event & TQ407093 & 1993--2001$^\dagger$\\
+      D & Ditchling Road & event & TQ315077 & 1991--2003$^\ddagger$\\
       P & Plumpton & event & TQ357135 & 2000--2002\\
       \bottomrule
 %     \addlinespace[1mm]
@@ -220,20 +297,21 @@ equal to 5 minutes.
  & & Amount & Duration$^\dagger$ & Intensity$^\ddag$ & Max. Intensity$^\ddag$
 \\
 Code & Station & (mm) & (min) & (mm/hr) & (mm/hr) \\ \midrule
-S & Southover & 5.3 & 24.5 & 12.8 & 72 \\ \midrule
-D & Ditchling Road & 4.9 & 22.7 & 12.8 & 89 \\ \midrule
+S & Southover & 5.3 & 24.5 & 12.8 & 72 \\ %\midrule
+D & Ditchling Road & 4.9 & 22.7 & 12.8 & 89 \\ %\midrule
 P & Plumpton & 7.5 & 33.9 & 12.7 & 28 \\
 \bottomrule
-\multicolumn{6}{l}{$^\dag$ ``effective'' duration without no-rain periods.}\\
-\multicolumn{6}{l}{$^\ddag$ Intensity calculated with effective durations.}
+\multicolumn{6}{l}{$^\dag$ ``Effective'' duration without no-rain periods.}\\
+\multicolumn{6}{l}{$^\ddag$ Average intensity calculated with effective
+durations.}
 \end{tabular}
 \label{tab:averagecharacteristicsofeventdata}
 \end{table}
 
-\subsection{Other Data}
+\section{Other Data}
 \label{sec:OtherData}
 
-\subsubsection{Soil}
+\subsection{Soil}
 \label{sec:Soil}
 
 Other input data, such as soil properties and slope profiles, were either
@@ -327,7 +405,7 @@ maximum value for cropland $\tau_c$}
     \end{tabular}
 \end{table}
 
-\subsubsection{Management}
+\subsection{Management}
 \label{sec:Management}
 A typical crop management practice for the area is continuous growing of winter
 wheat. The typical timing of tillage operation for the area is shown in Table
@@ -353,7 +431,7 @@ timing at Woodingdean site \citep[From][]{favis-mortlock1998-141}}
     \end{tabular}
 \end{table}
 
-\subsubsection{Topography}
+\subsection{Topography}
 \label{sec:TopographyData}
 Slope angles in the site range from 12 to 20\%, with a convexity toward the
 centre. The site was divided into nine sub-areas for modelling, approximately
@@ -361,7 +439,7 @@ down the line of greatest slope, which faces a northwesterly direction (Figure
 \ref{fig:WoodingdeanSite}). The length of each slope varies from 125 to 180
 metres, and width is 50 metres for all the slopes.
 
-\subsubsection{Temperature}
+\subsection{Temperature}
 \label{sec:Temperature}
 
 Daily temperature records for 1990--2000 were obtained from Horseye Station

@@ -1,4 +1,4 @@
-\begin{thebibliography}{172}
+\begin{thebibliography}{174}
 \newcommand{\enquote}[1]{`#1'}
 \providecommand{\natexlab}[1]{#1}
 
@@ -63,8 +63,8 @@
 \newblock \emph{Geography} \textbf{86}(4):346--355.
 
 \bibitem[{Boardman(2003)}]{boardman2003-176}
-\textbf{Boardman, J.} (2003) \enquote{Soil erosion and flooding on the eastern
-  {S}outh {D}owns, southern {E}ngland, 1976-2001}.
+\textbf{Boardman, J.} (2003) \enquote{{Soil erosion and flooding on the eastern
+  South Downs, southern England, 1976-2001}}.
 \newblock \emph{Transactions of the Institute of British Geographers}
   \textbf{28}(2):176--196.
 
@@ -107,9 +107,11 @@
 \newblock \emph{Catena} \textbf{30}(2-3):169--182.
 
 \bibitem[{Clark(2000)}]{clark2000-17}
-\textbf{Clark, C.} (2000) \enquote{Storms, floods and soil erosion: the
-  consequences of the storm of 13 {M}ay 1998 at {H}adspen, {S}omerset.}
-\newblock \emph{Weather} \textbf{55}(1):17.
+\textbf{Clark, C.} (2000) \enquote{{Storms, floods and soil erosion: The
+  consequences of the storm of 13 May 1998 at Hadspen, Somerset}}.
+\newblock \emph{Weather} \textbf{55}(1):17--25.
+\newblock Available from:
+  \url{http://dx.doi.org/10.1002/j.1477-8696.2000.tb04014.x}.
 
 \bibitem[{Coppus and Imeson(2002)}]{coppus2002-1365}
 \textbf{Coppus, R. and Imeson, A.~C.} (2002) \enquote{Extreme events
@@ -319,6 +321,16 @@
 \newblock \emph{Journal of Hydrology} \textbf{311}(1-4):143 -- 156.
 \newblock Available from:
   \url{http://www.sciencedirect.com/science/article/B6V6C-4FM01NW-2/2/1a10fe1bb6f0b14962ee2785a3dd5123}.
+
+\bibitem[{Gornall \emph{et~al.}(2010)Gornall, Betts, Burke, Clark, Camp,
+  Willett and Wiltshire}]{gornall2010-2973}
+\textbf{Gornall, J., Betts, R., Burke, E., Clark, R., Camp, J., Willett, K. and
+  Wiltshire, A.} (2010) \enquote{Implications of climate change for
+  agricultural productivity in the early twenty-first century}.
+\newblock \emph{Philosophical Transactions of the Royal Society B: Biological
+  Sciences} \textbf{365}(1554):2973--2989.
+\newblock Available from:
+  \url{http://rstb.royalsocietypublishing.org/content/365/1554/2973.abstract}.
 
 \bibitem[{Govers(1990)}]{govers1990-45}
 \textbf{Govers, G.} (1990) \enquote{Empirical relationships on the transporting
@@ -643,6 +655,15 @@
   Advanced Research Workshop}, vol.~55 of \emph{NATO ASI Series I: Global
   Enviornmental Change}, \textbf{Boardman, J. and Favis-Mortlock, D.}, (eds).
   Springer-Verlag, Berlin, pp. 389--398.
+
+\bibitem[{Mullan \emph{et~al.}(2012)Mullan, Favis-Mortlock and
+  Fealy}]{mullan2012-18}
+\textbf{Mullan, D., Favis-Mortlock, D. and Fealy, R.} (2012)
+  \enquote{Addressing key limitations associated with modelling soil erosion
+  under the impacts of future climate change}.
+\newblock \emph{Agricultural and Forest Meteorology} \textbf{156}(0):18 -- 30.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0168192311003418}.
 
 \bibitem[{Musgrave(1947)}]{musgrave1947-133}
 \textbf{Musgrave, G.~W.} (1947) \enquote{The quantitative evaluation of factors

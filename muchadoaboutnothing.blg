@@ -27,45 +27,45 @@ Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Warning--can't use both author and editor fields in ipcc2007-impact
 Warning--can't use both author and editor fields in ipcc2007-physical
-You've used 172 entries,
+You've used 174 entries,
             3609 wiz_defined-function locations,
-            1666 strings with 35385 characters,
-and the built_in function-call counts, 121758 in all, are:
-= -- 10746
-> -- 4045
+            1688 strings with 36299 characters,
+and the built_in function-call counts, 123610 in all, are:
+= -- 10912
+> -- 4129
 < -- 133
-+ -- 1615
-- -- 1373
-* -- 9175
-:= -- 17716
-add.period$ -- 370
-call.type$ -- 172
-change.case$ -- 1332
-chr.to.int$ -- 185
-cite$ -- 174
-duplicate$ -- 8347
-empty$ -- 10364
-format.name$ -- 1886
-if$ -- 26718
++ -- 1647
+- -- 1403
+* -- 9332
+:= -- 17982
+add.period$ -- 377
+call.type$ -- 174
+change.case$ -- 1352
+chr.to.int$ -- 187
+cite$ -- 176
+duplicate$ -- 8461
+empty$ -- 10510
+format.name$ -- 1922
+if$ -- 27118
 int.to.chr$ -- 9
 int.to.str$ -- 1
-missing$ -- 1650
-newline$ -- 703
-num.names$ -- 727
-pop$ -- 3560
+missing$ -- 1674
+newline$ -- 714
+num.names$ -- 735
+pop$ -- 3606
 preamble$ -- 1
-purify$ -- 1136
+purify$ -- 1154
 quote$ -- 0
-skip$ -- 5265
+skip$ -- 5336
 stack$ -- 0
-substring$ -- 5002
-swap$ -- 5040
+substring$ -- 5085
+swap$ -- 5110
 text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1488
+type$ -- 1506
 warning$ -- 2
-while$ -- 699
+while$ -- 708
 width$ -- 0
-write$ -- 2098
+write$ -- 2128
 (There were 2 warnings)
